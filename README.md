@@ -28,7 +28,7 @@ Updated 2026-09-27 from the Grants.gov extract run and a status-rule correction 
 
 ### What is not claimed
 
-- GitHub Pages is not confirmed live until the site is opened from the Pages URL.
+- GitHub Pages is enabled from the repository root. The catalog is in `docs/`. A root `index.html` redirects there. `.nojekyll` is required so Pages serves `docs/index.html` instead of dropping it during a Jekyll build. Confirm the live page after each settings change: `https://buffedlizard55-lab.github.io/GRANTWRITING/`.
 - SAM.gov contract BAAs are not collected. Simpler.Grants.gov is not used; it requires an API key this project does not have.
 - Historical award files are samples. NSF and NIH pulls were capped.
 - The site does not generate a specific research project and present it as an agency request. It quotes official sentences and compares a project the user types.
