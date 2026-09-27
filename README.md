@@ -4,7 +4,7 @@ Read this file before changing the project. The specification below is the sourc
 
 ## Current implementation status
 
-Reviewed 2026-09-27. The latest committed catalog snapshot was generated `2026-09-26T21:55:59-04:00` from the Grants.gov daily extract, with an as-of date of `2026-09-26` (America/New_York). Source file `GrantsDBExtract20260926v2.zip` (78,202,859 bytes), downloaded from the URL listed that day on `https://www.grants.gov/xml-extract`. The generated `docs/data/meta.json` is authoritative for the exact snapshot counts, field coverage, source errors, and cross-check results; these values can change at every daily refresh.
+Reviewed 2026-09-27 against the catalog snapshot generated `2026-09-26T22:19:23-04:00`, with an as-of date of `2026-09-26` (America/New_York). The Grants.gov source file was `GrantsDBExtract20260926v2.zip` (78,202,859 bytes), listed on `https://www.grants.gov/xml-extract`. The generated `docs/data/meta.json` is authoritative for the latest generation time, exact counts, field coverage, source errors, and cross-check results; these values can change at every daily refresh.
 
 ### What the live catalog contains
 
@@ -13,7 +13,7 @@ Reviewed 2026-09-27. The latest committed catalog snapshot was generated `2026-0
 - The extract contained 83,488 records (82,518 synopses, 970 forecasts). The platform's research-scope rules matched 34,585 of them; recency/status rules retained 1,266 Grants.gov records, then 20 NSF standing-program feed items were added. A NOFO/FOA label alone is not a research signal. The `meta.json` scope summary records aggregate exclusions; exclusion does not mean the opportunity is unofficial or definitively non-research.
 - Field coverage on the published file: title, agency, post date, and official URL 100%; opportunity number, eligibility codes, cost sharing, and ALN about 98%; close date 93%; eligibility text 82%; estimated total 52%; award ceiling 40%; award floor 30%. Blank money fields stay blank. A stored `$0` means the source published zero.
 - Saved cross-check against `https://api.grants.gov/v1/api/search2`: 1,536 posted or forecasted opportunities in all categories and 310 in category ST. The catalog has 295 open or upcoming ST rows, an absolute difference of 15 (4.8% of the API count); pipeline status is `ok` within its 15% discrepancy threshold. The recorded ID comparison lists 17 search2 ids absent from the catalog and 2 catalog ids absent from the returned search2 id set. Search2 can retain older forecast records; a difference is not automatically a parser error or a currently open opportunity. The saved `fetchOpportunity` spot check covers 5 records with 0 title, number, agency, or close-date mismatches. See `meta.json` for the compared ids and results.
-- Historical files are samples, not censuses: NSF Award Search API 883 records across 40 pages (not exhausted), NIH RePORTER 300, and USAspending 101. Do not sum these files and call the result total federal research funding. NSF award pages use `https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}`.
+- Historical files are samples, not censuses: NSF Award Search API 810 records across 40 pages (not exhausted), NIH RePORTER 300, and USAspending 101. Do not sum these files and call the result total federal research funding. NSF award pages use `https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}`.
 
 ### What is implemented
 
@@ -29,7 +29,7 @@ Reviewed 2026-09-27. The latest committed catalog snapshot was generated `2026-0
 
 ### What is not claimed
 
-- GitHub Pages is live at `https://buffedlizard55-lab.github.io/GRANTWRITING/` and redirects to `docs/`. Opened on 2026-09-27. It showed 718 open, 282 upcoming, 20 standing programs, and 251 closed, matching this catalog. Pages publishes the repository root, so `.nojekyll` must stay; without it Jekyll drops `docs/index.html`.
+- Deployment target: `https://buffedlizard55-lab.github.io/GRANTWRITING/`; the root `index.html` redirects to `docs/`. A prior check on 2026-09-27 saw 718 open, 282 upcoming, 20 standing programs, and 251 closed. The live URL could not be fetched from this sandbox during this audit, so current deployment availability is unverified. Pages publishes the repository root, so `.nojekyll` must stay; without it Jekyll drops `docs/index.html`.
 - SAM.gov contract BAAs are not collected. Simpler.Grants.gov is not used; it requires an API key this project does not have.
 - Historical award files are samples. NSF and NIH pulls were capped.
 - The site does not generate a specific research project and present it as an agency request. It quotes official sentences and compares a project the user types.
