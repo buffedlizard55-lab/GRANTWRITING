@@ -10,7 +10,7 @@
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-27T00:13:07-04:00",
+      "retrieved_at": "2026-09-27T00:20:17-04:00",
       "parse_stats": {
         "container": "GrantsDBExtract20260926v2.zip",
         "xml_name": "GrantsDBExtract20260926v2.xml",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-27T00:13:07-04:00",
+      "retrieved_at": "2026-09-27T00:20:17-04:00",
       "status": "ok",
       "items": 20
     },
@@ -384,59 +384,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "357307",
+          "id": "358939",
           "status": "checked",
-          "api_title": "Utilizing the PLCO Biospecimens Resource to Bridge Gaps in Cancer Etiology and Early Detection Research (U01 Clinical Trial Not Allowed)",
-          "api_number": "PAR-25-248",
+          "api_title": "HEAL INITIATIVE: INTERACT Data Coordination and Integration Center (U24 Clinical Trial Not Allowed)",
+          "api_number": "RFA-AR-27-002",
           "api_agency": "HHS-NIH11",
-          "api_close": "2027-10-08",
+          "api_close": "2026-10-01",
           "mismatches": [],
-          "catalog_close": "2027-10-08",
-          "official_url": "https://www.grants.gov/search-results-detail/357307"
+          "catalog_close": "2026-10-01",
+          "official_url": "https://www.grants.gov/search-results-detail/358939"
         },
         {
-          "id": "357943",
+          "id": "360007",
           "status": "checked",
-          "api_title": "Translational Bioinformatics and Experimental Approaches to Advance Drug Repositioning and Combination Therapy Development for Alzheimers Disease and Related Dementias (R01 Clinical Trial Not Allowed)",
-          "api_number": "PAR-25-374",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2028-05-07",
+          "api_title": "Reissue of RFA-FD-22-001 - Efficient and Innovative Natural History Studies Addressing Unmet Needs in Rare Diseases (R01 Clinical Trials Optional)",
+          "api_number": "RFA-FD-25-017",
+          "api_agency": "HHS-FDA",
+          "api_close": "2028-02-08",
           "mismatches": [],
-          "catalog_close": "2028-05-07",
-          "official_url": "https://www.grants.gov/search-results-detail/357943"
+          "catalog_close": "2028-02-08",
+          "official_url": "https://www.grants.gov/search-results-detail/360007"
         },
         {
-          "id": "360545",
+          "id": "360446",
           "status": "checked",
-          "api_title": "NEI Translational Research Program for Therapeutics (R61/R33 Clinical Trial Not Allowed)",
-          "api_number": "PAR-28-072",
+          "api_title": "Biomedical Technology Optimization and Dissemination Center (BTOD) (RM1 - Clinical Trial Not Allowed)",
+          "api_number": "PAR-27-024",
           "api_agency": "HHS-NIH11",
-          "api_close": "2029-11-16",
+          "api_close": "2029-01-29",
           "mismatches": [],
-          "catalog_close": "2029-11-16",
-          "official_url": "https://www.grants.gov/search-results-detail/360545"
+          "catalog_close": "2029-01-29",
+          "official_url": "https://www.grants.gov/search-results-detail/360446"
         },
         {
-          "id": "356978",
+          "id": "362850",
           "status": "checked",
-          "api_title": "Cancer Prevention and Control Clinical Trials Planning Grant Program (U34 Clinical Trials Optional)",
-          "api_number": "PAR-25-103",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2027-10-25",
+          "api_title": "DoW Rare Cancers Resource and Community Development Award",
+          "api_number": "HT942526RCRPRCDA",
+          "api_agency": "DOD-AMRAA",
+          "api_close": "2026-11-18",
           "mismatches": [],
-          "catalog_close": "2027-10-25",
-          "official_url": "https://www.grants.gov/search-results-detail/356978"
+          "catalog_close": "2026-11-18",
+          "official_url": "https://www.grants.gov/search-results-detail/362850"
         },
         {
-          "id": "361104",
+          "id": "358036",
           "status": "checked",
-          "api_title": "Accelerating Discovery through Partnered Research with All of Us to Analyze Participant Biospecimens (X01 Clinical Trial Not Allowed)",
-          "api_number": "PAR-27-069",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2027-03-01",
+          "api_title": "Findable Accessible Interoperable Reusable Open Science",
+          "api_number": "25-533",
+          "api_agency": "NSF",
+          "api_close": "2027-04-14",
           "mismatches": [],
-          "catalog_close": "2027-03-01",
-          "official_url": "https://www.grants.gov/search-results-detail/361104"
+          "catalog_close": "2027-04-14",
+          "official_url": "https://www.grants.gov/search-results-detail/358036"
         }
       ]
     }
@@ -470,7 +470,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-27T00:19:05-04:00",
+  "generated_at": "2026-09-27T00:26:12-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1269,
