@@ -29,7 +29,7 @@ Reviewed 2026-09-27 against the saved catalog snapshot with an as-of date of `20
 
 ### What is not claimed
 
-- Deployment target: `https://buffedlizard55-lab.github.io/GRANTWRITING/`; the root `index.html` redirects to `docs/`. A prior check on 2026-09-27 saw 718 open, 282 upcoming, 20 standing programs, and 251 closed. The live URL could not be fetched from this sandbox during this audit, so current deployment availability is unverified. Pages publishes the repository root, so `.nojekyll` must stay; without it Jekyll drops `docs/index.html`.
+- Deployment target: `https://buffedlizard55-lab.github.io/GRANTWRITING/`; the root `index.html` redirects to `docs/`. On 2026-09-27 the live root and `docs/data/meta.json` were reachable; the served main-branch snapshot still showed the older 883-row NSF sample, so this PR's corrected 1,000-row sample had not yet been deployed. The web fetch confirms static reachability, but does not execute the site's JavaScript or verify visual/responsive behavior. Recheck the deployed metadata after merge. Pages publishes the repository root, so `.nojekyll` must stay; without it Jekyll drops `docs/index.html`.
 - SAM.gov contract BAAs are not collected. Simpler.Grants.gov is not used; it requires an API key this project does not have.
 - Historical award files are samples. NSF and NIH pulls were capped.
 - The site does not generate a specific research project and present it as an agency request. It quotes official sentences and compares a project the user types.
