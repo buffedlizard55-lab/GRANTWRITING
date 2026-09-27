@@ -13,7 +13,7 @@ Updated 2026-09-27 from the Grants.gov extract run and a status-rule correction 
 - The extract contained 83,488 records (82,518 synopses, 970 forecasts). The publisher kept research-relevant rows and dropped the rest. It then dropped 242 more because a NOFO/FOA label alone is not a research signal. Victim-services, housing, and similar announcements that only matched those words are not in the catalog.
 - Field coverage on the published file: title, agency, post date, and official URL 100%; opportunity number, eligibility codes, cost sharing, and ALN about 98%; close date 93%; eligibility text 82%; estimated total 52%; award ceiling 40%; award floor 30%. Blank money fields stay blank. A stored `$0` means the source published zero.
 - Cross-check against `https://api.grants.gov/v1/api/search2`: 1,536 posted or forecasted opportunities in all categories; 310 in category ST. The catalog has 303 open or upcoming ST rows. Absolute difference 7, status `ok`. Nine API ids are absent because search2 still returns forecasts from 2020–2023; this catalog omits forecasts older than 18 months. Spot check of 5 `fetchOpportunity` records: 0 mismatches after HTML entities are decoded. Official pages checked by hand for opportunity ids `356002` and `356982` matched title, agency, and close date.
-- Historical files are samples, not censuses: NSF Award Search API 816 (not exhausted), NIH RePORTER 300, USAspending 108. Do not sum them and call the total federal research funding. One NSF award page (`AWD_ID=2624343`) was opened and the title and $235,639 amount matched. The official award URL is `https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}`.
+- Historical files are samples, not censuses: NSF Award Search API 858 (40 pages, not exhausted), NIH RePORTER 300, USAspending 101. Do not sum them and call the total federal research funding. One NSF award page (`AWD_ID=2624343`) was opened and the title and $235,639 amount matched. The official award URL is `https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}`.
 
 ### What is implemented
 
@@ -28,7 +28,7 @@ Updated 2026-09-27 from the Grants.gov extract run and a status-rule correction 
 
 ### What is not claimed
 
-- GitHub Pages is enabled from the repository root. The catalog is in `docs/`. A root `index.html` redirects there. `.nojekyll` is required so Pages serves `docs/index.html` instead of dropping it during a Jekyll build. Confirm the live page after each settings change: `https://buffedlizard55-lab.github.io/GRANTWRITING/`.
+- GitHub Pages is live at `https://buffedlizard55-lab.github.io/GRANTWRITING/` and redirects to `docs/`. Opened on 2026-09-27. It showed 718 open, 282 upcoming, 20 standing programs, and 251 closed, matching this catalog. Pages publishes the repository root, so `.nojekyll` must stay; without it Jekyll drops `docs/index.html`.
 - SAM.gov contract BAAs are not collected. Simpler.Grants.gov is not used; it requires an API key this project does not have.
 - Historical award files are samples. NSF and NIH pulls were capped.
 - The site does not generate a specific research project and present it as an agency request. It quotes official sentences and compares a project the user types.
