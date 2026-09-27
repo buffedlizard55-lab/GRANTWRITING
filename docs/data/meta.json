@@ -10,7 +10,7 @@
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-26T21:49:44-04:00",
+      "retrieved_at": "2026-09-26T22:13:05-04:00",
       "parse_stats": {
         "container": "GrantsDBExtract20260926v2.zip",
         "xml_name": "GrantsDBExtract20260926v2.xml",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-26T21:49:44-04:00",
+      "retrieved_at": "2026-09-26T22:13:05-04:00",
       "status": "ok",
       "items": 20
     },
@@ -39,7 +39,7 @@
       "name": "NSF Award Search API",
       "url": "https://api.nsf.gov/services/v1/awards.json",
       "status": "ok",
-      "count": 883,
+      "count": 810,
       "pages": 40,
       "exhausted": false,
       "coverage": "Partial sample. Do not treat counts or sums as a complete NSF award census.",
@@ -382,59 +382,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "358118",
+          "id": "358082",
           "status": "checked",
-          "api_title": "NEI Clinical Research Study Planning Grant Program (R34 Clinical Trial Not Allowed)",
-          "api_number": "PAR-25-358",
+          "api_title": "Pilot Studies of Biological, Behavioral and Social Mechanisms Contributing to HIV Pathogenesis Within the Mission of NIDDK (R21 Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-068",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-11-16",
+          "mismatches": [],
+          "catalog_close": "2027-11-16",
+          "official_url": "https://www.grants.gov/search-results-detail/358082"
+        },
+        {
+          "id": "357622",
+          "status": "checked",
+          "api_title": "Limited Competition: NCATS Clinical and Translational Science Award (CTSA) Program Research Education Grants Programs (R25 - Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-197",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-05-28",
+          "mismatches": [],
+          "catalog_close": "2027-05-28",
+          "official_url": "https://www.grants.gov/search-results-detail/357622"
+        },
+        {
+          "id": "362868",
+          "status": "checked",
+          "api_title": "DoW Parkinson’s, Investigator-Initiated Research Award",
+          "api_number": "HT942526PRPIIRA",
+          "api_agency": "DOD-AMRAA",
+          "api_close": "2026-11-06",
+          "mismatches": [],
+          "catalog_close": "2026-11-06",
+          "official_url": "https://www.grants.gov/search-results-detail/362868"
+        },
+        {
+          "id": "350469",
+          "status": "checked",
+          "api_title": "Research Infrastructure in the Social and Behavioral Sciences",
+          "api_number": "PD-23-277Y",
+          "api_agency": "NSF",
+          "api_close": null,
+          "mismatches": [],
+          "catalog_close": null,
+          "official_url": "https://www.grants.gov/search-results-detail/350469"
+        },
+        {
+          "id": "357963",
+          "status": "checked",
+          "api_title": "Academic-Industrial Partnerships for Translation of Technologies for Diagnosis and Treatment (R01 - Clinical Trial Optional)",
+          "api_number": "PAR-25-337",
           "api_agency": "HHS-NIH11",
           "api_close": "2028-01-07",
           "mismatches": [],
           "catalog_close": "2028-01-07",
-          "official_url": "https://www.grants.gov/search-results-detail/358118"
-        },
-        {
-          "id": "357568",
-          "status": "checked",
-          "api_title": "Research Enhancement Award Program (REAP) for Health Professional Schools and Graduate Schools (R15 Clinical Trial Not Allowed)",
-          "api_number": "PAR-25-298",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2028-01-07",
-          "mismatches": [],
-          "catalog_close": "2028-01-07",
-          "official_url": "https://www.grants.gov/search-results-detail/357568"
-        },
-        {
-          "id": "360543",
-          "status": "checked",
-          "api_title": "Bioengineering Research Grants (BRG) (R01 Clinical Trial Optional)",
-          "api_number": "PAR-27-072",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2029-07-05",
-          "mismatches": [],
-          "catalog_close": "2029-07-05",
-          "official_url": "https://www.grants.gov/search-results-detail/360543"
-        },
-        {
-          "id": "363929",
-          "status": "checked",
-          "api_title": "John H. Prescott Marine Mammal Rescue Assistance Grant",
-          "api_number": "NOAA-NMFS-PRPO-2026-31863",
-          "api_agency": "DOC-DOCNOAAERA",
-          "api_close": "2026-12-01",
-          "mismatches": [],
-          "catalog_close": "2026-12-01",
-          "official_url": "https://www.grants.gov/search-results-detail/363929"
-        },
-        {
-          "id": "291594",
-          "status": "checked",
-          "api_title": "COE for Technical Training and Human Performance",
-          "api_number": "TTHP",
-          "api_agency": "DOT-FAA-FAA COE-TTHP",
-          "api_close": "2026-09-30",
-          "mismatches": [],
-          "catalog_close": "2026-09-30",
-          "official_url": "https://www.grants.gov/search-results-detail/291594"
+          "official_url": "https://www.grants.gov/search-results-detail/357963"
         }
       ]
     }
@@ -468,7 +468,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-26T21:55:59-04:00",
+  "generated_at": "2026-09-26T22:19:23-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1286,
@@ -479,7 +479,7 @@
       "upcoming": 282,
       "open_program": 20
     },
-    "awards": 1183,
+    "awards": 1110,
     "obligations": 101
   },
   "field_coverage": {
