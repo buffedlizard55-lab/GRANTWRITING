@@ -10,7 +10,7 @@
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-27T00:03:35-04:00",
+      "retrieved_at": "2026-09-27T00:13:07-04:00",
       "parse_stats": {
         "container": "GrantsDBExtract20260926v2.zip",
         "xml_name": "GrantsDBExtract20260926v2.xml",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-27T00:03:35-04:00",
+      "retrieved_at": "2026-09-27T00:13:07-04:00",
       "status": "ok",
       "items": 20
     },
@@ -384,59 +384,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "357138",
+          "id": "357307",
           "status": "checked",
-          "api_title": "Development of Animal Models and Related Biological Materials for Research (R21 Clinical Trial Not Allowed)",
-          "api_number": "PAR-25-273",
+          "api_title": "Utilizing the PLCO Biospecimens Resource to Bridge Gaps in Cancer Etiology and Early Detection Research (U01 Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-248",
           "api_agency": "HHS-NIH11",
-          "api_close": "2028-01-07",
+          "api_close": "2027-10-08",
           "mismatches": [],
-          "catalog_close": "2028-01-07",
-          "official_url": "https://www.grants.gov/search-results-detail/357138"
+          "catalog_close": "2027-10-08",
+          "official_url": "https://www.grants.gov/search-results-detail/357307"
         },
         {
-          "id": "360574",
+          "id": "357943",
           "status": "checked",
-          "api_title": "Silvio O. Conte Centers for Basic Neuroscience or Translational Mental Health Research (P50 Clinical Trial Optional)",
-          "api_number": "PAR-27-127",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2028-05-25",
-          "mismatches": [],
-          "catalog_close": "2028-05-25",
-          "official_url": "https://www.grants.gov/search-results-detail/360574"
-        },
-        {
-          "id": "357544",
-          "status": "checked",
-          "api_title": "Accelerating the Pace of Substance Use Research Using Existing Data (R01 Clinical Trial Not Allowed)",
-          "api_number": "RFA-DA-26-055",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2027-12-03",
-          "mismatches": [],
-          "catalog_close": "2027-12-03",
-          "official_url": "https://www.grants.gov/search-results-detail/357544"
-        },
-        {
-          "id": "358832",
-          "status": "checked",
-          "api_title": "Ruth L. Kirschstein National Research Service Award (NRSA) Individual Fellowship for Students at Institutions with NIH-Funded Institutional Predoctoral Dual-Degree Training Programs (Parent F30)",
-          "api_number": "PA-25-426",
+          "api_title": "Translational Bioinformatics and Experimental Approaches to Advance Drug Repositioning and Combination Therapy Development for Alzheimers Disease and Related Dementias (R01 Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-374",
           "api_agency": "HHS-NIH11",
           "api_close": "2028-05-07",
           "mismatches": [],
           "catalog_close": "2028-05-07",
-          "official_url": "https://www.grants.gov/search-results-detail/358832"
+          "official_url": "https://www.grants.gov/search-results-detail/357943"
         },
         {
-          "id": "353413",
+          "id": "360545",
           "status": "checked",
-          "api_title": "IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED)",
-          "api_number": "24-564",
-          "api_agency": "NSF",
-          "api_close": "2027-04-13",
+          "api_title": "NEI Translational Research Program for Therapeutics (R61/R33 Clinical Trial Not Allowed)",
+          "api_number": "PAR-28-072",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2029-11-16",
           "mismatches": [],
-          "catalog_close": "2027-04-13",
-          "official_url": "https://www.grants.gov/search-results-detail/353413"
+          "catalog_close": "2029-11-16",
+          "official_url": "https://www.grants.gov/search-results-detail/360545"
+        },
+        {
+          "id": "356978",
+          "status": "checked",
+          "api_title": "Cancer Prevention and Control Clinical Trials Planning Grant Program (U34 Clinical Trials Optional)",
+          "api_number": "PAR-25-103",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-10-25",
+          "mismatches": [],
+          "catalog_close": "2027-10-25",
+          "official_url": "https://www.grants.gov/search-results-detail/356978"
+        },
+        {
+          "id": "361104",
+          "status": "checked",
+          "api_title": "Accelerating Discovery through Partnered Research with All of Us to Analyze Participant Biospecimens (X01 Clinical Trial Not Allowed)",
+          "api_number": "PAR-27-069",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-03-01",
+          "mismatches": [],
+          "catalog_close": "2027-03-01",
+          "official_url": "https://www.grants.gov/search-results-detail/361104"
         }
       ]
     }
@@ -470,7 +470,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-27T00:10:01-04:00",
+  "generated_at": "2026-09-27T00:19:05-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1269,
@@ -574,8 +574,8 @@
   "changes_summary": {
     "compared_to_previous_catalog": true,
     "new": 0,
-    "removed": 17,
-    "changed": 1,
-    "newly_closed": 1
+    "removed": 0,
+    "changed": 0,
+    "newly_closed": 0
   }
 }
