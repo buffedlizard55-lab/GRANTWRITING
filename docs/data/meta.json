@@ -10,7 +10,7 @@
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-26T22:47:27-04:00",
+      "retrieved_at": "2026-09-26T22:54:20-04:00",
       "parse_stats": {
         "container": "GrantsDBExtract20260926v2.zip",
         "xml_name": "GrantsDBExtract20260926v2.xml",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-26T22:47:27-04:00",
+      "retrieved_at": "2026-09-26T22:54:20-04:00",
       "status": "ok",
       "items": 20
     },
@@ -384,59 +384,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "340544",
+          "id": "350944",
           "status": "checked",
-          "api_title": "Topology",
-          "api_number": "PD-22-1267",
+          "api_title": "NCI Pathway to Independence Award for Early-Stage Postdoctoral Researchers (K99/R00 - Independent Clinical Trial Required)",
+          "api_number": "PAR-23-287",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2026-10-14",
+          "mismatches": [],
+          "catalog_close": "2026-10-14",
+          "official_url": "https://www.grants.gov/search-results-detail/350944"
+        },
+        {
+          "id": "356920",
+          "status": "checked",
+          "api_title": "Dissemination and Implementation Research in Health (R21 Clinical Trial Optional)",
+          "api_number": "PAR-25-143",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2028-01-07",
+          "mismatches": [],
+          "catalog_close": "2028-01-07",
+          "official_url": "https://www.grants.gov/search-results-detail/356920"
+        },
+        {
+          "id": "359252",
+          "status": "checked",
+          "api_title": "Advancing Research on the Application of Digital Health Technology to the Management of Type 2 Diabetes (R01- Clinical Trail Required)",
+          "api_number": "RFA-DK-26-315",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2026-10-06",
+          "mismatches": [],
+          "catalog_close": "2026-10-06",
+          "official_url": "https://www.grants.gov/search-results-detail/359252"
+        },
+        {
+          "id": "363823",
+          "status": "checked",
+          "api_title": "Wading Bird Response to Ecosystem Restoration in Southwest Florida",
+          "api_number": "W9126G262SOI9597",
+          "api_agency": "DOD-COE-FW",
+          "api_close": "2026-10-05",
+          "mismatches": [],
+          "catalog_close": "2026-10-05",
+          "official_url": "https://www.grants.gov/search-results-detail/363823"
+        },
+        {
+          "id": "343875",
+          "status": "checked",
+          "api_title": "Atmospheric and Geospace Sciences Postdoctoral Research Fellowships",
+          "api_number": "22-639",
           "api_agency": "NSF",
-          "api_close": "2026-11-03",
+          "api_close": null,
           "mismatches": [],
-          "catalog_close": "2026-11-03",
-          "official_url": "https://www.grants.gov/search-results-detail/340544"
-        },
-        {
-          "id": "350647",
-          "status": "checked",
-          "api_title": "RFA-IP-18-000",
-          "api_number": "RFA-IP-18-000",
-          "api_agency": "HHS-CDC-HHSCDCERA",
-          "api_close": "2030-09-30",
-          "mismatches": [],
-          "catalog_close": "2030-09-30",
-          "official_url": "https://www.grants.gov/search-results-detail/350647"
-        },
-        {
-          "id": "356811",
-          "status": "checked",
-          "api_title": "BRAIN Initiative: Brain Behavior Quantification and Synchronization- Next Generation Sensor Technology Development (U01 Clinical Trial Optional)",
-          "api_number": "RFA-MH-26-140",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2027-06-15",
-          "mismatches": [],
-          "catalog_close": "2027-06-15",
-          "official_url": "https://www.grants.gov/search-results-detail/356811"
-        },
-        {
-          "id": "363789",
-          "status": "checked",
-          "api_title": "ROSES 2025: A.17 Hydrosphere",
-          "api_number": "NNH25ZDA001N-HYDRO",
-          "api_agency": "NASA-HQ",
-          "api_close": "2027-01-28",
-          "mismatches": [],
-          "catalog_close": "2027-01-28",
-          "official_url": "https://www.grants.gov/search-results-detail/363789"
-        },
-        {
-          "id": "353793",
-          "status": "checked",
-          "api_title": "Midcareer Investigator Award in Patient-Oriented Research (Parent K24 Independent Clinical Trial Not Allowed)",
-          "api_number": "PA-24-188",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2027-05-07",
-          "mismatches": [],
-          "catalog_close": "2027-05-07",
-          "official_url": "https://www.grants.gov/search-results-detail/353793"
+          "catalog_close": null,
+          "official_url": "https://www.grants.gov/search-results-detail/343875"
         }
       ]
     }
@@ -470,7 +470,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-26T22:53:18-04:00",
+  "generated_at": "2026-09-26T23:00:36-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1286,
