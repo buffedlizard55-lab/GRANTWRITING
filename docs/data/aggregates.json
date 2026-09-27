@@ -2911,9 +2911,9 @@
     "warning": "Do not read this sum as the amount of research funding available. It adds only the estimated program totals agencies chose to publish, it double-counts nothing on purpose but it also excludes every opportunity that left the field blank, and an estimated total is not an amount set aside for one applicant."
   },
   "awards_in_catalog": {
-    "count": 1110,
-    "with_amount": 1105,
-    "sum_of_amounts_in_this_file": 4818303725,
+    "count": 1134,
+    "with_amount": 1129,
+    "sum_of_amounts_in_this_file": 4871542882,
     "warning": "Award files may be samples. Use the award coverage note before treating a sum as agency funding."
   }
 }

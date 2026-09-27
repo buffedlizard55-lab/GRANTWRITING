@@ -10,7 +10,7 @@
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-26T22:13:05-04:00",
+      "retrieved_at": "2026-09-26T22:21:25-04:00",
       "parse_stats": {
         "container": "GrantsDBExtract20260926v2.zip",
         "xml_name": "GrantsDBExtract20260926v2.xml",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-26T22:13:05-04:00",
+      "retrieved_at": "2026-09-26T22:21:25-04:00",
       "status": "ok",
       "items": 20
     },
@@ -39,7 +39,7 @@
       "name": "NSF Award Search API",
       "url": "https://api.nsf.gov/services/v1/awards.json",
       "status": "ok",
-      "count": 810,
+      "count": 834,
       "pages": 40,
       "exhausted": false,
       "coverage": "Partial sample. Do not treat counts or sums as a complete NSF award census.",
@@ -382,59 +382,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "358082",
+          "id": "355150",
           "status": "checked",
-          "api_title": "Pilot Studies of Biological, Behavioral and Social Mechanisms Contributing to HIV Pathogenesis Within the Mission of NIDDK (R21 Clinical Trial Not Allowed)",
-          "api_number": "PAR-25-068",
+          "api_title": "ARMY APPLICATIONS LAB BROAD AGENCY ANNOUNCEMENT FOR DISRUPTIVE APPLICATIONS",
+          "api_number": "W911NF-24-S-0008",
+          "api_agency": "DOD-AMC",
+          "api_close": "2029-04-04",
+          "mismatches": [],
+          "catalog_close": "2029-04-04",
+          "official_url": "https://www.grants.gov/search-results-detail/355150"
+        },
+        {
+          "id": "360654",
+          "status": "checked",
+          "api_title": "INCLUDE Project: Transformative Research Awards for Down syndrome (R01 Clinical Trial Not Allowed)",
+          "api_number": "RFA-OD-27-004",
           "api_agency": "HHS-NIH11",
-          "api_close": "2027-11-16",
+          "api_close": "2028-06-15",
           "mismatches": [],
-          "catalog_close": "2027-11-16",
-          "official_url": "https://www.grants.gov/search-results-detail/358082"
+          "catalog_close": "2028-06-15",
+          "official_url": "https://www.grants.gov/search-results-detail/360654"
         },
         {
-          "id": "357622",
+          "id": "358938",
           "status": "checked",
-          "api_title": "Limited Competition: NCATS Clinical and Translational Science Award (CTSA) Program Research Education Grants Programs (R25 - Clinical Trial Not Allowed)",
-          "api_number": "PAR-25-197",
+          "api_title": "Data Coordinating Center for Multi-Site Investigator-Initiated Clinical Trials (Collaborative U24 Clinical Trial Required)",
+          "api_number": "PAR-27-013",
           "api_agency": "HHS-NIH11",
-          "api_close": "2027-05-28",
+          "api_close": "2028-11-02",
           "mismatches": [],
-          "catalog_close": "2027-05-28",
-          "official_url": "https://www.grants.gov/search-results-detail/357622"
+          "catalog_close": "2028-11-02",
+          "official_url": "https://www.grants.gov/search-results-detail/358938"
         },
         {
-          "id": "362868",
+          "id": "324369",
           "status": "checked",
-          "api_title": "DoW Parkinson’s, Investigator-Initiated Research Award",
-          "api_number": "HT942526PRPIIRA",
-          "api_agency": "DOD-AMRAA",
-          "api_close": "2026-11-06",
-          "mismatches": [],
-          "catalog_close": "2026-11-06",
-          "official_url": "https://www.grants.gov/search-results-detail/362868"
-        },
-        {
-          "id": "350469",
-          "status": "checked",
-          "api_title": "Research Infrastructure in the Social and Behavioral Sciences",
-          "api_number": "PD-23-277Y",
+          "api_title": "Foundational Research in Robotics",
+          "api_number": "PD-20-144Y",
           "api_agency": "NSF",
           "api_close": null,
           "mismatches": [],
           "catalog_close": null,
-          "official_url": "https://www.grants.gov/search-results-detail/350469"
+          "official_url": "https://www.grants.gov/search-results-detail/324369"
         },
         {
-          "id": "357963",
+          "id": "352636",
           "status": "checked",
-          "api_title": "Academic-Industrial Partnerships for Translation of Technologies for Diagnosis and Treatment (R01 - Clinical Trial Optional)",
-          "api_number": "PAR-25-337",
+          "api_title": "NIDCD Mentored Career Development Award for Postdoctorate Au.D./Ph.D. Audiologists (K01 Independent Clinical Trial Not Allowed)",
+          "api_number": "PAR-24-159",
           "api_agency": "HHS-NIH11",
-          "api_close": "2028-01-07",
+          "api_close": "2027-05-07",
           "mismatches": [],
-          "catalog_close": "2028-01-07",
-          "official_url": "https://www.grants.gov/search-results-detail/357963"
+          "catalog_close": "2027-05-07",
+          "official_url": "https://www.grants.gov/search-results-detail/352636"
         }
       ]
     }
@@ -468,7 +468,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-26T22:19:23-04:00",
+  "generated_at": "2026-09-26T22:28:15-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1286,
@@ -479,7 +479,7 @@
       "upcoming": 282,
       "open_program": 20
     },
-    "awards": 1110,
+    "awards": 1134,
     "obligations": 101
   },
   "field_coverage": {
