@@ -1,0 +1,204 @@
+{
+  "note": "Labels are the Grants.gov XML extract field guide values. They are codes, not opportunity facts.",
+  "source": "https://www.grants.gov/help/xml-extract/",
+  "applicant_types": [
+    {
+      "code": "99",
+      "label": "Unrestricted (any entity type below), subject to additional eligibility text"
+    },
+    {
+      "code": "00",
+      "label": "State governments"
+    },
+    {
+      "code": "01",
+      "label": "County governments"
+    },
+    {
+      "code": "02",
+      "label": "City or township governments"
+    },
+    {
+      "code": "04",
+      "label": "Special district governments"
+    },
+    {
+      "code": "05",
+      "label": "Independent school districts"
+    },
+    {
+      "code": "06",
+      "label": "Public and State controlled institutions of higher education"
+    },
+    {
+      "code": "07",
+      "label": "Native American tribal governments (Federally recognized)"
+    },
+    {
+      "code": "08",
+      "label": "Public housing authorities/Indian housing authorities"
+    },
+    {
+      "code": "11",
+      "label": "Native American tribal organizations (other than Federally recognized tribal governments)"
+    },
+    {
+      "code": "12",
+      "label": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+      "code": "13",
+      "label": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+      "code": "20",
+      "label": "Private institutions of higher education"
+    },
+    {
+      "code": "21",
+      "label": "Individuals"
+    },
+    {
+      "code": "22",
+      "label": "For-profit organizations other than small businesses"
+    },
+    {
+      "code": "23",
+      "label": "Small businesses"
+    },
+    {
+      "code": "25",
+      "label": "Others (see additional eligibility text)"
+    }
+  ],
+  "funding_categories": [
+    {
+      "code": "ACA",
+      "label": "Affordable Care Act"
+    },
+    {
+      "code": "AG",
+      "label": "Agriculture"
+    },
+    {
+      "code": "AR",
+      "label": "Arts"
+    },
+    {
+      "code": "BC",
+      "label": "Business and Commerce"
+    },
+    {
+      "code": "CD",
+      "label": "Community Development"
+    },
+    {
+      "code": "CP",
+      "label": "Consumer Protection"
+    },
+    {
+      "code": "DPR",
+      "label": "Disaster Prevention and Relief"
+    },
+    {
+      "code": "ED",
+      "label": "Education"
+    },
+    {
+      "code": "ELT",
+      "label": "Employment, Labor and Training"
+    },
+    {
+      "code": "EN",
+      "label": "Energy"
+    },
+    {
+      "code": "ENV",
+      "label": "Environment"
+    },
+    {
+      "code": "FN",
+      "label": "Food and Nutrition"
+    },
+    {
+      "code": "HL",
+      "label": "Health"
+    },
+    {
+      "code": "HO",
+      "label": "Housing"
+    },
+    {
+      "code": "HU",
+      "label": "Humanities"
+    },
+    {
+      "code": "ISS",
+      "label": "Income Security and Social Services"
+    },
+    {
+      "code": "IS",
+      "label": "Information and Statistics"
+    },
+    {
+      "code": "LJL",
+      "label": "Law, Justice and Legal Services"
+    },
+    {
+      "code": "NR",
+      "label": "Natural Resources"
+    },
+    {
+      "code": "RA",
+      "label": "Recovery Act"
+    },
+    {
+      "code": "RD",
+      "label": "Regional Development"
+    },
+    {
+      "code": "RT",
+      "label": "Recreation and Tourism"
+    },
+    {
+      "code": "ST",
+      "label": "Science and Technology and other Research and Development"
+    },
+    {
+      "code": "T",
+      "label": "Transportation"
+    },
+    {
+      "code": "O",
+      "label": "Other"
+    }
+  ],
+  "instruments": [
+    {
+      "code": "G",
+      "label": "Grant"
+    },
+    {
+      "code": "CA",
+      "label": "Cooperative Agreement"
+    },
+    {
+      "code": "PC",
+      "label": "Procurement Contract"
+    },
+    {
+      "code": "O",
+      "label": "Other"
+    }
+  ],
+  "statuses": [
+    "open",
+    "upcoming",
+    "closed",
+    "archived",
+    "canceled",
+    "unknown",
+    "verification_required",
+    "open_program"
+  ]
+}

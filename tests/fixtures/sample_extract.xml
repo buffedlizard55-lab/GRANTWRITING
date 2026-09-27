@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grants xmlns="http://apply.grants.gov/system/OpportunityDetail-V1.0">
+  <OpportunitySynopsisDetail_1_0>
+    <OpportunityID>100001</OpportunityID>
+    <OpportunityTitle>Quantum Information Science Research</OpportunityTitle>
+    <OpportunityNumber>NSF-26-100</OpportunityNumber>
+    <OpportunityCategory><Category>D</Category></OpportunityCategory>
+    <FundingInstrumentType>G</FundingInstrumentType>
+    <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+    <CategoryExplanation>Science</CategoryExplanation>
+    <EligibleApplicants>06</EligibleApplicants>
+    <EligibleApplicants>20</EligibleApplicants>
+    <AdditionalInformationOnEligibility>Public and private institutions of higher education may apply. Applicants must have an active SAM.gov registration.</AdditionalInformationOnEligibility>
+    <AgencyCode>NSF</AgencyCode>
+    <AgencyName>U.S. National Science Foundation</AgencyName>
+    <PostDate>09012026</PostDate>
+    <CloseDate>12012026</CloseDate>
+    <ArchiveDate>12312026</ArchiveDate>
+    <LastUpdatedDate>09152026</LastUpdatedDate>
+    <AwardCeiling>500000</AwardCeiling>
+    <AwardFloor>100000</AwardFloor>
+    <EstimatedTotalProgramFunding>5000000</EstimatedTotalProgramFunding>
+    <ExpectedNumberOfAwards>10</ExpectedNumberOfAwards>
+    <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+    <Description>The purpose of this program is to support quantum information science research, including quantum computing. Applicants must describe a three-year project period. This program seeks proposals that advance quantum sensing.</Description>
+    <GrantorContactEmail>nsf-qis@nsf.gov</GrantorContactEmail>
+    <GrantorContactName>Program Office</GrantorContactName>
+    <CFDANumber>47.070</CFDANumber>
+    <Version>Synopsis 1</Version>
+  </OpportunitySynopsisDetail_1_0>
+  <OpportunitySynopsisDetail_1_0>
+    <OpportunityID>100002</OpportunityID>
+    <OpportunityTitle>Biomedical Machine Learning Methods</OpportunityTitle>
+    <OpportunityNumber>PAR-26-200</OpportunityNumber>
+    <OpportunityCategory>D</OpportunityCategory>
+    <FundingInstrumentType>CA</FundingInstrumentType>
+    <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+    <EligibleApplicants>06</EligibleApplicants>
+    <AdditionalInformationOnEligibility>Higher education institutions.</AdditionalInformationOnEligibility>
+    <AgencyCode>HHS-NIH11</AgencyCode>
+    <AgencyName>National Institutes of Health</AgencyName>
+    <PostDate>08012026</PostDate>
+    <CloseDate>11012026</CloseDate>
+    <AwardCeiling>250000</AwardCeiling>
+    <AwardFloor>0</AwardFloor>
+    <Description>This opportunity supports biomedical research using machine learning for cancer diagnostics.</Description>
+    <CFDANumber>93.396</CFDANumber>
+    <Version>Synopsis 2</Version>
+  </OpportunitySynopsisDetail_1_0>
+  <OpportunitySynopsisDetail_1_0>
+    <OpportunityID>100003</OpportunityID>
+    <OpportunityTitle>Community Housing Repair Grants</OpportunityTitle>
+    <OpportunityNumber>HUD-26-1</OpportunityNumber>
+    <FundingInstrumentType>G</FundingInstrumentType>
+    <CategoryOfFundingActivity>HO</CategoryOfFundingActivity>
+    <EligibleApplicants>00</EligibleApplicants>
+    <AgencyCode>HUD</AgencyCode>
+    <AgencyName>Department of Housing and Urban Development</AgencyName>
+    <PostDate>07012026</PostDate>
+    <CloseDate>12312026</CloseDate>
+    <AwardCeiling>1000000</AwardCeiling>
+    <Description>Grants to repair housing. This is not a research program.</Description>
+  </OpportunitySynopsisDetail_1_0>
+  <OpportunityForecastDetail_1_0>
+    <OpportunityID>100004</OpportunityID>
+    <OpportunityTitle>Defense Robotics Broad Agency Announcement</OpportunityTitle>
+    <OpportunityNumber>DARPA-BA-26</OpportunityNumber>
+    <FundingInstrumentType>G</FundingInstrumentType>
+    <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+    <AgencyCode>DOD-DARPA</AgencyCode>
+    <AgencyName>Defense Advanced Research Projects Agency</AgencyName>
+    <EstimatedSynopsisPostDate>11012026</EstimatedSynopsisPostDate>
+    <EstimatedSynopsisCloseDate>02012027</EstimatedSynopsisCloseDate>
+    <Description>Forecast of a broad agency announcement for robotics research.</Description>
+  </OpportunityForecastDetail_1_0>
+  <OpportunitySynopsisDetail_1_0>
+    <OpportunityID>100005</OpportunityID>
+    <OpportunityTitle>Recently Closed Materials Science</OpportunityTitle>
+    <OpportunityNumber>DOE-SC-25</OpportunityNumber>
+    <FundingInstrumentType>G</FundingInstrumentType>
+    <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+    <AgencyCode>DOE-SC</AgencyCode>
+    <AgencyName>Office of Science</AgencyName>
+    <PostDate>01012026</PostDate>
+    <CloseDate>08012026</CloseDate>
+    <AwardCeiling>750000</AwardCeiling>
+    <Description>Materials science research. This synopsis is closed.</Description>
+  </OpportunitySynopsisDetail_1_0>
+  <OpportunitySynopsisDetail_1_0>
+    <OpportunityID>100006</OpportunityID>
+    <OpportunityTitle>Ancient Climate Research Notice</OpportunityTitle>
+    <OpportunityNumber>OLD-1</OpportunityNumber>
+    <FundingInstrumentType>G</FundingInstrumentType>
+    <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+    <AgencyCode>NSF</AgencyCode>
+    <AgencyName>National Science Foundation</AgencyName>
+    <PostDate>01012018</PostDate>
+    <CloseDate>01012020</CloseDate>
+    <Description>Old climate science notice that must not appear as open.</Description>
+  </OpportunitySynopsisDetail_1_0>
+  <OpportunitySynopsisDetail_1_0>
+    <OpportunityID>100007</OpportunityID>
+    <OpportunityTitle>SBIR Advanced Manufacturing</OpportunityTitle>
+    <OpportunityNumber>EPA-SBIR-26</OpportunityNumber>
+    <FundingInstrumentType>G</FundingInstrumentType>
+    <CategoryOfFundingActivity>ENV</CategoryOfFundingActivity>
+    <EligibleApplicants>23</EligibleApplicants>
+    <AgencyCode>EPA</AgencyCode>
+    <AgencyName>Environmental Protection Agency</AgencyName>
+    <PostDate>09012026</PostDate>
+    <CloseDate>01152027</CloseDate>
+    <AwardCeiling>200000</AwardCeiling>
+    <Description>Small Business Innovation Research (SBIR) for advanced manufacturing sensors.</Description>
+  </OpportunitySynopsisDetail_1_0>
+  <OpportunitySynopsisDetail_1_0>
+    <OpportunityID>100008</OpportunityID>
+    <OpportunityTitle>Canceled Cybersecurity Solicitation</OpportunityTitle>
+    <OpportunityNumber>DHS-ST-26</OpportunityNumber>
+    <FundingInstrumentType>G</FundingInstrumentType>
+    <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+    <AgencyCode>DHS-ST</AgencyCode>
+    <AgencyName>DHS Science and Technology</AgencyName>
+    <PostDate>06012026</PostDate>
+    <CloseDate>12012026</CloseDate>
+    <Description>This solicitation has been cancelled and is no longer accepting applications for cybersecurity research.</Description>
+  </OpportunitySynopsisDetail_1_0>
+  <OpportunityForecastDetail_1_0>
+    <OpportunityID>100001</OpportunityID>
+    <OpportunityTitle>Quantum Information Science Research Forecast Duplicate</OpportunityTitle>
+    <OpportunityNumber>NSF-26-100</OpportunityNumber>
+    <AgencyCode>NSF</AgencyCode>
+    <AgencyName>U.S. National Science Foundation</AgencyName>
+    <EstimatedSynopsisPostDate>10012026</EstimatedSynopsisPostDate>
+    <Description>Duplicate forecast that must lose to the synopsis.</Description>
+  </OpportunityForecastDetail_1_0>
+</Grants>

@@ -1,0 +1,9 @@
+{
+  "compared_to_previous_catalog": true,
+  "note": "Removed means the id is not in the new catalog. That is not the same as a documented cancellation.",
+  "new_ids": [],
+  "removed_ids": [],
+  "changed": [],
+  "changed_count": 0,
+  "newly_closed": []
+}

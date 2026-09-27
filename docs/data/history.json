@@ -1,0 +1,150 @@
+{
+  "note": "Derived counts from each catalog build. A change between runs is a change in this catalog, not by itself an official statement that an agency increased funding.",
+  "runs": [
+    {
+      "generated_at": "2026-09-26T21:29:35-04:00",
+      "as_of_date": "2026-09-26",
+      "by_status": {
+        "verification_required": 8,
+        "closed": 380,
+        "open": 822,
+        "upcoming": 298,
+        "open_program": 20
+      },
+      "agency_open": {
+        "HHS": 428,
+        "NSF": 122,
+        "DOD": 125,
+        "USDOJ": 45,
+        "DOC": 26,
+        "USDA": 17,
+        "NASA": 15,
+        "DOI": 12,
+        "DOT": 8,
+        "HUD": 3,
+        "DOE": 7,
+        "DOS": 5,
+        "PAMS": 3,
+        "USDOT": 3,
+        "EPA": 2,
+        "DOL": 0,
+        "LOC": 1,
+        "ONDCP": 0,
+        "SBA": 0,
+        "USAID": 0
+      }
+    },
+    {
+      "generated_at": "2026-09-26T21:32:20-04:00",
+      "as_of_date": "2026-09-26",
+      "by_status": {
+        "verification_required": 5,
+        "closed": 251,
+        "open": 728,
+        "upcoming": 282,
+        "open_program": 20
+      },
+      "agency_open": {
+        "HHS": 424,
+        "NSF": 122,
+        "DOD": 124,
+        "DOC": 15,
+        "NASA": 15,
+        "USDA": 12,
+        "DOT": 4,
+        "DOE": 4,
+        "DOS": 2,
+        "PAMS": 3,
+        "DOI": 1,
+        "HUD": 1,
+        "USDOT": 1,
+        "USAID": 0,
+        "USDOJ": 0
+      }
+    },
+    {
+      "generated_at": "2026-09-26T21:41:20-04:00",
+      "as_of_date": "2026-09-26",
+      "by_status": {
+        "verification_required": 5,
+        "closed": 251,
+        "open": 728,
+        "upcoming": 282,
+        "open_program": 20
+      },
+      "agency_open": {
+        "HHS": 424,
+        "NSF": 122,
+        "DOD": 124,
+        "DOC": 15,
+        "NASA": 15,
+        "USDA": 12,
+        "DOT": 4,
+        "DOE": 4,
+        "DOS": 2,
+        "PAMS": 3,
+        "DOI": 1,
+        "HUD": 1,
+        "USDOT": 1,
+        "USAID": 0,
+        "USDOJ": 0
+      }
+    },
+    {
+      "generated_at": "2026-09-26T21:43:04-04:00",
+      "as_of_date": "2026-09-26",
+      "by_status": {
+        "verification_required": 15,
+        "closed": 251,
+        "open": 718,
+        "upcoming": 282,
+        "open_program": 20
+      },
+      "agency_open": {
+        "HHS": 424,
+        "NSF": 118,
+        "DOD": 122,
+        "DOC": 14,
+        "NASA": 13,
+        "USDA": 12,
+        "DOE": 4,
+        "DOT": 3,
+        "DOS": 2,
+        "PAMS": 3,
+        "DOI": 1,
+        "HUD": 1,
+        "USDOT": 1,
+        "USAID": 0,
+        "USDOJ": 0
+      }
+    },
+    {
+      "generated_at": "2026-09-26T21:49:10-04:00",
+      "as_of_date": "2026-09-26",
+      "by_status": {
+        "verification_required": 15,
+        "closed": 251,
+        "open": 718,
+        "upcoming": 282,
+        "open_program": 20
+      },
+      "agency_open": {
+        "HHS": 424,
+        "NSF": 118,
+        "DOD": 122,
+        "DOC": 14,
+        "NASA": 13,
+        "USDA": 12,
+        "DOE": 4,
+        "DOT": 3,
+        "DOS": 2,
+        "PAMS": 3,
+        "DOI": 1,
+        "HUD": 1,
+        "USDOT": 1,
+        "USAID": 0,
+        "USDOJ": 0
+      }
+    }
+  ]
+}
