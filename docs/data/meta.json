@@ -10,7 +10,7 @@
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-26T21:34:55-04:00",
+      "retrieved_at": "2026-09-26T21:43:31-04:00",
       "parse_stats": {
         "container": "GrantsDBExtract20260926v2.zip",
         "xml_name": "GrantsDBExtract20260926v2.xml",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-26T21:34:55-04:00",
+      "retrieved_at": "2026-09-26T21:43:31-04:00",
       "status": "ok",
       "items": 20
     },
@@ -39,7 +39,7 @@
       "name": "NSF Award Search API",
       "url": "https://api.nsf.gov/services/v1/awards.json",
       "status": "ok",
-      "count": 824,
+      "count": 858,
       "pages": 40,
       "exhausted": false,
       "coverage": "Partial sample. Do not treat counts or sums as a complete NSF award census.",
@@ -96,7 +96,7 @@
         "end_date": "2026-09-26"
       },
       "alns_queried": 90,
-      "alns_considered": 142,
+      "alns_considered": 141,
       "errors": []
     }
   ],
@@ -343,25 +343,33 @@
       "error": null,
       "endpoint": "https://api.grants.gov/v1/api/search2"
     },
-    "catalog_open_or_upcoming_ST": 303,
-    "absolute_difference": 7,
+    "catalog_open_or_upcoming_ST": 295,
+    "absolute_difference": 15,
     "status": "ok",
     "interpretation": "Compares Grants.gov search2 hitCount for posted|forecasted and funding category ST with catalog records that are open or upcoming, category ST, and not NSF program pages. A difference can come from extract timing, closed-but-listed rows, or parser loss. search2 still returns forecasts whose forecast date is years old. This catalog omits forecasts whose post or estimated post date is more than 18 months before the as-of date, so those ids can appear in in_api_not_in_catalog without being open opportunities. The difference is shown, not hidden.",
     "id_overlap": {
       "api_ids_retrieved": 310,
       "api_hit_count": 310,
       "in_api_not_in_catalog": [
+        "103313",
+        "275109",
         "325472",
+        "326841",
         "327763",
         "329806",
         "336962",
+        "339728",
         "341723",
         "341844",
         "342752",
         "348746",
-        "351078"
+        "350230",
+        "351078",
+        "356055",
+        "356425",
+        "39841"
       ],
-      "in_api_not_in_catalog_count": 9,
+      "in_api_not_in_catalog_count": 17,
       "in_catalog_not_in_api_sample": [
         "359240",
         "361937"
@@ -374,59 +382,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "350651",
+          "id": "359651",
           "status": "checked",
-          "api_title": "RFA-EH-18-000",
-          "api_number": "RFA-EH-18-000",
-          "api_agency": "HHS-CDC-HHSCDCERA",
-          "api_close": "2030-09-30",
-          "mismatches": [],
-          "catalog_close": "2030-09-30",
-          "official_url": "https://www.grants.gov/search-results-detail/350651"
-        },
-        {
-          "id": "355987",
-          "status": "checked",
-          "api_title": "Tribal Institutional Review Board Establishment and Enhancement (TIRBEE) (R24 - Clinical Trial Not Allowed)",
-          "api_number": "PAR-24-260",
+          "api_title": "Renewal of the Clinician-Scientists Transdisciplinary Aging Research (Clin-STAR) Coordinating Center (U24 Clinical Trial Not Allowed)",
+          "api_number": "RFA-AG-27-007",
           "api_agency": "HHS-NIH11",
-          "api_close": "2027-01-27",
+          "api_close": "2026-09-29",
           "mismatches": [],
-          "catalog_close": "2027-01-27",
-          "official_url": "https://www.grants.gov/search-results-detail/355987"
+          "catalog_close": "2026-09-29",
+          "official_url": "https://www.grants.gov/search-results-detail/359651"
         },
         {
-          "id": "300997",
+          "id": "359782",
           "status": "checked",
-          "api_title": "EONS 2018: Appendix E Minority University Research and Education Project (MUREP) for Sustainability and Innovation Collaborative – (MUSIC)",
-          "api_number": "NNH18ZHA002N-MUSIC",
-          "api_agency": "NASA",
-          "api_close": null,
+          "api_title": "TTO Office Wide (OW) BAA 2025",
+          "api_number": "HR001125S0011",
+          "api_agency": "DOD-DARPA-TTO",
+          "api_close": "2026-12-22",
           "mismatches": [],
-          "catalog_close": null,
-          "official_url": "https://www.grants.gov/search-results-detail/300997"
+          "catalog_close": "2026-12-22",
+          "official_url": "https://www.grants.gov/search-results-detail/359782"
         },
         {
-          "id": "350338",
+          "id": "358882",
           "status": "checked",
-          "api_title": "CHIPS Incentives Program – Facilities for Semiconductor Materials and Manufacturing Equipment",
-          "api_number": "2023-NIST-CHIPS-SMME-01",
-          "api_agency": "DOC-NIST",
-          "api_close": "2026-11-01",
-          "mismatches": [],
-          "catalog_close": "2026-11-01",
-          "official_url": "https://www.grants.gov/search-results-detail/350338"
-        },
-        {
-          "id": "362061",
-          "status": "checked",
-          "api_title": "Chemical Process Systems (CPS)",
-          "api_number": "PD-26-367Y",
+          "api_title": "Science of Science: Discovery, Communication and Impact",
+          "api_number": "PD-19-126Y",
           "api_agency": "NSF",
           "api_close": null,
           "mismatches": [],
           "catalog_close": null,
-          "official_url": "https://www.grants.gov/search-results-detail/362061"
+          "official_url": "https://www.grants.gov/search-results-detail/358882"
+        },
+        {
+          "id": "358830",
+          "status": "checked",
+          "api_title": "Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (Parent F32)",
+          "api_number": "PA-25-423",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2028-05-07",
+          "mismatches": [],
+          "catalog_close": "2028-05-07",
+          "official_url": "https://www.grants.gov/search-results-detail/358830"
+        },
+        {
+          "id": "356982",
+          "status": "checked",
+          "api_title": "BRAIN Initiative: Clinical Studies to Advance Next-Generation Devices for Recording and Modulation in the Human Central Nervous System (UH3 Clinical Trial Optional)",
+          "api_number": "RFA-NS-25-022",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2026-09-28",
+          "mismatches": [],
+          "catalog_close": "2026-09-28",
+          "official_url": "https://www.grants.gov/search-results-detail/356982"
         }
       ]
     }
@@ -460,7 +468,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-26T21:43:04-04:00",
+  "generated_at": "2026-09-26T21:49:10-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1286,
@@ -471,7 +479,7 @@
       "upcoming": 282,
       "open_program": 20
     },
-    "awards": 1124,
+    "awards": 1158,
     "obligations": 101
   },
   "field_coverage": {
@@ -565,8 +573,7 @@
     "compared_to_previous_catalog": true,
     "new": 0,
     "removed": 0,
-    "changed": 10,
+    "changed": 0,
     "newly_closed": 0
-  },
-  "status_rule": "Open-ended synopses last updated more than 18 months before the as-of date are verification_required, not open."
+  }
 }
