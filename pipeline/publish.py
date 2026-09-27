@@ -256,9 +256,21 @@ def _append_history(out_dir: Path, meta: dict, summary: dict) -> None:
     )
 
 
-def write_json(path: Path, payload) -> None:
+def write_json(path: Path, payload, compact: bool = False) -> None:
+    """Write a published JSON file.
+
+    The bulk record files are written without indentation. They are generated,
+    never hand-edited, and the catalog is committed on every refresh: at the
+    current size, indentation alone is about 2 MB per commit and roughly a
+    gigabyte of repository history per year, and it is also 22% more for the
+    browser to download. The small files a person reads stay indented.
+    """
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    if compact:
+        text = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+    else:
+        text = json.dumps(payload, indent=2, ensure_ascii=False)
+    path.write_text(text + "\n", encoding="utf-8")
 
 
 def load_previous_opportunities(path: Path) -> list[dict] | None:
@@ -302,11 +314,12 @@ def publish(out_dir: Path, meta: dict, opportunities: list[dict], awards: list[d
             "newly_closed": len(changes["newly_closed"]),
         },
     }
-    # Lean list file keeps the browser payload smaller. Detail text stays, but
-    # search_blob is not duplicated beyond the description already stored.
-    write_json(out_dir / "opportunities.json", {"opportunities": opportunities})
-    write_json(out_dir / "awards.json", {"awards": awards})
-    write_json(out_dir / "obligations.json", {"obligations": obligations})
+    # The three record files are the bulk of the payload and of every daily
+    # commit, so they are written compact. Full descriptions stay in them: the
+    # explorer searches client side and the detail view renders from this file.
+    write_json(out_dir / "opportunities.json", {"opportunities": opportunities}, compact=True)
+    write_json(out_dir / "awards.json", {"awards": awards}, compact=True)
+    write_json(out_dir / "obligations.json", {"obligations": obligations}, compact=True)
     write_json(out_dir / "aggregates.json", summary)
     write_json(out_dir / "changes.json", changes)
     write_json(out_dir / "meta.json", meta)

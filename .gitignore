@@ -5,3 +5,4 @@ __pycache__/
 pipeline/cache/
 *.partial
 .DS_Store
+node_modules/

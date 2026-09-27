@@ -8,35 +8,57 @@ Reviewed 2026-09-27 against the saved catalog snapshot with an as-of date of `20
 
 ### What the live catalog contains
 
-- 1,286 research-relevant records: 718 open, 282 upcoming, 20 standing NSF programs (`open_program`), 251 closed, 15 `verification_required`.
+- 1,286 research-relevant records: 718 open, 282 upcoming, 20 standing NSF programs (`open_program`), 251 closed, 15 `verification_required`. 1,300 historical award rows (1,000 NSF, 300 NIH) and 101 USAspending obligations.
 - A posted synopsis with no close date is not labeled open if its last-updated or post date is more than 18 months before the as-of date. That caught a FY 2012 program still sitting in the active extract. Recently updated open-ended solicitations stay open, with the missing deadline flagged.
+- **Changed 2026-09-27:** cancellation language no longer overrides a deadline that already passed. Re-running the new status rule over the published file moves exactly 5 records — Grants.gov ids `45902`, `52203`, `52285`, `55317`, `274975`, posted 2009–2015 — from `verification_required` to `archived`, and `_keep` then drops archived records, so they leave the feed at the next refresh. No other record changes status. Before this fix those five appeared under "Needs verification" on the feed, which presented 2009 solicitations as current intelligence.
 - The extract contained 83,488 records (82,518 synopses, 970 forecasts). The platform's research-scope rules matched 34,585 of them; recency/status rules retained 1,266 Grants.gov records, then 20 NSF standing-program feed items were added. A NOFO/FOA label alone is not a research signal. The `meta.json` scope summary records aggregate exclusions; exclusion does not mean the opportunity is unofficial or definitively non-research.
 - Field coverage on the published file: title, agency, post date, and official URL 100%; opportunity number, eligibility codes, cost sharing, and ALN about 98%; close date 93%; eligibility text 82%; estimated total 52%; award ceiling 40%; award floor 30%. Blank money fields stay blank. A stored `$0` means the source published zero.
-- Known source-field conflict: Grants.gov opportunity `361931` publishes `$0` for both award floor and ceiling, while its additional eligibility text says requests over `$300,000` will not be considered. The detail view preserves the source fields, warns users to confirm a zero ceiling, and shows the full official description; do not infer a corrected structured ceiling. Earlier sample `gg-55317` also had all four amount fields at zero; its source/XML semantics remain unconfirmed.
+- Known source-field conflict: Grants.gov opportunity `361931` publishes `$0` for both award floor and ceiling, while its additional eligibility text says requests over `$300,000` will not be considered. The detail view preserves the source fields, warns users to confirm a zero ceiling, and shows the full official description; do not infer a corrected structured ceiling.
 - Saved cross-check against `https://api.grants.gov/v1/api/search2`: 1,536 posted or forecasted opportunities in all categories and 310 in category ST. The catalog has 295 open or upcoming ST rows, an absolute difference of 15 (4.8% of the API count); pipeline status is `ok` within its 15% discrepancy threshold. The recorded ID comparison lists 17 search2 ids absent from the catalog and 2 catalog ids absent from the returned search2 id set. Search2 can retain older forecast records; a difference is not automatically a parser error or a currently open opportunity. The saved `fetchOpportunity` spot check covers 5 records with 0 title, number, agency, or close-date mismatches. See `meta.json` for the compared ids and results.
-- Historical files are samples, not censuses. The latest NSF Award Search API pull returned 1,000 unique rows (40 pages, capped and not exhausted); exact counts and query are in `meta.json`. Before correcting pagination, repeated pulls in this audit returned 810–883 rows. The pipeline now uses the official API guide's zero-based offsets and `sortKey=awardNumber`; this corrected the paging undercount but does not make the sample complete. NIH RePORTER returned 300 and USAspending 101 in the saved snapshot; both are partial too. Do not sum these files and call the result total federal research funding. [NSF API guide](https://resources.research.gov/common/webapi/awardapisearch-v1.htm). NSF award pages use `https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}`.
+- Historical files are samples, not censuses. The latest NSF Award Search API pull returned 1,000 unique rows (40 pages, capped and not exhausted). NIH RePORTER returned 300 and USAspending 101 in the saved snapshot; all three are partial. Do not sum these files and call the result total federal research funding. [NSF API guide](https://resources.research.gov/common/webapi/awardapisearch-v1.htm). NSF award pages use `https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}`.
 
-### What is implemented
+### Fixed in this pass
 
-- A Python pipeline (`python -m pipeline.refresh`) that downloads the official Grants.gov daily XML extract, normalizes it, and publishes a static catalog. If the extract cannot be downloaded, it falls back to the public Grants.gov `search2` and `fetchOpportunity` APIs and says so.
-- NSF funding RSS items as standing programs, with no invented deadline.
-- Optional historical samples from the NSF Award Search API, NIH RePORTER API v2, and USAspending obligations for assistance listings that appear on cataloged opportunities. Failures are recorded. They do not invent awards. NSF pagination follows the official zero-based offset and stable `awardNumber` sort parameters.
-- Status derived from published dates and the America/New_York as-of date. A past close date cannot be labeled open. Forecasts stay upcoming. Cancellation language is `verification_required`, not open.
-- Topic tags only when a listed term matches official text, or a labeled NIH agency default when no term matched. The matched terms are stored.
-- A static site in `docs/` for GitHub Pages: feed, explorer, research topics, agencies, multi-agency finder, project builder, historical awards, and a verification page.
-- CSV export quotes fields and neutralizes spreadsheet-formula prefixes in source-derived text.
-- An explainable fit score in the browser. It is not a probability of award. Weights are fixed and shown. Unassessed components are omitted, not scored as zero.
-- A GitHub Actions workflow that runs the tests and refresh, then commits `docs/data`.
+Each of these was found by running the shipped code, not by reading it, and each now has a test.
+
+- **The feed and the explorer disagreed about deadlines.** The feed counted "closing within 21 days" from the viewer's date while the explorer it linked to counted from the catalog as-of date. Measured before the fix: the feed said "View 114" and the linked explorer said "115 records". Both now use one reference date and `tests/ui.test.mjs` asserts the two numbers are equal.
+- **Descending sorts silently did nothing.** `filtered()` computed a direction and passed it to `compareRecords(a, b, sort, direction)`, but that function only accepted three parameters, and any `-desc` key fell through to the deadline branch. Sorting by "title-desc" returned deadline order. Direction is now handled in `docs/js/catalog.js`, missing values sort last in both directions, and the explorer exposes ascending and descending options.
+- **Records with no close date vanished from a deadline filter without a word.** They are now counted and reported: "N records published no close date and were left out of the deadline filter."
+- **Amount filters silently dropped records with no published ceiling.** The count is now shown next to the results. The exclusion itself is unchanged and intentional — a blank ceiling is not zero.
+- **"Last verified" did not say whose timezone it was showing.** The pipeline stores Eastern time with its offset; the browser re-renders it locally. The stamp and the detail page now label it "your time".
+- **The bulk JSON files were published with indentation.** That was 22.5% of `opportunities.json` (9,363,962 → 7,255,125 bytes) and 16.4% of `awards.json`, downloaded on every page load and committed on every daily refresh. The three record files are now compact; the small files a person reads stay indented. `python -m pipeline.validate_published` still passes on the compact files.
+- **Source URLs were handed straight to `href`.** They are official, but they are still external data. `safeHttpUrl` now refuses anything that is not http or https, and the detail page falls back to inert text.
+
+### Added in this pass
+
+- **Historical funding explorer** (`#/awards`). It was a hardcoded `slice(0, 20)`. The 1,401 award and obligation rows in the catalog can now be searched, filtered by record type, agency, derived topic, awardee state, source, and minimum amount, sorted by amount or date, paginated, and exported to CSV. The sample-coverage warnings stay on the page above the results.
+- **Changes view** (`#/changes`), answering the specification's "what information changed since the last time I checked?". It lists newly closed records, records new to the catalog, which tracked fields changed on which records, and ids absent from the new extract — with the caveat that an absence is not a documented cancellation, and with the truncation shown when the pipeline capped the list.
+- **`docs/js/catalog.js`**, a DOM-free module holding the filtering, sorting, deadline, and URL logic. It exists so that logic can be tested without a browser; `docs/js/app.js` imports it.
+- **Browser-level tests.** `tests/ui.test.mjs` loads `docs/index.html` in jsdom, stubs `fetch` against the real `docs/data/`, imports the real `docs/js/app.js`, and drives all nine routes against the real catalog. It asserts feed/explorer count agreement, that a descending sort reorders rendered cards, that search results actually contain the search term, that every card links to a record that exists, that the CSV export quotes cells and neutralizes formula prefixes, that the builder states fit is not a win probability, and that no external host outside `.gov`/`.mil`/GitHub/the official Grants.gov extract bucket is linked.
+
+### Verified in this pass
+
+- `python -m unittest discover -s tests` — 25 tests pass. Includes new tests for cancellation-plus-passed-deadline, cancelled forecasts, and the terminal-record keep rule.
+- `node --test tests/*.test.mjs` — 32 tests pass: 12 in `catalog.test.mjs`, 12 in `ui.test.mjs`, 5 in `match.test.mjs`, 3 in `csv.test.mjs`.
+- `python -m pipeline.validate_published` — "Published catalog ok: 1286 opportunities, as of 2026-09-26", run against the compacted files.
+- A static server on `docs/` returned HTTP 200 for the page, all four JS modules, the stylesheet, the favicon, the 404 page, and all seven data files.
+- The rendered DOM was inspected for every primary route. No route fell through to the missing-record view and jsdom reported no page errors.
+
+### Not verified in this pass
+
+- **This sandbox has no direct network route to Grants.gov, NSF, NIH, or USAspending** (TLS to those hosts fails; `api.github.com` is reachable). No live refresh was run here. The catalog under `docs/data` is the one the last CI refresh produced. CI re-runs the refresh on push, which is how the data changes get validated against the live extract.
+- **The deployed GitHub Pages site was not fetched in this pass**, because `*.github.io` is unreachable from here. Earlier sessions recorded successful deployments (runs `36289849530` and `36290163686`); that claim is not re-verified here.
+- **jsdom is not a browser.** It verifies DOM structure, routing, counts, sort order, and link targets. It does not verify visual layout, responsive breakpoints, real viewport behavior, color contrast, keyboard focus order, or form autofill. Those remain untested.
 
 ### What is not claimed
 
-- Deployment target: `https://buffedlizard55-lab.github.io/GRANTWRITING/`; the root `index.html` redirects to `docs/`. After merge on 2026-09-27, Pages deployments succeeded (runs `36289849530` and `36290163686`). A live fetch loaded the home page, a deadline-filtered explorer view (115 results within 21 days), an opportunity detail, and the project builder. Deployed `meta.json` reports 1,286 opportunities, 1,300 historical award records, 101 obligations, and a capped 1,000-row NSF sample across 40 pages (not exhausted). This text-level check does not verify visual layout, accessibility, responsive behavior, or form submission in a real browser. Pages publishes the repository root, so `.nojekyll` must stay; without it Jekyll drops `docs/index.html`.
 - SAM.gov contract BAAs are not collected. Simpler.Grants.gov is not used; it requires an API key this project does not have.
 - Historical award files are samples. NSF and NIH pulls were capped.
 - The site does not generate a specific research project and present it as an agency request. It quotes official sentences and compares a project the user types.
 - Grants.gov agency code `PAMS` is the Office of Science submission code. Records keep that official code. Do not rename it to DOE in the source fields.
 - A phrase match such as "scientific research" can still include a non-research program if that phrase appears in official text. The matched basis is stored so the reason is visible.
 - Project Builder notes are stored in browser `localStorage`, not sent to a server. They are not encrypted; do not enter sensitive or controlled research information.
+- `opportunities.json` is still about 7.3 MB uncompressed (about 0.96 MB gzipped). A lean index plus on-demand detail records would cut the first load substantially and has not been built.
 
 ### Gaps to close before relying on the platform for application planning
 
@@ -45,17 +67,19 @@ Reviewed 2026-09-27 against the saved catalog snapshot with an as-of date of `20
 - **Historical awards:** Current NSF and NIH pulls are capped samples; USAspending covers only a subset of assistance listings and one page per batch. They do not support complete award totals, agency-wide trend claims, or recipient success rates.
 - **Research-gap analysis:** Keyword counts and multi-agency topic overlap are descriptive leads, not measured funding trends or evidence of a research gap. The site must not claim a gap until it has a documented method and sufficient longitudinal data.
 - **Matching quality:** The browser fit score is a transparent lexical heuristic. It has not been benchmarked against expert-labeled matches or outcome data and must not be presented as eligibility approval or award probability.
-- **User-facing testing:** Python and matcher unit tests exist, but automated browser, accessibility, responsive-layout, and real-user workflow tests are not yet in place.
+- **Real-browser testing:** DOM-level tests now exist, but there are still no real-browser, responsive-viewport, or accessibility tests.
 
 ### How to run
 
 ```bash
-python -m unittest discover -s tests -v
-node --test tests/*.test.mjs
-python -m pipeline.refresh
+python -m unittest discover -s tests -v   # 25 pipeline tests
+npm ci                                    # installs jsdom for the DOM tests
+node --test tests/*.test.mjs              # 32 browser-logic and rendered-view tests
+python -m pipeline.refresh                # needs network access to the official sources
+python -m pipeline.validate_published     # checks the files the site will serve
 ```
 
-The site reads `docs/data/` with relative URLs so it works on a GitHub Pages project site. Serve `docs/` locally with any static server. Do not hand-edit opportunity JSON.
+The site reads `docs/data/` with relative URLs so it works on a GitHub Pages project site. Serve `docs/` locally with any static server. Do not hand-edit opportunity JSON. Pages publishes the repository root, so `.nojekyll` must stay; without it Jekyll drops `docs/index.html`.
 
 ---
 

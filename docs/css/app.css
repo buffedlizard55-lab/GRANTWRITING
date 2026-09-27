@@ -301,6 +301,15 @@ blockquote.quote footer { color: var(--muted); font-size: 0.78rem; margin-top: 0
 .component { margin: 0.7rem 0; }
 
 table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+.changes-table td:first-child { max-width: 30rem; }
+.filter-note {
+  margin: 0.35rem 0 0.7rem;
+  padding: 0.5rem 0.6rem;
+  border-left: 3px solid var(--line);
+  background: var(--paper);
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+.award-filters { max-height: none; }
 th, td { text-align: left; padding: 0.45rem 0.4rem; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
 tr:hover td { background: rgba(255, 253, 249, 0.7); }
@@ -336,6 +345,10 @@ tr:hover td { background: rgba(255, 253, 249, 0.7); }
   .stats, .grid-2, .grid-3, .layout, .facts { grid-template-columns: 1fr; }
   .filters { position: static; }
   .top { padding-top: 0.9rem; }
+  /* Nine nav entries and wide tables both need room on a phone. */
+  .sitenav { max-height: calc(100vh - 6rem); overflow-y: auto; }
+  table { display: block; overflow-x: auto; }
+  .changes-table td:first-child { max-width: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

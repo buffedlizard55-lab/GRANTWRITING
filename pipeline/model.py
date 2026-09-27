@@ -146,13 +146,9 @@ def derive_status(
     last_updated: date | None = None,
 ) -> tuple[str, str, list[str]]:
     flags: list[str] = []
-    if CANCELLATION_PATTERN.search(description or ""):
+    cancellation = bool(CANCELLATION_PATTERN.search(description or ""))
+    if cancellation:
         flags.append("possible_cancellation_language")
-        return (
-            "verification_required",
-            "Official text contains cancellation language. Status is not treated as open. Confirm on the official page.",
-            flags,
-        )
     if record_kind == "program":
         flags.append("standing_program")
         if close and close < as_of:
@@ -173,6 +169,12 @@ def derive_status(
                 "Forecast record whose estimated close date is before the as-of date. Not listed as open.",
                 flags,
             )
+        if cancellation:
+            return (
+                "verification_required",
+                "Forecast record whose official text contains cancellation language. Not treated as upcoming. Confirm on the official page.",
+                flags,
+            )
         if post and post < as_of:
             flags.append("forecast_post_date_passed")
             return (
@@ -186,10 +188,22 @@ def derive_status(
             flags,
         )
     if archive and archive < as_of and (not close or close < as_of):
-        return "archived", "Archive date published in the extract is before the as-of date.", flags
+        basis = "Archive date published in the extract is before the as-of date."
+        if cancellation:
+            basis += " The official text also contains cancellation language."
+        return "archived", basis, flags
     if close and close < as_of:
         flags.append("deadline_passed")
-        return "closed", "Published close date is before the as-of date. Not listed as an open opportunity.", flags
+        basis = "Published close date is before the as-of date. Not listed as an open opportunity."
+        if cancellation:
+            basis += " The official text also contains cancellation language."
+        return "closed", basis, flags
+    if cancellation:
+        return (
+            "verification_required",
+            "Official text contains cancellation language and no published deadline has passed. Status is not treated as open. Confirm on the official page.",
+            flags,
+        )
     if close and close == as_of:
         flags.append("closes_today")
         flags.append("deadline_is_date_only")
