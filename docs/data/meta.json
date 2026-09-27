@@ -2,18 +2,18 @@
   "as_of_date": "2026-09-27",
   "sources": [
     {
-      "file_name": "GrantsDBExtract20260926v2.zip",
-      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20260926v2.zip",
-      "ymd": "20260926",
+      "file_name": "GrantsDBExtract20260927v2.zip",
+      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20260927v2.zip",
+      "ymd": "20260927",
       "catalog_url": "https://www.grants.gov/xml-extract",
       "id": "grantsgov_extract",
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-27T00:20:17-04:00",
+      "retrieved_at": "2026-09-27T11:41:01-04:00",
       "parse_stats": {
-        "container": "GrantsDBExtract20260926v2.zip",
-        "xml_name": "GrantsDBExtract20260926v2.xml",
+        "container": "GrantsDBExtract20260927v2.zip",
+        "xml_name": "GrantsDBExtract20260927v2.xml",
         "records_parsed": 83488,
         "tag_counts": {
           "OpportunitySynopsisDetail_1_0": 82518,
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-27T00:20:17-04:00",
+      "retrieved_at": "2026-09-27T11:41:01-04:00",
       "status": "ok",
       "items": 20
     },
@@ -384,59 +384,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "358939",
+          "id": "343980",
           "status": "checked",
-          "api_title": "HEAL INITIATIVE: INTERACT Data Coordination and Integration Center (U24 Clinical Trial Not Allowed)",
-          "api_number": "RFA-AR-27-002",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2026-10-01",
-          "mismatches": [],
-          "catalog_close": "2026-10-01",
-          "official_url": "https://www.grants.gov/search-results-detail/358939"
-        },
-        {
-          "id": "360007",
-          "status": "checked",
-          "api_title": "Reissue of RFA-FD-22-001 - Efficient and Innovative Natural History Studies Addressing Unmet Needs in Rare Diseases (R01 Clinical Trials Optional)",
-          "api_number": "RFA-FD-25-017",
-          "api_agency": "HHS-FDA",
-          "api_close": "2028-02-08",
-          "mismatches": [],
-          "catalog_close": "2028-02-08",
-          "official_url": "https://www.grants.gov/search-results-detail/360007"
-        },
-        {
-          "id": "360446",
-          "status": "checked",
-          "api_title": "Biomedical Technology Optimization and Dissemination Center (BTOD) (RM1 - Clinical Trial Not Allowed)",
-          "api_number": "PAR-27-024",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2029-01-29",
-          "mismatches": [],
-          "catalog_close": "2029-01-29",
-          "official_url": "https://www.grants.gov/search-results-detail/360446"
-        },
-        {
-          "id": "362850",
-          "status": "checked",
-          "api_title": "DoW Rare Cancers Resource and Community Development Award",
-          "api_number": "HT942526RCRPRCDA",
-          "api_agency": "DOD-AMRAA",
-          "api_close": "2026-11-18",
-          "mismatches": [],
-          "catalog_close": "2026-11-18",
-          "official_url": "https://www.grants.gov/search-results-detail/362850"
-        },
-        {
-          "id": "358036",
-          "status": "checked",
-          "api_title": "Findable Accessible Interoperable Reusable Open Science",
-          "api_number": "25-533",
+          "api_title": "SBE Postdoctoral Research Fellowships",
+          "api_number": "23-500",
           "api_agency": "NSF",
-          "api_close": "2027-04-14",
+          "api_close": "2026-11-04",
           "mismatches": [],
-          "catalog_close": "2027-04-14",
-          "official_url": "https://www.grants.gov/search-results-detail/358036"
+          "catalog_close": "2026-11-04",
+          "official_url": "https://www.grants.gov/search-results-detail/343980"
+        },
+        {
+          "id": "360368",
+          "status": "checked",
+          "api_title": "Administrative Supplements to Existing NIH Grants and Cooperative Agreements (Parent Admin Supp Clinical Trial Optional)",
+          "api_number": "PA-26-001",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2028-11-30",
+          "mismatches": [],
+          "catalog_close": "2028-11-30",
+          "official_url": "https://www.grants.gov/search-results-detail/360368"
+        },
+        {
+          "id": "356909",
+          "status": "checked",
+          "api_title": "Screening and Functional Validation of Genomic Variants Associated with Human Congenital Anomalies (R01 Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-185",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2028-01-07",
+          "mismatches": [],
+          "catalog_close": "2028-01-07",
+          "official_url": "https://www.grants.gov/search-results-detail/356909"
+        },
+        {
+          "id": "356316",
+          "status": "checked",
+          "api_title": "Clinical and Translational Science Award (UM1 Clinical Trial Optional)",
+          "api_number": "PAR-24-272",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-09-28",
+          "mismatches": [],
+          "catalog_close": "2027-09-28",
+          "official_url": "https://www.grants.gov/search-results-detail/356316"
+        },
+        {
+          "id": "357634",
+          "status": "checked",
+          "api_title": "Limited Competition: High Impact Specialized Innovation Programs in Clinical and Translational Science (RC2 Clinical Trials Optional)",
+          "api_number": "PAR-25-156",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2026-09-28",
+          "mismatches": [],
+          "catalog_close": "2026-09-28",
+          "official_url": "https://www.grants.gov/search-results-detail/357634"
         }
       ]
     }
@@ -470,7 +470,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-27T00:26:12-04:00",
+  "generated_at": "2026-09-27T11:47:24-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1269,
