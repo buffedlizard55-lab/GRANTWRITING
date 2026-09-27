@@ -460,14 +460,14 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-26T21:41:20-04:00",
+  "generated_at": "2026-09-26T21:43:04-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1286,
     "by_status": {
-      "verification_required": 5,
+      "verification_required": 15,
       "closed": 251,
-      "open": 728,
+      "open": 718,
       "upcoming": 282,
       "open_program": 20
     },
@@ -565,7 +565,8 @@
     "compared_to_previous_catalog": true,
     "new": 0,
     "removed": 0,
-    "changed": 0,
+    "changed": 10,
     "newly_closed": 0
-  }
+  },
+  "status_rule": "Open-ended synopses last updated more than 18 months before the as-of date are verification_required, not open."
 }

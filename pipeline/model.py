@@ -143,6 +143,7 @@ def derive_status(
     as_of: date,
     description: str,
     record_kind: str,
+    last_updated: date | None = None,
 ) -> tuple[str, str, list[str]]:
     flags: list[str] = []
     if CANCELLATION_PATTERN.search(description or ""):
@@ -203,9 +204,17 @@ def derive_status(
     flags.append("deadline_not_published")
     if archive and archive < as_of:
         return "archived", "Archive date is before the as-of date and no close date was published.", flags
+    activity = last_updated or post
+    if activity and (as_of - activity).days > 540:
+        flags.append("stale_open_ended")
+        return (
+            "verification_required",
+            "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
+            flags,
+        )
     return (
         "open",
-        "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+        "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
         flags,
     )
 
@@ -263,6 +272,7 @@ def normalize_grant_record(raw: dict, as_of: date, retrieved_at: str, source: di
         as_of=as_of,
         description=description,
         record_kind=record_kind,
+        last_updated=updated,
     )
     if truncated:
         flags.append("description_truncated")

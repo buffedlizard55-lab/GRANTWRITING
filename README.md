@@ -4,11 +4,12 @@ Read this file before changing the project. The specification below is the sourc
 
 ## Current implementation status
 
-Updated 2026-09-27 from `docs/data/meta.json` generated `2026-09-26T21:32:20-04:00`. As-of date `2026-09-26` (America/New_York). Source file `GrantsDBExtract20260926v2.zip` (78,202,859 bytes), downloaded in GitHub Actions from the URL listed that day on `https://www.grants.gov/xml-extract`.
+Updated 2026-09-27 from the Grants.gov extract run and a status-rule correction on that same catalog. As-of date `2026-09-26` (America/New_York). Source file `GrantsDBExtract20260926v2.zip` (78,202,859 bytes), downloaded in GitHub Actions from the URL listed that day on `https://www.grants.gov/xml-extract`.
 
 ### What the live catalog contains
 
-- 1,286 research-relevant records: 728 open, 282 upcoming, 20 standing NSF programs (`open_program`), 251 closed, 5 `verification_required`.
+- 1,286 research-relevant records: 718 open, 282 upcoming, 20 standing NSF programs (`open_program`), 251 closed, 15 `verification_required`.
+- A posted synopsis with no close date is not labeled open if its last-updated or post date is more than 18 months before the as-of date. That caught a FY 2012 program still sitting in the active extract. Recently updated open-ended solicitations stay open, with the missing deadline flagged.
 - The extract contained 83,488 records (82,518 synopses, 970 forecasts). The publisher kept research-relevant rows and dropped the rest. It then dropped 242 more because a NOFO/FOA label alone is not a research signal. Victim-services, housing, and similar announcements that only matched those words are not in the catalog.
 - Field coverage on the published file: title, agency, post date, and official URL 100%; opportunity number, eligibility codes, cost sharing, and ALN about 98%; close date 93%; eligibility text 82%; estimated total 52%; award ceiling 40%; award floor 30%. Blank money fields stay blank. A stored `$0` means the source published zero.
 - Cross-check against `https://api.grants.gov/v1/api/search2`: 1,536 posted or forecasted opportunities in all categories; 310 in category ST. The catalog has 303 open or upcoming ST rows. Absolute difference 7, status `ok`. Nine API ids are absent because search2 still returns forecasts from 2020–2023; this catalog omits forecasts older than 18 months. Spot check of 5 `fetchOpportunity` records: 0 mismatches after HTML entities are decoded. Official pages checked by hand for opportunity ids `356002` and `356982` matched title, agency, and close date.

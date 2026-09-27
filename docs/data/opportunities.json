@@ -206280,7 +206280,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -206419,7 +206419,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -206578,7 +206578,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -206841,7 +206841,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -206964,7 +206964,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -207136,8 +207136,8 @@
       "agency_name": "Department of Commerce",
       "top_agency_code": "DOC",
       "top_agency_grouping_label": "Department of Commerce",
-      "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status": "verification_required",
+      "status_basis": "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -207273,7 +207273,8 @@
         ]
       },
       "flags": [
-        "deadline_not_published"
+        "deadline_not_published",
+        "stale_open_ended"
       ],
       "field_quality": {
         "missing": [
@@ -207432,7 +207433,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -207599,8 +207600,8 @@
       "agency_name": "U.S. National Science Foundation",
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
-      "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status": "verification_required",
+      "status_basis": "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -207752,6 +207753,7 @@
         "amounts_not_published",
         "deadline_not_published",
         "eligibility_text_not_published",
+        "stale_open_ended",
         "unrestricted_eligibility"
       ],
       "field_quality": {
@@ -207918,7 +207920,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -208040,7 +208042,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -208192,7 +208194,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -208385,8 +208387,8 @@
       "agency_name": "National Aeronautics and Space Administration",
       "top_agency_code": "NASA",
       "top_agency_grouping_label": "National Aeronautics and Space Administration",
-      "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status": "verification_required",
+      "status_basis": "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -208541,6 +208543,7 @@
       },
       "flags": [
         "deadline_not_published",
+        "stale_open_ended",
         "unrestricted_eligibility"
       ],
       "field_quality": {
@@ -208567,7 +208570,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -208708,7 +208711,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -208968,7 +208971,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -209130,7 +209133,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -209416,7 +209419,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -209574,7 +209577,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -209972,7 +209975,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -210109,7 +210112,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -210277,7 +210280,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -210412,7 +210415,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -210527,8 +210530,8 @@
       "agency_name": "FAA-COE-JAMS",
       "top_agency_code": "DOT",
       "top_agency_grouping_label": "Department of Transportation",
-      "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status": "verification_required",
+      "status_basis": "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -210651,7 +210654,8 @@
       },
       "flags": [
         "cost_sharing_required",
-        "deadline_not_published"
+        "deadline_not_published",
+        "stale_open_ended"
       ],
       "field_quality": {
         "missing": [
@@ -210677,7 +210681,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -210836,7 +210840,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -210958,7 +210962,7 @@
       "top_agency_code": "DOD",
       "top_agency_grouping_label": "Department of Defense",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -211102,7 +211106,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -211254,8 +211258,8 @@
       "agency_name": "Dept of the Army -- Materiel Command",
       "top_agency_code": "DOD",
       "top_agency_grouping_label": "Department of Defense",
-      "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status": "verification_required",
+      "status_basis": "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -211375,7 +211379,8 @@
       "flags": [
         "amounts_not_published",
         "cost_sharing_required",
-        "deadline_not_published"
+        "deadline_not_published",
+        "stale_open_ended"
       ],
       "field_quality": {
         "missing": [
@@ -211402,7 +211407,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -211563,8 +211568,8 @@
       "agency_name": "U.S. National Science Foundation",
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
-      "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status": "verification_required",
+      "status_basis": "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -211687,6 +211692,7 @@
       "flags": [
         "deadline_not_published",
         "eligibility_text_not_published",
+        "stale_open_ended",
         "unrestricted_eligibility"
       ],
       "field_quality": {
@@ -211714,7 +211720,7 @@
       "top_agency_code": "NASA",
       "top_agency_grouping_label": "National Aeronautics and Space Administration",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -211851,7 +211857,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -212013,7 +212019,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -212143,7 +212149,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -212290,8 +212296,8 @@
       "agency_name": "U.S. National Science Foundation",
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
-      "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status": "verification_required",
+      "status_basis": "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -212426,6 +212432,7 @@
         "amounts_not_published",
         "deadline_not_published",
         "eligibility_text_not_published",
+        "stale_open_ended",
         "unrestricted_eligibility"
       ],
       "field_quality": {
@@ -212453,8 +212460,8 @@
       "agency_name": "National Aeronautics and Space Administration",
       "top_agency_code": "NASA",
       "top_agency_grouping_label": "National Aeronautics and Space Administration",
-      "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status": "verification_required",
+      "status_basis": "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -212555,7 +212562,8 @@
       },
       "flags": [
         "cost_sharing_required",
-        "deadline_not_published"
+        "deadline_not_published",
+        "stale_open_ended"
       ],
       "field_quality": {
         "missing": [
@@ -212933,7 +212941,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -213066,7 +213074,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -213221,7 +213229,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -213383,7 +213391,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -213514,7 +213522,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -213774,7 +213782,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -213919,7 +213927,7 @@
       "top_agency_code": "DOD",
       "top_agency_grouping_label": "Department of Defense",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -214065,7 +214073,7 @@
       "top_agency_code": "DOD",
       "top_agency_grouping_label": "Department of Defense",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -214320,8 +214328,8 @@
       "agency_name": "U.S. National Science Foundation",
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
-      "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status": "verification_required",
+      "status_basis": "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -214458,6 +214466,7 @@
       "flags": [
         "deadline_not_published",
         "eligibility_text_not_published",
+        "stale_open_ended",
         "unrestricted_eligibility"
       ],
       "field_quality": {
@@ -214727,7 +214736,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -214856,7 +214865,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -215014,7 +215023,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -215161,7 +215170,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -215320,7 +215329,7 @@
       "top_agency_code": "NASA",
       "top_agency_grouping_label": "National Aeronautics and Space Administration",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -215465,7 +215474,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -215594,8 +215603,8 @@
       "agency_name": "Dept of the Army -- Materiel Command",
       "top_agency_code": "DOD",
       "top_agency_grouping_label": "Department of Defense",
-      "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status": "verification_required",
+      "status_basis": "Posted synopsis with no close date, and the last-updated or post date is more than 18 months before the as-of date. Still in the active extract, but not labeled open. Confirm on the official page.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {
@@ -215716,7 +215725,8 @@
         ]
       },
       "flags": [
-        "deadline_not_published"
+        "deadline_not_published",
+        "stale_open_ended"
       ],
       "field_quality": {
         "missing": [
@@ -216006,7 +216016,7 @@
       "top_agency_code": "NSF",
       "top_agency_grouping_label": "National Science Foundation",
       "status": "open",
-      "status_basis": "Posted synopsis with no close date in the extract. Treated as open only because it is still in the active extract; the deadline was not published. Verification required.",
+      "status_basis": "Posted synopsis with no close date. Labeled open because it is in the active extract and was posted or updated within 18 months. The deadline was not published.",
       "doc_type": "synopsis",
       "record_kind": "opportunity",
       "opportunity_category": {

@@ -419,7 +419,7 @@ function renderFeed() {
       "Needs verification",
       state.opportunities.filter((record) => record.status === "verification_required"),
       "#/explore?status=verification_required",
-      "Cancellation language or another conflict kept these out of the open list."
+      "Cancellation language, or a synopsis with no deadline that the source has not updated in more than 18 months. Not labeled open."
     )
   );
 }

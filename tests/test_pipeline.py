@@ -120,6 +120,35 @@ class StatusTests(unittest.TestCase):
         self.assertEqual(status, "verification_required")
         self.assertIn("possible_cancellation_language", flags)
 
+    def test_old_open_ended_synopsis_is_not_labeled_open(self):
+        status, basis, flags = derive_status(
+            doc_type="synopsis",
+            post=date(2011, 7, 6),
+            close=None,
+            archive=None,
+            as_of=AS_OF,
+            description="FY 2012 climate program.",
+            record_kind="opportunity",
+            last_updated=date(2011, 7, 7),
+        )
+        self.assertEqual(status, "verification_required")
+        self.assertIn("stale_open_ended", flags)
+        self.assertIn("not labeled open", basis)
+
+    def test_recent_open_ended_synopsis_stays_open(self):
+        status, _basis, flags = derive_status(
+            doc_type="synopsis",
+            post=date(2026, 4, 24),
+            close=None,
+            archive=None,
+            as_of=AS_OF,
+            description="Standing solicitation.",
+            record_kind="opportunity",
+            last_updated=date(2026, 4, 27),
+        )
+        self.assertEqual(status, "open")
+        self.assertIn("deadline_not_published", flags)
+
     def test_program_has_no_invented_deadline(self):
         status, basis, flags = derive_status(
             doc_type="program",
