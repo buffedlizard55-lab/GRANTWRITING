@@ -204,6 +204,10 @@ test("the historical funding view can be searched and sorted", async () => {
   for (const card of cards()) {
     assert.match(card.textContent, /Obligation/, "a non-obligation row appeared under the obligation filter");
   }
+
+  await go("#/awards?page=9999");
+  assert.ok(cards().length > 0, "an out-of-range award page rendered no rows");
+  assert.match(text(), /past the end of these results/);
 });
 
 test("the changes view reports what moved between catalogs", async () => {

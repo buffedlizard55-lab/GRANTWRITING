@@ -1066,8 +1066,7 @@ function renderAwards() {
   const pool = [...state.awards, ...state.obligations];
   const { rows, amount_excluded_missing_amount } = filterAwards(pool, params);
   const sorted = sortAwards(rows, params.get("sort") || "amount-desc");
-  const page = Math.max(1, Number(params.get("page") || "1"));
-  const slice = paginate(sorted, page, PAGE_SIZE);
+  const slice = paginate(sorted, params.get("page"), PAGE_SIZE);
 
   view.append(
     pageHead(
@@ -1150,6 +1149,7 @@ function renderAwards() {
           h("button", { class: "button secondary", type: "button", onclick: () => exportAwardCsv(sorted) }, "Download CSV"),
         ]),
         notes.length ? h("p", { class: "small muted filter-note" }, notes.join(" ")) : h("span"),
+        slice.clamped ? h("p", { class: "small muted filter-note" }, `That page is past the end of these results. Showing page ${slice.page} instead.`) : h("span"),
         h("p", { class: "small muted" }, "These are funded projects and reported obligations, not open solicitations. A row appearing here is not evidence that the same project would be funded again."),
         h("div", { class: "cards" }, slice.rows.map((row) => (row.record_type === "obligation" ? obligationCard(row) : awardCard(row)))),
         awardPager(params, slice),
