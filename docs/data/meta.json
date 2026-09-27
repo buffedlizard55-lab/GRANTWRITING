@@ -10,7 +10,7 @@
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-26T21:49:44-04:00",
+      "retrieved_at": "2026-09-26T22:47:27-04:00",
       "parse_stats": {
         "container": "GrantsDBExtract20260926v2.zip",
         "xml_name": "GrantsDBExtract20260926v2.xml",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-26T21:49:44-04:00",
+      "retrieved_at": "2026-09-26T22:47:27-04:00",
       "status": "ok",
       "items": 20
     },
@@ -39,7 +39,7 @@
       "name": "NSF Award Search API",
       "url": "https://api.nsf.gov/services/v1/awards.json",
       "status": "ok",
-      "count": 883,
+      "count": 1000,
       "pages": 40,
       "exhausted": false,
       "coverage": "Partial sample. Do not treat counts or sums as a complete NSF award census.",
@@ -47,6 +47,8 @@
       "query": {
         "startDateStart": "10/01/2024",
         "rpp": 25,
+        "offset_start": 0,
+        "sortKey": "awardNumber",
         "max_pages": 40,
         "endpoint": "https://api.nsf.gov/services/v1/awards.json"
       }
@@ -382,59 +384,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "358118",
+          "id": "340544",
           "status": "checked",
-          "api_title": "NEI Clinical Research Study Planning Grant Program (R34 Clinical Trial Not Allowed)",
-          "api_number": "PAR-25-358",
+          "api_title": "Topology",
+          "api_number": "PD-22-1267",
+          "api_agency": "NSF",
+          "api_close": "2026-11-03",
+          "mismatches": [],
+          "catalog_close": "2026-11-03",
+          "official_url": "https://www.grants.gov/search-results-detail/340544"
+        },
+        {
+          "id": "350647",
+          "status": "checked",
+          "api_title": "RFA-IP-18-000",
+          "api_number": "RFA-IP-18-000",
+          "api_agency": "HHS-CDC-HHSCDCERA",
+          "api_close": "2030-09-30",
+          "mismatches": [],
+          "catalog_close": "2030-09-30",
+          "official_url": "https://www.grants.gov/search-results-detail/350647"
+        },
+        {
+          "id": "356811",
+          "status": "checked",
+          "api_title": "BRAIN Initiative: Brain Behavior Quantification and Synchronization- Next Generation Sensor Technology Development (U01 Clinical Trial Optional)",
+          "api_number": "RFA-MH-26-140",
           "api_agency": "HHS-NIH11",
-          "api_close": "2028-01-07",
+          "api_close": "2027-06-15",
           "mismatches": [],
-          "catalog_close": "2028-01-07",
-          "official_url": "https://www.grants.gov/search-results-detail/358118"
+          "catalog_close": "2027-06-15",
+          "official_url": "https://www.grants.gov/search-results-detail/356811"
         },
         {
-          "id": "357568",
+          "id": "363789",
           "status": "checked",
-          "api_title": "Research Enhancement Award Program (REAP) for Health Professional Schools and Graduate Schools (R15 Clinical Trial Not Allowed)",
-          "api_number": "PAR-25-298",
+          "api_title": "ROSES 2025: A.17 Hydrosphere",
+          "api_number": "NNH25ZDA001N-HYDRO",
+          "api_agency": "NASA-HQ",
+          "api_close": "2027-01-28",
+          "mismatches": [],
+          "catalog_close": "2027-01-28",
+          "official_url": "https://www.grants.gov/search-results-detail/363789"
+        },
+        {
+          "id": "353793",
+          "status": "checked",
+          "api_title": "Midcareer Investigator Award in Patient-Oriented Research (Parent K24 Independent Clinical Trial Not Allowed)",
+          "api_number": "PA-24-188",
           "api_agency": "HHS-NIH11",
-          "api_close": "2028-01-07",
+          "api_close": "2027-05-07",
           "mismatches": [],
-          "catalog_close": "2028-01-07",
-          "official_url": "https://www.grants.gov/search-results-detail/357568"
-        },
-        {
-          "id": "360543",
-          "status": "checked",
-          "api_title": "Bioengineering Research Grants (BRG) (R01 Clinical Trial Optional)",
-          "api_number": "PAR-27-072",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2029-07-05",
-          "mismatches": [],
-          "catalog_close": "2029-07-05",
-          "official_url": "https://www.grants.gov/search-results-detail/360543"
-        },
-        {
-          "id": "363929",
-          "status": "checked",
-          "api_title": "John H. Prescott Marine Mammal Rescue Assistance Grant",
-          "api_number": "NOAA-NMFS-PRPO-2026-31863",
-          "api_agency": "DOC-DOCNOAAERA",
-          "api_close": "2026-12-01",
-          "mismatches": [],
-          "catalog_close": "2026-12-01",
-          "official_url": "https://www.grants.gov/search-results-detail/363929"
-        },
-        {
-          "id": "291594",
-          "status": "checked",
-          "api_title": "COE for Technical Training and Human Performance",
-          "api_number": "TTHP",
-          "api_agency": "DOT-FAA-FAA COE-TTHP",
-          "api_close": "2026-09-30",
-          "mismatches": [],
-          "catalog_close": "2026-09-30",
-          "official_url": "https://www.grants.gov/search-results-detail/291594"
+          "catalog_close": "2027-05-07",
+          "official_url": "https://www.grants.gov/search-results-detail/353793"
         }
       ]
     }
@@ -468,7 +470,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-26T21:55:59-04:00",
+  "generated_at": "2026-09-26T22:53:18-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1286,
@@ -479,7 +481,7 @@
       "upcoming": 282,
       "open_program": 20
     },
-    "awards": 1183,
+    "awards": 1300,
     "obligations": 101
   },
   "field_coverage": {

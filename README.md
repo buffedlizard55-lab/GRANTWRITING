@@ -4,42 +4,53 @@ Read this file before changing the project. The specification below is the sourc
 
 ## Current implementation status
 
-Updated 2026-09-27 from the Grants.gov extract run and a status-rule correction on that same catalog. As-of date `2026-09-26` (America/New_York). Source file `GrantsDBExtract20260926v2.zip` (78,202,859 bytes), downloaded in GitHub Actions from the URL listed that day on `https://www.grants.gov/xml-extract`.
+Reviewed 2026-09-27 against the saved catalog snapshot with an as-of date of `2026-09-26` (America/New_York). The generated `docs/data/meta.json` is authoritative for the latest generation time, source file, exact counts, field coverage, source errors, and cross-check results; these values can change at every daily refresh.
 
 ### What the live catalog contains
 
 - 1,286 research-relevant records: 718 open, 282 upcoming, 20 standing NSF programs (`open_program`), 251 closed, 15 `verification_required`.
 - A posted synopsis with no close date is not labeled open if its last-updated or post date is more than 18 months before the as-of date. That caught a FY 2012 program still sitting in the active extract. Recently updated open-ended solicitations stay open, with the missing deadline flagged.
-- The extract contained 83,488 records (82,518 synopses, 970 forecasts). The publisher kept research-relevant rows and dropped the rest. It then dropped 242 more because a NOFO/FOA label alone is not a research signal. Victim-services, housing, and similar announcements that only matched those words are not in the catalog.
+- The extract contained 83,488 records (82,518 synopses, 970 forecasts). The platform's research-scope rules matched 34,585 of them; recency/status rules retained 1,266 Grants.gov records, then 20 NSF standing-program feed items were added. A NOFO/FOA label alone is not a research signal. The `meta.json` scope summary records aggregate exclusions; exclusion does not mean the opportunity is unofficial or definitively non-research.
 - Field coverage on the published file: title, agency, post date, and official URL 100%; opportunity number, eligibility codes, cost sharing, and ALN about 98%; close date 93%; eligibility text 82%; estimated total 52%; award ceiling 40%; award floor 30%. Blank money fields stay blank. A stored `$0` means the source published zero.
-- Cross-check against `https://api.grants.gov/v1/api/search2`: 1,536 posted or forecasted opportunities in all categories; 310 in category ST. The catalog has 303 open or upcoming ST rows. Absolute difference 7, status `ok`. Nine API ids are absent because search2 still returns forecasts from 2020–2023; this catalog omits forecasts older than 18 months. Spot check of 5 `fetchOpportunity` records: 0 mismatches after HTML entities are decoded. Official pages checked by hand for opportunity ids `356002` and `356982` matched title, agency, and close date.
-- Historical files are samples, not censuses: NSF Award Search API 858 (40 pages, not exhausted), NIH RePORTER 300, USAspending 101. Do not sum them and call the total federal research funding. One NSF award page (`AWD_ID=2624343`) was opened and the title and $235,639 amount matched. The official award URL is `https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}`.
+- Saved cross-check against `https://api.grants.gov/v1/api/search2`: 1,536 posted or forecasted opportunities in all categories and 310 in category ST. The catalog has 295 open or upcoming ST rows, an absolute difference of 15 (4.8% of the API count); pipeline status is `ok` within its 15% discrepancy threshold. The recorded ID comparison lists 17 search2 ids absent from the catalog and 2 catalog ids absent from the returned search2 id set. Search2 can retain older forecast records; a difference is not automatically a parser error or a currently open opportunity. The saved `fetchOpportunity` spot check covers 5 records with 0 title, number, agency, or close-date mismatches. See `meta.json` for the compared ids and results.
+- Historical files are samples, not censuses. The latest NSF Award Search API pull returned 1,000 unique rows (40 pages, capped and not exhausted); exact counts and query are in `meta.json`. Before correcting pagination, repeated pulls in this audit returned 810–883 rows. The pipeline now uses the official API guide's zero-based offsets and `sortKey=awardNumber`; this corrected the paging undercount but does not make the sample complete. NIH RePORTER returned 300 and USAspending 101 in the saved snapshot; both are partial too. Do not sum these files and call the result total federal research funding. [NSF API guide](https://resources.research.gov/common/webapi/awardapisearch-v1.htm). NSF award pages use `https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}`.
 
 ### What is implemented
 
 - A Python pipeline (`python -m pipeline.refresh`) that downloads the official Grants.gov daily XML extract, normalizes it, and publishes a static catalog. If the extract cannot be downloaded, it falls back to the public Grants.gov `search2` and `fetchOpportunity` APIs and says so.
 - NSF funding RSS items as standing programs, with no invented deadline.
-- Optional historical samples from the NSF Award Search API, NIH RePORTER API v2, and USAspending obligations for assistance listings that appear on cataloged opportunities. Failures are recorded. They do not invent awards.
+- Optional historical samples from the NSF Award Search API, NIH RePORTER API v2, and USAspending obligations for assistance listings that appear on cataloged opportunities. Failures are recorded. They do not invent awards. NSF pagination follows the official zero-based offset and stable `awardNumber` sort parameters.
 - Status derived from published dates and the America/New_York as-of date. A past close date cannot be labeled open. Forecasts stay upcoming. Cancellation language is `verification_required`, not open.
 - Topic tags only when a listed term matches official text, or a labeled NIH agency default when no term matched. The matched terms are stored.
 - A static site in `docs/` for GitHub Pages: feed, explorer, research topics, agencies, multi-agency finder, project builder, historical awards, and a verification page.
+- CSV export quotes fields and neutralizes spreadsheet-formula prefixes in source-derived text.
 - An explainable fit score in the browser. It is not a probability of award. Weights are fixed and shown. Unassessed components are omitted, not scored as zero.
 - A GitHub Actions workflow that runs the tests and refresh, then commits `docs/data`.
 
 ### What is not claimed
 
-- GitHub Pages is live at `https://buffedlizard55-lab.github.io/GRANTWRITING/` and redirects to `docs/`. Opened on 2026-09-27. It showed 718 open, 282 upcoming, 20 standing programs, and 251 closed, matching this catalog. Pages publishes the repository root, so `.nojekyll` must stay; without it Jekyll drops `docs/index.html`.
+- Deployment target: `https://buffedlizard55-lab.github.io/GRANTWRITING/`; the root `index.html` redirects to `docs/`. On 2026-09-27 the live root and `docs/data/meta.json` were reachable; the served main-branch snapshot still showed the older 883-row NSF sample, so this PR's corrected 1,000-row sample had not yet been deployed. The web fetch confirms static reachability, but does not execute the site's JavaScript or verify visual/responsive behavior. Recheck the deployed metadata after merge. Pages publishes the repository root, so `.nojekyll` must stay; without it Jekyll drops `docs/index.html`.
 - SAM.gov contract BAAs are not collected. Simpler.Grants.gov is not used; it requires an API key this project does not have.
 - Historical award files are samples. NSF and NIH pulls were capped.
 - The site does not generate a specific research project and present it as an agency request. It quotes official sentences and compares a project the user types.
 - Grants.gov agency code `PAMS` is the Office of Science submission code. Records keep that official code. Do not rename it to DOE in the source fields.
 - A phrase match such as "scientific research" can still include a non-research program if that phrase appears in official text. The matched basis is stored so the reason is visible.
+- Project Builder notes are stored in browser `localStorage`, not sent to a server. They are not encrypted; do not enter sensitive or controlled research information.
+
+### Gaps to close before relying on the platform for application planning
+
+- **Coverage:** Grants.gov is the primary opportunity source, supplemented by NSF funding RSS. Many federal research contract BAAs and some agency-specific announcements are outside coverage. Investigate official SAM.gov and agency sources rather than implying comprehensive federal coverage.
+- **Complete application requirements:** The pipeline uses Grants.gov synopsis/extract fields and extracts selected sentences. It does not parse every linked NOFO, PDF, attachment, or amendment. Required registrations, documents, partnerships, PI qualifications, geography, and letter-of-intent rules may be missing; quote absence is not evidence that a requirement does not exist.
+- **Historical awards:** Current NSF and NIH pulls are capped samples; USAspending covers only a subset of assistance listings and one page per batch. They do not support complete award totals, agency-wide trend claims, or recipient success rates.
+- **Research-gap analysis:** Keyword counts and multi-agency topic overlap are descriptive leads, not measured funding trends or evidence of a research gap. The site must not claim a gap until it has a documented method and sufficient longitudinal data.
+- **Matching quality:** The browser fit score is a transparent lexical heuristic. It has not been benchmarked against expert-labeled matches or outcome data and must not be presented as eligibility approval or award probability.
+- **User-facing testing:** Python and matcher unit tests exist, but automated browser, accessibility, responsive-layout, and real-user workflow tests are not yet in place.
 
 ### How to run
 
 ```bash
 python -m unittest discover -s tests -v
-node --test tests/match.test.mjs
+node --test tests/*.test.mjs
 python -m pipeline.refresh
 ```
 

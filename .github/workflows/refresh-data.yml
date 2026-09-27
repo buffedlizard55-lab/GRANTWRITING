@@ -7,10 +7,11 @@ on:
     - cron: "20 11 * * *"
   push:
     branches:
-      - arena/01a0e05b-grantwriting
-      - main
+      - "**"
     paths:
       - "pipeline/**"
+      - "docs/js/**"
+      - "tests/**"
       - ".github/workflows/refresh-data.yml"
       - "pipeline.trigger"
 
@@ -23,22 +24,22 @@ concurrency:
 
 jobs:
   refresh:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 45
     steps:
       - name: Check out
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
       - name: Test the pipeline
         run: python -m unittest discover -s tests -v
 
-      - name: Test the matcher
-        run: node --test tests/match.test.mjs
+      - name: Test browser logic
+        run: node --test tests/*.test.mjs
 
       - name: Refresh from official sources
         run: python -m pipeline.refresh

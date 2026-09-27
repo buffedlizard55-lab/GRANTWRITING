@@ -20,32 +20,6 @@ from pipeline.textutil import html_to_text, parse_date, parse_money
 RSS_URL = "https://www.nsf.gov/rss/rss_www_funding.xml"
 AWARDS_URL = "https://api.nsf.gov/services/v1/awards.json"
 AWARD_PAGE = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}"
-PRINT_FIELDS = ",".join(
-    [
-        "id",
-        "title",
-        "agency",
-        "awardeeName",
-        "awardeeStateCode",
-        "awardeeCity",
-        "fundsObligatedAmt",
-        "estimatedTotalAmt",
-        "date",
-        "startDate",
-        "expDate",
-        "abstractText",
-        "piFirstName",
-        "piLastName",
-        "pdPIName",
-        "fundProgramName",
-        "program",
-        "dirAbbr",
-        "divAbbr",
-        "cfdaNumber",
-        "activeAwd",
-        "transType",
-    ]
-)
 
 
 def _local(tag: str) -> str:
@@ -143,25 +117,26 @@ def _nsf_date(value) -> str | None:
 
 
 def fetch_awards(retrieved_at: str, start_date: str = "10/01/2024", max_pages: int = 40, rpp: int = 25) -> dict:
-    """Page the public awards API.
+    """Page the public awards API using its documented offset and sort fields.
 
-    NSF documents rpp upper limit of 25 and 1-based offsets
-    (offset=1, then 26, ...). Pagination stops on an empty page or repeated ids.
-    The result is a sample unless pages exhaust the API. Coverage is returned
-    explicitly and must not be described as a complete census unless exhausted.
+    NSF documents an rpp upper limit of 25, zero-based offsets (0, 25, ...),
+    and the ``sortKey=awardNumber`` parameter. Stable ordering reduces records
+    moving between pages while new awards enter the result set. Pagination
+    stops on an empty page or repeated ids. The result is a sample unless pages
+    exhaust the API; coverage must say so explicitly.
     """
     awards = []
     seen = set()
-    offset = 1
+    offset = 0
     pages = 0
     error = None
     for _ in range(max_pages):
         url = (
             f"{AWARDS_URL}?startDateStart={start_date.replace('/', '%2F')}"
-            f"&rpp={rpp}&offset={offset}&printFields={PRINT_FIELDS}"
+            f"&rpp={rpp}&offset={offset}&sortKey=awardNumber"
         )
         try:
-            # GET via fetch_text; the endpoint is GET.
+            # The endpoint is GET; fetch_bytes preserves the complete response for JSON parsing.
             import json
             from pipeline.http_util import fetch_bytes
 
@@ -195,7 +170,14 @@ def fetch_awards(retrieved_at: str, start_date: str = "10/01/2024", max_pages: i
         "pages": pages,
         "exhausted": exhausted,
         "error": error,
-        "query": {"startDateStart": start_date, "rpp": rpp, "max_pages": max_pages, "endpoint": AWARDS_URL},
+        "query": {
+            "startDateStart": start_date,
+            "rpp": rpp,
+            "offset_start": 0,
+            "sortKey": "awardNumber",
+            "max_pages": max_pages,
+            "endpoint": AWARDS_URL,
+        },
         "coverage": (
             "API pagination ended before the page cap, so this pull reached an empty page."
             if exhausted
@@ -210,7 +192,7 @@ def fetch_awards_by_keyword(keyword: str, retrieved_at: str, rpp: int = 25) -> l
     from urllib.parse import quote
     from pipeline.http_util import fetch_bytes
 
-    url = f"{AWARDS_URL}?keyword={quote(keyword)}&rpp={rpp}&printFields={PRINT_FIELDS}"
+    url = f"{AWARDS_URL}?keyword={quote(keyword)}&rpp={rpp}"
     raw, _info = fetch_bytes(url, timeout=90)
     payload = json.loads(raw.decode("utf-8"))
     rows = ((payload.get("response") or {}).get("award")) or []
