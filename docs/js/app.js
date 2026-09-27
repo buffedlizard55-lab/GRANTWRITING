@@ -260,10 +260,12 @@ function deadlineText(record) {
 function moneyLine(record) {
   const funding = record.funding || {};
   if (funding.ceiling == null && funding.floor == null && funding.estimated_total == null) return "Amounts not published";
+  const ceilingText = funding.ceiling === 0 ? "ceiling published as $0" : money(funding.ceiling);
+  const floorText = funding.floor === 0 ? "floor published as $0" : money(funding.floor);
   const range =
     funding.floor == null && funding.ceiling == null
       ? "Award range not published"
-      : `${money(funding.floor)} – ${money(funding.ceiling)}`;
+      : `${floorText} – ${ceilingText}`;
   const total = funding.estimated_total == null ? "" : ` · est. program ${money(funding.estimated_total)}`;
   return `${range}${total}`;
 }
@@ -615,9 +617,24 @@ function renderOpportunity(id) {
       record.number ? ` · ${record.number}` : "",
     ]),
     h("div", { class: "button-row" }, [
-      externalLink(record.urls?.official, "Open official page"),
+      h("a", { class: "button", href: record.urls?.official, target: "_blank", rel: "noopener noreferrer" }, "Official page"),
+      record.id.startsWith("gg-")
+        ? h(
+            "a",
+            {
+              class: "button secondary",
+              href: `https://apply07.grants.gov/apply/jsf/workspace/createWorkspace.faces?activityID=CreateWorkspace&cleanSession=1&oppId=${encodeURIComponent(record.source_record_id)}`,
+              target: "_blank",
+              rel: "noopener noreferrer",
+            },
+            "Grants.gov apply link"
+          )
+        : null,
       h("a", { class: "button secondary", href: "#/build" }, "Compare with a project"),
     ]),
+    record.id.startsWith("gg-")
+      ? h("p", { class: "small muted" }, "The apply link uses the opportunity id in the same workspace URL the official Grants.gov page uses. If it does not open a package, use the official page.")
+      : null,
     factGrid(record),
     quoteBlock("What the announcement says", record.objective_quotes, "Extracted sentences from the official description. Not a summary and not a generated project."),
     quoteBlock("Requirements mentioned", record.requirement_quotes, "Extracted sentences. This is not a complete application checklist unless the source text is complete."),
@@ -656,7 +673,7 @@ function factGrid(record) {
     ["Last updated in source", prettyDate(dates.last_updated)],
     ["Estimated award date", prettyDate(dates.estimated_award)],
     ["Award floor", money(funding.floor)],
-    ["Award ceiling", money(funding.ceiling)],
+    ["Award ceiling", funding.ceiling === 0 ? "Source published $0 — confirm the announcement; some agencies publish zero in this field" : money(funding.ceiling)],
     ["Estimated program total", money(funding.estimated_total)],
     ["Expected awards", funding.expected_awards == null ? "Not published" : String(funding.expected_awards)],
     ["Cost sharing", funding.cost_sharing == null ? "Not published" : funding.cost_sharing ? "Yes" : "No"],

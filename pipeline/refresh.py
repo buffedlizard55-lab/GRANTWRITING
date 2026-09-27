@@ -168,7 +168,10 @@ def cross_check(opportunities: list[dict]) -> dict:
         report["interpretation"] = (
             "Compares Grants.gov search2 hitCount for posted|forecasted and funding category ST "
             "with catalog records that are open or upcoming, category ST, and not NSF program pages. "
-            "A difference can come from extract timing, closed-but-listed rows, or parser loss. It is shown, not hidden."
+            "A difference can come from extract timing, closed-but-listed rows, or parser loss. "
+            "search2 still returns forecasts whose forecast date is years old. This catalog omits forecasts "
+            "whose post or estimated post date is more than 18 months before the as-of date, so those ids "
+            "can appear in in_api_not_in_catalog without being open opportunities. The difference is shown, not hidden."
         )
         if api_count <= 1500:
             try:

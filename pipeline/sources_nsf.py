@@ -19,7 +19,7 @@ from pipeline.textutil import html_to_text, parse_date, parse_money
 
 RSS_URL = "https://www.nsf.gov/rss/rss_www_funding.xml"
 AWARDS_URL = "https://api.nsf.gov/services/v1/awards.json"
-AWARD_PAGE = "https://www.nsf.gov/awardsearch/showAward?AWD_ID={id}"
+AWARD_PAGE = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}"
 PRINT_FIELDS = ",".join(
     [
         "id",

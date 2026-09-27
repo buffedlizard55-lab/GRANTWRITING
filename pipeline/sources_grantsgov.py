@@ -481,7 +481,11 @@ def spot_check(ids: list[str], catalog_by_source_id: dict[str, dict], sample_siz
             comparison["status"] = "not_in_catalog"
             results.append(comparison)
             continue
-        if comparison["api_title"] and comparison["api_title"].strip() != catalog["title"]:
+        from pipeline.textutil import html_to_text
+
+        api_title = html_to_text(comparison["api_title"] or "")
+        comparison["api_title"] = api_title or comparison["api_title"]
+        if api_title and api_title != catalog["title"]:
             comparison["mismatches"].append("title")
         if comparison["api_number"] and catalog.get("number") and comparison["api_number"].strip() != catalog["number"]:
             comparison["mismatches"].append("number")

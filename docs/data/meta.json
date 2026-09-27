@@ -346,7 +346,7 @@
     "catalog_open_or_upcoming_ST": 303,
     "absolute_difference": 7,
     "status": "ok",
-    "interpretation": "Compares Grants.gov search2 hitCount for posted|forecasted and funding category ST with catalog records that are open or upcoming, category ST, and not NSF program pages. A difference can come from extract timing, closed-but-listed rows, or parser loss. It is shown, not hidden.",
+    "interpretation": "Compares Grants.gov search2 hitCount for posted|forecasted and funding category ST with catalog records that are open or upcoming, category ST, and not NSF program pages. search2 still returns forecasts from 2020–2023. This catalog omits forecasts whose date is more than 18 months before the as-of date.",
     "id_overlap": {
       "api_ids_retrieved": 310,
       "api_hit_count": 310,
@@ -368,10 +368,10 @@
       ]
     },
     "spot_check": {
-      "status": "discrepancy",
+      "status": "ok",
       "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
       "checked": 5,
-      "mismatch_count": 1,
+      "mismatch_count": 0,
       "results": [
         {
           "id": "356002",
@@ -380,11 +380,10 @@
           "api_number": "NOAA-SEC-OED-2024-28060",
           "api_agency": "DOC-DOCNOAAERA",
           "api_close": "2026-09-30",
-          "mismatches": [
-            "title"
-          ],
+          "mismatches": [],
           "catalog_close": "2026-09-30",
-          "official_url": "https://www.grants.gov/search-results-detail/356002"
+          "official_url": "https://www.grants.gov/search-results-detail/356002",
+          "note": "API title contained an HTML entity for an en dash. After decoding, it matches the catalog title."
         },
         {
           "id": "357204",
@@ -462,15 +461,15 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-26T21:29:35-04:00",
+  "generated_at": "2026-09-26T21:32:20-04:00",
   "timezone": "America/New_York",
   "counts": {
-    "opportunities": 1528,
+    "opportunities": 1286,
     "by_status": {
-      "verification_required": 8,
-      "closed": 380,
-      "open": 822,
-      "upcoming": 298,
+      "verification_required": 5,
+      "closed": 251,
+      "open": 728,
+      "upcoming": 282,
       "open_program": 20
     },
     "awards": 1116,
@@ -478,96 +477,100 @@
   },
   "field_coverage": {
     "title": {
-      "count": 1528,
+      "count": 1286,
       "percent": 100.0,
-      "of": 1528
+      "of": 1286
     },
     "agency": {
-      "count": 1528,
+      "count": 1286,
       "percent": 100.0,
-      "of": 1528
+      "of": 1286
     },
     "number": {
-      "count": 1508,
-      "percent": 98.7,
-      "of": 1528
+      "count": 1266,
+      "percent": 98.4,
+      "of": 1286
     },
     "close_date": {
-      "count": 1427,
-      "percent": 93.4,
-      "of": 1528
+      "count": 1198,
+      "percent": 93.2,
+      "of": 1286
     },
     "post_date": {
-      "count": 1528,
+      "count": 1286,
       "percent": 100.0,
-      "of": 1528
+      "of": 1286
     },
     "description": {
-      "count": 1504,
-      "percent": 98.4,
-      "of": 1528
+      "count": 1263,
+      "percent": 98.2,
+      "of": 1286
     },
     "eligibility_codes": {
-      "count": 1508,
-      "percent": 98.7,
-      "of": 1528
+      "count": 1266,
+      "percent": 98.4,
+      "of": 1286
     },
     "eligibility_text": {
-      "count": 1246,
+      "count": 1048,
       "percent": 81.5,
-      "of": 1528
+      "of": 1286
     },
     "award_ceiling": {
-      "count": 750,
-      "percent": 49.1,
-      "of": 1528
+      "count": 508,
+      "percent": 39.5,
+      "of": 1286
     },
     "award_floor": {
-      "count": 622,
-      "percent": 40.7,
-      "of": 1528
+      "count": 384,
+      "percent": 29.9,
+      "of": 1286
     },
     "estimated_total": {
-      "count": 824,
-      "percent": 53.9,
-      "of": 1528
+      "count": 664,
+      "percent": 51.6,
+      "of": 1286
     },
     "expected_awards": {
-      "count": 822,
-      "percent": 53.8,
-      "of": 1528
+      "count": 648,
+      "percent": 50.4,
+      "of": 1286
     },
     "cost_sharing": {
-      "count": 1508,
-      "percent": 98.7,
-      "of": 1528
+      "count": 1266,
+      "percent": 98.4,
+      "of": 1286
     },
     "aln": {
-      "count": 1507,
-      "percent": 98.6,
-      "of": 1528
+      "count": 1265,
+      "percent": 98.4,
+      "of": 1286
     },
     "contact_email": {
-      "count": 1498,
-      "percent": 98.0,
-      "of": 1528
+      "count": 1262,
+      "percent": 98.1,
+      "of": 1286
     },
     "official_url": {
-      "count": 1528,
+      "count": 1286,
       "percent": 100.0,
-      "of": 1528
+      "of": 1286
     },
     "topics": {
-      "count": 1245,
-      "percent": 81.5,
-      "of": 1528
+      "count": 1129,
+      "percent": 87.8,
+      "of": 1286
     }
   },
   "changes_summary": {
-    "compared_to_previous_catalog": false,
-    "new": 1528,
-    "removed": 0,
+    "compared_to_previous_catalog": true,
+    "new": 0,
+    "removed": 242,
     "changed": 0,
     "newly_closed": 0
+  },
+  "reclassification": {
+    "note": "Inclusion rule tightened after the extract run: a NOFO/FOA label alone no longer makes a record research-relevant. Record verified_at is still the extract retrieval time. This file was rebuilt from that catalog, not from a new download.",
+    "dropped_after_rule_tightening": 242
   }
 }

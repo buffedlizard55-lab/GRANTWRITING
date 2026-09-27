@@ -120,7 +120,7 @@ def inclusion_basis(agency_code: str, agency_name: str, categories: list[str], i
         bases.append(
             {
                 "id": "research_terms_and_grant_instrument",
-                "label": "Grant or cooperative agreement whose official text contains a high-precision research phrase (research and development, scientific research, BAA, NOFO, or FOA).",
+                "label": "Grant or cooperative agreement whose official text contains a research phrase (scientific research, research and development, or broad agency announcement). A NOFO label alone is not enough.",
             }
         )
     # De-duplicate by id, preserve order.

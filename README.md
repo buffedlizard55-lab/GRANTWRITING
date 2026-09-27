@@ -4,7 +4,15 @@ Read this file before changing the project. The specification below is the sourc
 
 ## Current implementation status
 
-Updated 2026-09-27, before the first confirmed live catalog refresh. Do not quote opportunity counts from this section until `docs/data/meta.json` exists and its `generated_at` is filled by the pipeline.
+Updated 2026-09-27 from `docs/data/meta.json` generated `2026-09-26T21:32:20-04:00`. As-of date `2026-09-26` (America/New_York). Source file `GrantsDBExtract20260926v2.zip` (78,202,859 bytes), downloaded in GitHub Actions from the URL listed that day on `https://www.grants.gov/xml-extract`.
+
+### What the live catalog contains
+
+- 1,286 research-relevant records: 728 open, 282 upcoming, 20 standing NSF programs (`open_program`), 251 closed, 5 `verification_required`.
+- The extract contained 83,488 records (82,518 synopses, 970 forecasts). The publisher kept research-relevant rows and dropped the rest. It then dropped 242 more because a NOFO/FOA label alone is not a research signal. Victim-services, housing, and similar announcements that only matched those words are not in the catalog.
+- Field coverage on the published file: title, agency, post date, and official URL 100%; opportunity number, eligibility codes, cost sharing, and ALN about 98%; close date 93%; eligibility text 82%; estimated total 52%; award ceiling 40%; award floor 30%. Blank money fields stay blank. A stored `$0` means the source published zero.
+- Cross-check against `https://api.grants.gov/v1/api/search2`: 1,536 posted or forecasted opportunities in all categories; 310 in category ST. The catalog has 303 open or upcoming ST rows. Absolute difference 7, status `ok`. Nine API ids are absent because search2 still returns forecasts from 2020–2023; this catalog omits forecasts older than 18 months. Spot check of 5 `fetchOpportunity` records: 0 mismatches after HTML entities are decoded. Official pages checked by hand for opportunity ids `356002` and `356982` matched title, agency, and close date.
+- Historical files are samples, not censuses: NSF Award Search API 816 (not exhausted), NIH RePORTER 300, USAspending 108. Do not sum them and call the total federal research funding. One NSF award page (`AWD_ID=2624343`) was opened and the title and $235,639 amount matched. The official award URL is `https://www.nsf.gov/awardsearch/show-award/?AWD_ID={id}`.
 
 ### What is implemented
 
@@ -17,12 +25,14 @@ Updated 2026-09-27, before the first confirmed live catalog refresh. Do not quot
 - An explainable fit score in the browser. It is not a probability of award. Weights are fixed and shown. Unassessed components are omitted, not scored as zero.
 - A GitHub Actions workflow that runs the tests and refresh, then commits `docs/data`.
 
-### What is not claimed yet
+### What is not claimed
 
-- Live opportunity counts, agency coverage, and cross-check results are unknown until the refresh job finishes against Grants.gov.
+- GitHub Pages is not confirmed live until the site is opened from the Pages URL.
 - SAM.gov contract BAAs are not collected. Simpler.Grants.gov is not used; it requires an API key this project does not have.
-- Historical award files are samples unless their coverage note says the pull was exhausted.
+- Historical award files are samples. NSF and NIH pulls were capped.
 - The site does not generate a specific research project and present it as an agency request. It quotes official sentences and compares a project the user types.
+- Grants.gov agency code `PAMS` is the Office of Science submission code. Records keep that official code. Do not rename it to DOE in the source fields.
+- A phrase match such as "scientific research" can still include a non-research program if that phrase appears in official text. The matched basis is stored so the reason is visible.
 
 ### How to run
 

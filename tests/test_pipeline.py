@@ -148,6 +148,16 @@ class ScopeTests(unittest.TestCase):
         bases = inclusion_basis("HHS-NIH11", "National Institutes of Health", ["HL"], ["CA"], "methods")
         self.assertTrue(bases)
 
+    def test_nofo_alone_is_not_research(self):
+        bases = inclusion_basis(
+            "USDOJ-OJP-OVC",
+            "Office for Victims of Crime",
+            ["ISS"],
+            ["G"],
+            "This NOFO funds services for victims of crime. See the funding opportunity announcement.",
+        )
+        self.assertEqual(bases, [])
+
     def test_sbir_included(self):
         bases = inclusion_basis("EPA", "Environmental Protection Agency", ["ENV"], ["G"], "SBIR sensors")
         self.assertTrue(any(b["id"] == "sbir_sttr" for b in bases))

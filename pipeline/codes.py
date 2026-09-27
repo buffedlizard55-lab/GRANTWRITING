@@ -159,6 +159,9 @@ RESEARCH_AGENCY_PREFIXES = (
     "DOE-BER",
     "DOE-ASCR",
     "VA-ORD",
+    "NIJ",
+    "USDOJ-NIJ",
+    "USDOJ-OJP-NIJ",
 )
 
 # If the official agency name contains one of these phrases, include the record.
@@ -187,17 +190,19 @@ RESEARCH_AGENCY_NAME_PHRASES = (
     "u.s. geological survey",
     "united states geological survey",
     "institute of education sciences",
+    "national institute of justice",
 )
 
 # High-precision research signals used only together with a grant or
 # cooperative-agreement instrument, or alone for SBIR/STTR.
+# Do not treat NOFO/FOA as a research signal. Those words appear on ordinary
+# assistance announcements. This pattern is only used with a grant or
+# cooperative-agreement instrument.
 RESEARCH_TERM_PATTERN = (
     r"\b("
     r"scientific research|basic research|applied research|fundamental research|"
-    r"research and development|research & development|\br&d\b|"
-    r"broad agency announcement|\bbaa\b|"
-    r"notice of funding opportunity|\bnofo\b|"
-    r"funding opportunity announcement|\bfoa\b"
+    r"research and development|research & development|r&d|"
+    r"broad agency announcement|baa"
     r")\b"
 )
 
