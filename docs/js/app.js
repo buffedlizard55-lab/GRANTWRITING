@@ -1,4 +1,5 @@
 import { rankMatches, scoreOpportunity, daysUntil } from "./match.js";
+import { csvCell } from "./csv.js";
 
 const STORE_KEY = "frgi.project.v1";
 const PAGE_SIZE = 20;
@@ -604,10 +605,6 @@ function exportCsv(rows) {
   URL.revokeObjectURL(url);
 }
 
-function csvCell(value) {
-  const text = value == null ? "" : String(value);
-  return `"${text.replaceAll('"', '""')}"`;
-}
 
 function renderOpportunity(id) {
   setNav("explore");
