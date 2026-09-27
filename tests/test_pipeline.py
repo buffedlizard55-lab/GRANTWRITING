@@ -95,6 +95,72 @@ class StatusTests(unittest.TestCase):
         self.assertIn("closes_today", flags)
         self.assertIn("time", basis.lower())
 
+    def test_cancellation_language_does_not_resurrect_a_closed_record(self):
+        """A 2010 solicitation with cancellation text is not current intelligence.
+
+        A passed close or archive date is terminal. Cancellation language only
+        sets verification_required while the record would otherwise be open.
+        """
+        status, basis, flags = derive_status(
+            doc_type="synopsis",
+            post=date(2010, 6, 18),
+            close=date(2010, 7, 29),
+            archive=date(2010, 7, 30),
+            as_of=AS_OF,
+            description="This solicitation has been cancelled.",
+            record_kind="opportunity",
+        )
+        self.assertEqual(status, "archived")
+        self.assertIn("cancellation", basis.lower())
+        self.assertIn("possible_cancellation_language", flags)
+
+        status, basis, flags = derive_status(
+            doc_type="synopsis",
+            post=date(2009, 3, 9),
+            close=None,
+            archive=date(2009, 6, 13),
+            as_of=AS_OF,
+            description="This opportunity has been canceled.",
+            record_kind="opportunity",
+        )
+        self.assertEqual(status, "archived")
+        self.assertIn("possible_cancellation_language", flags)
+
+        status, _basis, flags = derive_status(
+            doc_type="synopsis",
+            post=date(2026, 1, 1),
+            close=date(2026, 8, 1),
+            archive=None,
+            as_of=AS_OF,
+            description="This solicitation has been cancelled.",
+            record_kind="opportunity",
+        )
+        self.assertEqual(status, "closed")
+        self.assertIn("possible_cancellation_language", flags)
+
+    def test_cancelled_forecast_is_not_upcoming(self):
+        status, _basis, flags = derive_status(
+            doc_type="forecast",
+            post=date(2026, 11, 1),
+            close=date(2027, 2, 1),
+            archive=None,
+            as_of=AS_OF,
+            description="This announcement is no longer accepting applications.",
+            record_kind="forecast",
+        )
+        self.assertEqual(status, "verification_required")
+        self.assertIn("possible_cancellation_language", flags)
+
+    def test_terminal_records_are_dropped_from_the_published_feed(self):
+        from pipeline.refresh import _keep
+
+        archived = {"status": "archived", "dates": {"close": "2010-07-29"}}
+        old_closed = {"status": "closed", "dates": {"close": "2010-07-29"}}
+        recent_closed = {"status": "closed", "dates": {"close": "2026-09-01"}}
+        self.assertFalse(_keep(archived, AS_OF), "an archived record must not stay in the feed")
+        self.assertFalse(_keep(old_closed, AS_OF), "a record closed years ago must not stay in the feed")
+        self.assertTrue(_keep(recent_closed, AS_OF), "a recently closed record stays visible as closed")
+
     def test_forecast_is_upcoming_not_open(self):
         status, _basis, _flags = derive_status(
             doc_type="forecast",
@@ -301,6 +367,24 @@ class ExtractTests(unittest.TestCase):
             # No win-probability field anywhere.
             blob = (out / "opportunities.json").read_text()
             self.assertNotIn("win_probability", blob)
+
+    def test_published_bulk_files_are_compact_and_metadata_stays_readable(self):
+        """The catalog is committed on every refresh; indentation is dead weight.
+
+        The three record files are published without indentation and the small
+        files a person reads keep theirs. Both must still parse.
+        """
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "data"
+            refresh(out, Path(tmp) / "cache", skip_awards=True, fixture=FIXTURE)
+            for name, key in (("opportunities.json", "opportunities"), ("awards.json", "awards"), ("obligations.json", "obligations")):
+                text = (out / name).read_text(encoding="utf-8")
+                self.assertNotIn("\n  ", text, f"{name} should be published without indentation")
+                self.assertIsInstance(json.loads(text)[key], list)
+            for name in ("meta.json", "aggregates.json", "changes.json", "codes.json", "history.json"):
+                text = (out / name).read_text(encoding="utf-8")
+                self.assertIn("\n  ", text, f"{name} should stay human-readable")
+                self.assertIsInstance(json.loads(text), dict)
 
 
 if __name__ == "__main__":

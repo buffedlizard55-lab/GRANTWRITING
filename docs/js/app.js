@@ -1,4 +1,17 @@
 import { rankMatches, scoreOpportunity, daysUntil } from "./match.js";
+import {
+  awardAgencyName,
+  awardAgencyOptions,
+  awardAmount,
+  awardStateOptions,
+  daysToClose,
+  filterAwards,
+  filterOpportunities,
+  paginate,
+  safeHttpUrl,
+  sortAwards,
+  viewerDate,
+} from "./catalog.js";
 import { csvCell } from "./csv.js";
 
 const STORE_KEY = "frgi.project.v1";
@@ -13,6 +26,22 @@ const STATUS_LABEL = {
   unknown: "Unknown",
   verification_required: "Verification required",
 };
+
+/** Explorer sort choices. `-desc` is handled by compareRecords in catalog.js. */
+const SORT_OPTIONS = [
+  ["close", "Deadline — soonest first"],
+  ["close-desc", "Deadline — latest first"],
+  ["posted-desc", "Posted — newest first"],
+  ["posted", "Posted — oldest first"],
+  ["ceiling-desc", "Ceiling — highest first"],
+  ["ceiling", "Ceiling — lowest first"],
+  ["updated-desc", "Source update — newest first"],
+  ["updated", "Source update — oldest first"],
+  ["agency", "Agency — A to Z"],
+  ["agency-desc", "Agency — Z to A"],
+  ["title", "Title — A to Z"],
+  ["title-desc", "Title — Z to A"],
+];
 
 const state = {
   ready: false,
@@ -95,6 +124,16 @@ function prettyStamp(iso) {
   return parsed.toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" });
 }
 
+/**
+ * The pipeline records retrieval time in America/New_York with its offset.
+ * The browser renders it in the viewer's own timezone, so the label has to
+ * say which one the reader is looking at.
+ */
+function verifiedLine(iso) {
+  if (!iso) return "unknown";
+  return `${prettyStamp(iso)} · your time`;
+}
+
 function hoursSince(iso) {
   const parsed = Date.parse(iso || "");
   if (Number.isNaN(parsed)) return null;
@@ -114,8 +153,13 @@ function derivedBadge() {
 }
 
 function externalLink(url, label) {
-  if (!url) return h("span", { class: "muted" }, "No official URL");
-  return h("a", { href: url, target: "_blank", rel: "noopener noreferrer" }, label || url);
+  const safe = safeHttpUrl(url);
+  if (!safe) {
+    return url
+      ? h("span", { class: "muted" }, `Unusable URL in the source field: ${url}`)
+      : h("span", { class: "muted" }, "No official URL");
+  }
+  return h("a", { href: safe, target: "_blank", rel: "noopener noreferrer" }, label || safe);
 }
 
 function route() {
@@ -177,21 +221,6 @@ async function loadCatalog() {
     state.changes = changes;
     state.codes = codes;
     state.byId = new Map(state.opportunities.map((record) => [record.id, record]));
-    for (const record of state.opportunities) {
-      record._search = [
-        record.title,
-        record.number,
-        record.agency_name,
-        record.agency_code,
-        record.description,
-        record.eligibility_text,
-        ...(record.topics || []).map((topic) => `${topic.label} ${(topic.matched_terms || []).join(" ")}`),
-        ...(record.aln || []).map((aln) => `${aln.number} ${aln.title || ""}`),
-      ]
-        .filter(Boolean)
-        .join("\n")
-        .toLowerCase();
-    }
     state.ready = true;
     paintStamp();
   } catch (error) {
@@ -213,7 +242,7 @@ function paintStamp() {
   stamp.classList.toggle("warn", stale);
   stamp.append(
     "Last verified ",
-    h("strong", {}, prettyStamp(state.meta.generated_at)),
+    h("strong", {}, verifiedLine(state.meta.generated_at)),
     stale ? ` · ${Math.round(age)} hours old` : ""
   );
 }
@@ -245,13 +274,6 @@ function legend() {
     h("div", { class: "badge-row" }, [factBadge(), derivedBadge(), h("span", { class: "badge" }, "Extracted quote"), h("span", { class: "badge" }, "Not published")]),
     h("p", { class: "small" }, "Official fact is copied from a government source. Derived means this site counted or classified those facts and shows the rule. An extracted quote is a sentence copied from the official text, not a rewrite. Not published means the source left the field blank — it is not zero, and it was not guessed."),
   ]);
-}
-
-function viewerDate() {
-  const now = new Date();
-  const month = String(now.getMonth() + 1).padStart(2, "0");
-  const day = String(now.getDate()).padStart(2, "0");
-  return `${now.getFullYear()}-${month}-${day}`;
 }
 
 function deadlineText(record) {
@@ -324,50 +346,13 @@ function emptyCatalog() {
   );
 }
 
+/**
+ * Explorer filtering. Every record and every filter is compared against the
+ * same reference date — the viewer's own date — so the count on the feed and
+ * the count in the explorer cannot disagree.
+ */
 function filtered(params) {
-  const q = (params.get("q") || "").trim().toLowerCase();
-  const status = params.get("status") || "";
-  const agency = params.get("agency") || "";
-  const topic = params.get("topic") || "";
-  const applicant = params.get("applicant") || "";
-  const instrument = params.get("instrument") || "";
-  const kind = params.get("kind") || "";
-  const location = (params.get("location") || "").trim().toLowerCase();
-  const closing = Number(params.get("closing") || "");
-  const min = params.get("min") ? Number(params.get("min")) : null;
-  const max = params.get("max") ? Number(params.get("max")) : null;
-  let rows = state.opportunities.filter((record) => {
-    if (q && !record._search.includes(q)) return false;
-    if (status && record.status !== status) return false;
-    if (agency && record.top_agency_code !== agency && record.agency_code !== agency) return false;
-    if (topic && !(record.topics || []).some((item) => item.id === topic)) return false;
-    if (applicant && !(record.applicant_types || []).some((item) => item.code === applicant)) return false;
-    if (instrument && !(record.instruments || []).some((item) => item.code === instrument)) return false;
-    if (kind && record.record_kind !== kind) return false;
-    if (location && !`${record.eligibility_text || ""}\n${record.description || ""}`.toLowerCase().includes(location)) return false;
-    if (Number.isFinite(closing) && closing > 0) {
-      const days = daysUntil(record.dates?.close, asOf());
-      if (days == null || days < 0 || days > closing) return false;
-    }
-    if (min != null && (record.funding?.ceiling == null || record.funding.ceiling < min)) return false;
-    if (max != null && (record.funding?.ceiling == null || record.funding.ceiling > max)) return false;
-    return true;
-  });
-  const sort = params.get("sort") || "close";
-  const direction = sort.endsWith("-desc") ? -1 : 1;
-  rows = rows.slice().sort((a, b) => compareRecords(a, b, sort, direction));
-  return rows;
-}
-
-function compareRecords(a, b, sort) {
-  if (sort === "title") return a.title.localeCompare(b.title);
-  if (sort === "agency") return (a.agency_name || "").localeCompare(b.agency_name || "");
-  if (sort === "ceiling") return (b.funding?.ceiling ?? -1) - (a.funding?.ceiling ?? -1);
-  if (sort === "posted") return (b.dates?.post || "").localeCompare(a.dates?.post || "");
-  if (sort === "updated") return (b.dates?.last_updated || "").localeCompare(a.dates?.last_updated || "");
-  const ac = a.dates?.close || "9999-99-99";
-  const bc = b.dates?.close || "9999-99-99";
-  return ac.localeCompare(bc) || a.title.localeCompare(b.title);
+  return filterOpportunities(state.opportunities, params, viewerDate());
 }
 
 function renderFeed() {
@@ -446,7 +431,7 @@ function changeStrip() {
     derivedBadge(),
     h("p", {}, `Since the previous catalog: ${summary.new} new ids, ${summary.removed} removed, ${summary.changed} changed, ${summary.newly_closed} newly closed.`),
     h("p", { class: "small" }, "Removed means the id is absent from the new extract. That is not a documented cancellation."),
-    h("a", { href: "#/sources" }, "Verification details"),
+    h("span", {}, [h("a", { href: "#/changes" }, "See what changed"), " · ", h("a", { href: "#/sources" }, "verification details")]),
   ]);
 }
 
@@ -472,10 +457,8 @@ function feedSection(title, rows, href, note) {
 function renderExplore() {
   setNav("explore");
   const { params } = route();
-  const page = Math.max(1, Number(params.get("page") || "1"));
-  const rows = filtered(params);
-  const start = (page - 1) * PAGE_SIZE;
-  const slice = rows.slice(start, start + PAGE_SIZE);
+  const { rows, amount_excluded_missing_ceiling, deadline_excluded_missing_date } = filtered(params);
+  const { rows: slice, page, clamped } = paginate(rows, params.get("page"), PAGE_SIZE);
   clear(view);
   const agencies = agencyOptions();
   const topics = (state.aggregates?.topics || []).slice().sort((a, b) => a.label.localeCompare(b.label));
@@ -488,11 +471,30 @@ function renderExplore() {
           h("p", { class: "result-count" }, `${rows.length} records`),
           h("button", { class: "button secondary", type: "button", onclick: () => exportCsv(rows) }, "Download CSV"),
         ]),
+        filterNotes(amount_excluded_missing_ceiling, deadline_excluded_missing_date, params),
+        clamped ? h("p", { class: "small muted filter-note" }, `That page is past the end of these results. Showing page ${page} instead.`) : h("span"),
         h("div", { class: "cards" }, slice.map(card)),
         pager(params, page, rows.length),
       ]),
     ])
   );
+}
+
+/** Say out loud what a filter dropped, instead of hiding it. */
+function filterNotes(missingCeiling, missingDeadline, params) {
+  const notes = [];
+  if (missingCeiling) {
+    notes.push(
+      `${missingCeiling} more record${missingCeiling === 1 ? "" : "s"} matched the other filters but published no award ceiling, so the amount filter could not evaluate ${missingCeiling === 1 ? "it" : "them"}.`
+    );
+  }
+  if (missingDeadline && (params.get("closing") || "")) {
+    notes.push(
+      `${missingDeadline} record${missingDeadline === 1 ? "" : "s"} published no close date and ${missingDeadline === 1 ? "was" : "were"} left out of the deadline filter. A missing deadline is not the same as an open one.`
+    );
+  }
+  if (!notes.length) return h("span");
+  return h("p", { class: "small muted filter-note" }, notes.join(" "));
 }
 
 function agencyOptions() {
@@ -537,10 +539,10 @@ function filterForm(params, agencies, topics) {
   );
   form.append(labeled("Record kind", select("kind", params.get("kind"), [["", "Any"], ["opportunity", "Opportunity"], ["forecast", "Forecast"], ["program", "Standing program"]])));
   form.append(labeled("Place mentioned in text", h("input", { name: "location", value: params.get("location") || "", placeholder: "State or region word" })));
-  form.append(labeled("Closes within days", h("input", { name: "closing", type: "number", min: "1", value: params.get("closing") || "" })));
+  form.append(labeled(`Closes within days of today (${prettyDate(viewerDate())})`, h("input", { name: "closing", type: "number", min: "1", value: params.get("closing") || "" })));
   form.append(labeled("Ceiling at least", h("input", { name: "min", type: "number", min: "0", value: params.get("min") || "" })));
   form.append(labeled("Ceiling at most", h("input", { name: "max", type: "number", min: "0", value: params.get("max") || "" })));
-  form.append(labeled("Sort", select("sort", params.get("sort") || "close", [["close", "Deadline"], ["posted", "Recently posted"], ["ceiling", "Highest ceiling"], ["agency", "Agency"], ["title", "Title"], ["updated", "Source update date"]])));
+  form.append(labeled("Sort", select("sort", params.get("sort") || "close", SORT_OPTIONS)));
   form.append(h("div", { class: "button-row" }, [h("button", { class: "primary", type: "submit" }, "Apply"), h("a", { class: "button secondary", href: "#/explore" }, "Reset")]));
   return form;
 }
@@ -598,9 +600,13 @@ function exportCsv(rows) {
         .join(",")
     );
   }
+  downloadCsv(lines, "research-funding-catalog.csv");
+}
+
+function downloadCsv(lines, filename) {
   const blob = new Blob([lines.join("\n")], { type: "text/csv" });
   const url = URL.createObjectURL(blob);
-  const link = h("a", { href: url, download: "research-funding-catalog.csv" });
+  const link = h("a", { href: url, download: filename });
   link.click();
   URL.revokeObjectURL(url);
 }
@@ -625,7 +631,9 @@ function renderOpportunity(id) {
       record.number ? ` · ${record.number}` : "",
     ]),
     h("div", { class: "button-row" }, [
-      h("a", { class: "button", href: record.urls?.official, target: "_blank", rel: "noopener noreferrer" }, "Official page"),
+      safeHttpUrl(record.urls?.official)
+        ? h("a", { class: "button", href: safeHttpUrl(record.urls?.official), target: "_blank", rel: "noopener noreferrer" }, "Official page")
+        : h("span", { class: "button secondary" }, "No usable official URL"),
       record.id.startsWith("gg-")
         ? h(
             "a",
@@ -689,7 +697,7 @@ function factGrid(record) {
     ["Funding categories", (record.funding_categories || []).map((item) => item.label || item.code).join(", ") || "Not published"],
     ["Assistance listings", (record.aln || []).map((item) => item.number).join(", ") || "Not published"],
     ["Contact", contactLine(record.contact)],
-    ["Last verified", prettyStamp(record.verified_at)],
+    ["Last verified", verifiedLine(record.verified_at)],
     ["Source", record.source?.name || "Unknown"],
   ];
   return h("section", { class: "panel" }, [
@@ -821,9 +829,16 @@ function scaffold(record) {
 
 function related(record) {
   const topicIds = new Set((record.topics || []).map((topic) => topic.id));
+  const actionable = { open: 0, upcoming: 1, open_program: 2, verification_required: 3, closed: 4 };
   const rows = state.opportunities
     .filter((other) => other.id !== record.id && (other.topics || []).some((topic) => topicIds.has(topic.id)))
-    .slice(0, 4);
+    .map((other) => ({
+      record: other,
+      shared: (other.topics || []).filter((topic) => topicIds.has(topic.id)).length,
+    }))
+    .sort((a, b) => b.shared - a.shared || (actionable[a.record.status] ?? 9) - (actionable[b.record.status] ?? 9) || a.record.title.localeCompare(b.record.title))
+    .slice(0, 4)
+    .map((item) => item.record);
   if (!rows.length) return h("span");
   return h("section", { class: "section" }, [
     h("h2", {}, "Other catalog records with a shared derived topic"),
@@ -863,6 +878,14 @@ function renderTopic(id) {
   const topic = (state.aggregates?.topics || []).find((item) => item.id === id);
   const rows = state.opportunities.filter((record) => (record.topics || []).some((item) => item.id === id));
   clear(view);
+  if (!topic && !rows.length) {
+    view.append(
+      pageHead("Derived topic", "That topic is not in this catalog", "Topics are generated from the current catalog. This one is not in it, so there is nothing to show."),
+      h("p", { class: "muted" }, `No record in the published catalog carries the topic id "${id}".`),
+      h("p", {}, h("a", { href: "#/research" }, "Back to the research explorer"))
+    );
+    return;
+  }
   view.append(
     pageHead("Derived topic", topic?.label || id, "Shown because the official text matched a listed term, or because a labeled agency default applied."),
     h("div", { class: "callout analysis" }, topic ? `${topic.open} open, ${topic.upcoming} upcoming, ${topic.agency_count} agencies in this catalog. This is not an official funding total.` : "This topic is not in the current aggregate file."),
@@ -905,6 +928,14 @@ function renderAgency(code) {
   const rows = state.opportunities.filter((record) => record.top_agency_code === code || record.agency_code === code);
   const awards = state.awards.filter((award) => award.agency === code || (award.agency_name || "").toLowerCase().includes((agency?.grouping_label || code).toLowerCase())).slice(0, 8);
   clear(view);
+  if (!agency && !rows.length) {
+    view.append(
+      pageHead("Agency", "That agency is not in this catalog", "Agency codes come from the published records. This one is not among them."),
+      h("p", { class: "muted" }, `No record in the published catalog uses the agency code "${code}".`),
+      h("p", {}, h("a", { href: "#/agencies" }, "Back to the agency explorer"))
+    );
+    return;
+  }
   view.append(
     pageHead(code, agency?.grouping_label || agency?.source_name_most_common || code, "Left side is what the catalog shows they are soliciting. Right side is only the historical awards this catalog actually holds."),
     h("div", { class: "grid-2" }, [
@@ -1011,27 +1042,161 @@ function renderBuilderResults(project) {
   );
 }
 
+const AWARD_SORT_OPTIONS = [
+  ["amount-desc", "Amount — largest first"],
+  ["amount", "Amount — smallest first"],
+  ["date-desc", "Start date — newest first"],
+  ["date", "Start date — oldest first"],
+  ["agency", "Agency — A to Z"],
+  ["title", "Title — A to Z"],
+];
+
+/**
+ * Historical funding explorer.
+ *
+ * Rows come from the capped NSF, NIH, and USAspending pulls the pipeline
+ * recorded. Searching them narrows a sample; it does not make the sample a
+ * census, so the coverage notes stay on the page above the results.
+ */
 function renderAwards() {
   setNav("awards");
   clear(view);
+  const { params } = route();
   const sources = (state.meta?.sources || []).filter((source) => ["nsf_awards_api", "nih_reporter", "usaspending"].includes(source.id));
+  const pool = [...state.awards, ...state.obligations];
+  const { rows, amount_excluded_missing_amount } = filterAwards(pool, params);
+  const sorted = sortAwards(rows, params.get("sort") || "amount-desc");
+  const slice = paginate(sorted, params.get("page"), PAGE_SIZE);
+
   view.append(
-    pageHead("Historical funding", "What was funded is not the same as what is being solicited.", "Award rows below are samples unless a source says its pull was exhausted. Do not add the amounts and call the result an agency budget."),
+    pageHead(
+      "Historical funding",
+      "What was funded is not the same as what is being solicited.",
+      "Award rows below are samples unless a source says its pull was exhausted. Do not add the amounts and call the result an agency budget."
+    ),
     ...sources.map((source) =>
       h("div", { class: "callout" }, [
         h("strong", {}, source.name || source.id),
         h("p", {}, source.coverage || source.error || "No coverage note."),
-        h("p", { class: "small" }, `Status: ${source.status || "unknown"} · records in catalog: ${source.count ?? "—"}`),
+        h("p", { class: "small" }, `Status: ${source.status || "unknown"} · records in catalog: ${source.count ?? "—"}${source.pages ? ` · pages pulled: ${source.pages}${source.exhausted ? " (exhausted)" : " (capped)"}` : ""}`),
         source.url ? externalLink(source.url, "Source") : null,
       ])
-    ),
-    h("h2", {}, "Award sample"),
-    h("div", { class: "cards" }, state.awards.slice(0, 20).map(awardCard)),
-    h("h2", {}, "Obligations under catalog assistance listings"),
-    state.obligations.length
-      ? h("div", { class: "cards" }, state.obligations.slice(0, 12).map(obligationCard))
-      : h("p", { class: "muted" }, "No USAspending rows in this catalog.")
+    )
   );
+
+  if (!pool.length) {
+    view.append(h("p", { class: "muted" }, "No historical award rows in this catalog. The award sources failed or were skipped in the last refresh; see the verification page."));
+    return;
+  }
+
+  const topicIds = new Set();
+  for (const row of pool) for (const topic of row.topics || []) topicIds.add(topic);
+  const topicLabels = new Map((state.aggregates?.topics || []).map((topic) => [topic.id, topic.label]));
+
+  const form = h("form", {
+    class: "panel filters award-filters",
+    onsubmit: (event) => {
+      event.preventDefault();
+      const data = new FormData(event.target);
+      const next = new URLSearchParams();
+      for (const [key, value] of data.entries()) {
+        if (String(value).trim()) next.set(key, String(value).trim());
+      }
+      go(`/awards?${next.toString()}`);
+    },
+  });
+  form.append(h("h2", {}, "Search the award sample"));
+  form.append(labeled("Search", h("input", { id: "aq", name: "q", type: "search", value: params.get("q") || "", placeholder: "Title, awardee, PI, program, abstract" })));
+  form.append(labeled("Record type", select("kind", params.get("kind"), [["", "All rows"], ["award", "Historical awards"], ["obligation", "USAspending obligations"]])));
+  form.append(
+    labeled(
+      "Agency as recorded",
+      select("agency", params.get("agency"), [["", "Any"], ...awardAgencyOptions(pool)])
+    )
+  );
+  form.append(
+    labeled(
+      "Derived topic",
+      select(
+        "topic",
+        params.get("topic"),
+        [["", "Any"], ...[...topicIds].sort().map((id) => [id, topicLabels.get(id) || id])]
+      )
+    )
+  );
+  form.append(labeled("Awardee state", select("state", params.get("state"), [["", "Any"], ...awardStateOptions(pool)])));
+  form.append(
+    labeled("Source", select("source", params.get("source"), [["", "Any"], ...[...new Set(pool.map((row) => (row.source || {}).id).filter(Boolean))].sort().map((id) => [id, id])]))
+  );
+  form.append(labeled("Amount at least", h("input", { name: "min", type: "number", min: "0", value: params.get("min") || "" })));
+  form.append(labeled("Sort", select("sort", params.get("sort") || "amount-desc", AWARD_SORT_OPTIONS)));
+  form.append(h("div", { class: "button-row" }, [h("button", { class: "primary", type: "submit" }, "Apply"), h("a", { class: "button secondary", href: "#/awards" }, "Reset")]));
+
+  const notes = [];
+  if (amount_excluded_missing_amount) {
+    notes.push(`${amount_excluded_missing_amount} row(s) matched the other filters but published no amount.`);
+  }
+  if (params.get("topic") || params.get("state")) {
+    notes.push("USAspending obligation rows carry no derived topic and no awardee state in this catalog, so a topic or state filter leaves them out.");
+  }
+
+  view.append(
+    h("div", { class: "layout" }, [
+      form,
+      h("div", {}, [
+        h("div", { class: "section-head" }, [
+          h("p", { class: "result-count" }, `${sorted.length} of ${pool.length} rows`),
+          h("button", { class: "button secondary", type: "button", onclick: () => exportAwardCsv(sorted) }, "Download CSV"),
+        ]),
+        notes.length ? h("p", { class: "small muted filter-note" }, notes.join(" ")) : h("span"),
+        slice.clamped ? h("p", { class: "small muted filter-note" }, `That page is past the end of these results. Showing page ${slice.page} instead.`) : h("span"),
+        h("p", { class: "small muted" }, "These are funded projects and reported obligations, not open solicitations. A row appearing here is not evidence that the same project would be funded again."),
+        h("div", { class: "cards" }, slice.rows.map((row) => (row.record_type === "obligation" ? obligationCard(row) : awardCard(row)))),
+        awardPager(params, slice),
+      ]),
+    ])
+  );
+}
+
+function awardPager(params, slice) {
+  if (slice.pages === 1) return h("span");
+  const previous = new URLSearchParams(params);
+  const next = new URLSearchParams(params);
+  previous.set("page", String(slice.page - 1));
+  next.set("page", String(slice.page + 1));
+  return h("div", { class: "pager" }, [
+    slice.page > 1 ? h("a", { class: "button secondary", href: `#/awards?${previous}` }, "Previous") : null,
+    h("span", {}, `Page ${slice.page} of ${slice.pages}`),
+    slice.page < slice.pages ? h("a", { class: "button secondary", href: `#/awards?${next}` }, "Next") : null,
+  ]);
+}
+
+function exportAwardCsv(rows) {
+  const header = ["record_type", "id", "title", "agency", "agency_name", "awardee", "state", "pi", "amount", "start_date", "end_date", "program", "derived_topics", "official_url"];
+  const lines = [header.join(",")];
+  for (const row of rows) {
+    lines.push(
+      [
+        row.record_type,
+        row.id || row.award_id,
+        row.title,
+        row.agency || row.awarding_agency,
+        row.agency_name || row.awarding_sub_agency,
+        row.awardee_name || row.recipient_name,
+        row.awardee_state,
+        row.pi_name,
+        awardAmount(row),
+        row.start_date,
+        row.end_date,
+        row.program,
+        (row.topics || []).map((topic) => topic.label).join("|"),
+        (row.urls || {}).official,
+      ]
+        .map(csvCell)
+        .join(",")
+    );
+  }
+  downloadCsv(lines, "research-award-sample.csv");
 }
 
 function awardCard(award) {
@@ -1056,6 +1221,117 @@ function obligationCard(row) {
   ]);
 }
 
+/**
+ * What changed between the previous published catalog and this one.
+ *
+ * "Removed" is an absence from the new extract, not a documented cancellation.
+ * The pipeline caps the changed list, so the full count is shown separately.
+ */
+function renderChanges() {
+  setNav("changes");
+  clear(view);
+  const changes = state.changes;
+  view.append(
+    pageHead(
+      "What changed",
+      "What is different since the previous catalog",
+      `Compared against the catalog this refresh replaced. Built ${verifiedLine(state.meta?.generated_at)}.`
+    )
+  );
+
+  if (!changes) {
+    view.append(h("p", { class: "muted" }, "No changes file is published yet."));
+    return;
+  }
+  if (!changes.compared_to_previous_catalog) {
+    view.append(
+      h("div", { class: "callout" }, [
+        h("p", {}, "This is the first catalog retained by this pipeline, so there is no previous catalog to compare against."),
+        h("p", { class: "small" }, changes.note || ""),
+      ])
+    );
+    return;
+  }
+
+  const changedRows = changes.changed || [];
+  const changedTotal = changes.changed_count ?? changedRows.length;
+  const truncated = changedTotal > changedRows.length;
+
+  view.append(
+    h("div", { class: "stats" }, [
+      stat(String((changes.new_ids || []).length), "New to this catalog"),
+      stat(String((changes.newly_closed || []).length), "Newly closed"),
+      stat(String(changedTotal), "Records with a changed field"),
+      stat(String((changes.removed_ids || []).length), "Absent from the new extract"),
+    ]),
+    h("div", { class: "callout analysis" }, [
+      derivedBadge(),
+      h("p", { class: "small" }, changes.note || ""),
+      h("p", { class: "small muted" }, "A record can be new to this catalog and old to the agency. Use the published post date, not first-seen time, to judge how new an announcement is."),
+    ])
+  );
+
+  view.append(changeSection("Newly closed", changes.newly_closed || [], "These records were open, upcoming, or a standing program in the previous catalog and now carry a published close date before the as-of date."));
+  view.append(changeSection("New to this catalog", changes.new_ids || [], "Not present in the previous catalog file. That is when this pipeline first carried the record, which is not always when the agency posted it."));
+
+  const changedSection = h("section", { class: "section" }, [
+    h("h2", {}, "Fields that changed"),
+    h("p", { class: "small muted" }, "Only status, close date, post date, ceiling, estimated total, title, and applicant-type codes are tracked. A record can change in another field without appearing here."),
+  ]);
+  if (!changedRows.length) {
+    changedSection.append(h("p", { class: "muted" }, "No tracked field changed between the two catalogs."));
+  } else {
+    if (truncated) {
+      changedSection.append(h("p", { class: "small" }, `Showing the first ${changedRows.length} of ${changedTotal} changed records. The pipeline caps this list to keep the published file small.`));
+    }
+    changedSection.append(
+      h("table", { class: "changes-table" }, [
+        h("thead", {}, h("tr", {}, ["Record", "Changed fields", "Status now", "Status before"].map((label) => h("th", {}, label)))),
+        h("tbody", {}, changedRows.slice(0, 200).map((row) =>
+          h("tr", {}, [
+            h("td", {}, h("a", { href: `#/opportunity/${encodeURIComponent(row.id)}` }, (state.byId.get(row.id) || {}).title || row.id)),
+            h("td", {}, (row.fields || []).join(", ")),
+            h("td", {}, STATUS_LABEL[row.status] || row.status || ""),
+            h("td", {}, STATUS_LABEL[row.previous_status] || row.previous_status || ""),
+          ])
+        )),
+      ])
+    );
+  }
+  view.append(changedSection);
+
+  const removed = changes.removed_ids || [];
+  const removedSection = h("section", { class: "section" }, [
+    h("h2", {}, "Absent from the new extract"),
+    h("p", { class: "small muted" }, "The id is no longer in the published catalog. That happens when an opportunity leaves the extract, and it is not a documented cancellation. Check the official page before treating it as canceled."),
+  ]);
+  if (!removed.length) {
+    removedSection.append(h("p", { class: "muted" }, "No ids dropped out of the catalog in this refresh."));
+  } else {
+    removedSection.append(h("ul", {}, removed.slice(0, 200).map((id) => h("li", { class: "mono small" }, id))));
+  }
+  view.append(removedSection);
+  view.append(h("p", { class: "small" }, h("a", { href: "#/sources" }, "How this catalog is verified")));
+}
+
+function changeSection(title, ids, note) {
+  const section = h("section", { class: "section" }, [h("h2", {}, `${title} (${ids.length})`), h("p", { class: "small muted" }, note)]);
+  if (!ids.length) {
+    section.append(h("p", { class: "muted" }, "None in this refresh."));
+    return section;
+  }
+  const rows = ids.map((id) => state.byId.get(id)).filter(Boolean);
+  if (!rows.length) {
+    section.append(h("ul", {}, ids.slice(0, 200).map((id) => h("li", { class: "mono small" }, id))));
+    return section;
+  }
+  section.append(h("div", { class: "cards" }, rows.slice(0, 12).map(card)));
+  if (rows.length > 12) {
+    section.append(h("p", { class: "small muted" }, `Showing 12 of ${rows.length}.`));
+  }
+  return section;
+}
+
 function renderSources() {
   setNav("sources");
   clear(view);
@@ -1066,7 +1342,7 @@ function renderSources() {
   }
   const coverage = meta.field_coverage || {};
   view.append(
-    pageHead("Verification", "Where this catalog came from, and what it does not know.", `As-of date ${meta.as_of_date || "unknown"} (${meta.timezone || ""}). Built ${prettyStamp(meta.generated_at)}.`),
+    pageHead("Verification", "Where this catalog came from, and what it does not know.", `As-of date ${meta.as_of_date || "unknown"} (${meta.timezone || ""}). Built ${verifiedLine(meta.generated_at)}.`),
     h("div", { class: "callout fact" }, meta.no_hallucination || "Missing values stay blank."),
     h("h2", {}, "Sources"),
     h("div", { class: "cards" }, (meta.sources || []).map((source) =>
@@ -1119,7 +1395,7 @@ function render() {
   if (!state.ready) return;
   const { parts } = route();
   const name = parts[0] || "feed";
-  if (!state.opportunities.length && !["sources", "build"].includes(name)) {
+  if (!state.opportunities.length && !["sources", "build", "awards", "changes"].includes(name)) {
     emptyCatalog();
     return;
   }
@@ -1132,6 +1408,7 @@ function render() {
   else if (name === "finder") renderFinder();
   else if (name === "build") renderBuilder();
   else if (name === "awards") renderAwards();
+  else if (name === "changes") renderChanges();
   else if (name === "sources") renderSources();
   else renderFeed();
   view.focus({ preventScroll: true });
