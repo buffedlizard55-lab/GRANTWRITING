@@ -10,7 +10,7 @@
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-26T22:29:01-04:00",
+      "retrieved_at": "2026-09-26T22:38:39-04:00",
       "parse_stats": {
         "container": "GrantsDBExtract20260926v2.zip",
         "xml_name": "GrantsDBExtract20260926v2.xml",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-26T22:29:01-04:00",
+      "retrieved_at": "2026-09-26T22:38:39-04:00",
       "status": "ok",
       "items": 20
     },
@@ -39,7 +39,7 @@
       "name": "NSF Award Search API",
       "url": "https://api.nsf.gov/services/v1/awards.json",
       "status": "ok",
-      "count": 859,
+      "count": 1000,
       "pages": 40,
       "exhausted": false,
       "coverage": "Partial sample. Do not treat counts or sums as a complete NSF award census.",
@@ -47,6 +47,8 @@
       "query": {
         "startDateStart": "10/01/2024",
         "rpp": 25,
+        "offset_start": 0,
+        "sortKey": "awardNumber",
         "max_pages": 40,
         "endpoint": "https://api.nsf.gov/services/v1/awards.json"
       }
@@ -382,59 +384,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "357000",
+          "id": "357137",
           "status": "checked",
-          "api_title": "NIA Academic Leadership Career Award (K07 Independent Clinical Trial Not Allowed)",
-          "api_number": "PAR-24-321",
+          "api_title": "BRAIN Initiative: Development and Validation of Novel Tools to Probe Cell-Specific and Circuit-Specific Processes in the Brain (R01 Clinical Trial Not Allowed)",
+          "api_number": "RFA-MH-26-170",
           "api_agency": "HHS-NIH11",
-          "api_close": "2027-11-12",
+          "api_close": "2027-02-08",
           "mismatches": [],
-          "catalog_close": "2027-11-12",
-          "official_url": "https://www.grants.gov/search-results-detail/357000"
+          "catalog_close": "2027-02-08",
+          "official_url": "https://www.grants.gov/search-results-detail/357137"
         },
         {
-          "id": "362868",
+          "id": "363869",
           "status": "checked",
-          "api_title": "DoW Parkinson’s, Investigator-Initiated Research Award",
-          "api_number": "HT942526PRPIIRA",
-          "api_agency": "DOD-AMRAA",
-          "api_close": "2026-11-06",
+          "api_title": "The DOE Quantum Genesis Q Competition",
+          "api_number": "DE-FOA-0003657",
+          "api_agency": "PAMS-SC",
+          "api_close": "2026-10-19",
           "mismatches": [],
-          "catalog_close": "2026-11-06",
-          "official_url": "https://www.grants.gov/search-results-detail/362868"
+          "catalog_close": "2026-10-19",
+          "official_url": "https://www.grants.gov/search-results-detail/363869"
         },
         {
-          "id": "302271",
+          "id": "359650",
           "status": "checked",
-          "api_title": "Statistics",
-          "api_number": "PD-18-1269",
-          "api_agency": "NSF",
-          "api_close": "2026-12-15",
+          "api_title": "Limited Competition: Superfund Hazardous Substance Research and Training Program (P42 Clinical Trial Optional)",
+          "api_number": "RFA-ES-27-004",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2028-09-25",
           "mismatches": [],
-          "catalog_close": "2026-12-15",
-          "official_url": "https://www.grants.gov/search-results-detail/302271"
+          "catalog_close": "2028-09-25",
+          "official_url": "https://www.grants.gov/search-results-detail/359650"
         },
         {
-          "id": "352741",
+          "id": "360446",
           "status": "checked",
-          "api_title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
-          "api_number": "N00173-24-S-BA01",
-          "api_agency": "DOD-ONR-NRL",
-          "api_close": "2026-09-30",
+          "api_title": "Biomedical Technology Optimization and Dissemination Center (BTOD) (RM1 - Clinical Trial Not Allowed)",
+          "api_number": "PAR-27-024",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2029-01-29",
           "mismatches": [],
-          "catalog_close": "2026-09-30",
-          "official_url": "https://www.grants.gov/search-results-detail/352741"
+          "catalog_close": "2029-01-29",
+          "official_url": "https://www.grants.gov/search-results-detail/360446"
         },
         {
-          "id": "363955",
+          "id": "357490",
           "status": "checked",
-          "api_title": "OCE Education",
-          "api_number": "PD-05-1690",
-          "api_agency": "NSF",
-          "api_close": null,
+          "api_title": "NCCIH Natural Product Early Phase Clinical Trial Phased Innovation Award (R61/R33 Clinical Trial Required)",
+          "api_number": "PAR-25-269",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2026-11-13",
           "mismatches": [],
-          "catalog_close": null,
-          "official_url": "https://www.grants.gov/search-results-detail/363955"
+          "catalog_close": "2026-11-13",
+          "official_url": "https://www.grants.gov/search-results-detail/357490"
         }
       ]
     }
@@ -468,7 +470,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-26T22:35:52-04:00",
+  "generated_at": "2026-09-26T22:45:34-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1286,
@@ -479,7 +481,7 @@
       "upcoming": 282,
       "open_program": 20
     },
-    "awards": 1159,
+    "awards": 1300,
     "obligations": 101
   },
   "field_coverage": {
