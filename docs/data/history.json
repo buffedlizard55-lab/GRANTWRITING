@@ -1,0 +1,38 @@
+{
+  "note": "Derived counts from each catalog build. A change between runs is a change in this catalog, not by itself an official statement that an agency increased funding.",
+  "runs": [
+    {
+      "generated_at": "2026-09-26T21:29:35-04:00",
+      "as_of_date": "2026-09-26",
+      "by_status": {
+        "verification_required": 8,
+        "closed": 380,
+        "open": 822,
+        "upcoming": 298,
+        "open_program": 20
+      },
+      "agency_open": {
+        "HHS": 428,
+        "NSF": 122,
+        "DOD": 125,
+        "USDOJ": 45,
+        "DOC": 26,
+        "USDA": 17,
+        "NASA": 15,
+        "DOI": 12,
+        "DOT": 8,
+        "HUD": 3,
+        "DOE": 7,
+        "DOS": 5,
+        "PAMS": 3,
+        "USDOT": 3,
+        "EPA": 2,
+        "DOL": 0,
+        "LOC": 1,
+        "ONDCP": 0,
+        "SBA": 0,
+        "USAID": 0
+      }
+    }
+  ]
+}

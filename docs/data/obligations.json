@@ -1,0 +1,2596 @@
+{
+  "obligations": [
+    {
+      "award_id": "W81XWH1120174",
+      "recipient_name": "THE HENRY M. JACKSON FOUNDATION FOR THE ADVANCEMENT OF MILITARY MEDICINE, INC.",
+      "amount": 2265729366,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Defense Health Agency",
+      "description": "US MILITARY HIV RESEARCH",
+      "start_date": "2011-09-23",
+      "end_date": "2020-09-30",
+      "cfda": "12.420",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_W81XWH1120174_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "US MILITARY HIV RESEARCH"
+    },
+    {
+      "award_id": "UM1AI068614",
+      "recipient_name": "FRED HUTCHINSON CANCER CENTER",
+      "amount": 1073967938,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "LEADERSHIP GROUP FOR A GLOBAL HIV VACCINE CLINICAL TRIALS NETWORK",
+      "start_date": "2006-06-29",
+      "end_date": "2027-11-30",
+      "cfda": "93.855",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM1AI068614_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "LEADERSHIP GROUP FOR A GLOBAL HIV VACCINE CLINICAL TRIALS NETWORK"
+    },
+    {
+      "award_id": "UM1AI068636",
+      "recipient_name": "UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL",
+      "amount": 976983003,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "AIDS CLINICAL TRIALS GROUP NETWORK",
+      "start_date": "2006-06-29",
+      "end_date": "2027-11-30",
+      "cfda": "93.242",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM1AI068636_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "AIDS CLINICAL TRIALS GROUP NETWORK"
+    },
+    {
+      "award_id": "W81XWH1820040",
+      "recipient_name": "THE HENRY M. JACKSON FOUNDATION FOR THE ADVANCEMENT OF MILITARY MEDICINE, INC.",
+      "amount": 800456231,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Defense Health Agency",
+      "description": "ADDRESSING THE THREATS OF HIV AND EMERGING INFECTIOUS DISEASE TO THE MILITARY AND GLOBAL COMMUNITY THROUGH INNOVATIVE RESEARCH",
+      "start_date": "2018-09-30",
+      "end_date": "2025-09-29",
+      "cfda": "12.420",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_W81XWH1820040_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ADDRESSING THE THREATS OF HIV AND EMERGING INFECTIOUS DISEASE TO THE MILITARY AND GLOBAL COMMUNITY THROUGH INNOVATIVE RESEARCH"
+    },
+    {
+      "award_id": "UM1AI068619",
+      "recipient_name": "FAMILY HEALTH INTERNATIONAL",
+      "amount": 719372575,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "HIV PREVENTION TRIALS NETWORK (HPTN) COORDINATING AND OPERATIONS CENTER",
+      "start_date": "2006-06-01",
+      "end_date": "2027-11-30",
+      "cfda": "93.855",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM1AI068619_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "HIV PREVENTION TRIALS NETWORK (HPTN) COORDINATING AND OPERATIONS CENTER"
+    },
+    {
+      "award_id": "NU60OE000104",
+      "recipient_name": "ASSOCIATION OF PUBLIC HEALTH LABORATORIES, INC. (THE)",
+      "amount": 530686094,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Centers for Disease Control and Prevention",
+      "description": "ENHANCING PUBLIC HEALTH LABORATORY CAPABILITIES AND INCREASING CAPACITY",
+      "start_date": "2020-07-01",
+      "end_date": "2027-06-30",
+      "cfda": "93.354",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NU60OE000104_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ENHANCING PUBLIC HEALTH LABORATORY CAPABILITIES AND INCREASING CAPACITY"
+    },
+    {
+      "award_id": "U01AG009740",
+      "recipient_name": "REGENTS OF THE UNIVERSITY OF MICHIGAN",
+      "amount": 463372200,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "HEALTH AND RETIREMENT STUDY",
+      "start_date": "1998-01-01",
+      "end_date": "2029-12-31",
+      "cfda": "93.866",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U01AG009740_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "HEALTH AND RETIREMENT STUDY"
+    },
+    {
+      "award_id": "NU2GGH002145",
+      "recipient_name": "WORLD HEALTH ORGANIZATION",
+      "amount": 288269396,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Centers for Disease Control and Prevention",
+      "description": "COOPERATIVE AGREEMENT ON IMMUNIZATION WITH THE WORLD HEALTH ORGANIZATION",
+      "start_date": "2018-07-01",
+      "end_date": "2024-06-30",
+      "cfda": "93.421",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NU2GGH002145_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "COOPERATIVE AGREEMENT ON IMMUNIZATION WITH THE WORLD HEALTH ORGANIZATION"
+    },
+    {
+      "award_id": "UM1AI068632",
+      "recipient_name": "THE JOHNS HOPKINS UNIVERSITY",
+      "amount": 282005487,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "INTERNATIONAL MATERNAL PEDIATRIC ADOLESCENT AIDS CLINICAL TRIALS (IMPAACT) GROUP",
+      "start_date": "2006-06-29",
+      "end_date": "2027-11-30",
+      "cfda": "93.865",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM1AI068632_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "INTERNATIONAL MATERNAL PEDIATRIC ADOLESCENT AIDS CLINICAL TRIALS (IMPAACT) GROUP"
+    },
+    {
+      "award_id": "NU66GH002169",
+      "recipient_name": "UNICEF",
+      "amount": 230528388,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Centers for Disease Control and Prevention",
+      "description": "SUPPORT FOR ACTIVITIES TO ERADICATE POLIO, ACCELERATE CONTROL OF MEASLES AND RUBELLA WITH UNITED NATIONS CHILDREN'S FUND (UNICEF) - 2018",
+      "start_date": "2018-07-01",
+      "end_date": "2024-12-31",
+      "cfda": "93.318",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NU66GH002169_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "SUPPORT FOR ACTIVITIES TO ERADICATE POLIO, ACCELERATE CONTROL OF MEASLES AND RUBELLA WITH UNITED NATIONS CHILDREN'S FUND (UNICEF) - 2018"
+    },
+    {
+      "award_id": "UM1AI068617",
+      "recipient_name": "FRED HUTCHINSON CANCER CENTER",
+      "amount": 204359786,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "LEADERSHIP FOR HIV/AIDS CLINICAL TRIALS NETWORKS; HIV PREVENTION TRIALS NETWORK",
+      "start_date": "2006-06-29",
+      "end_date": "2027-11-30",
+      "cfda": "93.855",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM1AI068617_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "LEADERSHIP FOR HIV/AIDS CLINICAL TRIALS NETWORKS; HIV PREVENTION TRIALS NETWORK"
+    },
+    {
+      "award_id": "P51OD011092",
+      "recipient_name": "OREGON HEALTH & SCIENCE UNIVERSITY",
+      "amount": 203025735,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "SUPPORT FOR NATIONAL PRIMATE RESEARCH CENTER",
+      "start_date": "1997-05-01",
+      "end_date": "2029-04-30",
+      "cfda": "93.351",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_P51OD011092_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "SUPPORT FOR NATIONAL PRIMATE RESEARCH CENTER"
+    },
+    {
+      "award_id": "P51OD010425",
+      "recipient_name": "UNIVERSITY OF WASHINGTON",
+      "amount": 201841608,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "WASHINGTON NATIONAL PRIMATE RESEARCH CENTER",
+      "start_date": "1997-06-10",
+      "end_date": "2027-04-30",
+      "cfda": "93.351",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_P51OD010425_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "WASHINGTON NATIONAL PRIMATE RESEARCH CENTER"
+    },
+    {
+      "award_id": "U2COD023375",
+      "recipient_name": "DUKE UNIVERSITY",
+      "amount": 200640187,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "ECHO COORDINATING CENTER",
+      "start_date": "2016-09-21",
+      "end_date": "2030-05-31",
+      "cfda": "93.310",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U2COD023375_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ECHO COORDINATING CENTER"
+    },
+    {
+      "award_id": "U19AG024904",
+      "recipient_name": "NORTHERN CALIFORNIA INSTITUTE FOR RESEARCH AND EDUCATION, INC.",
+      "amount": 199819363,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "ALZHEIMER'S DISEASE NEUROIMAGING INITIATIVE",
+      "start_date": "2004-09-30",
+      "end_date": "2028-07-31",
+      "cfda": "93.866",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U19AG024904_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ALZHEIMER'S DISEASE NEUROIMAGING INITIATIVE"
+    },
+    {
+      "award_id": "UG1CA189828",
+      "recipient_name": "ECOG-ACRIN MEDICAL RESEARCH FOUNDATION, INC.",
+      "amount": 199709931,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "ECOG-ACRIN NCORP RESEARCH BASE",
+      "start_date": "2014-08-01",
+      "end_date": "2027-07-31",
+      "cfda": "93.399",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UG1CA189828_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ECOG-ACRIN NCORP RESEARCH BASE"
+    },
+    {
+      "award_id": "U24AG057437",
+      "recipient_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+      "amount": 198364987,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "THE ALZHEIMER'S CLINICAL TRIAL CONSORTIUM - DOWN SYNDROME NETWORK (ACTC- DSN)",
+      "start_date": "2017-12-02",
+      "end_date": "2028-08-31",
+      "cfda": "93.866",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U24AG057437_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THE ALZHEIMER'S CLINICAL TRIAL CONSORTIUM - DOWN SYNDROME NETWORK (ACTC- DSN)"
+    },
+    {
+      "award_id": "P51OD011107",
+      "recipient_name": "UNIVERSITY OF CALIFORNIA, DAVIS",
+      "amount": 191271017,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "CALIFORNIA NATIONAL PRIMATE RESEARCH CENTER",
+      "start_date": "1997-05-01",
+      "end_date": "2028-04-30",
+      "cfda": "93.866",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_P51OD011107_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "CALIFORNIA NATIONAL PRIMATE RESEARCH CENTER"
+    },
+    {
+      "award_id": "U24MH068457",
+      "recipient_name": "RUTGERS, THE STATE UNIVERSITY",
+      "amount": 179737926,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "NIMH CENTER FOR COLLABORATIVE GENETIC STUDIES",
+      "start_date": "2003-07-01",
+      "end_date": "2026-02-28",
+      "cfda": "93.242",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U24MH068457_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NIMH CENTER FOR COLLABORATIVE GENETIC STUDIES"
+    },
+    {
+      "award_id": "U01AG032947",
+      "recipient_name": "THE JOHNS HOPKINS UNIVERSITY",
+      "amount": 169422678,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "NATIONAL STUDY OF DISABILITY TRENDS AND DYNAMICS",
+      "start_date": "2008-09-30",
+      "end_date": "2029-03-31",
+      "cfda": "93.866",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U01AG032947_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NATIONAL STUDY OF DISABILITY TRENDS AND DYNAMICS"
+    },
+    {
+      "award_id": "DENE0009054",
+      "recipient_name": "US SFR OWNER LLC",
+      "amount": 1696938131,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "THIS COOPERATIVE AGREEMENT IS MADE AS A RESULT OF THE APPLICANT’S SUBMISSION SELECTED UNDER FOA DE-FOA-0002271, ADVANCED REACTOR DEMONSTRATION.",
+      "start_date": "2021-05-03",
+      "end_date": "2028-03-31",
+      "cfda": "81.121",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DENE0009054_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THIS COOPERATIVE AGREEMENT IS MADE AS A RESULT OF THE APPLICANT’S SUBMISSION SELECTED UNDER FOA DE-FOA-0002271, ADVANCED REACTOR DEMONSTRATION."
+    },
+    {
+      "award_id": "1755088",
+      "recipient_name": "UNIVERSITY CORPORATION FOR ATMOSPHERIC RESEARCH",
+      "amount": 1012598088,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "THE MANAGEMENT AND OPERATION OF THE NATIONAL CENTER FOR ATMOSPHERIC RESEARCH",
+      "start_date": "2018-10-01",
+      "end_date": "2028-09-30",
+      "cfda": "47.050",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_1755088_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THE MANAGEMENT AND OPERATION OF THE NATIONAL CENTER FOR ATMOSPHERIC RESEARCH"
+    },
+    {
+      "award_id": "DENE0009040",
+      "recipient_name": "X ENERGY, LLC",
+      "amount": 921717024,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "COMPETITIVE COOPERATIVE AGREEMENT: ADVANCED REACTOR DEMONSTRATION FOA# DE-FOA-0002271 \nPATHWAY 1 ADVANCED REACTOR DEMONSTRATIONS (DEMOS) AWARD TO X ENERGY, LLC\n\nTHIS PROGRAM IS INTENDED TO FACILITATE THE DEVELOPMENT OF U.S. PRIVATE INDUSTRY ADVANCED NUCLEAR REACTOR \nDEMONSTRATIONS. IT WILL PROVIDE FUNDING FOR SEVERAL ADVANCED REACTORS THAT ARE RELIABLE, COST EFFECTIVE, LICENSABLE, \nAND COMMERCIALLY VIABLE. THESE DESIGNS ARE EXPECTED TO ENABLE A MARKET ENVIRONMENT IN WHICH COMMERCIAL \nREACTOR SERVICES ARE AVAILABLE THAT ARE SAFE AND AFFORDABLE TO BOTH CONSTRUCT AND OPERATE WHEN COMPARED TO \nCOMPETING, ALTERNATIVE SOURCES OF ENERGY IN THE NEAR- AND MID-TERM. THESE DESIGNS ARE EXPECTED TO PROVIDE \nSIGNIFICANT IMPROVEMENTS IN SAFETY, SECURITY, ECONOMICS, AND ENVIRONMENTAL IMPACTS OVER CURRENT NUCLEAR POWER \nPLANT DESIGNS.",
+      "start_date": "2021-02-02",
+      "end_date": "2027-12-31",
+      "cfda": "81.121",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DENE0009040_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "COMPETITIVE COOPERATIVE AGREEMENT: ADVANCED REACTOR DEMONSTRATION FOA# DE-FOA-0002271 \nPATHWAY 1 ADVANCED REACTOR DEMONSTRATIONS (DEMOS) AWARD TO X ENERGY, LLC\n\nTHIS PROGRAM IS INTENDED TO FACILITATE THE DEVELOPMENT OF U.S. PRIVATE INDUSTRY ADVANCED NUCLEAR REACTOR \nDEMONSTRATIONS. IT WILL PROVIDE FUNDING FOR SEVERAL ADVANCED REACTORS THAT ARE RELIABLE, COST EFFECTIVE, LICENSABLE, \nAND COMMERCIALLY VIABLE. THESE DESIGNS ARE EXPECTED TO ENABLE A MARKET ENVIRONMENT IN WHICH COMMERCIAL \nREACTOR SERVICES ARE AVAILABLE THAT ARE SAFE AND AFFORDABLE TO BOTH CONSTRUCT AND OPERATE WHEN COMPARED TO \nCOMPETING, ALTERNATIVE SOURCES OF ENERGY IN THE NEAR- AND MID-TERM. THESE DESIGNS ARE EXPECTED TO PROVIDE \nSIGNIFICANT IMPROVEMENTS IN SAFETY, SECURITY, ECONOMICS, AND ENVIRONMENTAL IMPACTS OVER CURRENT NUCLEAR POWER \nPLANT DESIGNS."
+    },
+    {
+      "award_id": "1202910",
+      "recipient_name": "ASSOCIATION OF UNIVERSITIES FOR RESEARCH IN ASTRONOMY, INC.",
+      "amount": 570618065,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "CONSTRUCTION OF THE LARGE SYNOPTIC SURVEY TELESCOPE (LSST) UNDER THE MAJOR RESEARCH EQUIPMENT AND FACILITIES CONSTRUCTION (MREFC) ACCOUNT",
+      "start_date": "2014-07-01",
+      "end_date": "2026-12-31",
+      "cfda": "47.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_1202910_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "CONSTRUCTION OF THE LARGE SYNOPTIC SURVEY TELESCOPE (LSST) UNDER THE MAJOR RESEARCH EQUIPMENT AND FACILITIES CONSTRUCTION (MREFC) ACCOUNT"
+    },
+    {
+      "award_id": "1647375",
+      "recipient_name": "ASSOCIATED UNIVERSITIES INC",
+      "amount": 497001346,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "ATACAMA LARGE MILLIMETER/SUBMILLIMETER ARRAY (ALMA) OPERATIONS AND MAINTENANCE",
+      "start_date": "2016-10-01",
+      "end_date": "2027-03-31",
+      "cfda": "47.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_1647375_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ATACAMA LARGE MILLIMETER/SUBMILLIMETER ARRAY (ALMA) OPERATIONS AND MAINTENANCE"
+    },
+    {
+      "award_id": "UM1AI109565",
+      "recipient_name": "BENAROYA RESEARCH INSTITUTE AT VIRGINIA MASON",
+      "amount": 444814918,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "IMMUNE TOLERANCE NETWORK",
+      "start_date": "2014-02-01",
+      "end_date": "2028-01-31",
+      "cfda": "93.847",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM1AI109565_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "IMMUNE TOLERANCE NETWORK"
+    },
+    {
+      "award_id": "UM1AI068618",
+      "recipient_name": "FRED HUTCHINSON CANCER CENTER",
+      "amount": 443702768,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "HVTN LABORATORY PROGRAM",
+      "start_date": "2006-06-29",
+      "end_date": "2027-11-30",
+      "cfda": "93.121",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM1AI068618_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "HVTN LABORATORY PROGRAM"
+    },
+    {
+      "award_id": "1647378",
+      "recipient_name": "ASSOCIATED UNIVERSITIES INC",
+      "amount": 434119438,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "NATIONAL RADIO ASTRONOMY OBSERVATORY: VERY LARGE ARRAY OPERATIONS AND MAINTENANCE",
+      "start_date": "2016-10-01",
+      "end_date": "2027-03-31",
+      "cfda": "47.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_1647378_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NATIONAL RADIO ASTRONOMY OBSERVATORY: VERY LARGE ARRAY OPERATIONS AND MAINTENANCE"
+    },
+    {
+      "award_id": "1724433",
+      "recipient_name": "BATTELLE MEMORIAL INSTITUTE",
+      "amount": 401043378,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "NATIONAL ECOLOGICAL OBSERVATORY NETWORK: OPERATIONS ACTIVITIES",
+      "start_date": "2017-11-01",
+      "end_date": "2025-10-31",
+      "cfda": "47.074",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_1724433_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NATIONAL ECOLOGICAL OBSERVATORY NETWORK: OPERATIONS ACTIVITIES"
+    },
+    {
+      "award_id": "UM1AI068635",
+      "recipient_name": "FRED HUTCHINSON CANCER CENTER",
+      "amount": 383462829,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "LEADERSHIP FOR HIV/AIDS CLINICAL TRIALS NETWORKS; HIV VACCINE TRIALS NETWORK",
+      "start_date": "2006-06-29",
+      "end_date": "2027-11-30",
+      "cfda": "93.855",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM1AI068635_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "LEADERSHIP FOR HIV/AIDS CLINICAL TRIALS NETWORKS; HIV VACCINE TRIALS NETWORK"
+    },
+    {
+      "award_id": "2323116",
+      "recipient_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+      "amount": 376000000,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "CONSTRUCTION FOR THE LEADERSHIP CLASS COMPUTING FACILITY -OVER THE PAST DECADES, NSF HAS PLAYED A CENTRAL ROLE IN ENABLING THE TRANSFORMATION OF SCIENCE AND ENGINEERING (S&E) RESEARCH USING COMPUTATION-BASED METHODS, NOT ONLY AS A LEADING FUNDER OF PIONEERING RESEARCH FOR ALL OF S&E BUT ALSO AS A FUNDER OF THE NATION?S ADVANCED RESEARCH COMPUTING ECOSYSTEM. THE LEADERSHIP-CLASS COMPUTING FACILITY (LCCF) PROJECT IS PART OF NSF?S BROAD, HOLISTIC ADVANCED COMPUTING STRATEGY INTENDED TO PROVIDE UNIQUE RESOURCES AND SERVICES TO ENABLE DISCOVERIES IN THE LARGEST AND MOST COMPUTATIONALLY INTENSIVE S&E FRONTIERS THAT COULD NOT ADVANCE OTHERWISE. NSF?S STEWARDSHIP OF THE LCCF DRAWS ON DECADES OF LEADERSHIP AND EXPERIENCE IN SERVING THE FULL S&E RESEARCH COMMUNITY WITH TRANSFORMATIVE CYBERINFRASTRUCTURE(CI). THIS AWARD SUPPORTS THE CONSTRUCTION OF LCCF. THE LCCF PROJECT, LED BY THE TEXAS ADVANCED COMPUTING CENTER (TACC), IS ENVISIONED AS AN ADVANCED DISTRIBUTED LEADERSHIP COMPUTING FACILITY THAT WILL SERVE AS A NEXUS FOR WORLD-CLASS COMPUTATIONAL CAPABILITIES. INTEGRAL TO THE FACILITY WILL BE THE DELIVERY OF SOFTWARE AND SERVICES THAT WILL SUPPORT THE CONTINUED TRANSFORMATION OF THE SCIENTIFIC DISCOVERY ENTERPRISE. AT ITS CORE, THE PROJECT WILL DEPLOY A SYSTEM CALLED HORIZON TO SUPPORT S&E SIMULATION-BASED INQUIRY, DATA ANALYTICS, AND ARTIFICIAL INTELLIGENCE RESEARCH AT UNPRECEDENTED SCALES. THE HORIZON SYSTEM WILL BE HOSTED AT A COMMERCIAL HYPERSCALE DATACENTER BY ESTABLISHING A PARTNERSHIP TO ENHANCE ACADEMIC-INDUSTRY EXCHANGE. THE PROJECT WILL PARTNER WITH FOUR DISTRIBUTED SCIENCE CENTERS (DSCS) TO EXPAND ITS GEOGRAPHICAL FOOTPRINT AND LEVERAGE THE DEEP EXPERTISE IN OUR NATION?S CI ECOSYSTEM. MOREOVER, THE PROJECT WILL INCLUDE A BROAD RANGE OF EDUCATION AND PUBLIC OUTREACH (EPO) ACTIVITIES DESIGNED TO GROW THE FUTURE S&E WORKFORCE AND ENSURE THE ENTIRE NATION BENEFITS FROM ACCESS TO THE FACILITY. THE EPO PLANS INCLUDE PROGRAMS AND EXHIBITS BASED AT A VISITOR CENTER THAT WILL BE CONSTRUCTED AT TACC. THESE PROGRAMS AND EXHIBITS WILL BE PILOTED, ASSESSED, AND EVOLVED DURING CONSTRUCTION AND ARE DESIGNED TO REACH A NATIONWIDE AUDIENCE. THIS AWARD REFLECTS NSF'S STATUTORY MISSION AND HAS BEEN DEEMED WORTHY OF SUPPORT THROUGH EVALUATION USING THE FOUNDATION'S INTELLECTUAL MERIT AND BROADER IMPACTS REVIEW CRITERIA.- SUBAWARDS ARE PLANNED FOR THIS AWARD.",
+      "start_date": "2024-07-01",
+      "end_date": "2028-04-30",
+      "cfda": "47.070",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_2323116_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "CONSTRUCTION FOR THE LEADERSHIP CLASS COMPUTING FACILITY -OVER THE PAST DECADES, NSF HAS PLAYED A CENTRAL ROLE IN ENABLING THE TRANSFORMATION OF SCIENCE AND ENGINEERING (S&E) RESEARCH USING COMPUTATION-BASED METHODS, NOT ONLY AS A LEADING FUNDER OF PIONEERING RESEARCH FOR ALL OF S&E BUT ALSO AS A FUNDER OF THE NATION?S ADVANCED RESEARCH COMPUTING ECOSYSTEM. THE LEADERSHIP-CLASS COMPUTING FACILITY (LCCF) PROJECT IS PART OF NSF?S BROAD, HOLISTIC ADVANCED COMPUTING STRATEGY INTENDED TO PROVIDE UNIQUE RESOURCES AND SERVICES TO ENABLE DISCOVERIES IN THE LARGEST AND MOST COMPUTATIONALLY INTENSIVE S&E FRONTIERS THAT COULD NOT ADVANCE OTHERWISE. NSF?S STEWARDSHIP OF THE LCCF DRAWS ON DECADES OF LEADERSHIP AND EXPERIENCE IN SERVING THE FULL S&E RESEARCH COMMUNITY WITH TRANSFORMATIVE CYBERINFRASTRUCTURE(CI). THIS AWARD SUPPORTS THE CONSTRUCTION OF LCCF. THE LCCF PROJECT, LED BY THE TEXAS ADVANCED COMPUTING CENTER (TACC), IS ENVISIONED AS AN ADVANCED DISTRIBUTED LEADERSHIP COMPUTING FACILITY THAT WILL SERVE AS A NEXUS FOR WORLD-CLASS COMPUTATIONAL CAPABILITIES. INTEGRAL TO THE FACILITY WILL BE THE DELIVERY OF SOFTWARE AND SERVICES THAT WILL SUPPORT THE CONTINUED TRANSFORMATION OF THE SCIENTIFIC DISCOVERY ENTERPRISE. AT ITS CORE, THE PROJECT WILL DEPLOY A SYSTEM CALLED HORIZON TO SUPPORT S&E SIMULATION-BASED INQUIRY, DATA ANALYTICS, AND ARTIFICIAL INTELLIGENCE RESEARCH AT UNPRECEDENTED SCALES. THE HORIZON SYSTEM WILL BE HOSTED AT A COMMERCIAL HYPERSCALE DATACENTER BY ESTABLISHING A PARTNERSHIP TO ENHANCE ACADEMIC-INDUSTRY EXCHANGE. THE PROJECT WILL PARTNER WITH FOUR DISTRIBUTED SCIENCE CENTERS (DSCS) TO EXPAND ITS GEOGRAPHICAL FOOTPRINT AND LEVERAGE THE DEEP EXPERTISE IN OUR NATION?S CI ECOSYSTEM. MOREOVER, THE PROJECT WILL INCLUDE A BROAD RANGE OF EDUCATION AND PUBLIC OUTREACH (EPO) ACTIVITIES DESIGNED TO GROW THE FUTURE S&E WORKFORCE AND ENSURE THE ENTIRE NATION BENEFITS FROM ACCESS TO THE FACILITY. THE EPO PLANS INCLUDE PROGRAMS AND EXHIBITS BASED AT A VISITOR CENTER THAT WILL BE CONSTRUCTED AT TACC. THESE PROGRAMS AND EXHIBITS WILL BE PILOTED, ASSESSED, AND EVOLVED DURING CONSTRUCTION AND ARE DESIGNED TO REACH A NATIONWIDE AUDIENCE. THIS AWARD REFLECTS NSF'S STATUTORY MISSION AND HAS BEEN DEEMED WORTHY OF SUPPORT THROUGH EVALUATION USING THE FOUNDATION'S INTELLECTUAL MERIT AND BROADER IMPACTS REVIEW CRITERIA.- SUBAWARDS ARE PLANNED FOR THIS AWARD."
+    },
+    {
+      "award_id": "1400450",
+      "recipient_name": "ASSOCIATION OF UNIVERSITIES FOR RESEARCH IN ASTRONOMY, INC.",
+      "amount": 296541189,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "AURA MANAGEMENT AND OPERATION OF THE NATIONAL SOLAR OBSERVATORY",
+      "start_date": "2015-06-01",
+      "end_date": "2027-03-31",
+      "cfda": "47.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_1400450_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "AURA MANAGEMENT AND OPERATION OF THE NATIONAL SOLAR OBSERVATORY"
+    },
+    {
+      "award_id": "2217817",
+      "recipient_name": "BATTELLE MEMORIAL INSTITUTE",
+      "amount": 268297107,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "NEON OPERATIONS AND MAINTENANCE: EVOLVING FROM A STRONG FOUNDATION -THE FUTURE HEALTH, WELFARE, AND SECURITY OF THE U.S. DEPEND UPON DIVERSE NATURAL SYSTEMS THAT CAN BE ALTERED BY THE CHANGING WORLD. THE NATIONAL ECOLOGICAL OBSERVATORY NETWORK (NEON), THE FIRST CONTINENTAL-SCALE FACILITY OF ITS KIND IN THE WORLD, ADDRESSES THE NATURE OF THESE CHANGES AND THEIR CAUSES BY ACQUIRING STANDARDIZED BIOLOGICAL AND ENVIRONMENTAL MEASUREMENTS FROM THE LOCAL TO CONTINENTAL SCALE. IT PROVIDES KEY DATA TO ENABLE SCIENTISTS TO UNDERSTAND AND PREDICT THE CHANGES AND ENABLE POLICY MAKERS POTENTIALLY TO LESSEN DETRIMENTAL EFFECTS. NEON IS DEMOCRATIZING ACCESS TO THIS AREA OF SCIENCE IN UNPRECEDENTED WAYS BY PROVIDING HIGH-QUALITY DATA FREE OF CHARGE TO ANYONE INTERESTED IN PURSUING ADVANCED ECOLOGICAL AND CLIMATE RESEARCH. NEON PROVIDES OUTREACH NATIONWIDE IN EACH OF ITS 20 ECOLOGICAL REGIONS TO BUILD A DIVERSE, INCLUSIVE, AND INTERDISCIPLINARY NEXT GENERATION OF RESEARCHERS. WITH ITS PARTNERS, NEON PROVIDES DATA SKILLS TRAINING AND EDUCATIONAL MATERIALS TO A WIDE VARIETY OF STAKEHOLDERS. THE NEON MISSION IS TO ENABLE BETTER UNDERSTANDING AND PREDICTION OF THE DRIVERS OF, AND RESPONSES TO, ECOLOGICAL CHANGES BY PROVIDING FREELY AVAILABLE, HIGH-QUALITY CONTINENTAL AND DECADAL-SCALE ECOLOGICAL DATA AND SAMPLES INFORMED BY BROAD SCIENTIFIC ENGAGEMENT. THE MANAGING ENTITY FOR THIS PROJECT REALIZES THIS MISSION AND ADVANCES THE POTENTIAL FOR DISCOVERY BY PROVIDING RAPID AND BROADENED ACCESS TO HIGH-QUALITY NEON DATA AND SAMPLES THROUGH ROBUST, SECURE, AND ACCESSIBLE CYBERINFRASTRUCTURE, EDUCATIONAL AND OUTREACH PROGRAMS, FINDABLE, ACCESSIBLE, INTEROPERABLE, AND REUSABLE ? FAIR - DATA PARTNERS, AND THE NEON BIOREPOSITORY. THE ROBUST NEON CYBERINFRASTRUCTURE THAT PROVIDES FREE AND OPEN ACCESS TO DATA AND ANALYTIC TOOLS WILL CONTINUE TO EMPOWER A COMMUNITY OF PRACTICE TO DEVELOP OPEN-SOURCE CODE, ANALYTIC TOOLS, STANDARDIZED PROTOCOLS, AND DERIVED ECOLOGICAL DATA PRODUCTS. NEON INFRASTRUCTURE IS CONTINUOUSLY OPERATED AT 81 SITES IN 20 DISTINCT ECOLOGICAL REGIONS SPANNING THE CONTINENTAL UNITED STATES, ALASKA, HAWAII, AND PUERTO RICO. OVER 180 DATA PRODUCTS ARE COLLECTED USING A SENSOR NETWORK, AIRBORNE REMOTE SENSING, AND MANUAL FIELD OBSERVATIONS AND COLLECTIONS. THESE FREE AND OPENLY AVAILABLE DATA ARE PROVIDED TO SCIENTISTS, EDUCATORS, AND THE PUBLIC FOR SOCIETAL BENEFIT THROUGH THE NEON DATA PORTAL (HTTPS://DATA.NEONSCIENCE.ORG/). PHYSICAL SAMPLES ARE COLLECTED AND MADE AVAILABLE FOR USE THROUGH THE NEON BIOREPOSITORY (HTTPS://BIOREPO.NEONSCIENCE.ORG/PORTAL/). NEON PROVIDES CUSTOMIZED ACCESS TO MANY PARTS OF ITS INFRASTRUCTURE, INCLUDING PERSONNEL, THROUGH A COST-RECOVERABLE ASSIGNABLE ASSETS PROGRAM. CENTRALIZED PLANNING DRIVES EFFICIENT MANAGEMENT WITH CONSISTENCY AND QUALITY IN DATA; DECENTRALIZED EXECUTION ACROSS THE 20 NEON DOMAINS ACCOMMODATES THE DIVERSITY OF ENVIRONMENTS IN THE US. THE POTENTIAL FOR NEON TO ADVANCE INTERDISCIPLINARY KNOWLEDGE WILL BE AMPLIFIED BY ENGAGING IN EXTENSIVE STRATEGIC PARTNERSHIPS. NEON WILL BUILD A DIVERSE, INCLUSIVE, AND INTERDISCIPLINARY NEXT GENERATION OF RESEARCHERS AND WORKFORCE BY PROVIDING TRAINING IN THE USE OF NEON DATA, SUPPORTING NEON AMBASSADORS AND PARTNERS, AND CONDUCTING TRAINING IN STANDARDIZED ECOLOGICAL FIELD SAMPLING PROTOCOLS. CONTINUAL IMPROVEMENT OF NEON OPERATIONS, INCLUDING TRAINING AND OUTREACH ACTIVITIES, WILL BE DRIVEN BY REGULAR EXTERNAL EVALUATION AGAINST OBSERVATORY PERFORMANCE METRICS. THIS AWARD REFLECTS NSF'S STATUTORY MISSION AND HAS BEEN DEEMED WORTHY OF SUPPORT THROUGH EVALUATION USING THE FOUNDATION'S INTELLECTUAL MERIT AND BROADER IMPACTS REVIEW CRITERIA.- SUBAWARDS ARE PLANNED FOR THIS AWARD.",
+      "start_date": "2023-11-01",
+      "end_date": "2028-10-31",
+      "cfda": "47.074",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_2217817_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NEON OPERATIONS AND MAINTENANCE: EVOLVING FROM A STRONG FOUNDATION -THE FUTURE HEALTH, WELFARE, AND SECURITY OF THE U.S. DEPEND UPON DIVERSE NATURAL SYSTEMS THAT CAN BE ALTERED BY THE CHANGING WORLD. THE NATIONAL ECOLOGICAL OBSERVATORY NETWORK (NEON), THE FIRST CONTINENTAL-SCALE FACILITY OF ITS KIND IN THE WORLD, ADDRESSES THE NATURE OF THESE CHANGES AND THEIR CAUSES BY ACQUIRING STANDARDIZED BIOLOGICAL AND ENVIRONMENTAL MEASUREMENTS FROM THE LOCAL TO CONTINENTAL SCALE. IT PROVIDES KEY DATA TO ENABLE SCIENTISTS TO UNDERSTAND AND PREDICT THE CHANGES AND ENABLE POLICY MAKERS POTENTIALLY TO LESSEN DETRIMENTAL EFFECTS. NEON IS DEMOCRATIZING ACCESS TO THIS AREA OF SCIENCE IN UNPRECEDENTED WAYS BY PROVIDING HIGH-QUALITY DATA FREE OF CHARGE TO ANYONE INTERESTED IN PURSUING ADVANCED ECOLOGICAL AND CLIMATE RESEARCH. NEON PROVIDES OUTREACH NATIONWIDE IN EACH OF ITS 20 ECOLOGICAL REGIONS TO BUILD A DIVERSE, INCLUSIVE, AND INTERDISCIPLINARY NEXT GENERATION OF RESEARCHERS. WITH ITS PARTNERS, NEON PROVIDES DATA SKILLS TRAINING AND EDUCATIONAL MATERIALS TO A WIDE VARIETY OF STAKEHOLDERS. THE NEON MISSION IS TO ENABLE BETTER UNDERSTANDING AND PREDICTION OF THE DRIVERS OF, AND RESPONSES TO, ECOLOGICAL CHANGES BY PROVIDING FREELY AVAILABLE, HIGH-QUALITY CONTINENTAL AND DECADAL-SCALE ECOLOGICAL DATA AND SAMPLES INFORMED BY BROAD SCIENTIFIC ENGAGEMENT. THE MANAGING ENTITY FOR THIS PROJECT REALIZES THIS MISSION AND ADVANCES THE POTENTIAL FOR DISCOVERY BY PROVIDING RAPID AND BROADENED ACCESS TO HIGH-QUALITY NEON DATA AND SAMPLES THROUGH ROBUST, SECURE, AND ACCESSIBLE CYBERINFRASTRUCTURE, EDUCATIONAL AND OUTREACH PROGRAMS, FINDABLE, ACCESSIBLE, INTEROPERABLE, AND REUSABLE ? FAIR - DATA PARTNERS, AND THE NEON BIOREPOSITORY. THE ROBUST NEON CYBERINFRASTRUCTURE THAT PROVIDES FREE AND OPEN ACCESS TO DATA AND ANALYTIC TOOLS WILL CONTINUE TO EMPOWER A COMMUNITY OF PRACTICE TO DEVELOP OPEN-SOURCE CODE, ANALYTIC TOOLS, STANDARDIZED PROTOCOLS, AND DERIVED ECOLOGICAL DATA PRODUCTS. NEON INFRASTRUCTURE IS CONTINUOUSLY OPERATED AT 81 SITES IN 20 DISTINCT ECOLOGICAL REGIONS SPANNING THE CONTINENTAL UNITED STATES, ALASKA, HAWAII, AND PUERTO RICO. OVER 180 DATA PRODUCTS ARE COLLECTED USING A SENSOR NETWORK, AIRBORNE REMOTE SENSING, AND MANUAL FIELD OBSERVATIONS AND COLLECTIONS. THESE FREE AND OPENLY AVAILABLE DATA ARE PROVIDED TO SCIENTISTS, EDUCATORS, AND THE PUBLIC FOR SOCIETAL BENEFIT THROUGH THE NEON DATA PORTAL (HTTPS://DATA.NEONSCIENCE.ORG/). PHYSICAL SAMPLES ARE COLLECTED AND MADE AVAILABLE FOR USE THROUGH THE NEON BIOREPOSITORY (HTTPS://BIOREPO.NEONSCIENCE.ORG/PORTAL/). NEON PROVIDES CUSTOMIZED ACCESS TO MANY PARTS OF ITS INFRASTRUCTURE, INCLUDING PERSONNEL, THROUGH A COST-RECOVERABLE ASSIGNABLE ASSETS PROGRAM. CENTRALIZED PLANNING DRIVES EFFICIENT MANAGEMENT WITH CONSISTENCY AND QUALITY IN DATA; DECENTRALIZED EXECUTION ACROSS THE 20 NEON DOMAINS ACCOMMODATES THE DIVERSITY OF ENVIRONMENTS IN THE US. THE POTENTIAL FOR NEON TO ADVANCE INTERDISCIPLINARY KNOWLEDGE WILL BE AMPLIFIED BY ENGAGING IN EXTENSIVE STRATEGIC PARTNERSHIPS. NEON WILL BUILD A DIVERSE, INCLUSIVE, AND INTERDISCIPLINARY NEXT GENERATION OF RESEARCHERS AND WORKFORCE BY PROVIDING TRAINING IN THE USE OF NEON DATA, SUPPORTING NEON AMBASSADORS AND PARTNERS, AND CONDUCTING TRAINING IN STANDARDIZED ECOLOGICAL FIELD SAMPLING PROTOCOLS. CONTINUAL IMPROVEMENT OF NEON OPERATIONS, INCLUDING TRAINING AND OUTREACH ACTIVITIES, WILL BE DRIVEN BY REGULAR EXTERNAL EVALUATION AGAINST OBSERVATORY PERFORMANCE METRICS. THIS AWARD REFLECTS NSF'S STATUTORY MISSION AND HAS BEEN DEEMED WORTHY OF SUPPORT THROUGH EVALUATION USING THE FOUNDATION'S INTELLECTUAL MERIT AND BROADER IMPACTS REVIEW CRITERIA.- SUBAWARDS ARE PLANNED FOR THIS AWARD."
+    },
+    {
+      "award_id": "DENE0008928",
+      "recipient_name": "NUSCALE POWER LLC",
+      "amount": 262655693,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "TO ACHIEVE THE DESIRED OUTCOMES AND COMPLETE THE DEVELOPMENT PROGRAM, NUSCALE IS PROPOSING A FIVE-YEAR PROJECT THAT WILL CONDUCT THE REMAINING LICENSING ACTIVITIES, FIRST-OF-A-KIND (FOAK) ENGINEERING, SUPPLY CHAIN DEVELOPMENT, TESTING, AND OTHER REQUIRED ACTIVITIES TO HAVE THE NUSCALE SMR READY TO ENABLE TIMELY CLIENT PROJECT DEPLOYMENT. BY THE END OF THE PROJECT, NUSCALE WILL HAVE COMPLETED A STANDARD PLANT DESIGN TO PROVIDE THE BASIS FOR SITE-SPECIFIC DESIGN FOR CLIENT PROJECTS, THE DETAILED DESIGN AND SUPPLY CHAIN DEVELOPMENT FOR ALL FOAK SYSTEMS, DETAILED DEPLOYMENT PLANNING THAT INCLUDES THE DEVELOPMENT OF REQUIRED INFRASTRUCTURE AND PROGRAMS, AND ALL STANDARD NRC LICENSING REQUIRED TO SUPPORT CLIENT LICENSING ACTIVITIES.",
+      "start_date": "2019-12-20",
+      "end_date": "2025-12-31",
+      "cfda": "81.121",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DENE0008928_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "TO ACHIEVE THE DESIRED OUTCOMES AND COMPLETE THE DEVELOPMENT PROGRAM, NUSCALE IS PROPOSING A FIVE-YEAR PROJECT THAT WILL CONDUCT THE REMAINING LICENSING ACTIVITIES, FIRST-OF-A-KIND (FOAK) ENGINEERING, SUPPLY CHAIN DEVELOPMENT, TESTING, AND OTHER REQUIRED ACTIVITIES TO HAVE THE NUSCALE SMR READY TO ENABLE TIMELY CLIENT PROJECT DEPLOYMENT. BY THE END OF THE PROJECT, NUSCALE WILL HAVE COMPLETED A STANDARD PLANT DESIGN TO PROVIDE THE BASIS FOR SITE-SPECIFIC DESIGN FOR CLIENT PROJECTS, THE DETAILED DESIGN AND SUPPLY CHAIN DEVELOPMENT FOR ALL FOAK SYSTEMS, DETAILED DEPLOYMENT PLANNING THAT INCLUDES THE DEVELOPMENT OF REQUIRED INFRASTRUCTURE AND PROGRAMS, AND ALL STANDARD NRC LICENSING REQUIRED TO SUPPORT CLIENT LICENSING ACTIVITIES."
+    },
+    {
+      "award_id": "UM1CA121947",
+      "recipient_name": "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI",
+      "amount": 250012117,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "AIDS MALIGNANCY CONSORTIUM (AMC)",
+      "start_date": "2006-03-01",
+      "end_date": "2030-08-31",
+      "cfda": "93.395",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM1CA121947_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "AIDS MALIGNANCY CONSORTIUM (AMC)"
+    },
+    {
+      "award_id": "UM1AI068634",
+      "recipient_name": "PRESIDENT AND FELLOWS OF HARVARD COLLEGE",
+      "amount": 246626852,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "STATISTICAL AND DATA MANAGEMENT CENTER FOR THE AIDS CLINICAL TRIALS GROUP",
+      "start_date": "2006-06-29",
+      "end_date": "2027-11-30",
+      "cfda": "93.855",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM1AI068634_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "STATISTICAL AND DATA MANAGEMENT CENTER FOR THE AIDS CLINICAL TRIALS GROUP"
+    },
+    {
+      "award_id": "DEFC0204ER54698",
+      "recipient_name": "GENERAL ATOMICS",
+      "amount": 1250640884,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "THE DIII-D NATIONAL FUSION PROGRAM AND ADVANCED FUSION TECHNOLOGY RESEARCH AND DEVELOPMENT",
+      "start_date": "2003-11-01",
+      "end_date": "2027-07-31",
+      "cfda": "81.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DEFC0204ER54698_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THE DIII-D NATIONAL FUSION PROGRAM AND ADVANCED FUSION TECHNOLOGY RESEARCH AND DEVELOPMENT"
+    },
+    {
+      "award_id": "DESC0000661",
+      "recipient_name": "MICHIGAN STATE UNIVERSITY",
+      "amount": 836082435,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "FACILITY FOR RARE ISOTOPE BEAMS",
+      "start_date": "2009-06-08",
+      "end_date": "2023-09-21",
+      "cfda": "81.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DESC0000661_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "FACILITY FOR RARE ISOTOPE BEAMS"
+    },
+    {
+      "award_id": "FA86502025700",
+      "recipient_name": "NATIONAL CENTER FOR DEFENSE MANUFACTURING AND MACHINING",
+      "amount": 702109658,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Department of the Air Force",
+      "description": "AMERICA MAKES PARTNERSHIP (AMP) THE NATIONAL ADDITIVE MANUFACTURING INNOVATION INSTITUTE",
+      "start_date": "2019-11-25",
+      "end_date": "2031-02-26",
+      "cfda": "12.800",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_FA86502025700_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "AMERICA MAKES PARTNERSHIP (AMP) THE NATIONAL ADDITIVE MANUFACTURING INNOVATION INSTITUTE"
+    },
+    {
+      "award_id": "FA86502125028",
+      "recipient_name": "BIOINDUSTRIAL MANUFACTURING AND DESIGN ECOSYSTEM",
+      "amount": 536656761,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Department of the Air Force",
+      "description": "BIOMADE: THE BIOINDUSTRIAL MANUFACTURING AND DESIGN ECOSYSTEM",
+      "start_date": "2020-10-19",
+      "end_date": "2028-01-10",
+      "cfda": "12.800",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_FA86502125028_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "BIOMADE: THE BIOINDUSTRIAL MANUFACTURING AND DESIGN ECOSYSTEM"
+    },
+    {
+      "award_id": "DESC0023633",
+      "recipient_name": "MICHIGAN STATE UNIVERSITY",
+      "amount": 396718000,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "OPERATION OF THE FACILITY FOR RARE ISOTOPE BEAMS AS SCIENTIFIC USER FACILITY",
+      "start_date": "2023-07-15",
+      "end_date": "2027-01-14",
+      "cfda": "81.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DESC0023633_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "OPERATION OF THE FACILITY FOR RARE ISOTOPE BEAMS AS SCIENTIFIC USER FACILITY"
+    },
+    {
+      "award_id": "FA86502025506",
+      "recipient_name": "FLEXTECH ALLIANCE, INC.",
+      "amount": 348044513,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Department of the Air Force",
+      "description": "NEXTFLEX PARTNERSHIP",
+      "start_date": "2020-06-09",
+      "end_date": "2030-03-09",
+      "cfda": "12.800",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_FA86502025506_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NEXTFLEX PARTNERSHIP"
+    },
+    {
+      "award_id": "DESC0018409",
+      "recipient_name": "UNIVERSITY OF WISCONSIN SYSTEM",
+      "amount": 241000000,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "GREAT LAKES BIOENERGY RESEARCH CENTER",
+      "start_date": "2017-12-01",
+      "end_date": "2026-11-30",
+      "cfda": "81.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DESC0018409_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "GREAT LAKES BIOENERGY RESEARCH CENTER"
+    },
+    {
+      "award_id": "U01DK098246",
+      "recipient_name": "GEORGE WASHINGTON UNIVERSITY (THE)",
+      "amount": 238898122,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "GLYCEMIA REDUCTION APPROACHES IN DIABETES: A COMPARATIVE EFFECTIVENESS STUDY",
+      "start_date": "2012-09-25",
+      "end_date": "2026-07-31",
+      "cfda": "93.847",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U01DK098246_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "GLYCEMIA REDUCTION APPROACHES IN DIABETES: A COMPARATIVE EFFECTIVENESS STUDY"
+    },
+    {
+      "award_id": "DESC0020216",
+      "recipient_name": "SOUTH DAKOTA SCIENCE & TECHNOLOGY AUTHORITY",
+      "amount": 237065653,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "SANFORD UNDERGROUND RESEARCH FACILITY (SURF) - OPERATIONS",
+      "start_date": "2019-09-30",
+      "end_date": "2029-09-29",
+      "cfda": "81.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DESC0020216_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "SANFORD UNDERGROUND RESEARCH FACILITY (SURF) - OPERATIONS"
+    },
+    {
+      "award_id": "DESC0018420",
+      "recipient_name": "UNIVERSITY OF ILLINOIS",
+      "amount": 211031477,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "CENTER FOR ADVANCED BIOENERGY AND BIOPRODUCTS INNOVATION",
+      "start_date": "2017-12-01",
+      "end_date": "2026-11-30",
+      "cfda": "81.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DESC0018420_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "CENTER FOR ADVANCED BIOENERGY AND BIOPRODUCTS INNOVATION"
+    },
+    {
+      "award_id": "UM2AI117870",
+      "recipient_name": "RHO FEDERAL SYSTEMS DIVISION INC",
+      "amount": 200221259,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "RHO FEDERAL SYSTEMS DIVISION, INC. NIAID DAIT SACCC",
+      "start_date": "2015-05-07",
+      "end_date": "2023-04-30",
+      "cfda": "93.855",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UM2AI117870_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "RHO FEDERAL SYSTEMS DIVISION, INC. NIAID DAIT SACCC"
+    },
+    {
+      "award_id": "U01DK106993",
+      "recipient_name": "UNIVERSITY OF SOUTH FLORIDA",
+      "amount": 181279494,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "DATA COORDINATING CENTER FOR TYPE 1 DIABETES TRIALNET",
+      "start_date": "2015-09-30",
+      "end_date": "2030-05-31",
+      "cfda": "93.847",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U01DK106993_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "DATA COORDINATING CENTER FOR TYPE 1 DIABETES TRIALNET"
+    },
+    {
+      "award_id": "FA86501325503",
+      "recipient_name": "RED ROCK BIOFUELS LLC",
+      "amount": 142187360,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Department of the Air Force",
+      "description": "TAS:: 97X0360::TAS ADVANCED DROP-IN BIOFUELS PRODUCTION PROJECT",
+      "start_date": "2013-05-28",
+      "end_date": "2026-12-27",
+      "cfda": "12.800",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_FA86501325503_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "TAS:: 97X0360::TAS ADVANCED DROP-IN BIOFUELS PRODUCTION PROJECT"
+    },
+    {
+      "award_id": "FA86502121000",
+      "recipient_name": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+      "amount": 139955119,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Department of the Air Force",
+      "description": "AMERICAN INSTITUTE FOR MANUFACTURING INTEGRATED PHOTONICS 2.0",
+      "start_date": "2021-09-29",
+      "end_date": "2028-09-28",
+      "cfda": "12.800",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_FA86502121000_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "AMERICAN INSTITUTE FOR MANUFACTURING INTEGRATED PHOTONICS 2.0"
+    },
+    {
+      "award_id": "DEFC0106EH06008",
+      "recipient_name": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK",
+      "amount": 123402593,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "FORMER WORKER SURVEILLANCE PROGRAM",
+      "start_date": "2005-12-21",
+      "end_date": "2027-01-31",
+      "cfda": "81.049",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DEFC0106EH06008_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "FORMER WORKER SURVEILLANCE PROGRAM"
+    },
+    {
+      "award_id": "U01DK061230",
+      "recipient_name": "GEORGE WASHINGTON UNIVERSITY (THE)",
+      "amount": 112529392,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "STATISTICS CENTER FOR PEDIATRIC TYPE 2 DIABETES THERAPY",
+      "start_date": "2001-09-30",
+      "end_date": "2023-04-30",
+      "cfda": "93.847",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U01DK061230_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "STATISTICS CENTER FOR PEDIATRIC TYPE 2 DIABETES THERAPY"
+    },
+    {
+      "award_id": "FA87501921000",
+      "recipient_name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+      "amount": 112259544,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Department of the Air Force",
+      "description": "UNITED STATES AIR FORCE (USAF) ARTIFICIAL INTELLIGENCE (AI) ACCELERATOR AT THE MASSACHUSETTS INSITUTE OF TECHNOLOGY (MIT)",
+      "start_date": "2019-05-17",
+      "end_date": "2029-05-16",
+      "cfda": "12.300",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_FA87501921000_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "UNITED STATES AIR FORCE (USAF) ARTIFICIAL INTELLIGENCE (AI) ACCELERATOR AT THE MASSACHUSETTS INSITUTE OF TECHNOLOGY (MIT)"
+    },
+    {
+      "award_id": "N001742010031",
+      "recipient_name": "ENERGETICS TECHNOLOGY CENTER, INC.",
+      "amount": 105351914,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Department of the Navy",
+      "description": "STEM OUTREACH",
+      "start_date": "2020-09-28",
+      "end_date": "2027-09-17",
+      "cfda": "12.300",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_N001742010031_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "STEM OUTREACH"
+    },
+    {
+      "award_id": "U01DK094157",
+      "recipient_name": "CASE WESTERN RESERVE UNIVERSITY",
+      "amount": 97625338,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "EPIDEMIOLOGY OF DIABETES INTERVENTIONS AND COMPLICATIONS (EDIC)",
+      "start_date": "2011-09-30",
+      "end_date": "2027-06-30",
+      "cfda": "93.847",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U01DK094157_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "EPIDEMIOLOGY OF DIABETES INTERVENTIONS AND COMPLICATIONS (EDIC)"
+    },
+    {
+      "award_id": "U10CA180886",
+      "recipient_name": "COG RESEARCH FOUNDATION, LLC",
+      "amount": 362114328,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "COG NCTN NETWORK GROUP OPERATIONS CENTER",
+      "start_date": "2014-04-11",
+      "end_date": "2032-02-29",
+      "cfda": "93.395",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U10CA180886_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "COG NCTN NETWORK GROUP OPERATIONS CENTER"
+    },
+    {
+      "award_id": "P30CA008748",
+      "recipient_name": "SLOAN-KETTERING INSTITUTE FOR CANCER RESEARCH",
+      "amount": 263969536,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "CANCER CENTER SUPPORT GRANT",
+      "start_date": "1997-01-20",
+      "end_date": "2026-03-31",
+      "cfda": "93.397",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_P30CA008748_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "CANCER CENTER SUPPORT GRANT"
+    },
+    {
+      "award_id": "U10CA180868",
+      "recipient_name": "NRG ONCOLOGY FOUNDATION INC",
+      "amount": 193608039,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "NRG ONCOLOGY NETWORK GROUP OPERATIONS CENTER",
+      "start_date": "2014-04-17",
+      "end_date": "2032-02-29",
+      "cfda": "93.395",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U10CA180868_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NRG ONCOLOGY NETWORK GROUP OPERATIONS CENTER"
+    },
+    {
+      "award_id": "U10CA180821",
+      "recipient_name": "ALLIANCE NCTN FOUNDATION",
+      "amount": 167207857,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "ALLIANCE FOR CLINICAL TRIALS IN ONCOLOGY OPERATIONS CENTER",
+      "start_date": "2014-04-17",
+      "end_date": "2032-02-29",
+      "cfda": "93.395",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U10CA180821_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ALLIANCE FOR CLINICAL TRIALS IN ONCOLOGY OPERATIONS CENTER"
+    },
+    {
+      "award_id": "P30CA016520",
+      "recipient_name": "TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA, THE",
+      "amount": 163189642,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "ABRAMSON CANCER CENTER OF THE U OF P CORE SUPPORT GRANT",
+      "start_date": "1997-01-15",
+      "end_date": "2027-11-30",
+      "cfda": "93.397",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_P30CA016520_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ABRAMSON CANCER CENTER OF THE U OF P CORE SUPPORT GRANT"
+    },
+    {
+      "award_id": "P30CA082103",
+      "recipient_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
+      "amount": 153239085,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "CANCER CENTER SUPPORT GRANT",
+      "start_date": "1999-08-05",
+      "end_date": "2028-05-31",
+      "cfda": "93.397",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_P30CA082103_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "CANCER CENTER SUPPORT GRANT"
+    },
+    {
+      "award_id": "P30CA016086",
+      "recipient_name": "UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL",
+      "amount": 146867149,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "CANCER CENTER CORE SUPPORT GRANT",
+      "start_date": "1997-06-01",
+      "end_date": "2027-11-30",
+      "cfda": "93.397",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_P30CA016086_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "CANCER CENTER CORE SUPPORT GRANT"
+    },
+    {
+      "award_id": "U10CA180820",
+      "recipient_name": "ECOG-ACRIN MEDICAL RESEARCH FOUNDATION, INC.",
+      "amount": 146093381,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "ECOG-ACRIN OPERATIONS CENTER",
+      "start_date": "2014-04-29",
+      "end_date": "2032-02-29",
+      "cfda": "93.395",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U10CA180820_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ECOG-ACRIN OPERATIONS CENTER"
+    },
+    {
+      "award_id": "U10CA180888",
+      "recipient_name": "UNIVERSITY OF CALIFORNIA, DAVIS",
+      "amount": 141219398,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "SWOG NETWORK GROUP OPERATIONS CENTER OF THE NCTN",
+      "start_date": "2014-04-17",
+      "end_date": "2032-02-29",
+      "cfda": "93.395",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U10CA180888_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "SWOG NETWORK GROUP OPERATIONS CENTER OF THE NCTN"
+    },
+    {
+      "award_id": "UG1CA189867",
+      "recipient_name": "NRG ONCOLOGY FOUNDATION INC",
+      "amount": 140499886,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "NRG ONCOLOGY NCORP RESEARCH BASE",
+      "start_date": "2014-08-01",
+      "end_date": "2027-07-31",
+      "cfda": "93.399",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UG1CA189867_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NRG ONCOLOGY NCORP RESEARCH BASE"
+    },
+    {
+      "award_id": "U54HL143541",
+      "recipient_name": "UNIVERSITY OF MASSACHUSETTS MEDICAL SCHOOL",
+      "amount": 139036691,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "THE CENTER FOR ADVANCING POINT OF CARE IN HEART, LUNG, BLOOD AND SLEEP DISEASES",
+      "start_date": "2018-08-22",
+      "end_date": "2028-08-31",
+      "cfda": "93.837",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U54HL143541_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THE CENTER FOR ADVANCING POINT OF CARE IN HEART, LUNG, BLOOD AND SLEEP DISEASES"
+    },
+    {
+      "award_id": "U10CA180822",
+      "recipient_name": "THE UNIVERSITY OF CHICAGO",
+      "amount": 135447649,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "NRG ONCOLOGY STATISTICAL AND DATA MANAGEMENT CENTER",
+      "start_date": "2014-04-18",
+      "end_date": "2032-02-29",
+      "cfda": "93.395",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U10CA180822_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NRG ONCOLOGY STATISTICAL AND DATA MANAGEMENT CENTER"
+    },
+    {
+      "award_id": "UL1TR001857",
+      "recipient_name": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+      "amount": 128797340,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "UNIVERSITY OF PITTSBURGH CLINICAL AND TRANSLATIONAL SCIENCE INSTITUTE",
+      "start_date": "2016-07-12",
+      "end_date": "2026-07-31",
+      "cfda": "93.350",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UL1TR001857_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "UNIVERSITY OF PITTSBURGH CLINICAL AND TRANSLATIONAL SCIENCE INSTITUTE"
+    },
+    {
+      "award_id": "P30CA014089",
+      "recipient_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+      "amount": 127128807,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "USC/NORRIS COMPREHENSIVE CANCER CENTER (CORE) SUPPORT",
+      "start_date": "1996-12-01",
+      "end_date": "2026-11-30",
+      "cfda": "93.397",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_P30CA014089_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "USC/NORRIS COMPREHENSIVE CANCER CENTER (CORE) SUPPORT"
+    },
+    {
+      "award_id": "UG1CA189823",
+      "recipient_name": "ALLIANCE NCTN FOUNDATION",
+      "amount": 120599893,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "ALLIANCE NCORP RESEARCH BASE",
+      "start_date": "2014-08-01",
+      "end_date": "2027-07-31",
+      "cfda": "93.399",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_UG1CA189823_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ALLIANCE NCORP RESEARCH BASE"
+    },
+    {
+      "award_id": "U10CA180899",
+      "recipient_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+      "amount": 120181027,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "National Institutes of Health",
+      "description": "CHILDREN'S ONCOLOGY GROUP STATISTICS AND DATA CENTER",
+      "start_date": "2014-04-15",
+      "end_date": "2032-02-29",
+      "cfda": "93.395",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_U10CA180899_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "CHILDREN'S ONCOLOGY GROUP STATISTICS AND DATA CENTER"
+    },
+    {
+      "award_id": "NNG11HP16A",
+      "recipient_name": "UNIVERSITIES SPACE RESEARCH ASSOCIATION",
+      "amount": 243555196,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "THE \"GODDARD EARTH SCIENCES TECHNOLOGY AND RESEARCH\" (GESTAR) STUDIES AND INVESTIGATIONS WILL CARRY OUT OBSERVATIONAL, EXPERIMENTAL, AND THEORETICAL",
+      "start_date": "2011-05-11",
+      "end_date": null,
+      "cfda": "43.001",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NNG11HP16A_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THE \"GODDARD EARTH SCIENCES TECHNOLOGY AND RESEARCH\" (GESTAR) STUDIES AND INVESTIGATIONS WILL CARRY OUT OBSERVATIONAL, EXPERIMENTAL, AND THEORETICAL"
+    },
+    {
+      "award_id": "NNM11AA01A",
+      "recipient_name": "THE UNIVERSITY OF ALABAMA IN HUNTSVILLE",
+      "amount": 156725920,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "THE NATIONAL SPACE SCIENCE AND TECHNOLOGY CENTER (NSSTC) IS A RESEARCH FACILITY LOCATED IN CRAMER HALL ON THE CAMPUS OF THE UNIVERSITY OF ALABAMA IN",
+      "start_date": "2011-04-01",
+      "end_date": null,
+      "cfda": "43.008",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NNM11AA01A_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THE NATIONAL SPACE SCIENCE AND TECHNOLOGY CENTER (NSSTC) IS A RESEARCH FACILITY LOCATED IN CRAMER HALL ON THE CAMPUS OF THE UNIVERSITY OF ALABAMA IN"
+    },
+    {
+      "award_id": "W911SR1520001",
+      "recipient_name": "BATTELLE MEMORIAL INSTITUTE",
+      "amount": 142583696,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Defense Contract Management Agency",
+      "description": "INCREMENTAL FUNDING, MAKE IN-SCOPE REVISIONS, REPLACES THE COGNIZANT ADMIN OFFICE, MINOR CHANGES",
+      "start_date": "2015-11-25",
+      "end_date": "2025-09-29",
+      "cfda": "12.630",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_W911SR1520001_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "INCREMENTAL FUNDING, MAKE IN-SCOPE REVISIONS, REPLACES THE COGNIZANT ADMIN OFFICE, MINOR CHANGES"
+    },
+    {
+      "award_id": "NNX16AO69A",
+      "recipient_name": "BAYLOR COLLEGE OF MEDICINE",
+      "amount": 139591380,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "THIS PROPOSAL FOR A TRANSLATIONAL RESEARCH INSTITUTE IS SUBMITTED ON BEHALF OF A CONSORTIUM OF NON-PROFIT ACADEMIC INSTITUTIONS IN RESPONSE TO NASA C",
+      "start_date": "2016-10-01",
+      "end_date": "2028-09-30",
+      "cfda": "43.003",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NNX16AO69A_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THIS PROPOSAL FOR A TRANSLATIONAL RESEARCH INSTITUTE IS SUBMITTED ON BEHALF OF A CONSORTIUM OF NON-PROFIT ACADEMIC INSTITUTIONS IN RESPONSE TO NASA C"
+    },
+    {
+      "award_id": "NNX12AD05A",
+      "recipient_name": "BAY AREA ENVIRONMENTAL RESEARCH INSTITUTE",
+      "amount": 137783105,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "THE BAY AREA ENVIRONMENTAL RESEARCH INSTITUTE (BAER INSTITUTE OR BAER), IN COOPERATION WITH THE UNIVERSITY CORPORATION AT MONTEREY BAY ON BEHALF OF C",
+      "start_date": "2012-03-01",
+      "end_date": "2024-09-30",
+      "cfda": "43.001",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NNX12AD05A_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THE BAY AREA ENVIRONMENTAL RESEARCH INSTITUTE (BAER INSTITUTE OR BAER), IN COOPERATION WITH THE UNIVERSITY CORPORATION AT MONTEREY BAY ON BEHALF OF C"
+    },
+    {
+      "award_id": "W911W61320001",
+      "recipient_name": "BELL TEXTRON INC",
+      "amount": 129332838,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Department of the Army",
+      "description": "JOINT MULTI-ROLE TECHNOLOGY DEMONSTRATOR PHASE I AIR VEHICLE DEVELOPMENT",
+      "start_date": "2013-09-16",
+      "end_date": "2024-09-18",
+      "cfda": "12.630",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_W911W61320001_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "JOINT MULTI-ROLE TECHNOLOGY DEMONSTRATOR PHASE I AIR VEHICLE DEVELOPMENT"
+    },
+    {
+      "award_id": "NNL09AA00A",
+      "recipient_name": "NATIONAL INSTITUTE OF AEROSPACE ASSOCIATES",
+      "amount": 127431525,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "FACILITATE ESTABLISHMENT AND OPERATION OF SCIENCE AND RESEARCH INSTITUTECONTINUATION TO NCC1-02043",
+      "start_date": "2009-05-28",
+      "end_date": "2019-06-30",
+      "cfda": "43.008",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NNL09AA00A_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "FACILITATE ESTABLISHMENT AND OPERATION OF SCIENCE AND RESEARCH INSTITUTECONTINUATION TO NCC1-02043"
+    },
+    {
+      "award_id": "W911W61320003",
+      "recipient_name": "SIKORSKY AIRCRAFT CORPORATION",
+      "amount": 118290185,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Defense Contract Management Agency",
+      "description": "JOINT MULTI-ROLE TECHNOLOGY DEMONSTRATOR PHASE I AIR VEHICLE DEVELOPMENT",
+      "start_date": "2013-09-16",
+      "end_date": "2019-04-15",
+      "cfda": "12.630",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_W911W61320003_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "JOINT MULTI-ROLE TECHNOLOGY DEMONSTRATOR PHASE I AIR VEHICLE DEVELOPMENT"
+    },
+    {
+      "award_id": "W911NF0920053",
+      "recipient_name": "RTX BBN TECHNOLOGIES, INC.",
+      "amount": 111562198,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Defense Contract Management Agency",
+      "description": "NS CTA",
+      "start_date": "2009-09-28",
+      "end_date": "2020-02-28",
+      "cfda": "12.630",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_W911NF0920053_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NS CTA"
+    },
+    {
+      "award_id": "80LARC17C0004",
+      "recipient_name": "NATIONAL INSTITUTE OF AEROSPACE ASSOCIATES",
+      "amount": 104843521,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "FACILITATE ESTABLISHMENT AND OPERATION OF SCIENCE AND RESEARCH INSTITUTE",
+      "start_date": "2017-07-21",
+      "end_date": "2023-09-25",
+      "cfda": "43.001",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_80LARC17C0004_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "FACILITATE ESTABLISHMENT AND OPERATION OF SCIENCE AND RESEARCH INSTITUTE"
+    },
+    {
+      "award_id": "80MSFC22M0004",
+      "recipient_name": "THE UNIVERSITY OF ALABAMA IN HUNTSVILLE",
+      "amount": 104153585,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "THIS AWARD IS A 10-YEAR RENEWAL COOPERATIVE AGREEMENT WITH UAH. THIS COOPERATIVE AGREEMENT IS A CONTINUATION OF THE NASA/MSFC COLLABORATIVE RESEARCH EFFORTS WITH UAH AT THE NATIONAL SPACE SCIENCE AND TECHNOLOGY CENTER (NSSTC). THE COOPERATIVE AGREEMENT IS A COLLABORATIVE EFFORT THAT PROVIDES AN ENVIRONMENT FOR SPACE RESEARCH  EDUCATION  AND DEVELOPMENT IN SUPPORT OF NASA'S MISSION. THE KEY FOCUS AREAS TO BE INCLUDED ARE EARTH SCIENCE RESEARCH AND ANALYSIS  EARTH SCIENCE APPLICATIONS RESEARCH  HELIOPHYSICS AND SPACE WEATHER  PLANETARY SCIENCE  ASTROPHYSICS AND \"OTHER\" (E.G. BIOTECHNOLOGY  MATERIALS SCIENCE  MODELING & SIMULATION  SYSTEMS ENGINEERING AND EMERGING DISCIPLINES).",
+      "start_date": "2022-04-01",
+      "end_date": "2032-03-31",
+      "cfda": "43.001",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_80MSFC22M0004_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THIS AWARD IS A 10-YEAR RENEWAL COOPERATIVE AGREEMENT WITH UAH. THIS COOPERATIVE AGREEMENT IS A CONTINUATION OF THE NASA/MSFC COLLABORATIVE RESEARCH EFFORTS WITH UAH AT THE NATIONAL SPACE SCIENCE AND TECHNOLOGY CENTER (NSSTC). THE COOPERATIVE AGREEMENT IS A COLLABORATIVE EFFORT THAT PROVIDES AN ENVIRONMENT FOR SPACE RESEARCH  EDUCATION  AND DEVELOPMENT IN SUPPORT OF NASA'S MISSION. THE KEY FOCUS AREAS TO BE INCLUDED ARE EARTH SCIENCE RESEARCH AND ANALYSIS  EARTH SCIENCE APPLICATIONS RESEARCH  HELIOPHYSICS AND SPACE WEATHER  PLANETARY SCIENCE  ASTROPHYSICS AND \"OTHER\" (E.G. BIOTECHNOLOGY  MATERIALS SCIENCE  MODELING & SIMULATION  SYSTEMS ENGINEERING AND EMERGING DISCIPLINES)."
+    },
+    {
+      "award_id": "80NSSC21M0180",
+      "recipient_name": "CATHOLIC UNIVERSITY OF AMERICA (THE)",
+      "amount": 97031502,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "WE PROPOSE TO SUPPORT THE SCIENTIFIC AND TECHNICAL PROGRAM OF NASA GODDARD SPACE FLIGHT CENTER S HELIOPHYSICS SCIENCE DIVISION (HSD) THROUGH A SIX-MEMBER PARTNERSHIP THAT BUILDS ON CURRENT COLLABORATIONS AND EXTENSIVE LOCAL EXPERIENCE IN ALL THE CORE",
+      "start_date": "2021-07-01",
+      "end_date": "2027-03-31",
+      "cfda": "43.001",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_80NSSC21M0180_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "WE PROPOSE TO SUPPORT THE SCIENTIFIC AND TECHNICAL PROGRAM OF NASA GODDARD SPACE FLIGHT CENTER S HELIOPHYSICS SCIENCE DIVISION (HSD) THROUGH A SIX-MEMBER PARTNERSHIP THAT BUILDS ON CURRENT COLLABORATIONS AND EXTENSIVE LOCAL EXPERIENCE IN ALL THE CORE"
+    },
+    {
+      "award_id": "W911SR1420001",
+      "recipient_name": "MSI STEM RESEARCH & DEVELOPMENT CONSORTIUM",
+      "amount": 88016412,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Department of the Army",
+      "description": "SUPPORT AND STIMULATE RESEARCH AND TECHNOLOGY DEVELOPMENT AT EDUCATIONAL INSTITUTIONS",
+      "start_date": "2014-07-28",
+      "end_date": "2023-04-05",
+      "cfda": "12.630",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_W911SR1420001_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "SUPPORT AND STIMULATE RESEARCH AND TECHNOLOGY DEVELOPMENT AT EDUCATIONAL INSTITUTIONS"
+    },
+    {
+      "award_id": "80NSSC22M0001",
+      "recipient_name": "UNIVERSITY OF MARYLAND BALTIMORE COUNTY",
+      "amount": 87578015,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "THE PROPOSED GESTAR II CONSORTIUM COMPRISES FIVE TOP-RANKED UNIVERSITIES AND THREE NON-ACADEMIC.PARTNERS: UNIVERSITY OF MARYLAND  BALTIMORE COUNTY (UMBC  PRIME)  MORGAN STATE UNIVERSITY.(GESTAR INCUMBENT)  COLORADO STATE UNIVERSITY  PENNSYLVANIA STAT",
+      "start_date": "2021-12-01",
+      "end_date": "2026-11-30",
+      "cfda": "43.001",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_80NSSC22M0001_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THE PROPOSED GESTAR II CONSORTIUM COMPRISES FIVE TOP-RANKED UNIVERSITIES AND THREE NON-ACADEMIC.PARTNERS: UNIVERSITY OF MARYLAND  BALTIMORE COUNTY (UMBC  PRIME)  MORGAN STATE UNIVERSITY.(GESTAR INCUMBENT)  COLORADO STATE UNIVERSITY  PENNSYLVANIA STAT"
+    },
+    {
+      "award_id": "15PBJA24GG00028PNCX",
+      "recipient_name": "CITY OF CHICAGO",
+      "amount": 75000000,
+      "awarding_agency": "Department of Justice",
+      "awarding_sub_agency": "Office of Justice Programs",
+      "description": "THE CITY OF CHICAGO WILL BE HOSTING THE 2024 DEMOCRATIC PRESIDENTIAL NOMINATING CONVENTION (2024 DNC). DELEGATIONS FROM ALL 50 STATES, AS WELL AS FEDERAL, STATE, AND LOCAL DIGNITARIES, GOVERNMENT OFFICIALS, GUESTS, AND OTHER VISITORS INTERESTED IN THE EVENT WILL BE IN THE CITY AND ARE EXPECTED TO NUMBER IN THE TENS OF THOUSANDS. TO ENSURE THE SAFETY AND SECURITY OF EVERYONE ARRIVING IN CHICAGO BECAUSE OF THE 2024 DNC, THE CHICAGO POLICE DEPARTMENT (CPD) HAS PLANNED AND WILL IMPLEMENT SAFETY AND SECURITY MEASURES IN PARTNERSHIP WITH FEDERAL, STATE, AND LOCAL STAKEHOLDERS THAT WILL BE SUPPORTED UTILIZING FUNDS APPROPRIATED FOR THE FY24 PRESIDENTIAL NOMINATING CONVENTIONS. THE PURPOSE OF THE GRANT IS TOSUPPORT LAW ENFORCEMENT RELATED ACTIVITIES ASSOCIATED WITH THE 2024 PRESIDENTIAL NOMINATING CONVENTIONS. THE PRIMARY ACTIVITIES INCLUDE DEPLOYING PERSONNEL AND OTHER NECESSARY RESOURCES AIMED AT ENSURING THE SAFETY AND SECURITY OF THE PNC AND ACQUIRING LAW ENFORCEMENT RELATED COMMODITIES AND SERVICES TO ACHIEVE A SUCCESSFUL EVENT. CPD ALSO INTENDS TO USE 2024 PNC FUNDS TO EXECUTE SUBAWARDS WITH MUTUAL AID PARTNERS WHO WILL PROVIDE RELATED LAW ENFORCEMENT SERVICES DURING THE EVENT. FOR THIS PURPOSE, THE CITY HAS INSTITUTED A ROBUST SYSTEM TO ADMINISTER GRANT FUNDING TRANSPARENTLY AND TO ADEQUATELY DOCUMENT, OVERSEE, AND REIMBURSE SUBRECIPIENTS.",
+      "start_date": "2023-10-01",
+      "end_date": "2026-02-28",
+      "cfda": "16.738",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_15PBJA24GG00028PNCX_015"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THE CITY OF CHICAGO WILL BE HOSTING THE 2024 DEMOCRATIC PRESIDENTIAL NOMINATING CONVENTION (2024 DNC). DELEGATIONS FROM ALL 50 STATES, AS WELL AS FEDERAL, STATE, AND LOCAL DIGNITARIES, GOVERNMENT OFFICIALS, GUESTS, AND OTHER VISITORS INTERESTED IN THE EVENT WILL BE IN THE CITY AND ARE EXPECTED TO NUMBER IN THE TENS OF THOUSANDS. TO ENSURE THE SAFETY AND SECURITY OF EVERYONE ARRIVING IN CHICAGO BECAUSE OF THE 2024 DNC, THE CHICAGO POLICE DEPARTMENT (CPD) HAS PLANNED AND WILL IMPLEMENT SAFETY AND SECURITY MEASURES IN PARTNERSHIP WITH FEDERAL, STATE, AND LOCAL STAKEHOLDERS THAT WILL BE SUPPORTED UTILIZING FUNDS APPROPRIATED FOR THE FY24 PRESIDENTIAL NOMINATING CONVENTIONS. THE PURPOSE OF THE GRANT IS TOSUPPORT LAW ENFORCEMENT RELATED ACTIVITIES ASSOCIATED WITH THE 2024 PRESIDENTIAL NOMINATING CONVENTIONS. THE PRIMARY ACTIVITIES INCLUDE DEPLOYING PERSONNEL AND OTHER NECESSARY RESOURCES AIMED AT ENSURING THE SAFETY AND SECURITY OF THE PNC AND ACQUIRING LAW ENFORCEMENT RELATED COMMODITIES AND SERVICES TO ACHIEVE A SUCCESSFUL EVENT. CPD ALSO INTENDS TO USE 2024 PNC FUNDS TO EXECUTE SUBAWARDS WITH MUTUAL AID PARTNERS WHO WILL PROVIDE RELATED LAW ENFORCEMENT SERVICES DURING THE EVENT. FOR THIS PURPOSE, THE CITY HAS INSTITUTED A ROBUST SYSTEM TO ADMINISTER GRANT FUNDING TRANSPARENTLY AND TO ADEQUATELY DOCUMENT, OVERSEE, AND REIMBURSE SUBRECIPIENTS."
+    },
+    {
+      "award_id": "15PBJA24GG00027PNCX",
+      "recipient_name": "CITY OF MILWAUKEE",
+      "amount": 75000000,
+      "awarding_agency": "Department of Justice",
+      "awarding_sub_agency": "Office of Justice Programs",
+      "description": "THE CITY OF MILWAUKEE, WISCONSIN PROPOSES TO IMPLEMENT THE 2024 REPUBLICAN PRESIDENTIAL NOMINATING CONVENTION (RNC) SECURITY PROGRAM. THE PURPOSE OF THE PROGRAM IS TO PROVIDE A SAFE AND SECURE ENVIRONMENT FOR ALL BENEFICIARIES: RNC PARTICIPANTS, NEWS MEDIA, DEMONSTRATORS, SERVICE PROVIDERS, AND THE GENERAL PUBLIC WHO WILL PARTICIPATE IN OR BE AFFECTED BY THE ACTIVITIES SURROUNDING THE RNC. PROJECT ACTIVITIES INCLUDE UTILIZATION OF MORE THAN 4,000 LAW ENFORCEMENT OFFICERS AND ALL-HAZARDS PROTECTION PERSONNEL FROM THE CITY OF MILWAUKEE AND NATIONWIDE PARTNERS TO SUPPORT RNC SECURITY EFFORTS, TO EFFECTIVELY PROCURE AND INVENTORY EQUIPMENT, SUPPLIES, AND SERVICES, AND TO EFFECTIVELY IMPLEMENT A COMPREHENSIVE OPERATIONAL SECURITY PLAN, INCLUDING PREPARATION, MOBILIZATION, AND DE-MOBILIZATION PHASES. EXPECTED OUTCOMES INCLUDE A PRESIDENTIAL NOMINATING CONVENTION WITH NO MAJOR PUBLIC SAFETY INCIDENTS, PROPERTY DAMAGE, OR INJURIES. THE SERVICE AREA IS THE CITY OF MILWAUKEE METROPOLITAN AREA, INCLUDING THE LOCATION OF ANY OFFICIAL CONVENTION ACTIVITIES. SUBRECIPIENT ACTIVITIES INCLUDE RECRUITING LAW ENFORCEMENT PERSONNEL FROM ASSISTING STATES THROUGH THE EMERGENCY MANAGEMENT ASSISTANCE COMPACT, AND PROVIDING SUPPORT FOR THE REIMBURSEMENT PROCESS FOR ASSISTING STATES.",
+      "start_date": "2023-10-01",
+      "end_date": "2026-02-28",
+      "cfda": "16.738",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_15PBJA24GG00027PNCX_015"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "THE CITY OF MILWAUKEE, WISCONSIN PROPOSES TO IMPLEMENT THE 2024 REPUBLICAN PRESIDENTIAL NOMINATING CONVENTION (RNC) SECURITY PROGRAM. THE PURPOSE OF THE PROGRAM IS TO PROVIDE A SAFE AND SECURE ENVIRONMENT FOR ALL BENEFICIARIES: RNC PARTICIPANTS, NEWS MEDIA, DEMONSTRATORS, SERVICE PROVIDERS, AND THE GENERAL PUBLIC WHO WILL PARTICIPATE IN OR BE AFFECTED BY THE ACTIVITIES SURROUNDING THE RNC. PROJECT ACTIVITIES INCLUDE UTILIZATION OF MORE THAN 4,000 LAW ENFORCEMENT OFFICERS AND ALL-HAZARDS PROTECTION PERSONNEL FROM THE CITY OF MILWAUKEE AND NATIONWIDE PARTNERS TO SUPPORT RNC SECURITY EFFORTS, TO EFFECTIVELY PROCURE AND INVENTORY EQUIPMENT, SUPPLIES, AND SERVICES, AND TO EFFECTIVELY IMPLEMENT A COMPREHENSIVE OPERATIONAL SECURITY PLAN, INCLUDING PREPARATION, MOBILIZATION, AND DE-MOBILIZATION PHASES. EXPECTED OUTCOMES INCLUDE A PRESIDENTIAL NOMINATING CONVENTION WITH NO MAJOR PUBLIC SAFETY INCIDENTS, PROPERTY DAMAGE, OR INJURIES. THE SERVICE AREA IS THE CITY OF MILWAUKEE METROPOLITAN AREA, INCLUDING THE LOCATION OF ANY OFFICIAL CONVENTION ACTIVITIES. SUBRECIPIENT ACTIVITIES INCLUDE RECRUITING LAW ENFORCEMENT PERSONNEL FROM ASSISTING STATES THROUGH THE EMERGENCY MANAGEMENT ASSISTANCE COMPACT, AND PROVIDING SUPPORT FOR THE REIMBURSEMENT PROCESS FOR ASSISTING STATES."
+    },
+    {
+      "award_id": "W911NF0820004",
+      "recipient_name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+      "amount": 74437752,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Defense Contract Management Agency",
+      "description": "MICRO AUTONOMOUS SYSTEMS AND TECHNOLOGY CTA",
+      "start_date": "2008-02-28",
+      "end_date": "2017-12-22",
+      "cfda": "12.630",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_W911NF0820004_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "MICRO AUTONOMOUS SYSTEMS AND TECHNOLOGY CTA"
+    },
+    {
+      "award_id": "80NSSC23M0230",
+      "recipient_name": "BAY AREA ENVIRONMENTAL RESEARCH INSTITUTE",
+      "amount": 74314104,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "APPLICATION FOR A RENEWAL OF THE ARC-CREST COOPERATIVE AGREEMENT.#NNX12AD05A",
+      "start_date": "2023-10-01",
+      "end_date": "2028-09-30",
+      "cfda": "43.001",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_80NSSC23M0230_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "APPLICATION FOR A RENEWAL OF THE ARC-CREST COOPERATIVE AGREEMENT.#NNX12AD05A"
+    },
+    {
+      "award_id": "NCC1359",
+      "recipient_name": "CITY OF HAMPTON",
+      "amount": 72789671,
+      "awarding_agency": "National Aeronautics and Space Administration",
+      "awarding_sub_agency": "National Aeronautics and Space Administration",
+      "description": "OPERATION OF THE REFUSE-FIRED STEAM GENERATING FACILITY (RECOUP), 50 WYTHE CREEK RD., HAMPTON, VA",
+      "start_date": "2000-09-28",
+      "end_date": "2020-08-31",
+      "cfda": "43.002",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NCC1359_080"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "OPERATION OF THE REFUSE-FIRED STEAM GENERATING FACILITY (RECOUP), 50 WYTHE CREEK RD., HAMPTON, VA"
+    },
+    {
+      "award_id": "W911W61320002",
+      "recipient_name": "KAREM AIRCRAFT, INC.",
+      "amount": 72572588,
+      "awarding_agency": "Department of Defense",
+      "awarding_sub_agency": "Department of the Army",
+      "description": "JOINT MULTI-ROLE TECHNOLOGY DEMONSTRATOR PHASE I AIR VEHICLE DEVELOPMENT",
+      "start_date": "2013-09-16",
+      "end_date": "2024-12-31",
+      "cfda": "12.630",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_W911W61320002_097"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "JOINT MULTI-ROLE TECHNOLOGY DEMONSTRATOR PHASE I AIR VEHICLE DEVELOPMENT"
+    },
+    {
+      "award_id": "1326927",
+      "recipient_name": "TEXAS A & M RESEARCH FOUNDATION",
+      "amount": 640746599,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "MANAGEMENT AND OPERATIONS OF THE JOIDES RESOLUTION AS A FACILITY FOR THE INTERNATIONAL OCEAN DISCOVERY PROGRAM (IODP)",
+      "start_date": "2014-07-01",
+      "end_date": "2027-03-31",
+      "cfda": "47.050",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_1326927_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "MANAGEMENT AND OPERATIONS OF THE JOIDES RESOLUTION AS A FACILITY FOR THE INTERNATIONAL OCEAN DISCOVERY PROGRAM (IODP)"
+    },
+    {
+      "award_id": "1748726",
+      "recipient_name": "OREGON STATE UNIVERSITY",
+      "amount": 399999980,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "CONSTRUCTION OF UP TO THREE REGIONAL CLASS RESEARCH VESSELS (RCRVS) - PHASES III & IV",
+      "start_date": "2017-07-01",
+      "end_date": "2028-09-30",
+      "cfda": "47.050",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_1748726_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "CONSTRUCTION OF UP TO THREE REGIONAL CLASS RESEARCH VESSELS (RCRVS) - PHASES III & IV"
+    },
+    {
+      "award_id": "DEFE0032657",
+      "recipient_name": "COLORADO STATE UNIVERSITY",
+      "amount": 299999930,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "INFLATION REDUCTION ACT (IRA) – METHANE EMISSIONS REDUCTION PROGRAM OIL AND GAS METHANE MONITORING AND MITIGATION. COLLABORATIVE APPROACH TO REDUCING EMISSIONS (CARE) FOR MARGINAL CONVENTIONAL WELLS. \nTHE OBJECTIVE OF THE AWARD IS TO COST-EFFECTIVELY MITIGATE EMISSIONS ON MARGINAL CONVENTIONAL WELLS.",
+      "start_date": "2025-01-15",
+      "end_date": "2028-09-30",
+      "cfda": "81.089",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DEFE0032657_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "INFLATION REDUCTION ACT (IRA) – METHANE EMISSIONS REDUCTION PROGRAM OIL AND GAS METHANE MONITORING AND MITIGATION. COLLABORATIVE APPROACH TO REDUCING EMISSIONS (CARE) FOR MARGINAL CONVENTIONAL WELLS. \nTHE OBJECTIVE OF THE AWARD IS TO COST-EFFECTIVELY MITIGATE EMISSIONS ON MARGINAL CONVENTIONAL WELLS."
+    },
+    {
+      "award_id": "30601391322026",
+      "recipient_name": "DEPARTMENT OF AIRPORTS OF THE CITY OF LOS ANGELES",
+      "amount": 289346338,
+      "awarding_agency": "Department of Transportation",
+      "awarding_sub_agency": "Federal Aviation Administration",
+      "description": "PURPOSE: CONSTRUCT TERMINAL ACCESS ROAD.  ACTIVITIES TO BE PERFORMED/EXPECTED OUTCOMES: THIS PROJECT CONSTRUCTS A NEW 17,410 FOOT ACCESS ROAD TO TERMINALS 1-8 AND B TO ACCOMMODATE MORE VEHICULAR TRAFFIC EXCLUSIVELY SERVING THE AIRPORT. THIS GRANT FUNDS PHASE 3, WHICH CONSISTS OF CONSTRUCTION OF 7,955 FEET.  INTENDED BENEFICIARY: THIS GRANT WILL PROVIDE FEDERAL FUNDING FOR AIRPORTS ASSOCIATED WITH LOS ANGELES, CALIFORNIA.",
+      "start_date": "2026-08-28",
+      "end_date": "2030-08-27",
+      "cfda": "20.117",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_30601391322026_069"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "PURPOSE: CONSTRUCT TERMINAL ACCESS ROAD.  ACTIVITIES TO BE PERFORMED/EXPECTED OUTCOMES: THIS PROJECT CONSTRUCTS A NEW 17,410 FOOT ACCESS ROAD TO TERMINALS 1-8 AND B TO ACCOMMODATE MORE VEHICULAR TRAFFIC EXCLUSIVELY SERVING THE AIRPORT. THIS GRANT FUNDS PHASE 3, WHICH CONSISTS OF CONSTRUCTION OF 7,955 FEET.  INTENDED BENEFICIARY: THIS GRANT WILL PROVIDE FEDERAL FUNDING FOR AIRPORTS ASSOCIATED WITH LOS ANGELES, CALIFORNIA."
+    },
+    {
+      "award_id": "NU2GGH002002",
+      "recipient_name": "MEDICAL ACCESS UGANDA LIMITED",
+      "amount": 283177425,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Centers for Disease Control and Prevention",
+      "description": "PROCUREMENT, LOGISTICS MANAGEMENT, WAREHOUSING, AND DISTRIBUTION OF HIV/AIDS, TB-RELATED COMMODITIES",
+      "start_date": "2017-04-01",
+      "end_date": "2023-09-29",
+      "cfda": "93.067",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NU2GGH002002_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "PROCUREMENT, LOGISTICS MANAGEMENT, WAREHOUSING, AND DISTRIBUTION OF HIV/AIDS, TB-RELATED COMMODITIES"
+    },
+    {
+      "award_id": "DEFE0022596",
+      "recipient_name": "SOUTHERN COMPANY SERVICES, INC.",
+      "amount": 251005250,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "NATIONAL CARBON CAPTURE CENTER",
+      "start_date": "2014-06-06",
+      "end_date": "2026-03-31",
+      "cfda": "81.089",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DEFE0022596_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "NATIONAL CARBON CAPTURE CENTER"
+    },
+    {
+      "award_id": "1743430",
+      "recipient_name": "WOODS HOLE OCEANOGRAPHIC INSTITUTION",
+      "amount": 220735035,
+      "awarding_agency": "National Science Foundation",
+      "awarding_sub_agency": "National Science Foundation",
+      "description": "MANAGEMENT AND OPERATION OF THE OCEAN OBSERVATORIES INITIATIVE (OOI)",
+      "start_date": "2018-10-01",
+      "end_date": "2025-05-31",
+      "cfda": "47.050",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_1743430_049"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "MANAGEMENT AND OPERATION OF THE OCEAN OBSERVATORIES INITIATIVE (OOI)"
+    },
+    {
+      "award_id": "NU2GGH002147",
+      "recipient_name": "MANAGEMENT AND DEVELOPMENT FOR HEALTH",
+      "amount": 220135213,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Centers for Disease Control and Prevention",
+      "description": "AFYA KWANZA PROJECT FOR PROVISION OF COMPREHENSIVE HIV PREVENTION, CARE, TREATMENT, AND SUPPORT SERVICES IN THE UNITED REPUBLIC OF TANZANIA",
+      "start_date": "2018-09-30",
+      "end_date": "2023-09-29",
+      "cfda": "93.067",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NU2GGH002147_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "AFYA KWANZA PROJECT FOR PROVISION OF COMPREHENSIVE HIV PREVENTION, CARE, TREATMENT, AND SUPPORT SERVICES IN THE UNITED REPUBLIC OF TANZANIA"
+    },
+    {
+      "award_id": "DEFE0032658",
+      "recipient_name": "INSTITUTE OF GAS TECHNOLOGY",
+      "amount": 209999996,
+      "awarding_agency": "Department of Energy",
+      "awarding_sub_agency": "Department of Energy",
+      "description": "INFLATION REDUCTION ACT (IRA) – WELL EMISSIONS AND LEAKAGE LIMITATION CHECK (WELL CHECK)\n\nTHE GOAL OF WELL CHECK IS TO ACCELERATE THE MITIGATION OF METHANE EMISSIONS FROM SMALL OPERATORS (SO), DEFINED AS AN ENTITY GENERATING REVENUE OF LESS THAN $40 MILLION IN A FISCAL YEAR, WITHIN THE U.S. OIL AND GAS INDUSTRY WITH PRODUCTION VOLUMES BETWEEN 15 AND 40 BARRELS OF OIL EQUIVALENT PER DAY (BOED), GATHERING LINES, AND TRANSMISSION PIPELINES. THIS WILL BE ACHIEVED THROUGH THREE KEY OBJECTIVES: 1) INSTALLATION OF EMISSIONS REDUCTION TECHNOLOGIES FOR HIGH-PRIORITY EMISSIONS SOURCES FROM UPSTREAM AND MIDSTREAM SEGMENTS, 2) UPSTREAM AND MIDSTREAM OPERATIONAL IMPROVEMENTS THROUGH EDUCATION AND TRAINING PROGRAMS FOR SOS ON MITIGATION AND MEASUREMENT BEST PRACTICES, AND 3) IMPLEMENTATION OF INDUSTRY BEST PRACTICES PROGRAMS AT SITES TO IDENTIFY AND REPAIR LEAK SOURCES.",
+      "start_date": "2025-01-15",
+      "end_date": "2028-09-30",
+      "cfda": "81.089",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_DEFE0032658_089"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "INFLATION REDUCTION ACT (IRA) – WELL EMISSIONS AND LEAKAGE LIMITATION CHECK (WELL CHECK)\n\nTHE GOAL OF WELL CHECK IS TO ACCELERATE THE MITIGATION OF METHANE EMISSIONS FROM SMALL OPERATORS (SO), DEFINED AS AN ENTITY GENERATING REVENUE OF LESS THAN $40 MILLION IN A FISCAL YEAR, WITHIN THE U.S. OIL AND GAS INDUSTRY WITH PRODUCTION VOLUMES BETWEEN 15 AND 40 BARRELS OF OIL EQUIVALENT PER DAY (BOED), GATHERING LINES, AND TRANSMISSION PIPELINES. THIS WILL BE ACHIEVED THROUGH THREE KEY OBJECTIVES: 1) INSTALLATION OF EMISSIONS REDUCTION TECHNOLOGIES FOR HIGH-PRIORITY EMISSIONS SOURCES FROM UPSTREAM AND MIDSTREAM SEGMENTS, 2) UPSTREAM AND MIDSTREAM OPERATIONAL IMPROVEMENTS THROUGH EDUCATION AND TRAINING PROGRAMS FOR SOS ON MITIGATION AND MEASUREMENT BEST PRACTICES, AND 3) IMPLEMENTATION OF INDUSTRY BEST PRACTICES PROGRAMS AT SITES TO IDENTIFY AND REPAIR LEAK SOURCES."
+    },
+    {
+      "award_id": "NU2GGH002173",
+      "recipient_name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
+      "amount": 193459856,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Centers for Disease Control and Prevention",
+      "description": "HIV-FOCUSED POPULATION SURVEYS IN COUNTRIES SUPPORTED UNDER THE PRESIDENT'S EMERGENCY PLAN FOR AIDS RELIEF (PEPFAR)",
+      "start_date": "2018-12-31",
+      "end_date": "2025-12-31",
+      "cfda": "93.067",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NU2GGH002173_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "HIV-FOCUSED POPULATION SURVEYS IN COUNTRIES SUPPORTED UNDER THE PRESIDENT'S EMERGENCY PLAN FOR AIDS RELIEF (PEPFAR)"
+    },
+    {
+      "award_id": "NU2GGH002381",
+      "recipient_name": "WITS HEALTH CONSORTIUM (PTY) LTD",
+      "amount": 193053340,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Centers for Disease Control and Prevention",
+      "description": "WITS RHI GOPHELEGA (STRIVING FOR GOOD HEALTH) - A PROGRAM TO SUSTAIN HIV/TB EPIDEMIC CONTROL IN SOUTH AFRICA UNDER THE PRESIDENT'S EMERGENCY PLAN FOR AIDS RELIEF (PEPFAR)",
+      "start_date": "2021-09-30",
+      "end_date": "2027-09-29",
+      "cfda": "93.067",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NU2GGH002381_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "WITS RHI GOPHELEGA (STRIVING FOR GOOD HEALTH) - A PROGRAM TO SUSTAIN HIV/TB EPIDEMIC CONTROL IN SOUTH AFRICA UNDER THE PRESIDENT'S EMERGENCY PLAN FOR AIDS RELIEF (PEPFAR)"
+    },
+    {
+      "award_id": "H8000540",
+      "recipient_name": "CLINICA SIERRA VISTA",
+      "amount": 182307437,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Health Resources and Services Administration",
+      "description": "HEALTH CENTER CLUSTER",
+      "start_date": "2002-04-01",
+      "end_date": "2030-03-31",
+      "cfda": "93.224",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_H8000540_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "HEALTH CENTER CLUSTER"
+    },
+    {
+      "award_id": "NU2GGH002378",
+      "recipient_name": "TRUST FOR HEALTH SYSTEMS PLANNING AND DEVELOPMENT",
+      "amount": 176056742,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Centers for Disease Control and Prevention",
+      "description": "SOUTH AFRICA'S SUSTAINABLE RESPONSE TO HIV/AIDS AND TB (SA SURE) PROJECT",
+      "start_date": "2021-09-30",
+      "end_date": "2027-09-29",
+      "cfda": "93.067",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NU2GGH002378_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "SOUTH AFRICA'S SUSTAINABLE RESPONSE TO HIV/AIDS AND TB (SA SURE) PROJECT"
+    },
+    {
+      "award_id": "H8000313",
+      "recipient_name": "SUN RIVER HEALTH, INC.",
+      "amount": 171713232,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Health Resources and Services Administration",
+      "description": "HEALTH CENTER CLUSTER",
+      "start_date": "2002-02-01",
+      "end_date": "2027-01-31",
+      "cfda": "93.224",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_H8000313_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "HEALTH CENTER CLUSTER"
+    },
+    {
+      "award_id": "NU2GGH002387",
+      "recipient_name": "MANAGEMENT AND DEVELOPMENT FOR HEALTH",
+      "amount": 162046737,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Centers for Disease Control and Prevention",
+      "description": "AFYA JUMUISHI-2 PROJECT",
+      "start_date": "2021-09-30",
+      "end_date": "2026-09-29",
+      "cfda": "93.067",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NU2GGH002387_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "AFYA JUMUISHI-2 PROJECT"
+    },
+    {
+      "award_id": "H8000639",
+      "recipient_name": "YAKIMA VALLEY FARM WORKERS CLINIC",
+      "amount": 161629074,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Health Resources and Services Administration",
+      "description": "HEALTH CENTER CLUSTER",
+      "start_date": "2002-02-01",
+      "end_date": "2027-01-31",
+      "cfda": "93.224",
+      "award_type": "PROJECT GRANT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_H8000639_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "HEALTH CENTER CLUSTER"
+    },
+    {
+      "award_id": "NU2GGH002022",
+      "recipient_name": "THE INFECTIOUS DISEASES INSTITUTE LIMITED",
+      "amount": 146868653,
+      "awarding_agency": "Department of Health and Human Services",
+      "awarding_sub_agency": "Centers for Disease Control and Prevention",
+      "description": "ACCELERATING EPIDEMIC CONTROL IN KAMPALA REGION OF UGANDA THROUGH SCALE UP OF EVIDENCE BASED AND HIGH IMPACT INTERVENTIONS TOWARDS ACHIEVEMENT OF UNAIDS 90:90:90 TARGETS.",
+      "start_date": "2017-04-01",
+      "end_date": "2023-09-29",
+      "cfda": "93.354",
+      "award_type": "COOPERATIVE AGREEMENT (B)",
+      "urls": {
+        "official": "https://www.usaspending.gov/award/ASST_NON_NU2GGH002022_075"
+      },
+      "source": {
+        "id": "usaspending",
+        "name": "USAspending spending_by_award",
+        "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+      },
+      "record_type": "obligation",
+      "fact_boundary": "Reported assistance obligation. Not a solicitation and not proof of what the agency will fund next.",
+      "verified_at": "2026-09-26T21:22:48-04:00",
+      "title": "ACCELERATING EPIDEMIC CONTROL IN KAMPALA REGION OF UGANDA THROUGH SCALE UP OF EVIDENCE BASED AND HIGH IMPACT INTERVENTIONS TOWARDS ACHIEVEMENT OF UNAIDS 90:90:90 TARGETS."
+    }
+  ]
+}
