@@ -10,7 +10,7 @@
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-26T21:22:48-04:00",
+      "retrieved_at": "2026-09-26T21:34:55-04:00",
       "parse_stats": {
         "container": "GrantsDBExtract20260926v2.zip",
         "xml_name": "GrantsDBExtract20260926v2.xml",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-26T21:22:48-04:00",
+      "retrieved_at": "2026-09-26T21:34:55-04:00",
       "status": "ok",
       "items": 20
     },
@@ -39,7 +39,7 @@
       "name": "NSF Award Search API",
       "url": "https://api.nsf.gov/services/v1/awards.json",
       "status": "ok",
-      "count": 816,
+      "count": 824,
       "pages": 40,
       "exhausted": false,
       "coverage": "Partial sample. Do not treat counts or sums as a complete NSF award census.",
@@ -89,14 +89,14 @@
       "name": "USAspending spending_by_award",
       "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
       "status": "ok",
-      "count": 108,
+      "count": 101,
       "coverage": "Obligations for a subset of assistance listings that appear on cataloged opportunities, sorted by amount within each API call, one page per batch. Not all awards under those listings, and not all federal research spending.",
       "time_period": {
         "start_date": "2023-09-27",
         "end_date": "2026-09-26"
       },
       "alns_queried": 90,
-      "alns_considered": 215,
+      "alns_considered": 142,
       "errors": []
     }
   ],
@@ -105,23 +105,23 @@
     "identifiable": 83488,
     "dropped_unidentifiable": 0,
     "after_dedupe": 83488,
-    "research_relevant": 40799,
-    "published": 1508,
-    "omitted_old_or_archived_research_records": 39291,
+    "research_relevant": 34585,
+    "published": 1266,
+    "omitted_old_or_archived_research_records": 33319,
     "excluded": {
-      "excluded_not_research_relevant": 42689,
+      "excluded_not_research_relevant": 48903,
       "by_top_agency": [
         [
           "DOI",
-          16127
+          16639
         ],
         [
           "DOS",
-          5285
+          7144
         ],
         [
           "HHS",
-          4715
+          5987
         ],
         [
           "USDOJ",
@@ -129,11 +129,11 @@
         ],
         [
           "USAID",
-          2602
+          2958
         ],
         [
           "USDA",
-          1672
+          2029
         ],
         [
           "ED",
@@ -141,35 +141,35 @@
         ],
         [
           "EPA",
-          1416
-        ],
-        [
-          "DHS",
-          1142
+          1460
         ],
         [
           "DOT",
-          1101
+          1320
         ],
         [
-          "NEH",
-          590
-        ],
-        [
-          "DOL",
-          517
-        ],
-        [
-          "HUD",
-          503
-        ],
-        [
-          "DOD",
-          495
+          "DHS",
+          1260
         ],
         [
           "DOE",
-          328
+          1021
+        ],
+        [
+          "DOL",
+          852
+        ],
+        [
+          "HUD",
+          622
+        ],
+        [
+          "NEH",
+          592
+        ],
+        [
+          "DOD",
+          537
         ],
         [
           "NEA",
@@ -177,141 +177,141 @@
         ],
         [
           "SBA",
-          180
+          233
+        ],
+        [
+          "DOC",
+          201
+        ],
+        [
+          "USDOT",
+          178
         ],
         [
           "NARA",
           160
         ],
         [
-          "DOC",
-          148
-        ],
-        [
           "IMLS",
-          137
-        ],
-        [
-          "USDOT",
-          126
+          150
         ],
         [
           "VA",
-          99
+          127
         ],
         [
           "CNCS",
-          94
+          99
         ],
         [
           "ONDCP",
-          49
+          53
         ],
         [
           "UNKNOWN",
           42
         ],
         [
+          "NRC",
+          38
+        ],
+        [
           "AC",
           32
         ],
         [
-          "SSA",
-          23
+          "NCD",
+          30
         ],
         [
           "MCC",
-          20
+          24
         ],
         [
-          "NCD",
-          18
-        ],
-        [
-          "CPSC",
-          12
+          "SSA",
+          23
         ]
       ],
       "by_funding_category": [
         [
           "NR",
-          10733
+          11453
         ],
         [
           "O",
-          8287
+          9882
         ],
         [
           "ENV",
-          5674
+          6225
         ],
         [
           "ED",
-          5025
+          5604
         ],
         [
           "HL",
-          3852
-        ],
-        [
-          "LJL",
-          2762
+          4655
         ],
         [
           "ISS",
-          2374
+          3041
         ],
         [
-          "HU",
-          1457
+          "LJL",
+          2910
         ],
         [
           "ELT",
-          1412
+          1741
         ],
         [
           "CD",
-          1404
+          1623
         ],
         [
           "AG",
-          1246
+          1587
+        ],
+        [
+          "HU",
+          1550
         ],
         [
           "T",
-          1145
-        ],
-        [
-          "AR",
-          655
-        ],
-        [
-          "HO",
-          601
-        ],
-        [
-          "BC",
-          573
-        ],
-        [
-          "DPR",
-          561
+          1342
         ],
         [
           "EN",
-          552
+          1232
+        ],
+        [
+          "AR",
+          756
+        ],
+        [
+          "HO",
+          721
+        ],
+        [
+          "BC",
+          700
+        ],
+        [
+          "DPR",
+          616
         ],
         [
           "RD",
-          515
+          553
         ],
         [
           "IS",
-          488
+          512
         ],
         [
           "FN",
-          479
+          497
         ]
       ],
       "note": "Excluded from the published catalog by the platform research-scope rules. Not a claim that the opportunity is unofficial."
@@ -346,7 +346,7 @@
     "catalog_open_or_upcoming_ST": 303,
     "absolute_difference": 7,
     "status": "ok",
-    "interpretation": "Compares Grants.gov search2 hitCount for posted|forecasted and funding category ST with catalog records that are open or upcoming, category ST, and not NSF program pages. search2 still returns forecasts from 2020–2023. This catalog omits forecasts whose date is more than 18 months before the as-of date.",
+    "interpretation": "Compares Grants.gov search2 hitCount for posted|forecasted and funding category ST with catalog records that are open or upcoming, category ST, and not NSF program pages. A difference can come from extract timing, closed-but-listed rows, or parser loss. search2 still returns forecasts whose forecast date is years old. This catalog omits forecasts whose post or estimated post date is more than 18 months before the as-of date, so those ids can appear in in_api_not_in_catalog without being open opportunities. The difference is shown, not hidden.",
     "id_overlap": {
       "api_ids_retrieved": 310,
       "api_hit_count": 310,
@@ -374,60 +374,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "356002",
+          "id": "350651",
           "status": "checked",
-          "api_title": "FY 2024 &ndash; 2026 - Broad Agency Announcement (BAA) for the Office of Education",
-          "api_number": "NOAA-SEC-OED-2024-28060",
-          "api_agency": "DOC-DOCNOAAERA",
-          "api_close": "2026-09-30",
-          "mismatches": [],
-          "catalog_close": "2026-09-30",
-          "official_url": "https://www.grants.gov/search-results-detail/356002",
-          "note": "API title contained an HTML entity for an en dash. After decoding, it matches the catalog title."
-        },
-        {
-          "id": "357204",
-          "status": "checked",
-          "api_title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R01 Clinical Trial Not Allowed)",
-          "api_number": "PAR-25-095",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2026-11-06",
-          "mismatches": [],
-          "catalog_close": "2026-11-06",
-          "official_url": "https://www.grants.gov/search-results-detail/357204"
-        },
-        {
-          "id": "348375",
-          "status": "checked",
-          "api_title": "Centers of Research Excellence in Science and Technology (CREST)",
-          "api_number": "23-595",
-          "api_agency": "NSF",
-          "api_close": "2026-12-04",
-          "mismatches": [],
-          "catalog_close": "2026-12-04",
-          "official_url": "https://www.grants.gov/search-results-detail/348375"
-        },
-        {
-          "id": "360200",
-          "status": "checked",
-          "api_title": "US Travelers Health Research, Surveillance, Communication, and Outreach Network",
-          "api_number": "RFA-CK-26-036",
+          "api_title": "RFA-EH-18-000",
+          "api_number": "RFA-EH-18-000",
           "api_agency": "HHS-CDC-HHSCDCERA",
-          "api_close": "2026-11-05",
+          "api_close": "2030-09-30",
           "mismatches": [],
-          "catalog_close": "2026-11-05",
-          "official_url": "https://www.grants.gov/search-results-detail/360200"
+          "catalog_close": "2030-09-30",
+          "official_url": "https://www.grants.gov/search-results-detail/350651"
         },
         {
-          "id": "363629",
+          "id": "355987",
           "status": "checked",
-          "api_title": "BJA FY 2026 The Kevin and Avonte Program: Reducing Injury and Death of Missing Individuals with Dementia and Developmental Disabilities",
-          "api_number": "O-BJA-2026-172697",
-          "api_agency": "USDOJ-OJP-BJA",
-          "api_close": "2026-10-06",
+          "api_title": "Tribal Institutional Review Board Establishment and Enhancement (TIRBEE) (R24 - Clinical Trial Not Allowed)",
+          "api_number": "PAR-24-260",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-01-27",
           "mismatches": [],
-          "catalog_close": "2026-10-06",
-          "official_url": "https://www.grants.gov/search-results-detail/363629"
+          "catalog_close": "2027-01-27",
+          "official_url": "https://www.grants.gov/search-results-detail/355987"
+        },
+        {
+          "id": "300997",
+          "status": "checked",
+          "api_title": "EONS 2018: Appendix E Minority University Research and Education Project (MUREP) for Sustainability and Innovation Collaborative – (MUSIC)",
+          "api_number": "NNH18ZHA002N-MUSIC",
+          "api_agency": "NASA",
+          "api_close": null,
+          "mismatches": [],
+          "catalog_close": null,
+          "official_url": "https://www.grants.gov/search-results-detail/300997"
+        },
+        {
+          "id": "350338",
+          "status": "checked",
+          "api_title": "CHIPS Incentives Program – Facilities for Semiconductor Materials and Manufacturing Equipment",
+          "api_number": "2023-NIST-CHIPS-SMME-01",
+          "api_agency": "DOC-NIST",
+          "api_close": "2026-11-01",
+          "mismatches": [],
+          "catalog_close": "2026-11-01",
+          "official_url": "https://www.grants.gov/search-results-detail/350338"
+        },
+        {
+          "id": "362061",
+          "status": "checked",
+          "api_title": "Chemical Process Systems (CPS)",
+          "api_number": "PD-26-367Y",
+          "api_agency": "NSF",
+          "api_close": null,
+          "mismatches": [],
+          "catalog_close": null,
+          "official_url": "https://www.grants.gov/search-results-detail/362061"
         }
       ]
     }
@@ -461,7 +460,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-26T21:32:20-04:00",
+  "generated_at": "2026-09-26T21:41:20-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1286,
@@ -472,8 +471,8 @@
       "upcoming": 282,
       "open_program": 20
     },
-    "awards": 1116,
-    "obligations": 108
+    "awards": 1124,
+    "obligations": 101
   },
   "field_coverage": {
     "title": {
@@ -565,12 +564,8 @@
   "changes_summary": {
     "compared_to_previous_catalog": true,
     "new": 0,
-    "removed": 242,
+    "removed": 0,
     "changed": 0,
     "newly_closed": 0
-  },
-  "reclassification": {
-    "note": "Inclusion rule tightened after the extract run: a NOFO/FOA label alone no longer makes a record research-relevant. Record verified_at is still the extract retrieval time. This file was rebuilt from that catalog, not from a new download.",
-    "dropped_after_rule_tightening": 242
   }
 }

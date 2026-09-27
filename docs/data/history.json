@@ -61,6 +61,34 @@
         "USAID": 0,
         "USDOJ": 0
       }
+    },
+    {
+      "generated_at": "2026-09-26T21:41:20-04:00",
+      "as_of_date": "2026-09-26",
+      "by_status": {
+        "verification_required": 5,
+        "closed": 251,
+        "open": 728,
+        "upcoming": 282,
+        "open_program": 20
+      },
+      "agency_open": {
+        "HHS": 424,
+        "NSF": 122,
+        "DOD": 124,
+        "DOC": 15,
+        "NASA": 15,
+        "USDA": 12,
+        "DOT": 4,
+        "DOE": 4,
+        "DOS": 2,
+        "PAMS": 3,
+        "DOI": 1,
+        "HUD": 1,
+        "USDOT": 1,
+        "USAID": 0,
+        "USDOJ": 0
+      }
     }
   ]
 }
