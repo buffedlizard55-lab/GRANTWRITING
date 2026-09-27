@@ -1,0 +1,60 @@
+name: Refresh funding catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    # After the Grants.gov extract, which is published around 04:40 America/New_York.
+    - cron: "20 11 * * *"
+  push:
+    branches:
+      - arena/01a0e05b-grantwriting
+      - main
+    paths:
+      - "pipeline/**"
+      - ".github/workflows/refresh-data.yml"
+      - "pipeline.trigger"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-funding-catalog
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Test the pipeline
+        run: python -m unittest discover -s tests -v
+
+      - name: Test the matcher
+        run: node --test tests/match.test.mjs
+
+      - name: Refresh from official sources
+        run: python -m pipeline.refresh
+
+      - name: Validate published catalog
+        run: python -m pipeline.validate_published
+
+      - name: Commit catalog
+        run: |
+          git config user.name "grant-intel-bot"
+          git config user.email "actions@github.com"
+          git add docs/data
+          if git diff --staged --quiet; then
+            echo "No catalog changes."
+          else
+            git commit -m "Refresh verified funding catalog"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Federal Research Grant Intelligence</title>
+    <meta
+      name="description"
+      content="Current federal research funding opportunities from official sources, with verification dates, eligibility, deadlines, and explainable matching."
+    />
+    <link rel="icon" href="favicon.svg" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <a class="skip" href="#view">Skip to content</a>
+    <header class="top">
+      <div class="brand">
+        <span class="mark" aria-hidden="true">FR</span>
+        <div>
+          <p class="brand-kicker">Official sources only</p>
+          <a class="brand-name" href="#/feed">Federal Research Grant Intelligence</a>
+        </div>
+      </div>
+      <p id="verified-stamp" class="stamp">Checking catalog…</p>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="sitenav">Menu</button>
+    </header>
+    <div class="shell">
+      <nav id="sitenav" class="sitenav" aria-label="Primary">
+        <a href="#/feed" data-nav="feed">Feed</a>
+        <a href="#/explore" data-nav="explore">Explore</a>
+        <a href="#/research" data-nav="research">Research</a>
+        <a href="#/agencies" data-nav="agencies">Agencies</a>
+        <a href="#/finder" data-nav="finder">Finder</a>
+        <a href="#/build" data-nav="build">Builder</a>
+        <a href="#/awards" data-nav="awards">Awards</a>
+        <a href="#/sources" data-nav="sources">Sources</a>
+      </nav>
+      <main id="view" tabindex="-1">
+        <p class="loading">Loading the verified catalog…</p>
+      </main>
+    </div>
+    <footer class="site-footer">
+      <p>
+        Facts are copied from official sources. Topic tags, inclusion rules, counts, and fit scores are labeled as derived.
+        Nothing here is a probability of winning an award.
+      </p>
+      <p>
+        <a href="https://github.com/buffedlizard55-lab/GRANTWRITING">Source repository</a>
+        · <a href="https://www.grants.gov/xml-extract">Grants.gov extract</a>
+        · <a href="https://www.grants.gov/api/api-guide">Grants.gov API</a>
+      </p>
+    </footer>
+    <noscript>
+      <p class="noscript">This site needs JavaScript to search the catalog in your browser. It does not send your project notes to a server.</p>
+    </noscript>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
