@@ -605,7 +605,6 @@ function exportCsv(rows) {
   URL.revokeObjectURL(url);
 }
 
-
 function renderOpportunity(id) {
   setNav("explore");
   const record = state.byId.get(id);
