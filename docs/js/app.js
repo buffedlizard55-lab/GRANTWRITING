@@ -246,12 +246,22 @@ function legend() {
   ]);
 }
 
+function viewerDate() {
+  const now = new Date();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${now.getFullYear()}-${month}-${day}`;
+}
+
 function deadlineText(record) {
   const close = record.dates?.close;
   if (!close) return record.status === "open_program" ? "No single deadline published" : "Deadline not published";
-  const days = daysUntil(close, asOf());
+  const days = daysUntil(close, viewerDate());
   const when = prettyDate(close);
   if (days == null) return when;
+  if (days < 0 && record.status === "open") {
+    return `${when} · before today. Catalog still says open as of ${asOf() || "the extract date"}. Confirm the official page.`;
+  }
   if (days < 0) return `${when} · passed`;
   if (days === 0) return `${when} · closes today, confirm the time`;
   return `${when} · ${days} day${days === 1 ? "" : "s"}`;
@@ -369,20 +379,22 @@ function renderFeed() {
   const open = state.opportunities.filter((record) => record.status === "open" && record.dates?.close);
   const soon = open
     .filter((record) => {
-      const days = daysUntil(record.dates.close, asOf());
+      const days = daysUntil(record.dates.close, viewerDate());
       return days != null && days >= 0 && days <= 21;
     })
     .sort((a, b) => a.dates.close.localeCompare(b.dates.close));
   view.append(
-    pageHead(
-      "Current funding feed",
-      "What research funding is open right now?",
-      "Open and upcoming federal research opportunities from the latest official extract, plus NSF program pages. Closed records stay labeled closed."
-    ),
-    counts(),
-    legend(),
-    changeStrip(),
-    staleStrip()
+    ...[
+      pageHead(
+        "Current funding feed",
+        "What research funding is open right now?",
+        "Open and upcoming federal research opportunities from the latest official extract, plus NSF program pages. Closed records stay labeled closed."
+      ),
+      counts(),
+      legend(),
+      changeStrip(),
+      staleStrip(),
+    ].filter(Boolean)
   );
   view.append(feedSection("Closing within 21 days", soon, "#/explore?status=open&closing=21&sort=close"));
   view.append(
