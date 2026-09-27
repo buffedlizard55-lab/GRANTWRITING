@@ -10,7 +10,7 @@
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
       "bytes": 78202859,
-      "retrieved_at": "2026-09-26T21:43:31-04:00",
+      "retrieved_at": "2026-09-26T21:49:44-04:00",
       "parse_stats": {
         "container": "GrantsDBExtract20260926v2.zip",
         "xml_name": "GrantsDBExtract20260926v2.xml",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-09-26T21:43:31-04:00",
+      "retrieved_at": "2026-09-26T21:49:44-04:00",
       "status": "ok",
       "items": 20
     },
@@ -39,7 +39,7 @@
       "name": "NSF Award Search API",
       "url": "https://api.nsf.gov/services/v1/awards.json",
       "status": "ok",
-      "count": 858,
+      "count": 883,
       "pages": 40,
       "exhausted": false,
       "coverage": "Partial sample. Do not treat counts or sums as a complete NSF award census.",
@@ -382,59 +382,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "359651",
+          "id": "358118",
           "status": "checked",
-          "api_title": "Renewal of the Clinician-Scientists Transdisciplinary Aging Research (Clin-STAR) Coordinating Center (U24 Clinical Trial Not Allowed)",
-          "api_number": "RFA-AG-27-007",
+          "api_title": "NEI Clinical Research Study Planning Grant Program (R34 Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-358",
           "api_agency": "HHS-NIH11",
-          "api_close": "2026-09-29",
+          "api_close": "2028-01-07",
           "mismatches": [],
-          "catalog_close": "2026-09-29",
-          "official_url": "https://www.grants.gov/search-results-detail/359651"
+          "catalog_close": "2028-01-07",
+          "official_url": "https://www.grants.gov/search-results-detail/358118"
         },
         {
-          "id": "359782",
+          "id": "357568",
           "status": "checked",
-          "api_title": "TTO Office Wide (OW) BAA 2025",
-          "api_number": "HR001125S0011",
-          "api_agency": "DOD-DARPA-TTO",
-          "api_close": "2026-12-22",
-          "mismatches": [],
-          "catalog_close": "2026-12-22",
-          "official_url": "https://www.grants.gov/search-results-detail/359782"
-        },
-        {
-          "id": "358882",
-          "status": "checked",
-          "api_title": "Science of Science: Discovery, Communication and Impact",
-          "api_number": "PD-19-126Y",
-          "api_agency": "NSF",
-          "api_close": null,
-          "mismatches": [],
-          "catalog_close": null,
-          "official_url": "https://www.grants.gov/search-results-detail/358882"
-        },
-        {
-          "id": "358830",
-          "status": "checked",
-          "api_title": "Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (Parent F32)",
-          "api_number": "PA-25-423",
+          "api_title": "Research Enhancement Award Program (REAP) for Health Professional Schools and Graduate Schools (R15 Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-298",
           "api_agency": "HHS-NIH11",
-          "api_close": "2028-05-07",
+          "api_close": "2028-01-07",
           "mismatches": [],
-          "catalog_close": "2028-05-07",
-          "official_url": "https://www.grants.gov/search-results-detail/358830"
+          "catalog_close": "2028-01-07",
+          "official_url": "https://www.grants.gov/search-results-detail/357568"
         },
         {
-          "id": "356982",
+          "id": "360543",
           "status": "checked",
-          "api_title": "BRAIN Initiative: Clinical Studies to Advance Next-Generation Devices for Recording and Modulation in the Human Central Nervous System (UH3 Clinical Trial Optional)",
-          "api_number": "RFA-NS-25-022",
+          "api_title": "Bioengineering Research Grants (BRG) (R01 Clinical Trial Optional)",
+          "api_number": "PAR-27-072",
           "api_agency": "HHS-NIH11",
-          "api_close": "2026-09-28",
+          "api_close": "2029-07-05",
           "mismatches": [],
-          "catalog_close": "2026-09-28",
-          "official_url": "https://www.grants.gov/search-results-detail/356982"
+          "catalog_close": "2029-07-05",
+          "official_url": "https://www.grants.gov/search-results-detail/360543"
+        },
+        {
+          "id": "363929",
+          "status": "checked",
+          "api_title": "John H. Prescott Marine Mammal Rescue Assistance Grant",
+          "api_number": "NOAA-NMFS-PRPO-2026-31863",
+          "api_agency": "DOC-DOCNOAAERA",
+          "api_close": "2026-12-01",
+          "mismatches": [],
+          "catalog_close": "2026-12-01",
+          "official_url": "https://www.grants.gov/search-results-detail/363929"
+        },
+        {
+          "id": "291594",
+          "status": "checked",
+          "api_title": "COE for Technical Training and Human Performance",
+          "api_number": "TTHP",
+          "api_agency": "DOT-FAA-FAA COE-TTHP",
+          "api_close": "2026-09-30",
+          "mismatches": [],
+          "catalog_close": "2026-09-30",
+          "official_url": "https://www.grants.gov/search-results-detail/291594"
         }
       ]
     }
@@ -468,7 +468,7 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-09-26T21:49:10-04:00",
+  "generated_at": "2026-09-26T21:55:59-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1286,
@@ -479,7 +479,7 @@
       "upcoming": 282,
       "open_program": 20
     },
-    "awards": 1158,
+    "awards": 1183,
     "obligations": 101
   },
   "field_coverage": {
