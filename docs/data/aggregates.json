@@ -1,15 +1,15 @@
 {
   "note": "All counts are computed from this catalog only. They are derived statistics, not independent official totals.",
   "by_status": {
-    "closed": 251,
+    "closed": 246,
     "open": 706,
     "upcoming": 282,
     "verification_required": 10,
     "open_program": 20
   },
   "by_record_kind": {
-    "opportunity": 899,
     "forecast": 350,
+    "opportunity": 894,
     "program": 20
   },
   "agencies": [
@@ -20,7 +20,7 @@
       "open": 423,
       "upcoming": 276,
       "open_program": 0,
-      "closed": 131,
+      "closed": 130,
       "other": 0,
       "published_ceiling_count": 265,
       "median_published_ceiling": 450000,
@@ -30,7 +30,7 @@
       "top_topics": [
         {
           "id": "biomedical",
-          "count": 684
+          "count": 683
         },
         {
           "id": "aging",
@@ -38,7 +38,7 @@
         },
         {
           "id": "infectious-disease",
-          "count": 93
+          "count": 92
         },
         {
           "id": "mental-health",
@@ -303,11 +303,11 @@
     {
       "code": "DOT",
       "grouping_label": "Department of Transportation",
-      "source_name_most_common": "69A355 Research and Technology",
+      "source_name_most_common": "FAA-COE-TTHP",
       "open": 3,
       "upcoming": 1,
       "open_program": 0,
-      "closed": 2,
+      "closed": 0,
       "other": 1,
       "published_ceiling_count": 4,
       "median_published_ceiling": 7500000,
@@ -320,23 +320,23 @@
           "count": 4
         },
         {
-          "id": "transportation",
-          "count": 3
-        },
-        {
-          "id": "infrastructure",
-          "count": 3
-        },
-        {
-          "id": "artificial-intelligence",
-          "count": 1
-        },
-        {
           "id": "information-systems",
           "count": 1
         },
         {
+          "id": "infrastructure",
+          "count": 1
+        },
+        {
+          "id": "transportation",
+          "count": 1
+        },
+        {
           "id": "advanced-manufacturing",
+          "count": 1
+        },
+        {
+          "id": "aging",
           "count": 1
         }
       ]
@@ -430,7 +430,7 @@
       "open": 1,
       "upcoming": 0,
       "open_program": 0,
-      "closed": 24,
+      "closed": 22,
       "other": 0,
       "published_ceiling_count": 1,
       "median_published_ceiling": 0,
@@ -440,15 +440,11 @@
       "top_topics": [
         {
           "id": "environment",
-          "count": 23
+          "count": 21
         },
         {
           "id": "water",
-          "count": 11
-        },
-        {
-          "id": "earth-science",
-          "count": 6
+          "count": 10
         },
         {
           "id": "aging",
@@ -459,7 +455,11 @@
           "count": 6
         },
         {
-          "id": "biology",
+          "id": "earth-science",
+          "count": 5
+        },
+        {
+          "id": "wildfire",
           "count": 4
         }
       ]
@@ -574,7 +574,7 @@
         "gg-352282"
       ],
       "methods": {
-        "keyword": 735,
+        "keyword": 734,
         "agency_default": 18
       },
       "classification": "derived_keyword_or_agency_default"
@@ -609,7 +609,7 @@
         "gg-359949"
       ],
       "methods": {
-        "keyword": 157
+        "keyword": 155
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -700,7 +700,7 @@
         "gg-350944"
       ],
       "methods": {
-        "keyword": 113
+        "keyword": 111
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -782,7 +782,7 @@
         "gg-358863"
       ],
       "methods": {
-        "keyword": 96
+        "keyword": 95
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -839,7 +839,7 @@
         "gg-341997"
       ],
       "methods": {
-        "keyword": 77
+        "keyword": 76
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -906,13 +906,12 @@
       "open": 29,
       "upcoming": 14,
       "open_program": 2,
-      "agency_count": 11,
+      "agency_count": 10,
       "agencies": [
         "DOC",
         "DOD",
         "DOI",
         "DOS",
-        "DOT",
         "HHS",
         "HUD",
         "NSF",
@@ -931,7 +930,7 @@
         "gg-359271"
       ],
       "methods": {
-        "keyword": 69
+        "keyword": 67
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -962,7 +961,7 @@
         "gg-363724"
       ],
       "methods": {
-        "keyword": 46
+        "keyword": 45
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1053,7 +1052,7 @@
         "gg-356559"
       ],
       "methods": {
-        "keyword": 63
+        "keyword": 61
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1252,7 +1251,7 @@
         "gg-363747"
       ],
       "methods": {
-        "keyword": 29
+        "keyword": 28
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1309,7 +1308,7 @@
         "gg-363241"
       ],
       "methods": {
-        "keyword": 21
+        "keyword": 20
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1658,7 +1657,7 @@
         "gg-362978"
       ],
       "methods": {
-        "keyword": 15
+        "keyword": 14
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1680,7 +1679,7 @@
         "gg-362061"
       ],
       "methods": {
-        "keyword": 8
+        "keyword": 7
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1786,7 +1785,7 @@
         "gg-352282"
       ],
       "methods": {
-        "keyword": 735,
+        "keyword": 734,
         "agency_default": 18
       },
       "classification": "derived_keyword_or_agency_default"
@@ -1821,7 +1820,7 @@
         "gg-359949"
       ],
       "methods": {
-        "keyword": 157
+        "keyword": 155
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1912,7 +1911,7 @@
         "gg-350944"
       ],
       "methods": {
-        "keyword": 113
+        "keyword": 111
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1994,7 +1993,7 @@
         "gg-358863"
       ],
       "methods": {
-        "keyword": 96
+        "keyword": 95
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2051,7 +2050,7 @@
         "gg-341997"
       ],
       "methods": {
-        "keyword": 77
+        "keyword": 76
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2118,13 +2117,12 @@
       "open": 29,
       "upcoming": 14,
       "open_program": 2,
-      "agency_count": 11,
+      "agency_count": 10,
       "agencies": [
         "DOC",
         "DOD",
         "DOI",
         "DOS",
-        "DOT",
         "HHS",
         "HUD",
         "NSF",
@@ -2143,7 +2141,7 @@
         "gg-359271"
       ],
       "methods": {
-        "keyword": 69
+        "keyword": 67
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2174,7 +2172,7 @@
         "gg-363724"
       ],
       "methods": {
-        "keyword": 46
+        "keyword": 45
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2265,7 +2263,7 @@
         "gg-356559"
       ],
       "methods": {
-        "keyword": 63
+        "keyword": 61
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2464,7 +2462,7 @@
         "gg-363747"
       ],
       "methods": {
-        "keyword": 29
+        "keyword": 28
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2521,7 +2519,7 @@
         "gg-363241"
       ],
       "methods": {
-        "keyword": 21
+        "keyword": 20
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2849,7 +2847,7 @@
         "gg-362978"
       ],
       "methods": {
-        "keyword": 15
+        "keyword": 14
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2871,7 +2869,7 @@
         "gg-362061"
       ],
       "methods": {
-        "keyword": 8
+        "keyword": 7
       },
       "classification": "derived_keyword_or_agency_default"
     }
@@ -2886,7 +2884,7 @@
   "awards_in_catalog": {
     "count": 1300,
     "with_amount": 1295,
-    "sum_of_amounts_in_this_file": 5063892049,
+    "sum_of_amounts_in_this_file": 5128677199,
     "warning": "Award files may be samples. Use the award coverage note before treating a sum as agency funding."
   }
 }

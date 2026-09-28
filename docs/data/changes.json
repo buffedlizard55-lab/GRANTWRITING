@@ -2,7 +2,13 @@
   "compared_to_previous_catalog": true,
   "note": "Removed means the id is not in the new catalog. That is not the same as a documented cancellation.",
   "new_ids": [],
-  "removed_ids": [],
+  "removed_ids": [
+    "gg-361931",
+    "gg-362169",
+    "gg-362173",
+    "gg-362956",
+    "gg-362960"
+  ],
   "changed": [],
   "changed_count": 0,
   "newly_closed": []
