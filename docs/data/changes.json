@@ -1,15 +1,135 @@
 {
   "compared_to_previous_catalog": true,
   "note": "Removed means the id is not in the new catalog. That is not the same as a documented cancellation.",
-  "new_ids": [],
-  "removed_ids": [
-    "gg-361931",
-    "gg-362169",
-    "gg-362173",
-    "gg-362956",
-    "gg-362960"
+  "new_ids": [
+    "gg-363983",
+    "gg-363986",
+    "nsf-program-sf-gov-funding-opportunities-astro-innovations-astronomical-sciences-innovations"
   ],
-  "changed": [],
-  "changed_count": 0,
-  "newly_closed": []
+  "removed_ids": [
+    "nsf-program--funding-opportunities-engineering-eng-civil-mechanical-manufacturing-innovation"
+  ],
+  "changed": [
+    {
+      "id": "gg-356982",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-356981",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363359",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-362853",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-362865",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-361427",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "upcoming"
+    },
+    {
+      "id": "gg-357634",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-355297",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-357554",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-360547",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-361304",
+      "fields": [
+        "status",
+        "dates.close",
+        "dates.post"
+      ],
+      "status": "open",
+      "previous_status": "upcoming"
+    },
+    {
+      "id": "gg-348058",
+      "fields": [
+        "status",
+        "dates.close",
+        "title"
+      ],
+      "status": "open",
+      "previous_status": "closed"
+    },
+    {
+      "id": "gg-363612",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    }
+  ],
+  "changed_count": 13,
+  "newly_closed": [
+    "gg-356982",
+    "gg-356981",
+    "gg-363359",
+    "gg-362853",
+    "gg-362865",
+    "gg-361427",
+    "gg-357634",
+    "gg-355297",
+    "gg-357554",
+    "gg-360547"
+  ]
 }
