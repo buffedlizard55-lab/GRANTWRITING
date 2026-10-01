@@ -530,6 +530,33 @@
         "USDOT": 1,
         "USDOJ": 0
       }
+    },
+    {
+      "generated_at": "2026-10-01T13:32:57-04:00",
+      "as_of_date": "2026-10-01",
+      "by_status": {
+        "closed": 257,
+        "open": 689,
+        "upcoming": 278,
+        "verification_required": 10,
+        "open_program": 20
+      },
+      "agency_open": {
+        "HHS": 415,
+        "NSF": 112,
+        "DOD": 111,
+        "NASA": 14,
+        "USDA": 11,
+        "DOC": 9,
+        "DOE": 4,
+        "USDOJ": 4,
+        "PAMS": 3,
+        "DOI": 2,
+        "DOS": 1,
+        "DOT": 1,
+        "HUD": 1,
+        "USDOT": 1
+      }
     }
   ]
 }
