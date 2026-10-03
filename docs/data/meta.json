@@ -1,22 +1,22 @@
 {
-  "as_of_date": "2026-10-02",
+  "as_of_date": "2026-10-03",
   "sources": [
     {
-      "file_name": "GrantsDBExtract20261002v2.zip",
-      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261002v2.zip",
-      "ymd": "20261002",
+      "file_name": "GrantsDBExtract20261003v2.zip",
+      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261003v2.zip",
+      "ymd": "20261003",
       "catalog_url": "https://www.grants.gov/xml-extract",
       "id": "grantsgov_extract",
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
-      "bytes": 78233002,
-      "retrieved_at": "2026-10-02T12:40:47-04:00",
+      "bytes": 78237319,
+      "retrieved_at": "2026-10-03T11:09:26-04:00",
       "parse_stats": {
-        "container": "GrantsDBExtract20261002v2.zip",
-        "xml_name": "GrantsDBExtract20261002v2.xml",
-        "records_parsed": 83518,
+        "container": "GrantsDBExtract20261003v2.zip",
+        "xml_name": "GrantsDBExtract20261003v2.xml",
+        "records_parsed": 83520,
         "tag_counts": {
-          "OpportunitySynopsisDetail_1_0": 82548,
+          "OpportunitySynopsisDetail_1_0": 82550,
           "OpportunityForecastDetail_1_0": 970
         },
         "unmapped_tags": [
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-10-02T12:40:47-04:00",
+      "retrieved_at": "2026-10-03T11:09:26-04:00",
       "status": "ok",
       "items": 20
     },
@@ -94,8 +94,8 @@
       "count": 99,
       "coverage": "Obligations for a subset of assistance listings that appear on cataloged opportunities, sorted by amount within each API call, one page per batch. Not all awards under those listings, and not all federal research spending.",
       "time_period": {
-        "start_date": "2023-10-03",
-        "end_date": "2026-10-02"
+        "start_date": "2023-10-04",
+        "end_date": "2026-10-03"
       },
       "alns_queried": 90,
       "alns_considered": 142,
@@ -103,15 +103,15 @@
     }
   ],
   "scope_stats": {
-    "parsed": 83518,
-    "identifiable": 83518,
+    "parsed": 83520,
+    "identifiable": 83520,
     "dropped_unidentifiable": 0,
-    "after_dedupe": 83518,
-    "research_relevant": 34601,
-    "published": 1232,
-    "omitted_old_or_archived_research_records": 33369,
+    "after_dedupe": 83520,
+    "research_relevant": 34602,
+    "published": 1230,
+    "omitted_old_or_archived_research_records": 33372,
     "excluded": {
-      "excluded_not_research_relevant": 48917,
+      "excluded_not_research_relevant": 48918,
       "by_top_agency": [
         [
           "DOI",
@@ -163,7 +163,7 @@
         ],
         [
           "HUD",
-          622
+          623
         ],
         [
           "NEH",
@@ -269,7 +269,7 @@
         ],
         [
           "CD",
-          1625
+          1626
         ],
         [
           "AG",
@@ -293,11 +293,11 @@
         ],
         [
           "HO",
-          721
+          722
         ],
         [
           "BC",
-          701
+          702
         ],
         [
           "DPR",
@@ -329,7 +329,7 @@
         "fundingCategories": "",
         "agencies": ""
       },
-      "hit_count": 1486,
+      "hit_count": 1473,
       "error": null,
       "endpoint": "https://api.grants.gov/v1/api/search2"
     },
@@ -341,17 +341,17 @@
         "fundingCategories": "ST",
         "agencies": ""
       },
-      "hit_count": 293,
+      "hit_count": 294,
       "error": null,
       "endpoint": "https://api.grants.gov/v1/api/search2"
     },
-    "catalog_open_or_upcoming_ST": 275,
-    "absolute_difference": 18,
+    "catalog_open_or_upcoming_ST": 279,
+    "absolute_difference": 15,
     "status": "ok",
     "interpretation": "Compares Grants.gov search2 hitCount for posted|forecasted and funding category ST with catalog records that are open or upcoming, category ST, and not NSF program pages. A difference can come from extract timing, closed-but-listed rows, or parser loss. search2 still returns forecasts whose forecast date is years old. This catalog omits forecasts whose post or estimated post date is more than 18 months before the as-of date, so those ids can appear in in_api_not_in_catalog without being open opportunities. The difference is shown, not hidden.",
     "id_overlap": {
-      "api_ids_retrieved": 293,
-      "api_hit_count": 293,
+      "api_ids_retrieved": 294,
+      "api_hit_count": 294,
       "in_api_not_in_catalog": [
         "103313",
         "275109",
@@ -369,12 +369,9 @@
         "351078",
         "356055",
         "356425",
-        "359325",
-        "359606",
-        "364021",
         "39841"
       ],
-      "in_api_not_in_catalog_count": 20,
+      "in_api_not_in_catalog_count": 17,
       "in_catalog_not_in_api_sample": [
         "359240",
         "361937"
@@ -387,59 +384,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "357421",
+          "id": "362248",
           "status": "checked",
-          "api_title": "Full-Scale Hybrid Effectiveness-Implementation Trials for Mental Health Interventions (R01 - Clinical Trial Required)",
-          "api_number": "PAR-25-177",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2027-10-15",
+          "api_title": "DoW Military Burn, Patient-Centered Research Award",
+          "api_number": "HT942526MBRPPCRA",
+          "api_agency": "DOD-AMRAA",
+          "api_close": "2026-10-21",
           "mismatches": [],
-          "catalog_close": "2027-10-15",
-          "official_url": "https://www.grants.gov/search-results-detail/357421"
+          "catalog_close": "2026-10-21",
+          "official_url": "https://www.grants.gov/search-results-detail/362248"
         },
         {
-          "id": "357002",
+          "id": "350653",
           "status": "checked",
-          "api_title": "Molecular Imaging of Inflammation in Cancer (R01 Clinical Trial Not Allowed)",
-          "api_number": "PAR-24-311",
+          "api_title": "RFA-CC-18-000",
+          "api_number": "RFA-CC-18-000",
+          "api_agency": "HHS-CDC-HHSCDCERA",
+          "api_close": "2030-09-30",
+          "mismatches": [],
+          "catalog_close": "2030-09-30",
+          "official_url": "https://www.grants.gov/search-results-detail/350653"
+        },
+        {
+          "id": "348164",
+          "status": "checked",
+          "api_title": "Economics",
+          "api_number": "PD-23-1320",
+          "api_agency": "NSF",
+          "api_close": "2076-09-30",
+          "mismatches": [],
+          "catalog_close": "2076-09-30",
+          "official_url": "https://www.grants.gov/search-results-detail/348164"
+        },
+        {
+          "id": "357542",
+          "status": "checked",
+          "api_title": "NHLBI Early Phase Clinical Trials for Therapeutics and/or Diagnostics for HLBS Disorders (R33 CT Required)",
+          "api_number": "PAR-25-025",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-01-07",
+          "mismatches": [],
+          "catalog_close": "2027-01-07",
+          "official_url": "https://www.grants.gov/search-results-detail/357542"
+        },
+        {
+          "id": "357458",
+          "status": "checked",
+          "api_title": "Academic Research Enhancement Award (AREA) for Undergraduate-Focused Institutions (R15 Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-134",
           "api_agency": "HHS-NIH11",
           "api_close": "2028-01-07",
           "mismatches": [],
           "catalog_close": "2028-01-07",
-          "official_url": "https://www.grants.gov/search-results-detail/357002"
-        },
-        {
-          "id": "352273",
-          "status": "checked",
-          "api_title": "NIDCD Research Career Enhancement Award for Established Investigators (K18 Clinical Trial Not Allowed)",
-          "api_number": "PAR-24-143",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2027-05-07",
-          "mismatches": [],
-          "catalog_close": "2027-05-07",
-          "official_url": "https://www.grants.gov/search-results-detail/352273"
-        },
-        {
-          "id": "360593",
-          "status": "checked",
-          "api_title": "Maximizing Investigators’ Research Award (MIRA) for Early Stage Investigators (ESI)",
-          "api_number": "PAR-27-032",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2029-02-06",
-          "mismatches": [],
-          "catalog_close": "2029-02-06",
-          "official_url": "https://www.grants.gov/search-results-detail/360593"
-        },
-        {
-          "id": "360402",
-          "status": "checked",
-          "api_title": "BRAIN Initiative: Research Opportunities Using Invasive Neural Recording and Stimulating Technologies in the Human Brain (R01 Clinical Trial Not Allowed)",
-          "api_number": "RFA-NS-28-010",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2029-02-08",
-          "mismatches": [],
-          "catalog_close": "2029-02-08",
-          "official_url": "https://www.grants.gov/search-results-detail/360402"
+          "official_url": "https://www.grants.gov/search-results-detail/357458"
         }
       ]
     }
@@ -473,14 +470,14 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-10-02T12:47:10-04:00",
+  "generated_at": "2026-10-03T11:13:29-04:00",
   "timezone": "America/New_York",
   "counts": {
-    "opportunities": 1252,
+    "opportunities": 1250,
     "by_status": {
-      "closed": 262,
-      "open": 686,
-      "upcoming": 274,
+      "closed": 270,
+      "open": 678,
+      "upcoming": 272,
       "verification_required": 10,
       "open_program": 20
     },
@@ -489,96 +486,96 @@
   },
   "field_coverage": {
     "title": {
-      "count": 1252,
+      "count": 1250,
       "percent": 100.0,
-      "of": 1252
+      "of": 1250
     },
     "agency": {
-      "count": 1252,
+      "count": 1250,
       "percent": 100.0,
-      "of": 1252
+      "of": 1250
     },
     "number": {
-      "count": 1232,
+      "count": 1230,
       "percent": 98.4,
-      "of": 1252
+      "of": 1250
     },
     "close_date": {
-      "count": 1182,
-      "percent": 94.4,
-      "of": 1252
+      "count": 1184,
+      "percent": 94.7,
+      "of": 1250
     },
     "post_date": {
-      "count": 1252,
+      "count": 1250,
       "percent": 100.0,
-      "of": 1252
+      "of": 1250
     },
     "description": {
-      "count": 1233,
+      "count": 1231,
       "percent": 98.5,
-      "of": 1252
+      "of": 1250
     },
     "eligibility_codes": {
-      "count": 1232,
+      "count": 1230,
       "percent": 98.4,
-      "of": 1252
+      "of": 1250
     },
     "eligibility_text": {
-      "count": 1023,
-      "percent": 81.7,
-      "of": 1252
+      "count": 1026,
+      "percent": 82.1,
+      "of": 1250
     },
     "award_ceiling": {
-      "count": 483,
-      "percent": 38.6,
-      "of": 1252
+      "count": 487,
+      "percent": 39.0,
+      "of": 1250
     },
     "award_floor": {
-      "count": 360,
-      "percent": 28.8,
-      "of": 1252
+      "count": 363,
+      "percent": 29.0,
+      "of": 1250
     },
     "estimated_total": {
-      "count": 638,
-      "percent": 51.0,
-      "of": 1252
+      "count": 634,
+      "percent": 50.7,
+      "of": 1250
     },
     "expected_awards": {
-      "count": 623,
-      "percent": 49.8,
-      "of": 1252
+      "count": 618,
+      "percent": 49.4,
+      "of": 1250
     },
     "cost_sharing": {
-      "count": 1232,
+      "count": 1230,
       "percent": 98.4,
-      "of": 1252
+      "of": 1250
     },
     "aln": {
-      "count": 1232,
+      "count": 1230,
       "percent": 98.4,
-      "of": 1252
+      "of": 1250
     },
     "contact_email": {
-      "count": 1228,
+      "count": 1226,
       "percent": 98.1,
-      "of": 1252
+      "of": 1250
     },
     "official_url": {
-      "count": 1252,
+      "count": 1250,
       "percent": 100.0,
-      "of": 1252
+      "of": 1250
     },
     "topics": {
-      "count": 1111,
-      "percent": 88.7,
-      "of": 1252
+      "count": 1108,
+      "percent": 88.6,
+      "of": 1250
     }
   },
   "changes_summary": {
     "compared_to_previous_catalog": true,
-    "new": 6,
-    "removed": 8,
-    "changed": 23,
-    "newly_closed": 16
+    "new": 5,
+    "removed": 7,
+    "changed": 39,
+    "newly_closed": 15
   }
 }
