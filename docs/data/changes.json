@@ -1,30 +1,289 @@
 {
   "compared_to_previous_catalog": true,
   "note": "Removed means the id is not in the new catalog. That is not the same as a documented cancellation.",
-  "new_ids": [],
+  "new_ids": [
+    "gg-364024",
+    "gg-364025"
+  ],
   "removed_ids": [
-    "gg-356537",
-    "gg-359067",
-    "gg-359606",
-    "gg-360377",
-    "gg-360453",
-    "gg-360639",
-    "gg-360672",
-    "gg-360675",
-    "gg-364017"
+    "gg-349976",
+    "gg-357194",
+    "gg-357195",
+    "gg-363470"
   ],
   "changed": [
     {
-      "id": "gg-358863",
+      "id": "gg-363822",
       "fields": [
         "status"
       ],
       "status": "closed",
       "previous_status": "open"
+    },
+    {
+      "id": "gg-363820",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363821",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-362268",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-362265",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-362267",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-361438",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "upcoming"
+    },
+    {
+      "id": "gg-361411",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "upcoming"
+    },
+    {
+      "id": "gg-361451",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "upcoming"
+    },
+    {
+      "id": "gg-363819",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-359197",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "upcoming"
+    },
+    {
+      "id": "gg-359199",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "upcoming"
+    },
+    {
+      "id": "gg-361447",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "upcoming"
+    },
+    {
+      "id": "gg-363823",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-351889",
+      "fields": [
+        "title"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-355196",
+      "fields": [
+        "title"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-357725",
+      "fields": [
+        "title"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-361008",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363615",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363616",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363614",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363613",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363684",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-347679",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-347680",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363620",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363617",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363618",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363612",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363621",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-360350",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-327047",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
     }
   ],
-  "changed_count": 1,
+  "changed_count": 32,
   "newly_closed": [
-    "gg-358863"
+    "gg-363822",
+    "gg-363820",
+    "gg-363821",
+    "gg-362268",
+    "gg-362265",
+    "gg-362267",
+    "gg-361438",
+    "gg-361411",
+    "gg-361451",
+    "gg-363819",
+    "gg-359197",
+    "gg-359199",
+    "gg-361447",
+    "gg-363823"
   ]
 }
