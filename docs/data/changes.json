@@ -2,18 +2,19 @@
   "compared_to_previous_catalog": true,
   "note": "Removed means the id is not in the new catalog. That is not the same as a documented cancellation.",
   "new_ids": [
-    "gg-364024",
-    "gg-364025"
+    "gg-360873",
+    "gg-364027",
+    "gg-364028"
   ],
   "removed_ids": [
-    "gg-349976",
-    "gg-357194",
-    "gg-357195",
-    "gg-363470"
+    "gg-358857",
+    "gg-362198",
+    "gg-362214",
+    "gg-364025"
   ],
   "changed": [
     {
-      "id": "gg-363822",
+      "id": "gg-359252",
       "fields": [
         "status"
       ],
@@ -21,7 +22,7 @@
       "previous_status": "open"
     },
     {
-      "id": "gg-363820",
+      "id": "gg-363817",
       "fields": [
         "status"
       ],
@@ -29,39 +30,7 @@
       "previous_status": "open"
     },
     {
-      "id": "gg-363821",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-362268",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-362265",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-362267",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-361438",
+      "id": "gg-360906",
       "fields": [
         "status"
       ],
@@ -69,7 +38,7 @@
       "previous_status": "upcoming"
     },
     {
-      "id": "gg-361411",
+      "id": "gg-360893",
       "fields": [
         "status"
       ],
@@ -77,7 +46,7 @@
       "previous_status": "upcoming"
     },
     {
-      "id": "gg-361451",
+      "id": "gg-360910",
       "fields": [
         "status"
       ],
@@ -85,15 +54,7 @@
       "previous_status": "upcoming"
     },
     {
-      "id": "gg-363819",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-359197",
+      "id": "gg-360894",
       "fields": [
         "status"
       ],
@@ -101,31 +62,7 @@
       "previous_status": "upcoming"
     },
     {
-      "id": "gg-359199",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "upcoming"
-    },
-    {
-      "id": "gg-361447",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "upcoming"
-    },
-    {
-      "id": "gg-363823",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-351889",
+      "id": "gg-361896",
       "fields": [
         "title"
       ],
@@ -133,87 +70,32 @@
       "previous_status": "open"
     },
     {
-      "id": "gg-355196",
+      "id": "gg-360048",
       "fields": [
-        "title"
+        "status",
+        "dates.close",
+        "dates.post",
+        "title",
+        "eligibility_codes"
       ],
       "status": "open",
-      "previous_status": "open"
+      "previous_status": "upcoming"
     },
     {
-      "id": "gg-357725",
+      "id": "gg-360366",
       "fields": [
-        "title"
+        "status",
+        "dates.close",
+        "dates.post",
+        "funding.estimated_total",
+        "title",
+        "eligibility_codes"
       ],
       "status": "open",
-      "previous_status": "open"
+      "previous_status": "upcoming"
     },
     {
-      "id": "gg-361008",
-      "fields": [
-        "dates.close"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-363615",
-      "fields": [
-        "dates.close"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-363616",
-      "fields": [
-        "dates.close"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-363614",
-      "fields": [
-        "dates.close"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-363613",
-      "fields": [
-        "dates.close"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-363684",
-      "fields": [
-        "dates.close"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-347679",
-      "fields": [
-        "dates.close"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-347680",
-      "fields": [
-        "dates.close"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-363620",
+      "id": "gg-348164",
       "fields": [
         "dates.close"
       ],
@@ -229,22 +111,6 @@
       "previous_status": "open"
     },
     {
-      "id": "gg-363618",
-      "fields": [
-        "dates.close"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-363612",
-      "fields": [
-        "dates.close"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
       "id": "gg-363621",
       "fields": [
         "dates.close"
@@ -253,7 +119,7 @@
       "previous_status": "open"
     },
     {
-      "id": "gg-360350",
+      "id": "gg-359499",
       "fields": [
         "dates.close"
       ],
@@ -261,29 +127,30 @@
       "previous_status": "open"
     },
     {
-      "id": "gg-327047",
+      "id": "gg-360664",
       "fields": [
         "dates.close"
       ],
       "status": "open",
       "previous_status": "open"
+    },
+    {
+      "id": "gg-361952",
+      "fields": [
+        "dates.close",
+        "title"
+      ],
+      "status": "open",
+      "previous_status": "open"
     }
   ],
-  "changed_count": 32,
+  "changed_count": 15,
   "newly_closed": [
-    "gg-363822",
-    "gg-363820",
-    "gg-363821",
-    "gg-362268",
-    "gg-362265",
-    "gg-362267",
-    "gg-361438",
-    "gg-361411",
-    "gg-361451",
-    "gg-363819",
-    "gg-359197",
-    "gg-359199",
-    "gg-361447",
-    "gg-363823"
+    "gg-359252",
+    "gg-363817",
+    "gg-360906",
+    "gg-360893",
+    "gg-360910",
+    "gg-360894"
   ]
 }
