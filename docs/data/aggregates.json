@@ -1,15 +1,15 @@
 {
   "note": "All counts are computed from this catalog only. They are derived statistics, not independent official totals.",
   "by_status": {
-    "closed": 280,
-    "open": 679,
+    "closed": 272,
+    "open": 677,
     "upcoming": 258,
     "verification_required": 10,
     "open_program": 20
   },
   "by_record_kind": {
-    "opportunity": 893,
-    "forecast": 334,
+    "forecast": 333,
+    "opportunity": 884,
     "program": 20
   },
   "agencies": [
@@ -20,7 +20,7 @@
       "open": 411,
       "upcoming": 254,
       "open_program": 0,
-      "closed": 148,
+      "closed": 147,
       "other": 0,
       "published_ceiling_count": 253,
       "median_published_ceiling": 499000,
@@ -30,7 +30,7 @@
       "top_topics": [
         {
           "id": "biomedical",
-          "count": 685
+          "count": 684
         },
         {
           "id": "aging",
@@ -58,20 +58,20 @@
       "code": "NSF",
       "grouping_label": "National Science Foundation",
       "source_name_most_common": "U.S. National Science Foundation",
-      "open": 117,
+      "open": 115,
       "upcoming": 0,
       "open_program": 20,
       "closed": 15,
       "other": 4,
-      "published_ceiling_count": 37,
+      "published_ceiling_count": 35,
       "median_published_ceiling": 1500000,
-      "published_estimated_total_count": 97,
-      "sum_published_estimated_totals": 4298239836,
+      "published_estimated_total_count": 95,
+      "sum_published_estimated_totals": 3982239836,
       "sum_note": "Sum only of opportunities in the current feed that published an estimated total. Not available funding. Opportunities without a published total are excluded.",
       "top_topics": [
         {
           "id": "infrastructure",
-          "count": 41
+          "count": 39
         },
         {
           "id": "mathematics",
@@ -79,7 +79,7 @@
         },
         {
           "id": "education-research",
-          "count": 26
+          "count": 25
         },
         {
           "id": "aging",
@@ -102,7 +102,7 @@
       "open": 92,
       "upcoming": 2,
       "open_program": 0,
-      "closed": 50,
+      "closed": 47,
       "other": 2,
       "published_ceiling_count": 31,
       "median_published_ceiling": 6000000,
@@ -112,7 +112,7 @@
       "top_topics": [
         {
           "id": "biomedical",
-          "count": 56
+          "count": 54
         },
         {
           "id": "cancer",
@@ -184,7 +184,7 @@
       "open": 11,
       "upcoming": 0,
       "open_program": 0,
-      "closed": 7,
+      "closed": 5,
       "other": 0,
       "published_ceiling_count": 11,
       "median_published_ceiling": 750000,
@@ -194,11 +194,7 @@
       "top_topics": [
         {
           "id": "agriculture",
-          "count": 18
-        },
-        {
-          "id": "aging",
-          "count": 2
+          "count": 16
         },
         {
           "id": "sensors",
@@ -210,6 +206,10 @@
         },
         {
           "id": "mathematics",
+          "count": 1
+        },
+        {
+          "id": "aging",
           "count": 1
         },
         {
@@ -377,7 +377,7 @@
       "open": 3,
       "upcoming": 0,
       "open_program": 0,
-      "closed": 23,
+      "closed": 21,
       "other": 0,
       "published_ceiling_count": 3,
       "median_published_ceiling": 150000,
@@ -387,11 +387,11 @@
       "top_topics": [
         {
           "id": "environment",
-          "count": 22
+          "count": 20
         },
         {
           "id": "water",
-          "count": 12
+          "count": 11
         },
         {
           "id": "aging",
@@ -578,7 +578,7 @@
         "gg-350944"
       ],
       "methods": {
-        "keyword": 735,
+        "keyword": 732,
         "agency_default": 17
       },
       "classification": "derived_keyword_or_agency_default"
@@ -586,7 +586,7 @@
     {
       "id": "infrastructure",
       "label": "Infrastructure",
-      "open": 76,
+      "open": 74,
       "upcoming": 50,
       "open_program": 3,
       "agency_count": 10,
@@ -613,7 +613,7 @@
         "gg-362551"
       ],
       "methods": {
-        "keyword": 159
+        "keyword": 157
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -646,7 +646,7 @@
         "gg-359855"
       ],
       "methods": {
-        "keyword": 164
+        "keyword": 163
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -821,7 +821,7 @@
     {
       "id": "information-systems",
       "label": "Information systems",
-      "open": 32,
+      "open": 31,
       "upcoming": 25,
       "open_program": 1,
       "agency_count": 7,
@@ -845,7 +845,7 @@
         "gg-363242"
       ],
       "methods": {
-        "keyword": 74
+        "keyword": 73
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -882,7 +882,7 @@
     {
       "id": "genomics",
       "label": "Genomics",
-      "open": 27,
+      "open": 26,
       "upcoming": 21,
       "open_program": 1,
       "agency_count": 2,
@@ -901,7 +901,7 @@
         "gg-360199"
       ],
       "methods": {
-        "keyword": 55
+        "keyword": 54
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -971,7 +971,7 @@
     {
       "id": "education-research",
       "label": "Education research",
-      "open": 29,
+      "open": 28,
       "upcoming": 3,
       "open_program": 0,
       "agency_count": 7,
@@ -995,14 +995,14 @@
         "gg-361169"
       ],
       "methods": {
-        "keyword": 45
+        "keyword": 44
       },
       "classification": "derived_keyword_or_agency_default"
     },
     {
       "id": "environment",
       "label": "Environmental science",
-      "open": 23,
+      "open": 21,
       "upcoming": 5,
       "open_program": 2,
       "agency_count": 8,
@@ -1027,7 +1027,7 @@
         "gg-361080"
       ],
       "methods": {
-        "keyword": 63
+        "keyword": 59
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1227,7 +1227,7 @@
         "gg-359966"
       ],
       "methods": {
-        "keyword": 31
+        "keyword": 29
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1294,11 +1294,10 @@
       "open": 15,
       "upcoming": 1,
       "open_program": 3,
-      "agency_count": 5,
+      "agency_count": 4,
       "agencies": [
         "DOD",
         "DOE",
-        "DOI",
         "HHS",
         "NSF"
       ],
@@ -1313,14 +1312,14 @@
         "gg-359696"
       ],
       "methods": {
-        "keyword": 26
+        "keyword": 25
       },
       "classification": "derived_keyword_or_agency_default"
     },
     {
       "id": "quantum",
       "label": "Quantum information science",
-      "open": 13,
+      "open": 12,
       "upcoming": 0,
       "open_program": 2,
       "agency_count": 3,
@@ -1340,7 +1339,7 @@
         "gg-353413"
       ],
       "methods": {
-        "keyword": 16
+        "keyword": 15
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1455,31 +1454,6 @@
       "classification": "derived_keyword_or_agency_default"
     },
     {
-      "id": "materials",
-      "label": "Materials science",
-      "open": 5,
-      "upcoming": 0,
-      "open_program": 0,
-      "agency_count": 4,
-      "agencies": [
-        "DOC",
-        "DOE",
-        "HHS",
-        "NSF"
-      ],
-      "sample_ids": [
-        "gg-320753",
-        "gg-357748",
-        "gg-329436",
-        "gg-308873",
-        "gg-364051"
-      ],
-      "methods": {
-        "keyword": 6
-      },
-      "classification": "derived_keyword_or_agency_default"
-    },
-    {
       "id": "nuclear",
       "label": "Nuclear technology",
       "open": 5,
@@ -1526,6 +1500,30 @@
       ],
       "methods": {
         "keyword": 6
+      },
+      "classification": "derived_keyword_or_agency_default"
+    },
+    {
+      "id": "materials",
+      "label": "Materials science",
+      "open": 4,
+      "upcoming": 0,
+      "open_program": 0,
+      "agency_count": 4,
+      "agencies": [
+        "DOC",
+        "DOE",
+        "HHS",
+        "NSF"
+      ],
+      "sample_ids": [
+        "gg-320753",
+        "gg-357748",
+        "gg-329436",
+        "gg-308873"
+      ],
+      "methods": {
+        "keyword": 5
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1641,7 +1639,7 @@
         "gg-362978"
       ],
       "methods": {
-        "keyword": 15
+        "keyword": 14
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1790,7 +1788,7 @@
         "gg-350944"
       ],
       "methods": {
-        "keyword": 735,
+        "keyword": 732,
         "agency_default": 17
       },
       "classification": "derived_keyword_or_agency_default"
@@ -1798,7 +1796,7 @@
     {
       "id": "infrastructure",
       "label": "Infrastructure",
-      "open": 76,
+      "open": 74,
       "upcoming": 50,
       "open_program": 3,
       "agency_count": 10,
@@ -1825,7 +1823,7 @@
         "gg-362551"
       ],
       "methods": {
-        "keyword": 159
+        "keyword": 157
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1858,7 +1856,7 @@
         "gg-359855"
       ],
       "methods": {
-        "keyword": 164
+        "keyword": 163
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2033,7 +2031,7 @@
     {
       "id": "information-systems",
       "label": "Information systems",
-      "open": 32,
+      "open": 31,
       "upcoming": 25,
       "open_program": 1,
       "agency_count": 7,
@@ -2057,7 +2055,7 @@
         "gg-363242"
       ],
       "methods": {
-        "keyword": 74
+        "keyword": 73
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2094,7 +2092,7 @@
     {
       "id": "genomics",
       "label": "Genomics",
-      "open": 27,
+      "open": 26,
       "upcoming": 21,
       "open_program": 1,
       "agency_count": 2,
@@ -2113,7 +2111,7 @@
         "gg-360199"
       ],
       "methods": {
-        "keyword": 55
+        "keyword": 54
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2183,7 +2181,7 @@
     {
       "id": "education-research",
       "label": "Education research",
-      "open": 29,
+      "open": 28,
       "upcoming": 3,
       "open_program": 0,
       "agency_count": 7,
@@ -2207,14 +2205,14 @@
         "gg-361169"
       ],
       "methods": {
-        "keyword": 45
+        "keyword": 44
       },
       "classification": "derived_keyword_or_agency_default"
     },
     {
       "id": "environment",
       "label": "Environmental science",
-      "open": 23,
+      "open": 21,
       "upcoming": 5,
       "open_program": 2,
       "agency_count": 8,
@@ -2239,7 +2237,7 @@
         "gg-361080"
       ],
       "methods": {
-        "keyword": 63
+        "keyword": 59
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2439,7 +2437,7 @@
         "gg-359966"
       ],
       "methods": {
-        "keyword": 31
+        "keyword": 29
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2506,11 +2504,10 @@
       "open": 15,
       "upcoming": 1,
       "open_program": 3,
-      "agency_count": 5,
+      "agency_count": 4,
       "agencies": [
         "DOD",
         "DOE",
-        "DOI",
         "HHS",
         "NSF"
       ],
@@ -2525,14 +2522,14 @@
         "gg-359696"
       ],
       "methods": {
-        "keyword": 26
+        "keyword": 25
       },
       "classification": "derived_keyword_or_agency_default"
     },
     {
       "id": "quantum",
       "label": "Quantum information science",
-      "open": 13,
+      "open": 12,
       "upcoming": 0,
       "open_program": 2,
       "agency_count": 3,
@@ -2552,7 +2549,7 @@
         "gg-353413"
       ],
       "methods": {
-        "keyword": 16
+        "keyword": 15
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2667,31 +2664,6 @@
       "classification": "derived_keyword_or_agency_default"
     },
     {
-      "id": "materials",
-      "label": "Materials science",
-      "open": 5,
-      "upcoming": 0,
-      "open_program": 0,
-      "agency_count": 4,
-      "agencies": [
-        "DOC",
-        "DOE",
-        "HHS",
-        "NSF"
-      ],
-      "sample_ids": [
-        "gg-320753",
-        "gg-357748",
-        "gg-329436",
-        "gg-308873",
-        "gg-364051"
-      ],
-      "methods": {
-        "keyword": 6
-      },
-      "classification": "derived_keyword_or_agency_default"
-    },
-    {
       "id": "nuclear",
       "label": "Nuclear technology",
       "open": 5,
@@ -2738,6 +2710,30 @@
       ],
       "methods": {
         "keyword": 6
+      },
+      "classification": "derived_keyword_or_agency_default"
+    },
+    {
+      "id": "materials",
+      "label": "Materials science",
+      "open": 4,
+      "upcoming": 0,
+      "open_program": 0,
+      "agency_count": 4,
+      "agencies": [
+        "DOC",
+        "DOE",
+        "HHS",
+        "NSF"
+      ],
+      "sample_ids": [
+        "gg-320753",
+        "gg-357748",
+        "gg-329436",
+        "gg-308873"
+      ],
+      "methods": {
+        "keyword": 5
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2832,7 +2828,7 @@
         "gg-362978"
       ],
       "methods": {
-        "keyword": 15
+        "keyword": 14
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2883,9 +2879,9 @@
   ],
   "unclassified_current": 104,
   "funding_published": {
-    "current_feed_with_estimated_total": 456,
-    "sum_of_published_estimated_totals": 14106491997,
-    "median_published_estimated_total": 6000000,
+    "current_feed_with_estimated_total": 454,
+    "sum_of_published_estimated_totals": 13790491997,
+    "median_published_estimated_total": 5950000,
     "warning": "Do not read this sum as the amount of research funding available. It adds only the estimated program totals agencies chose to publish, it double-counts nothing on purpose but it also excludes every opportunity that left the field blank, and an estimated total is not an amount set aside for one applicant."
   },
   "awards_in_catalog": {
