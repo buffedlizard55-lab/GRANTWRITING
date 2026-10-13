@@ -1,14 +1,14 @@
 {
   "note": "All counts are computed from this catalog only. They are derived statistics, not independent official totals.",
   "by_status": {
-    "closed": 272,
-    "open": 676,
-    "upcoming": 258,
+    "closed": 274,
+    "upcoming": 256,
+    "open": 675,
     "verification_required": 10,
     "open_program": 20
   },
   "by_record_kind": {
-    "opportunity": 884,
+    "opportunity": 883,
     "forecast": 332,
     "program": 20
   },
@@ -18,14 +18,14 @@
       "grouping_label": "Department of Health and Human Services",
       "source_name_most_common": "National Institutes of Health",
       "open": 410,
-      "upcoming": 254,
+      "upcoming": 252,
       "open_program": 0,
-      "closed": 147,
+      "closed": 149,
       "other": 0,
-      "published_ceiling_count": 253,
+      "published_ceiling_count": 252,
       "median_published_ceiling": 499000,
-      "published_estimated_total_count": 269,
-      "sum_published_estimated_totals": 6839916674,
+      "published_estimated_total_count": 268,
+      "sum_published_estimated_totals": 6832716674,
       "sum_note": "Sum only of opportunities in the current feed that published an estimated total. Not available funding. Opportunities without a published total are excluded.",
       "top_topics": [
         {
@@ -99,13 +99,13 @@
       "code": "DOD",
       "grouping_label": "Department of Defense",
       "source_name_most_common": "Defense Health Agency Contracting Activity - DHACA",
-      "open": 92,
+      "open": 91,
       "upcoming": 2,
       "open_program": 0,
-      "closed": 47,
+      "closed": 48,
       "other": 2,
-      "published_ceiling_count": 31,
-      "median_published_ceiling": 6000000,
+      "published_ceiling_count": 30,
+      "median_published_ceiling": 6500000,
       "published_estimated_total_count": 55,
       "sum_published_estimated_totals": 1222935000,
       "sum_note": "Sum only of opportunities in the current feed that published an estimated total. Not available funding. Opportunities without a published total are excluded.",
@@ -377,7 +377,7 @@
       "open": 3,
       "upcoming": 0,
       "open_program": 0,
-      "closed": 21,
+      "closed": 20,
       "other": 0,
       "published_ceiling_count": 3,
       "median_published_ceiling": 150000,
@@ -387,23 +387,23 @@
       "top_topics": [
         {
           "id": "environment",
-          "count": 20
+          "count": 19
         },
         {
           "id": "water",
           "count": 11
         },
         {
+          "id": "infrastructure",
+          "count": 6
+        },
+        {
           "id": "aging",
-          "count": 7
+          "count": 6
         },
         {
           "id": "earth-science",
-          "count": 6
-        },
-        {
-          "id": "infrastructure",
-          "count": 6
+          "count": 5
         },
         {
           "id": "wildfire",
@@ -557,7 +557,7 @@
       "id": "biomedical",
       "label": "Biomedical research",
       "open": 427,
-      "upcoming": 177,
+      "upcoming": 176,
       "open_program": 0,
       "agency_count": 5,
       "agencies": [
@@ -568,14 +568,14 @@
         "USDA"
       ],
       "sample_ids": [
-        "gg-361334",
         "gg-356718",
         "gg-356717",
         "gg-362244",
         "gg-362246",
         "gg-350943",
         "gg-350944",
-        "gg-356680"
+        "gg-356680",
+        "gg-359201"
       ],
       "methods": {
         "keyword": 731,
@@ -587,7 +587,7 @@
       "id": "infrastructure",
       "label": "Infrastructure",
       "open": 74,
-      "upcoming": 50,
+      "upcoming": 49,
       "open_program": 3,
       "agency_count": 10,
       "agencies": [
@@ -603,14 +603,14 @@
         "USDA"
       ],
       "sample_ids": [
-        "gg-362313",
         "gg-359073",
         "gg-363224",
         "gg-363843",
         "gg-359123",
         "gg-363852",
         "gg-362454",
-        "gg-362551"
+        "gg-362551",
+        "gg-363481"
       ],
       "methods": {
         "keyword": 156
@@ -646,7 +646,7 @@
         "gg-359855"
       ],
       "methods": {
-        "keyword": 163
+        "keyword": 162
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -795,7 +795,7 @@
       "id": "neuroscience",
       "label": "Neuroscience",
       "open": 30,
-      "upcoming": 29,
+      "upcoming": 27,
       "open_program": 0,
       "agency_count": 3,
       "agencies": [
@@ -804,14 +804,14 @@
         "NSF"
       ],
       "sample_ids": [
-        "gg-361334",
-        "gg-362313",
         "gg-361205",
         "gg-361519",
         "gg-361520",
         "gg-362454",
         "gg-360644",
-        "gg-360643"
+        "gg-360643",
+        "gg-361450",
+        "gg-361522"
       ],
       "methods": {
         "keyword": 84
@@ -875,7 +875,7 @@
         "gg-352741"
       ],
       "methods": {
-        "keyword": 74
+        "keyword": 73
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -883,7 +883,7 @@
       "id": "genomics",
       "label": "Genomics",
       "open": 26,
-      "upcoming": 21,
+      "upcoming": 20,
       "open_program": 1,
       "agency_count": 2,
       "agencies": [
@@ -891,14 +891,14 @@
         "NSF"
       ],
       "sample_ids": [
-        "gg-361334",
         "gg-359279",
         "gg-359644",
         "gg-359280",
         "gg-362454",
         "gg-360621",
         "gg-363281",
-        "gg-360199"
+        "gg-360199",
+        "gg-357204"
       ],
       "methods": {
         "keyword": 54
@@ -935,7 +935,7 @@
         "gg-363268"
       ],
       "methods": {
-        "keyword": 60
+        "keyword": 59
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -943,7 +943,7 @@
       "id": "physics",
       "label": "Physics",
       "open": 31,
-      "upcoming": 2,
+      "upcoming": 1,
       "open_program": 5,
       "agency_count": 5,
       "agencies": [
@@ -954,14 +954,14 @@
         "PAMS"
       ],
       "sample_ids": [
-        "gg-361334",
         "gg-342747",
         "gg-363325",
         "gg-340545",
         "gg-363241",
         "gg-363258",
         "gg-360004",
-        "gg-342959"
+        "gg-342959",
+        "gg-350018"
       ],
       "methods": {
         "keyword": 44
@@ -996,38 +996,6 @@
       ],
       "methods": {
         "keyword": 44
-      },
-      "classification": "derived_keyword_or_agency_default"
-    },
-    {
-      "id": "environment",
-      "label": "Environmental science",
-      "open": 21,
-      "upcoming": 5,
-      "open_program": 2,
-      "agency_count": 8,
-      "agencies": [
-        "DOC",
-        "DOD",
-        "DOI",
-        "DOS",
-        "HHS",
-        "NASA",
-        "NSF",
-        "USDOT"
-      ],
-      "sample_ids": [
-        "gg-363854",
-        "gg-361334",
-        "gg-363224",
-        "gg-363852",
-        "gg-364016",
-        "gg-356559",
-        "gg-359966",
-        "gg-361080"
-      ],
-      "methods": {
-        "keyword": 58
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1085,6 +1053,38 @@
       ],
       "methods": {
         "keyword": 28
+      },
+      "classification": "derived_keyword_or_agency_default"
+    },
+    {
+      "id": "environment",
+      "label": "Environmental science",
+      "open": 20,
+      "upcoming": 4,
+      "open_program": 2,
+      "agency_count": 8,
+      "agencies": [
+        "DOC",
+        "DOD",
+        "DOI",
+        "DOS",
+        "HHS",
+        "NASA",
+        "NSF",
+        "USDOT"
+      ],
+      "sample_ids": [
+        "gg-363224",
+        "gg-363852",
+        "gg-364016",
+        "gg-356559",
+        "gg-359966",
+        "gg-361080",
+        "gg-358004",
+        "gg-357554"
+      ],
+      "methods": {
+        "keyword": 57
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1169,7 +1169,7 @@
         "gg-363747"
       ],
       "methods": {
-        "keyword": 30
+        "keyword": 29
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1177,7 +1177,7 @@
       "id": "biotechnology",
       "label": "Biotechnology",
       "open": 20,
-      "upcoming": 2,
+      "upcoming": 1,
       "open_program": 1,
       "agency_count": 4,
       "agencies": [
@@ -1187,14 +1187,14 @@
         "PAMS"
       ],
       "sample_ids": [
-        "gg-362313",
         "gg-350018",
         "gg-361526",
         "gg-362722",
         "gg-357498",
         "gg-353413",
         "gg-357570",
-        "gg-356610"
+        "gg-356610",
+        "gg-357019"
       ],
       "methods": {
         "keyword": 28
@@ -1227,7 +1227,7 @@
         "gg-359966"
       ],
       "methods": {
-        "keyword": 29
+        "keyword": 28
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1767,7 +1767,7 @@
       "id": "biomedical",
       "label": "Biomedical research",
       "open": 427,
-      "upcoming": 177,
+      "upcoming": 176,
       "open_program": 0,
       "agency_count": 5,
       "agencies": [
@@ -1778,14 +1778,14 @@
         "USDA"
       ],
       "sample_ids": [
-        "gg-361334",
         "gg-356718",
         "gg-356717",
         "gg-362244",
         "gg-362246",
         "gg-350943",
         "gg-350944",
-        "gg-356680"
+        "gg-356680",
+        "gg-359201"
       ],
       "methods": {
         "keyword": 731,
@@ -1797,7 +1797,7 @@
       "id": "infrastructure",
       "label": "Infrastructure",
       "open": 74,
-      "upcoming": 50,
+      "upcoming": 49,
       "open_program": 3,
       "agency_count": 10,
       "agencies": [
@@ -1813,14 +1813,14 @@
         "USDA"
       ],
       "sample_ids": [
-        "gg-362313",
         "gg-359073",
         "gg-363224",
         "gg-363843",
         "gg-359123",
         "gg-363852",
         "gg-362454",
-        "gg-362551"
+        "gg-362551",
+        "gg-363481"
       ],
       "methods": {
         "keyword": 156
@@ -1856,7 +1856,7 @@
         "gg-359855"
       ],
       "methods": {
-        "keyword": 163
+        "keyword": 162
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2005,7 +2005,7 @@
       "id": "neuroscience",
       "label": "Neuroscience",
       "open": 30,
-      "upcoming": 29,
+      "upcoming": 27,
       "open_program": 0,
       "agency_count": 3,
       "agencies": [
@@ -2014,14 +2014,14 @@
         "NSF"
       ],
       "sample_ids": [
-        "gg-361334",
-        "gg-362313",
         "gg-361205",
         "gg-361519",
         "gg-361520",
         "gg-362454",
         "gg-360644",
-        "gg-360643"
+        "gg-360643",
+        "gg-361450",
+        "gg-361522"
       ],
       "methods": {
         "keyword": 84
@@ -2085,7 +2085,7 @@
         "gg-352741"
       ],
       "methods": {
-        "keyword": 74
+        "keyword": 73
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2093,7 +2093,7 @@
       "id": "genomics",
       "label": "Genomics",
       "open": 26,
-      "upcoming": 21,
+      "upcoming": 20,
       "open_program": 1,
       "agency_count": 2,
       "agencies": [
@@ -2101,14 +2101,14 @@
         "NSF"
       ],
       "sample_ids": [
-        "gg-361334",
         "gg-359279",
         "gg-359644",
         "gg-359280",
         "gg-362454",
         "gg-360621",
         "gg-363281",
-        "gg-360199"
+        "gg-360199",
+        "gg-357204"
       ],
       "methods": {
         "keyword": 54
@@ -2145,7 +2145,7 @@
         "gg-363268"
       ],
       "methods": {
-        "keyword": 60
+        "keyword": 59
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2153,7 +2153,7 @@
       "id": "physics",
       "label": "Physics",
       "open": 31,
-      "upcoming": 2,
+      "upcoming": 1,
       "open_program": 5,
       "agency_count": 5,
       "agencies": [
@@ -2164,14 +2164,14 @@
         "PAMS"
       ],
       "sample_ids": [
-        "gg-361334",
         "gg-342747",
         "gg-363325",
         "gg-340545",
         "gg-363241",
         "gg-363258",
         "gg-360004",
-        "gg-342959"
+        "gg-342959",
+        "gg-350018"
       ],
       "methods": {
         "keyword": 44
@@ -2206,38 +2206,6 @@
       ],
       "methods": {
         "keyword": 44
-      },
-      "classification": "derived_keyword_or_agency_default"
-    },
-    {
-      "id": "environment",
-      "label": "Environmental science",
-      "open": 21,
-      "upcoming": 5,
-      "open_program": 2,
-      "agency_count": 8,
-      "agencies": [
-        "DOC",
-        "DOD",
-        "DOI",
-        "DOS",
-        "HHS",
-        "NASA",
-        "NSF",
-        "USDOT"
-      ],
-      "sample_ids": [
-        "gg-363854",
-        "gg-361334",
-        "gg-363224",
-        "gg-363852",
-        "gg-364016",
-        "gg-356559",
-        "gg-359966",
-        "gg-361080"
-      ],
-      "methods": {
-        "keyword": 58
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2295,6 +2263,38 @@
       ],
       "methods": {
         "keyword": 28
+      },
+      "classification": "derived_keyword_or_agency_default"
+    },
+    {
+      "id": "environment",
+      "label": "Environmental science",
+      "open": 20,
+      "upcoming": 4,
+      "open_program": 2,
+      "agency_count": 8,
+      "agencies": [
+        "DOC",
+        "DOD",
+        "DOI",
+        "DOS",
+        "HHS",
+        "NASA",
+        "NSF",
+        "USDOT"
+      ],
+      "sample_ids": [
+        "gg-363224",
+        "gg-363852",
+        "gg-364016",
+        "gg-356559",
+        "gg-359966",
+        "gg-361080",
+        "gg-358004",
+        "gg-357554"
+      ],
+      "methods": {
+        "keyword": 57
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2379,7 +2379,7 @@
         "gg-363747"
       ],
       "methods": {
-        "keyword": 30
+        "keyword": 29
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2387,7 +2387,7 @@
       "id": "biotechnology",
       "label": "Biotechnology",
       "open": 20,
-      "upcoming": 2,
+      "upcoming": 1,
       "open_program": 1,
       "agency_count": 4,
       "agencies": [
@@ -2397,14 +2397,14 @@
         "PAMS"
       ],
       "sample_ids": [
-        "gg-362313",
         "gg-350018",
         "gg-361526",
         "gg-362722",
         "gg-357498",
         "gg-353413",
         "gg-357570",
-        "gg-356610"
+        "gg-356610",
+        "gg-357019"
       ],
       "methods": {
         "keyword": 28
@@ -2437,7 +2437,7 @@
         "gg-359966"
       ],
       "methods": {
-        "keyword": 29
+        "keyword": 28
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2879,9 +2879,9 @@
   ],
   "unclassified_current": 104,
   "funding_published": {
-    "current_feed_with_estimated_total": 453,
-    "sum_of_published_estimated_totals": 13784991997,
-    "median_published_estimated_total": 6000000,
+    "current_feed_with_estimated_total": 452,
+    "sum_of_published_estimated_totals": 13777791997,
+    "median_published_estimated_total": 5950000,
     "warning": "Do not read this sum as the amount of research funding available. It adds only the estimated program totals agencies chose to publish, it double-counts nothing on purpose but it also excludes every opportunity that left the field blank, and an estimated total is not an amount set aside for one applicant."
   },
   "awards_in_catalog": {
