@@ -1,22 +1,22 @@
 {
-  "as_of_date": "2026-10-17",
+  "as_of_date": "2026-10-18",
   "sources": [
     {
-      "file_name": "GrantsDBExtract20261017v2.zip",
-      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261017v2.zip",
-      "ymd": "20261017",
+      "file_name": "GrantsDBExtract20261018v2.zip",
+      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261018v2.zip",
+      "ymd": "20261018",
       "catalog_url": "https://www.grants.gov/xml-extract",
       "id": "grantsgov_extract",
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
-      "bytes": 78297292,
-      "retrieved_at": "2026-10-17T10:15:07-04:00",
+      "bytes": 78297820,
+      "retrieved_at": "2026-10-18T10:39:16-04:00",
       "parse_stats": {
-        "container": "GrantsDBExtract20261017v2.zip",
-        "xml_name": "GrantsDBExtract20261017v2.xml",
-        "records_parsed": 83581,
+        "container": "GrantsDBExtract20261018v2.zip",
+        "xml_name": "GrantsDBExtract20261018v2.xml",
+        "records_parsed": 83582,
         "tag_counts": {
-          "OpportunitySynopsisDetail_1_0": 82631,
+          "OpportunitySynopsisDetail_1_0": 82632,
           "OpportunityForecastDetail_1_0": 950
         },
         "unmapped_tags": [
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-10-17T10:15:07-04:00",
+      "retrieved_at": "2026-10-18T10:39:16-04:00",
       "status": "ok",
       "items": 20
     },
@@ -94,8 +94,8 @@
       "count": 101,
       "coverage": "Obligations for a subset of assistance listings that appear on cataloged opportunities, sorted by amount within each API call, one page per batch. Not all awards under those listings, and not all federal research spending.",
       "time_period": {
-        "start_date": "2023-10-18",
-        "end_date": "2026-10-17"
+        "start_date": "2023-10-19",
+        "end_date": "2026-10-18"
       },
       "alns_queried": 90,
       "alns_considered": 137,
@@ -103,15 +103,15 @@
     }
   ],
   "scope_stats": {
-    "parsed": 83581,
-    "identifiable": 83581,
+    "parsed": 83582,
+    "identifiable": 83582,
     "dropped_unidentifiable": 0,
-    "after_dedupe": 83581,
+    "after_dedupe": 83582,
     "research_relevant": 34637,
-    "published": 1208,
-    "omitted_old_or_archived_research_records": 33429,
+    "published": 1207,
+    "omitted_old_or_archived_research_records": 33430,
     "excluded": {
-      "excluded_not_research_relevant": 48944,
+      "excluded_not_research_relevant": 48945,
       "by_top_agency": [
         [
           "DOI",
@@ -273,7 +273,7 @@
         ],
         [
           "AG",
-          1588
+          1589
         ],
         [
           "HU",
@@ -329,7 +329,7 @@
         "fundingCategories": "",
         "agencies": ""
       },
-      "hit_count": 1456,
+      "hit_count": 1457,
       "error": null,
       "endpoint": "https://api.grants.gov/v1/api/search2"
     },
@@ -386,59 +386,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "364080",
+          "id": "357427",
           "status": "checked",
-          "api_title": "Cooperative Agreement for Affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit (CESU)",
-          "api_number": "G27AS00080",
+          "api_title": "Development of Psychosocial Therapeutic and Preventive Interventions for Mental Disorders (R61/R33 Clinical Trial Required)",
+          "api_number": "PAR-25-182",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-10-15",
+          "mismatches": [],
+          "catalog_close": "2027-10-15",
+          "official_url": "https://www.grants.gov/search-results-detail/357427"
+        },
+        {
+          "id": "355354",
+          "status": "checked",
+          "api_title": "Change of Recipient Organization (Type 7 Parent Clinical Trial Optional)",
+          "api_number": "PA-24-254",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-07-12",
+          "mismatches": [],
+          "catalog_close": "2027-07-12",
+          "official_url": "https://www.grants.gov/search-results-detail/355354"
+        },
+        {
+          "id": "357308",
+          "status": "checked",
+          "api_title": "Neuromodulation/Neurostimulation Device Development for Mental Health Applications (R21 Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-286",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2028-01-07",
+          "mismatches": [],
+          "catalog_close": "2028-01-07",
+          "official_url": "https://www.grants.gov/search-results-detail/357308"
+        },
+        {
+          "id": "364082",
+          "status": "checked",
+          "api_title": "Cooperative Agreement for Affiliated Partner with the Rocky Mountains Cooperative Ecosystem Studies Unit (CESU)",
+          "api_number": "G27AS00072",
           "api_agency": "DOI-USGS1",
           "api_close": "2026-11-14",
           "mismatches": [],
           "catalog_close": "2026-11-14",
-          "official_url": "https://www.grants.gov/search-results-detail/364080"
+          "official_url": "https://www.grants.gov/search-results-detail/364082"
         },
         {
-          "id": "308873",
+          "id": "357937",
           "status": "checked",
-          "api_title": "Crosscutting Activities in Materials Research",
-          "api_number": "PD-18-7222",
-          "api_agency": "NSF",
-          "api_close": null,
-          "mismatches": [],
-          "catalog_close": null,
-          "official_url": "https://www.grants.gov/search-results-detail/308873"
-        },
-        {
-          "id": "302271",
-          "status": "checked",
-          "api_title": "Statistics",
-          "api_number": "PD-18-1269",
-          "api_agency": "NSF",
-          "api_close": "2026-12-15",
-          "mismatches": [],
-          "catalog_close": "2026-12-15",
-          "official_url": "https://www.grants.gov/search-results-detail/302271"
-        },
-        {
-          "id": "361431",
-          "status": "checked",
-          "api_title": "Pilot Projects to Enhance the Human Virome Program (R03 Clinical Trials Not Allowed)",
-          "api_number": "RFA-RM-27-024",
+          "api_title": "Early Immune System Development and Ontogeny (R01 Clinical Trial Optional)",
+          "api_number": "PAR-25-362",
           "api_agency": "HHS-NIH11",
-          "api_close": "2026-11-10",
+          "api_close": "2028-11-05",
           "mismatches": [],
-          "catalog_close": "2026-11-10",
-          "official_url": "https://www.grants.gov/search-results-detail/361431"
-        },
-        {
-          "id": "278447",
-          "status": "checked",
-          "api_title": "Computational Mathematics",
-          "api_number": "PD-16-1271",
-          "api_agency": "NSF",
-          "api_close": "2026-12-01",
-          "mismatches": [],
-          "catalog_close": "2026-12-01",
-          "official_url": "https://www.grants.gov/search-results-detail/278447"
+          "catalog_close": "2028-11-05",
+          "official_url": "https://www.grants.gov/search-results-detail/357937"
         }
       ]
     }
@@ -472,14 +472,14 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-10-17T10:21:34-04:00",
+  "generated_at": "2026-10-18T10:45:39-04:00",
   "timezone": "America/New_York",
   "counts": {
-    "opportunities": 1228,
+    "opportunities": 1227,
     "by_status": {
       "closed": 263,
-      "upcoming": 253,
       "open": 682,
+      "upcoming": 252,
       "verification_required": 10,
       "open_program": 20
     },
@@ -488,96 +488,96 @@
   },
   "field_coverage": {
     "title": {
-      "count": 1228,
+      "count": 1227,
       "percent": 100.0,
-      "of": 1228
+      "of": 1227
     },
     "agency": {
-      "count": 1228,
+      "count": 1227,
       "percent": 100.0,
-      "of": 1228
+      "of": 1227
     },
     "number": {
-      "count": 1208,
+      "count": 1207,
       "percent": 98.4,
-      "of": 1228
+      "of": 1227
     },
     "close_date": {
-      "count": 1171,
+      "count": 1170,
       "percent": 95.4,
-      "of": 1228
+      "of": 1227
     },
     "post_date": {
-      "count": 1228,
+      "count": 1227,
       "percent": 100.0,
-      "of": 1228
+      "of": 1227
     },
     "description": {
-      "count": 1209,
+      "count": 1208,
       "percent": 98.5,
-      "of": 1228
+      "of": 1227
     },
     "eligibility_codes": {
-      "count": 1208,
+      "count": 1207,
       "percent": 98.4,
-      "of": 1228
+      "of": 1227
     },
     "eligibility_text": {
-      "count": 1017,
+      "count": 1016,
       "percent": 82.8,
-      "of": 1228
+      "of": 1227
     },
     "award_ceiling": {
-      "count": 493,
+      "count": 492,
       "percent": 40.1,
-      "of": 1228
+      "of": 1227
     },
     "award_floor": {
-      "count": 365,
+      "count": 364,
       "percent": 29.7,
-      "of": 1228
+      "of": 1227
     },
     "estimated_total": {
-      "count": 635,
+      "count": 634,
       "percent": 51.7,
-      "of": 1228
+      "of": 1227
     },
     "expected_awards": {
-      "count": 619,
+      "count": 618,
       "percent": 50.4,
-      "of": 1228
+      "of": 1227
     },
     "cost_sharing": {
-      "count": 1208,
+      "count": 1207,
       "percent": 98.4,
-      "of": 1228
+      "of": 1227
     },
     "aln": {
-      "count": 1208,
+      "count": 1207,
       "percent": 98.4,
-      "of": 1228
+      "of": 1227
     },
     "contact_email": {
-      "count": 1204,
+      "count": 1203,
       "percent": 98.0,
-      "of": 1228
+      "of": 1227
     },
     "official_url": {
-      "count": 1228,
+      "count": 1227,
       "percent": 100.0,
-      "of": 1228
+      "of": 1227
     },
     "topics": {
-      "count": 1091,
+      "count": 1090,
       "percent": 88.8,
-      "of": 1228
+      "of": 1227
     }
   },
   "changes_summary": {
     "compared_to_previous_catalog": true,
-    "new": 2,
-    "removed": 4,
-    "changed": 7,
-    "newly_closed": 4
+    "new": 0,
+    "removed": 1,
+    "changed": 1,
+    "newly_closed": 1
   }
 }

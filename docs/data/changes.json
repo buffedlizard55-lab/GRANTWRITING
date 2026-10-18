@@ -1,86 +1,22 @@
 {
   "compared_to_previous_catalog": true,
   "note": "Removed means the id is not in the new catalog. That is not the same as a documented cancellation.",
-  "new_ids": [
-    "gg-364087",
-    "gg-364099"
-  ],
+  "new_ids": [],
   "removed_ids": [
-    "gg-359606",
-    "gg-360710",
-    "gg-361560",
-    "gg-364025"
+    "gg-360987"
   ],
   "changed": [
     {
-      "id": "gg-361204",
-      "fields": [
-        "title"
-      ],
-      "status": "closed",
-      "previous_status": "closed"
-    },
-    {
-      "id": "gg-363843",
+      "id": "gg-361317",
       "fields": [
         "status"
       ],
       "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-363594",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-356935",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-360759",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-361318",
-      "fields": [
-        "status",
-        "dates.close",
-        "dates.post",
-        "funding.estimated_total",
-        "eligibility_codes"
-      ],
-      "status": "open",
-      "previous_status": "closed"
-    },
-    {
-      "id": "gg-360869",
-      "fields": [
-        "status",
-        "dates.close",
-        "dates.post",
-        "funding.estimated_total"
-      ],
-      "status": "open",
-      "previous_status": "closed"
+      "previous_status": "upcoming"
     }
   ],
-  "changed_count": 7,
+  "changed_count": 1,
   "newly_closed": [
-    "gg-363843",
-    "gg-363594",
-    "gg-356935",
-    "gg-360759"
+    "gg-361317"
   ]
 }

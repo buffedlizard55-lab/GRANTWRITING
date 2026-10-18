@@ -2,14 +2,14 @@
   "note": "All counts are computed from this catalog only. They are derived statistics, not independent official totals.",
   "by_status": {
     "closed": 263,
-    "upcoming": 253,
     "open": 682,
+    "upcoming": 252,
     "verification_required": 10,
     "open_program": 20
   },
   "by_record_kind": {
     "forecast": 321,
-    "opportunity": 887,
+    "opportunity": 886,
     "program": 20
   },
   "agencies": [
@@ -18,7 +18,7 @@
       "grouping_label": "Department of Health and Human Services",
       "source_name_most_common": "National Institutes of Health",
       "open": 413,
-      "upcoming": 249,
+      "upcoming": 248,
       "open_program": 0,
       "closed": 133,
       "other": 0,
@@ -30,7 +30,7 @@
       "top_topics": [
         {
           "id": "biomedical",
-          "count": 668
+          "count": 667
         },
         {
           "id": "aging",
@@ -574,7 +574,7 @@
       "id": "biomedical",
       "label": "Biomedical research",
       "open": 427,
-      "upcoming": 173,
+      "upcoming": 172,
       "open_program": 0,
       "agency_count": 5,
       "agencies": [
@@ -585,17 +585,17 @@
         "USDA"
       ],
       "sample_ids": [
-        "gg-361317",
         "gg-359855",
         "gg-359123",
         "gg-357658",
         "gg-359666",
         "gg-359270",
         "gg-359853",
-        "gg-360544"
+        "gg-360544",
+        "gg-362248"
       ],
       "methods": {
-        "keyword": 718,
+        "keyword": 717,
         "agency_default": 16
       },
       "classification": "derived_keyword_or_agency_default"
@@ -671,7 +671,7 @@
       "id": "transportation",
       "label": "Transportation",
       "open": 67,
-      "upcoming": 18,
+      "upcoming": 17,
       "open_program": 2,
       "agency_count": 9,
       "agencies": [
@@ -686,14 +686,14 @@
         "USDOJ"
       ],
       "sample_ids": [
-        "gg-361317",
         "gg-357658",
         "gg-362248",
         "gg-362529",
         "gg-360199",
         "gg-361450",
         "gg-361522",
-        "gg-362183"
+        "gg-362183",
+        "gg-362186"
       ],
       "methods": {
         "keyword": 108
@@ -1796,7 +1796,7 @@
       "id": "biomedical",
       "label": "Biomedical research",
       "open": 427,
-      "upcoming": 173,
+      "upcoming": 172,
       "open_program": 0,
       "agency_count": 5,
       "agencies": [
@@ -1807,17 +1807,17 @@
         "USDA"
       ],
       "sample_ids": [
-        "gg-361317",
         "gg-359855",
         "gg-359123",
         "gg-357658",
         "gg-359666",
         "gg-359270",
         "gg-359853",
-        "gg-360544"
+        "gg-360544",
+        "gg-362248"
       ],
       "methods": {
-        "keyword": 718,
+        "keyword": 717,
         "agency_default": 16
       },
       "classification": "derived_keyword_or_agency_default"
@@ -1893,7 +1893,7 @@
       "id": "transportation",
       "label": "Transportation",
       "open": 67,
-      "upcoming": 18,
+      "upcoming": 17,
       "open_program": 2,
       "agency_count": 9,
       "agencies": [
@@ -1908,14 +1908,14 @@
         "USDOJ"
       ],
       "sample_ids": [
-        "gg-361317",
         "gg-357658",
         "gg-362248",
         "gg-362529",
         "gg-360199",
         "gg-361450",
         "gg-361522",
-        "gg-362183"
+        "gg-362183",
+        "gg-362186"
       ],
       "methods": {
         "keyword": 108
