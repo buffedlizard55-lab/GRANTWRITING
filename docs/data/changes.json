@@ -3,20 +3,12 @@
   "note": "Removed means the id is not in the new catalog. That is not the same as a documented cancellation.",
   "new_ids": [],
   "removed_ids": [
-    "gg-360987"
+    "gg-361168",
+    "gg-362500",
+    "gg-362848",
+    "gg-362851"
   ],
-  "changed": [
-    {
-      "id": "gg-361317",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "upcoming"
-    }
-  ],
-  "changed_count": 1,
-  "newly_closed": [
-    "gg-361317"
-  ]
+  "changed": [],
+  "changed_count": 0,
+  "newly_closed": []
 }

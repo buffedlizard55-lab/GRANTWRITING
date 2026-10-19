@@ -1,15 +1,15 @@
 {
   "note": "All counts are computed from this catalog only. They are derived statistics, not independent official totals.",
   "by_status": {
-    "closed": 263,
+    "closed": 259,
     "open": 682,
     "upcoming": 252,
     "verification_required": 10,
     "open_program": 20
   },
   "by_record_kind": {
-    "forecast": 321,
-    "opportunity": 886,
+    "opportunity": 883,
+    "forecast": 320,
     "program": 20
   },
   "agencies": [
@@ -20,7 +20,7 @@
       "open": 413,
       "upcoming": 248,
       "open_program": 0,
-      "closed": 133,
+      "closed": 132,
       "other": 0,
       "published_ceiling_count": 253,
       "median_published_ceiling": 500000,
@@ -34,7 +34,7 @@
         },
         {
           "id": "aging",
-          "count": 120
+          "count": 119
         },
         {
           "id": "infectious-disease",
@@ -102,7 +102,7 @@
       "open": 83,
       "upcoming": 2,
       "open_program": 0,
-      "closed": 54,
+      "closed": 52,
       "other": 2,
       "published_ceiling_count": 30,
       "median_published_ceiling": 6500000,
@@ -112,7 +112,7 @@
       "top_topics": [
         {
           "id": "biomedical",
-          "count": 54
+          "count": 52
         },
         {
           "id": "cancer",
@@ -120,7 +120,7 @@
         },
         {
           "id": "transportation",
-          "count": 17
+          "count": 15
         },
         {
           "id": "defense",
@@ -455,7 +455,7 @@
       "open": 0,
       "upcoming": 1,
       "open_program": 0,
-      "closed": 11,
+      "closed": 10,
       "other": 0,
       "published_ceiling_count": 1,
       "median_published_ceiling": 25000,
@@ -595,7 +595,7 @@
         "gg-362248"
       ],
       "methods": {
-        "keyword": 717,
+        "keyword": 715,
         "agency_default": 16
       },
       "classification": "derived_keyword_or_agency_default"
@@ -663,7 +663,7 @@
         "gg-363784"
       ],
       "methods": {
-        "keyword": 162
+        "keyword": 161
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -696,7 +696,7 @@
         "gg-362186"
       ],
       "methods": {
-        "keyword": 108
+        "keyword": 106
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -893,7 +893,7 @@
         "gg-359740"
       ],
       "methods": {
-        "keyword": 82
+        "keyword": 81
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1817,7 +1817,7 @@
         "gg-362248"
       ],
       "methods": {
-        "keyword": 717,
+        "keyword": 715,
         "agency_default": 16
       },
       "classification": "derived_keyword_or_agency_default"
@@ -1885,7 +1885,7 @@
         "gg-363784"
       ],
       "methods": {
-        "keyword": 162
+        "keyword": 161
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1918,7 +1918,7 @@
         "gg-362186"
       ],
       "methods": {
-        "keyword": 108
+        "keyword": 106
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2115,7 +2115,7 @@
         "gg-359740"
       ],
       "methods": {
-        "keyword": 82
+        "keyword": 81
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2928,7 +2928,7 @@
   "awards_in_catalog": {
     "count": 1300,
     "with_amount": 1295,
-    "sum_of_amounts_in_this_file": 5131457035,
+    "sum_of_amounts_in_this_file": 5141607426,
     "warning": "Award files may be samples. Use the award coverage note before treating a sum as agency funding."
   }
 }
