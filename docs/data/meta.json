@@ -1,23 +1,23 @@
 {
-  "as_of_date": "2026-10-19",
+  "as_of_date": "2026-10-20",
   "sources": [
     {
-      "file_name": "GrantsDBExtract20261019v2.zip",
-      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261019v2.zip",
-      "ymd": "20261019",
+      "file_name": "GrantsDBExtract20261020v2.zip",
+      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261020v2.zip",
+      "ymd": "20261020",
       "catalog_url": "https://www.grants.gov/xml-extract",
       "id": "grantsgov_extract",
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
-      "bytes": 78297820,
-      "retrieved_at": "2026-10-19T13:32:56-04:00",
+      "bytes": 78308885,
+      "retrieved_at": "2026-10-20T11:40:29-04:00",
       "parse_stats": {
-        "container": "GrantsDBExtract20261019v2.zip",
-        "xml_name": "GrantsDBExtract20261019v2.xml",
-        "records_parsed": 83582,
+        "container": "GrantsDBExtract20261020v2.zip",
+        "xml_name": "GrantsDBExtract20261020v2.xml",
+        "records_parsed": 83595,
         "tag_counts": {
-          "OpportunitySynopsisDetail_1_0": 82632,
-          "OpportunityForecastDetail_1_0": 950
+          "OpportunitySynopsisDetail_1_0": 82637,
+          "OpportunityForecastDetail_1_0": 958
         },
         "unmapped_tags": [
           "UNMAPPED:EstimatedSynopsisCloseDateExplanation",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-10-19T13:32:56-04:00",
+      "retrieved_at": "2026-10-20T11:40:29-04:00",
       "status": "ok",
       "items": 20
     },
@@ -94,24 +94,24 @@
       "count": 101,
       "coverage": "Obligations for a subset of assistance listings that appear on cataloged opportunities, sorted by amount within each API call, one page per batch. Not all awards under those listings, and not all federal research spending.",
       "time_period": {
-        "start_date": "2023-10-20",
-        "end_date": "2026-10-19"
+        "start_date": "2023-10-21",
+        "end_date": "2026-10-20"
       },
       "alns_queried": 90,
-      "alns_considered": 137,
+      "alns_considered": 139,
       "errors": []
     }
   ],
   "scope_stats": {
-    "parsed": 83582,
-    "identifiable": 83582,
+    "parsed": 83595,
+    "identifiable": 83595,
     "dropped_unidentifiable": 0,
-    "after_dedupe": 83582,
+    "after_dedupe": 83595,
     "research_relevant": 34637,
     "published": 1203,
     "omitted_old_or_archived_research_records": 33434,
     "excluded": {
-      "excluded_not_research_relevant": 48945,
+      "excluded_not_research_relevant": 48958,
       "by_top_agency": [
         [
           "DOI",
@@ -123,11 +123,11 @@
         ],
         [
           "HHS",
-          5987
+          5997
         ],
         [
           "USDOJ",
-          3244
+          3247
         ],
         [
           "USAID",
@@ -253,15 +253,15 @@
         ],
         [
           "HL",
-          4655
+          4657
         ],
         [
           "ISS",
-          3042
+          3051
         ],
         [
           "LJL",
-          2931
+          2932
         ],
         [
           "ELT",
@@ -309,7 +309,7 @@
         ],
         [
           "IS",
-          513
+          514
         ],
         [
           "FN",
@@ -329,7 +329,7 @@
         "fundingCategories": "",
         "agencies": ""
       },
-      "hit_count": 1470,
+      "hit_count": 1465,
       "error": null,
       "endpoint": "https://api.grants.gov/v1/api/search2"
     },
@@ -341,20 +341,19 @@
         "fundingCategories": "ST",
         "agencies": ""
       },
-      "hit_count": 288,
+      "hit_count": 287,
       "error": null,
       "endpoint": "https://api.grants.gov/v1/api/search2"
     },
     "catalog_open_or_upcoming_ST": 270,
-    "absolute_difference": 18,
+    "absolute_difference": 17,
     "status": "ok",
     "interpretation": "Compares Grants.gov search2 hitCount for posted|forecasted and funding category ST with catalog records that are open or upcoming, category ST, and not NSF program pages. A difference can come from extract timing, closed-but-listed rows, or parser loss. search2 still returns forecasts whose forecast date is years old. This catalog omits forecasts whose post or estimated post date is more than 18 months before the as-of date, so those ids can appear in in_api_not_in_catalog without being open opportunities. The difference is shown, not hidden.",
     "id_overlap": {
-      "api_ids_retrieved": 288,
-      "api_hit_count": 288,
+      "api_ids_retrieved": 287,
+      "api_hit_count": 287,
       "in_api_not_in_catalog": [
         "103313",
-        "243973",
         "275109",
         "325472",
         "326841",
@@ -374,7 +373,7 @@
         "358687",
         "39841"
       ],
-      "in_api_not_in_catalog_count": 20,
+      "in_api_not_in_catalog_count": 19,
       "in_catalog_not_in_api_sample": [
         "359240",
         "361937"
@@ -387,59 +386,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "349554",
+          "id": "359892",
           "status": "checked",
-          "api_title": "Pioneering Aerospace Capabilities, Engineering and Research (PACER)",
-          "api_number": "FA2391-23-S-2403",
-          "api_agency": "DOD-AFRL",
-          "api_close": "2043-05-10",
-          "mismatches": [],
-          "catalog_close": "2043-05-10",
-          "official_url": "https://www.grants.gov/search-results-detail/349554"
-        },
-        {
-          "id": "358855",
-          "status": "checked",
-          "api_title": "IGVF Data and Coordinating Center (U24 Clinical trials Not Allowed)",
-          "api_number": "RFA-HG-27-008",
+          "api_title": "Early-Stage Development of Informatics Technologies for Cancer Research and Management (U01 Clinical Trial Optional)",
+          "api_number": "RFA-CA-27-019",
           "api_agency": "HHS-NIH11",
-          "api_close": "2026-12-14",
+          "api_close": "2027-10-19",
           "mismatches": [],
-          "catalog_close": "2026-12-14",
-          "official_url": "https://www.grants.gov/search-results-detail/358855"
+          "catalog_close": "2027-10-19",
+          "official_url": "https://www.grants.gov/search-results-detail/359892"
         },
         {
-          "id": "324456",
+          "id": "359966",
           "status": "checked",
-          "api_title": "Expeditions in Computing",
-          "api_number": "20-544",
+          "api_title": "National Science Foundation Translation to Practice (NSF TTP)",
+          "api_number": "25-540",
           "api_agency": "NSF",
-          "api_close": "2027-03-31",
+          "api_close": "2026-11-17",
           "mismatches": [],
-          "catalog_close": "2027-03-31",
-          "official_url": "https://www.grants.gov/search-results-detail/324456"
+          "catalog_close": "2026-11-17",
+          "official_url": "https://www.grants.gov/search-results-detail/359966"
         },
         {
-          "id": "357340",
+          "id": "357112",
           "status": "checked",
-          "api_title": "Catalyze: Product Definition Medical Device Prototype Optimization (R33 - Clinical Trial Not Allowed)",
-          "api_number": "RFA-HL-26-020",
+          "api_title": "Focused Technology Research and Development (R01 Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-203",
           "api_agency": "HHS-NIH11",
-          "api_close": "2027-12-23",
+          "api_close": "2028-01-07",
           "mismatches": [],
-          "catalog_close": "2027-12-23",
-          "official_url": "https://www.grants.gov/search-results-detail/357340"
+          "catalog_close": "2028-01-07",
+          "official_url": "https://www.grants.gov/search-results-detail/357112"
         },
         {
-          "id": "361002",
+          "id": "361832",
           "status": "checked",
-          "api_title": "Long-term health outcomes of people living with spina bifida",
-          "api_number": "CDC-RFA-DD-26-0222",
-          "api_agency": "HHS-CDC-NCBDDD",
-          "api_close": "2026-10-26",
+          "api_title": "Accelerating Research and Development of Next Generation Vaccines against Malaria - a Model for Mosquito-Borne Diseases (R61/R33 Clinical Trial Not Allowed)",
+          "api_number": "RFA-AI-28-024",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-02-11",
           "mismatches": [],
-          "catalog_close": "2026-10-26",
-          "official_url": "https://www.grants.gov/search-results-detail/361002"
+          "catalog_close": "2027-02-11",
+          "official_url": "https://www.grants.gov/search-results-detail/361832"
+        },
+        {
+          "id": "357192",
+          "status": "checked",
+          "api_title": "Basic Research in Cancer Health Disparities (R01 Clinical Trial Not Allowed)",
+          "api_number": "PAR-25-243",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2028-01-07",
+          "mismatches": [],
+          "catalog_close": "2028-01-07",
+          "official_url": "https://www.grants.gov/search-results-detail/357192"
         }
       ]
     }
@@ -473,13 +472,13 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-10-19T13:39:49-04:00",
+  "generated_at": "2026-10-20T11:46:12-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1223,
     "by_status": {
-      "closed": 259,
-      "open": 682,
+      "closed": 264,
+      "open": 677,
       "upcoming": 252,
       "verification_required": 10,
       "open_program": 20
@@ -529,8 +528,8 @@
       "of": 1223
     },
     "award_ceiling": {
-      "count": 491,
-      "percent": 40.1,
+      "count": 492,
+      "percent": 40.2,
       "of": 1223
     },
     "award_floor": {
@@ -577,8 +576,8 @@
   "changes_summary": {
     "compared_to_previous_catalog": true,
     "new": 0,
-    "removed": 4,
-    "changed": 0,
-    "newly_closed": 0
+    "removed": 0,
+    "changed": 13,
+    "newly_closed": 7
   }
 }
