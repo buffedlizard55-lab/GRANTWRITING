@@ -1103,6 +1103,34 @@
         "HUD": 1,
         "USDOT": 1
       }
+    },
+    {
+      "generated_at": "2026-10-23T11:51:08-04:00",
+      "as_of_date": "2026-10-23",
+      "by_status": {
+        "closed": 260,
+        "open": 676,
+        "upcoming": 253,
+        "verification_required": 10,
+        "open_program": 20
+      },
+      "agency_open": {
+        "HHS": 410,
+        "NSF": 117,
+        "DOD": 74,
+        "NASA": 17,
+        "DOI": 15,
+        "DOC": 12,
+        "USDA": 9,
+        "USDOJ": 9,
+        "DOE": 5,
+        "DOT": 2,
+        "PAMS": 3,
+        "DOS": 0,
+        "ED": 1,
+        "HUD": 1,
+        "USDOT": 1
+      }
     }
   ]
 }
