@@ -1,15 +1,15 @@
 {
   "note": "All counts are computed from this catalog only. They are derived statistics, not independent official totals.",
   "by_status": {
-    "closed": 260,
-    "open": 676,
+    "closed": 258,
+    "open": 677,
     "upcoming": 253,
     "verification_required": 10,
     "open_program": 20
   },
   "by_record_kind": {
-    "forecast": 316,
-    "opportunity": 883,
+    "forecast": 314,
+    "opportunity": 884,
     "program": 20
   },
   "agencies": [
@@ -17,15 +17,15 @@
       "code": "HHS",
       "grouping_label": "Department of Health and Human Services",
       "source_name_most_common": "National Institutes of Health",
-      "open": 410,
+      "open": 411,
       "upcoming": 249,
       "open_program": 0,
-      "closed": 134,
+      "closed": 132,
       "other": 0,
       "published_ceiling_count": 252,
       "median_published_ceiling": 499000,
-      "published_estimated_total_count": 263,
-      "sum_published_estimated_totals": 6829556674,
+      "published_estimated_total_count": 264,
+      "sum_published_estimated_totals": 6835556674,
       "sum_note": "Sum only of opportunities in the current feed that published an estimated total. Not available funding. Opportunities without a published total are excluded.",
       "top_topics": [
         {
@@ -34,7 +34,7 @@
         },
         {
           "id": "aging",
-          "count": 120
+          "count": 119
         },
         {
           "id": "infectious-disease",
@@ -577,7 +577,7 @@
     {
       "id": "biomedical",
       "label": "Biomedical research",
-      "open": 418,
+      "open": 419,
       "upcoming": 172,
       "open_program": 0,
       "agency_count": 5,
@@ -668,7 +668,7 @@
         "gg-359740"
       ],
       "methods": {
-        "keyword": 163
+        "keyword": 162
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -810,7 +810,34 @@
         "gg-357256"
       ],
       "methods": {
-        "keyword": 88
+        "keyword": 87
+      },
+      "classification": "derived_keyword_or_agency_default"
+    },
+    {
+      "id": "neuroscience",
+      "label": "Neuroscience",
+      "open": 31,
+      "upcoming": 25,
+      "open_program": 0,
+      "agency_count": 3,
+      "agencies": [
+        "DOD",
+        "HHS",
+        "NSF"
+      ],
+      "sample_ids": [
+        "gg-361520",
+        "gg-362454",
+        "gg-360644",
+        "gg-360643",
+        "gg-361450",
+        "gg-361522",
+        "gg-359740",
+        "gg-361287"
+      ],
+      "methods": {
+        "keyword": 81
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -842,33 +869,6 @@
       ],
       "methods": {
         "keyword": 72
-      },
-      "classification": "derived_keyword_or_agency_default"
-    },
-    {
-      "id": "neuroscience",
-      "label": "Neuroscience",
-      "open": 30,
-      "upcoming": 25,
-      "open_program": 0,
-      "agency_count": 3,
-      "agencies": [
-        "DOD",
-        "HHS",
-        "NSF"
-      ],
-      "sample_ids": [
-        "gg-361520",
-        "gg-362454",
-        "gg-360644",
-        "gg-360643",
-        "gg-361450",
-        "gg-361522",
-        "gg-359740",
-        "gg-361287"
-      ],
-      "methods": {
-        "keyword": 81
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -924,7 +924,7 @@
         "gg-357204"
       ],
       "methods": {
-        "keyword": 55
+        "keyword": 54
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1108,7 +1108,7 @@
         "gg-344715"
       ],
       "methods": {
-        "keyword": 42
+        "keyword": 41
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1276,7 +1276,7 @@
         "gg-358411"
       ],
       "methods": {
-        "keyword": 25
+        "keyword": 24
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1807,7 +1807,7 @@
     {
       "id": "biomedical",
       "label": "Biomedical research",
-      "open": 418,
+      "open": 419,
       "upcoming": 172,
       "open_program": 0,
       "agency_count": 5,
@@ -1898,7 +1898,7 @@
         "gg-359740"
       ],
       "methods": {
-        "keyword": 163
+        "keyword": 162
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2040,7 +2040,34 @@
         "gg-357256"
       ],
       "methods": {
-        "keyword": 88
+        "keyword": 87
+      },
+      "classification": "derived_keyword_or_agency_default"
+    },
+    {
+      "id": "neuroscience",
+      "label": "Neuroscience",
+      "open": 31,
+      "upcoming": 25,
+      "open_program": 0,
+      "agency_count": 3,
+      "agencies": [
+        "DOD",
+        "HHS",
+        "NSF"
+      ],
+      "sample_ids": [
+        "gg-361520",
+        "gg-362454",
+        "gg-360644",
+        "gg-360643",
+        "gg-361450",
+        "gg-361522",
+        "gg-359740",
+        "gg-361287"
+      ],
+      "methods": {
+        "keyword": 81
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2072,33 +2099,6 @@
       ],
       "methods": {
         "keyword": 72
-      },
-      "classification": "derived_keyword_or_agency_default"
-    },
-    {
-      "id": "neuroscience",
-      "label": "Neuroscience",
-      "open": 30,
-      "upcoming": 25,
-      "open_program": 0,
-      "agency_count": 3,
-      "agencies": [
-        "DOD",
-        "HHS",
-        "NSF"
-      ],
-      "sample_ids": [
-        "gg-361520",
-        "gg-362454",
-        "gg-360644",
-        "gg-360643",
-        "gg-361450",
-        "gg-361522",
-        "gg-359740",
-        "gg-361287"
-      ],
-      "methods": {
-        "keyword": 81
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2154,7 +2154,7 @@
         "gg-357204"
       ],
       "methods": {
-        "keyword": 55
+        "keyword": 54
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2338,7 +2338,7 @@
         "gg-344715"
       ],
       "methods": {
-        "keyword": 42
+        "keyword": 41
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2506,7 +2506,7 @@
         "gg-358411"
       ],
       "methods": {
-        "keyword": 25
+        "keyword": 24
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2938,9 +2938,9 @@
   ],
   "unclassified_current": 100,
   "funding_published": {
-    "current_feed_with_estimated_total": 443,
-    "sum_of_published_estimated_totals": 13534269812,
-    "median_published_estimated_total": 5900000,
+    "current_feed_with_estimated_total": 444,
+    "sum_of_published_estimated_totals": 13540269812,
+    "median_published_estimated_total": 5950000,
     "warning": "Do not read this sum as the amount of research funding available. It adds only the estimated program totals agencies chose to publish, it double-counts nothing on purpose but it also excludes every opportunity that left the field blank, and an estimated total is not an amount set aside for one applicant."
   },
   "awards_in_catalog": {

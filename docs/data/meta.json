@@ -1,23 +1,23 @@
 {
-  "as_of_date": "2026-10-23",
+  "as_of_date": "2026-10-24",
   "sources": [
     {
-      "file_name": "GrantsDBExtract20261023v2.zip",
-      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261023v2.zip",
-      "ymd": "20261023",
+      "file_name": "GrantsDBExtract20261024v2.zip",
+      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261024v2.zip",
+      "ymd": "20261024",
       "catalog_url": "https://www.grants.gov/xml-extract",
       "id": "grantsgov_extract",
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
-      "bytes": 78338622,
-      "retrieved_at": "2026-10-23T11:46:31-04:00",
+      "bytes": 78338986,
+      "retrieved_at": "2026-10-24T10:38:04-04:00",
       "parse_stats": {
-        "container": "GrantsDBExtract20261023v2.zip",
-        "xml_name": "GrantsDBExtract20261023v2.xml",
+        "container": "GrantsDBExtract20261024v2.zip",
+        "xml_name": "GrantsDBExtract20261024v2.xml",
         "records_parsed": 83612,
         "tag_counts": {
-          "OpportunitySynopsisDetail_1_0": 82653,
-          "OpportunityForecastDetail_1_0": 959
+          "OpportunitySynopsisDetail_1_0": 82654,
+          "OpportunityForecastDetail_1_0": 958
         },
         "unmapped_tags": [
           "UNMAPPED:EstimatedSynopsisCloseDateExplanation",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-10-23T11:46:31-04:00",
+      "retrieved_at": "2026-10-24T10:38:04-04:00",
       "status": "ok",
       "items": 20
     },
@@ -94,8 +94,8 @@
       "count": 103,
       "coverage": "Obligations for a subset of assistance listings that appear on cataloged opportunities, sorted by amount within each API call, one page per batch. Not all awards under those listings, and not all federal research spending.",
       "time_period": {
-        "start_date": "2023-10-24",
-        "end_date": "2026-10-23"
+        "start_date": "2023-10-25",
+        "end_date": "2026-10-24"
       },
       "alns_queried": 90,
       "alns_considered": 139,
@@ -108,8 +108,8 @@
     "dropped_unidentifiable": 0,
     "after_dedupe": 83612,
     "research_relevant": 34648,
-    "published": 1199,
-    "omitted_old_or_archived_research_records": 33449,
+    "published": 1198,
+    "omitted_old_or_archived_research_records": 33450,
     "excluded": {
       "excluded_not_research_relevant": 48964,
       "by_top_agency": [
@@ -386,59 +386,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "360562",
+          "id": "357339",
           "status": "checked",
-          "api_title": "Neural Ensembles & Used Substances (NExUS) Collaboratory: Building a Multimodal Inventory of Cell Ensembles Encoding the Effects of Addictive Substances (U01 Clinical Trial Not Allowed)",
-          "api_number": "RFA-DA-28-013",
+          "api_title": "Catalyze Product Definition Medical Device prototype design/testing and disease target identification and assay development (R61/R33 - Clinical Trial Not Allowed)",
+          "api_number": "RFA-HL-26-019",
           "api_agency": "HHS-NIH11",
-          "api_close": "2027-02-08",
+          "api_close": "2027-12-23",
           "mismatches": [],
-          "catalog_close": "2027-02-08",
-          "official_url": "https://www.grants.gov/search-results-detail/360562"
+          "catalog_close": "2027-12-23",
+          "official_url": "https://www.grants.gov/search-results-detail/357339"
         },
         {
-          "id": "330296",
+          "id": "357337",
           "status": "checked",
-          "api_title": "Long Term Research in Environmental Biology",
-          "api_number": "21-544",
-          "api_agency": "NSF",
-          "api_close": null,
+          "api_title": "Catalyze: Product Definition for Small Molecules, Biologics, and Combination Products - Preliminary Product/Lead Series Identification and Combination Product Prototype (R33 - Clinical Trial Not Allowed)",
+          "api_number": "RFA-HL-26-018",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2027-12-23",
           "mismatches": [],
-          "catalog_close": null,
-          "official_url": "https://www.grants.gov/search-results-detail/330296"
+          "catalog_close": "2027-12-23",
+          "official_url": "https://www.grants.gov/search-results-detail/357337"
         },
         {
-          "id": "355417",
+          "id": "364061",
           "status": "checked",
-          "api_title": "Occupational Safety and Health Education and Research Centers (T42)",
-          "api_number": "RFA-OH-25-002",
+          "api_title": "NIJ FY 2026 Crime and Justice Research",
+          "api_number": "O-NIJ-2026-172801",
+          "api_agency": "USDOJ-OJP-NIJ",
+          "api_close": "2026-11-16",
+          "mismatches": [],
+          "catalog_close": "2026-11-16",
+          "official_url": "https://www.grants.gov/search-results-detail/364061"
+        },
+        {
+          "id": "358179",
+          "status": "checked",
+          "api_title": "Ethical, Legal and Social Implications (ELSI) Small Research Grant (R03 Clinical Trial Optional)",
+          "api_number": "PAR-25-370",
+          "api_agency": "HHS-NIH11",
+          "api_close": "2026-11-16",
+          "mismatches": [],
+          "catalog_close": "2026-11-16",
+          "official_url": "https://www.grants.gov/search-results-detail/358179"
+        },
+        {
+          "id": "350656",
+          "status": "checked",
+          "api_title": "RFA-OE-18-000",
+          "api_number": "RFA-OE-18-000",
           "api_agency": "HHS-CDC-HHSCDCERA",
-          "api_close": "2028-10-26",
+          "api_close": "2030-09-30",
           "mismatches": [],
-          "catalog_close": "2028-10-26",
-          "official_url": "https://www.grants.gov/search-results-detail/355417"
-        },
-        {
-          "id": "356691",
-          "status": "checked",
-          "api_title": "Continuation or Revision of NIDCR Clinical Trial Planning and Implementation Cooperative Agreement (UH3 Clinical Trial Required)",
-          "api_number": "PAR-25-062",
-          "api_agency": "HHS-NIH11",
-          "api_close": "2028-01-06",
-          "mismatches": [],
-          "catalog_close": "2028-01-06",
-          "official_url": "https://www.grants.gov/search-results-detail/356691"
-        },
-        {
-          "id": "340828",
-          "status": "checked",
-          "api_title": "Joint DMS/NIGMS Initiative to Support Research at the Interface of the Biological and Mathematical Sciences",
-          "api_number": "22-600",
-          "api_agency": "NSF",
-          "api_close": "2027-09-20",
-          "mismatches": [],
-          "catalog_close": "2027-09-20",
-          "official_url": "https://www.grants.gov/search-results-detail/340828"
+          "catalog_close": "2030-09-30",
+          "official_url": "https://www.grants.gov/search-results-detail/350656"
         }
       ]
     }
@@ -472,13 +472,13 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-10-23T11:51:08-04:00",
+  "generated_at": "2026-10-24T10:45:14-04:00",
   "timezone": "America/New_York",
   "counts": {
-    "opportunities": 1219,
+    "opportunities": 1218,
     "by_status": {
-      "closed": 260,
-      "open": 676,
+      "closed": 258,
+      "open": 677,
       "upcoming": 253,
       "verification_required": 10,
       "open_program": 20
@@ -488,96 +488,96 @@
   },
   "field_coverage": {
     "title": {
-      "count": 1219,
+      "count": 1218,
       "percent": 100.0,
-      "of": 1219
+      "of": 1218
     },
     "agency": {
-      "count": 1219,
+      "count": 1218,
       "percent": 100.0,
-      "of": 1219
+      "of": 1218
     },
     "number": {
-      "count": 1199,
+      "count": 1198,
       "percent": 98.4,
-      "of": 1219
+      "of": 1218
     },
     "close_date": {
-      "count": 1162,
+      "count": 1161,
       "percent": 95.3,
-      "of": 1219
+      "of": 1218
     },
     "post_date": {
-      "count": 1219,
+      "count": 1218,
       "percent": 100.0,
-      "of": 1219
+      "of": 1218
     },
     "description": {
-      "count": 1200,
-      "percent": 98.4,
-      "of": 1219
-    },
-    "eligibility_codes": {
       "count": 1199,
       "percent": 98.4,
-      "of": 1219
+      "of": 1218
+    },
+    "eligibility_codes": {
+      "count": 1198,
+      "percent": 98.4,
+      "of": 1218
     },
     "eligibility_text": {
-      "count": 1013,
+      "count": 1012,
       "percent": 83.1,
-      "of": 1219
+      "of": 1218
     },
     "award_ceiling": {
       "count": 493,
-      "percent": 40.4,
-      "of": 1219
+      "percent": 40.5,
+      "of": 1218
     },
     "award_floor": {
       "count": 365,
-      "percent": 29.9,
-      "of": 1219
+      "percent": 30.0,
+      "of": 1218
     },
     "estimated_total": {
-      "count": 625,
-      "percent": 51.3,
-      "of": 1219
+      "count": 624,
+      "percent": 51.2,
+      "of": 1218
     },
     "expected_awards": {
-      "count": 608,
-      "percent": 49.9,
-      "of": 1219
+      "count": 607,
+      "percent": 49.8,
+      "of": 1218
     },
     "cost_sharing": {
-      "count": 1199,
+      "count": 1198,
       "percent": 98.4,
-      "of": 1219
+      "of": 1218
     },
     "aln": {
-      "count": 1199,
+      "count": 1198,
       "percent": 98.4,
-      "of": 1219
+      "of": 1218
     },
     "contact_email": {
-      "count": 1196,
+      "count": 1195,
       "percent": 98.1,
-      "of": 1219
+      "of": 1218
     },
     "official_url": {
-      "count": 1219,
+      "count": 1218,
       "percent": 100.0,
-      "of": 1219
+      "of": 1218
     },
     "topics": {
-      "count": 1087,
+      "count": 1086,
       "percent": 89.2,
-      "of": 1219
+      "of": 1218
     }
   },
   "changes_summary": {
     "compared_to_previous_catalog": true,
-    "new": 3,
-    "removed": 10,
-    "changed": 10,
-    "newly_closed": 9
+    "new": 0,
+    "removed": 1,
+    "changed": 1,
+    "newly_closed": 0
   }
 }

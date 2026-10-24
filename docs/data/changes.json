@@ -1,116 +1,22 @@
 {
   "compared_to_previous_catalog": true,
   "note": "Removed means the id is not in the new catalog. That is not the same as a documented cancellation.",
-  "new_ids": [
-    "gg-364138",
-    "gg-364139",
-    "gg-364140"
-  ],
+  "new_ids": [],
   "removed_ids": [
-    "gg-360641",
-    "gg-360642",
-    "gg-360922",
-    "gg-362321",
-    "gg-362329",
-    "gg-362973",
-    "gg-362974",
-    "gg-362975",
-    "gg-362976",
-    "gg-363302"
+    "gg-361235"
   ],
   "changed": [
     {
-      "id": "gg-362175",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-362177",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-362529",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-362530",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-362531",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-362171",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-362174",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-361519",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "upcoming"
-    },
-    {
-      "id": "gg-359159",
-      "fields": [
-        "status"
-      ],
-      "status": "closed",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-349280",
+      "id": "gg-361380",
       "fields": [
         "status",
-        "dates.close"
+        "dates.close",
+        "dates.post"
       ],
       "status": "open",
       "previous_status": "closed"
     }
   ],
-  "changed_count": 10,
-  "newly_closed": [
-    "gg-362175",
-    "gg-362177",
-    "gg-362529",
-    "gg-362530",
-    "gg-362531",
-    "gg-362171",
-    "gg-362174",
-    "gg-361519",
-    "gg-359159"
-  ]
+  "changed_count": 1,
+  "newly_closed": []
 }
