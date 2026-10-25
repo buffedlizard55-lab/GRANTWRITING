@@ -1,15 +1,15 @@
 {
   "note": "All counts are computed from this catalog only. They are derived statistics, not independent official totals.",
   "by_status": {
-    "closed": 258,
+    "closed": 253,
     "open": 677,
     "upcoming": 253,
     "verification_required": 10,
     "open_program": 20
   },
   "by_record_kind": {
-    "forecast": 314,
-    "opportunity": 884,
+    "opportunity": 881,
+    "forecast": 312,
     "program": 20
   },
   "agencies": [
@@ -20,7 +20,7 @@
       "open": 411,
       "upcoming": 249,
       "open_program": 0,
-      "closed": 132,
+      "closed": 130,
       "other": 0,
       "published_ceiling_count": 252,
       "median_published_ceiling": 499000,
@@ -34,7 +34,7 @@
         },
         {
           "id": "aging",
-          "count": 119
+          "count": 117
         },
         {
           "id": "infectious-disease",
@@ -42,7 +42,7 @@
         },
         {
           "id": "infrastructure",
-          "count": 86
+          "count": 85
         },
         {
           "id": "cancer",
@@ -102,7 +102,7 @@
       "open": 74,
       "upcoming": 2,
       "open_program": 0,
-      "closed": 54,
+      "closed": 51,
       "other": 2,
       "published_ceiling_count": 30,
       "median_published_ceiling": 6500000,
@@ -112,19 +112,19 @@
       "top_topics": [
         {
           "id": "biomedical",
-          "count": 49
+          "count": 46
         },
         {
           "id": "cancer",
           "count": 21
         },
         {
-          "id": "transportation",
+          "id": "defense",
           "count": 15
         },
         {
-          "id": "defense",
-          "count": 15
+          "id": "transportation",
+          "count": 12
         },
         {
           "id": "sensors",
@@ -599,7 +599,7 @@
         "gg-360644"
       ],
       "methods": {
-        "keyword": 713,
+        "keyword": 710,
         "agency_default": 15
       },
       "classification": "derived_keyword_or_agency_default"
@@ -634,7 +634,7 @@
         "gg-361522"
       ],
       "methods": {
-        "keyword": 159
+        "keyword": 158
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -668,7 +668,7 @@
         "gg-359740"
       ],
       "methods": {
-        "keyword": 162
+        "keyword": 160
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -701,7 +701,7 @@
         "gg-357375"
       ],
       "methods": {
-        "keyword": 107
+        "keyword": 104
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -837,7 +837,7 @@
         "gg-361287"
       ],
       "methods": {
-        "keyword": 81
+        "keyword": 76
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1829,7 +1829,7 @@
         "gg-360644"
       ],
       "methods": {
-        "keyword": 713,
+        "keyword": 710,
         "agency_default": 15
       },
       "classification": "derived_keyword_or_agency_default"
@@ -1864,7 +1864,7 @@
         "gg-361522"
       ],
       "methods": {
-        "keyword": 159
+        "keyword": 158
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1898,7 +1898,7 @@
         "gg-359740"
       ],
       "methods": {
-        "keyword": 162
+        "keyword": 160
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1931,7 +1931,7 @@
         "gg-357375"
       ],
       "methods": {
-        "keyword": 107
+        "keyword": 104
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2067,7 +2067,7 @@
         "gg-361287"
       ],
       "methods": {
-        "keyword": 81
+        "keyword": 76
       },
       "classification": "derived_keyword_or_agency_default"
     },
