@@ -1,14 +1,14 @@
 {
   "note": "All counts are computed from this catalog only. They are derived statistics, not independent official totals.",
   "by_status": {
-    "closed": 253,
+    "closed": 249,
     "open": 677,
     "upcoming": 253,
     "verification_required": 10,
     "open_program": 20
   },
   "by_record_kind": {
-    "opportunity": 881,
+    "opportunity": 877,
     "forecast": 312,
     "program": 20
   },
@@ -20,7 +20,7 @@
       "open": 411,
       "upcoming": 249,
       "open_program": 0,
-      "closed": 130,
+      "closed": 127,
       "other": 0,
       "published_ceiling_count": 252,
       "median_published_ceiling": 499000,
@@ -30,7 +30,7 @@
       "top_topics": [
         {
           "id": "biomedical",
-          "count": 667
+          "count": 664
         },
         {
           "id": "aging",
@@ -38,7 +38,7 @@
         },
         {
           "id": "infectious-disease",
-          "count": 87
+          "count": 86
         },
         {
           "id": "infrastructure",
@@ -102,7 +102,7 @@
       "open": 74,
       "upcoming": 2,
       "open_program": 0,
-      "closed": 51,
+      "closed": 50,
       "other": 2,
       "published_ceiling_count": 30,
       "median_published_ceiling": 6500000,
@@ -127,12 +127,12 @@
           "count": 12
         },
         {
-          "id": "sensors",
+          "id": "infrastructure",
           "count": 9
         },
         {
-          "id": "infrastructure",
-          "count": 9
+          "id": "sensors",
+          "count": 8
         }
       ]
     },
@@ -599,7 +599,7 @@
         "gg-360644"
       ],
       "methods": {
-        "keyword": 710,
+        "keyword": 707,
         "agency_default": 15
       },
       "classification": "derived_keyword_or_agency_default"
@@ -783,7 +783,7 @@
         "gg-363054"
       ],
       "methods": {
-        "keyword": 89
+        "keyword": 88
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -837,7 +837,7 @@
         "gg-361287"
       ],
       "methods": {
-        "keyword": 76
+        "keyword": 75
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -868,7 +868,7 @@
         "gg-361284"
       ],
       "methods": {
-        "keyword": 72
+        "keyword": 71
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -898,7 +898,7 @@
         "gg-45812"
       ],
       "methods": {
-        "keyword": 70
+        "keyword": 68
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1050,7 +1050,7 @@
         "gg-363240"
       ],
       "methods": {
-        "keyword": 44
+        "keyword": 43
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1108,7 +1108,7 @@
         "gg-344715"
       ],
       "methods": {
-        "keyword": 41
+        "keyword": 40
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -1829,7 +1829,7 @@
         "gg-360644"
       ],
       "methods": {
-        "keyword": 710,
+        "keyword": 707,
         "agency_default": 15
       },
       "classification": "derived_keyword_or_agency_default"
@@ -2013,7 +2013,7 @@
         "gg-363054"
       ],
       "methods": {
-        "keyword": 89
+        "keyword": 88
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2067,7 +2067,7 @@
         "gg-361287"
       ],
       "methods": {
-        "keyword": 76
+        "keyword": 75
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2098,7 +2098,7 @@
         "gg-361284"
       ],
       "methods": {
-        "keyword": 72
+        "keyword": 71
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2128,7 +2128,7 @@
         "gg-45812"
       ],
       "methods": {
-        "keyword": 70
+        "keyword": 68
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2280,7 +2280,7 @@
         "gg-363240"
       ],
       "methods": {
-        "keyword": 44
+        "keyword": 43
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2338,7 +2338,7 @@
         "gg-344715"
       ],
       "methods": {
-        "keyword": 41
+        "keyword": 40
       },
       "classification": "derived_keyword_or_agency_default"
     },
@@ -2946,7 +2946,7 @@
   "awards_in_catalog": {
     "count": 1300,
     "with_amount": 1295,
-    "sum_of_amounts_in_this_file": 5141497426,
+    "sum_of_amounts_in_this_file": 5406027688,
     "warning": "Award files may be samples. Use the award coverage note before treating a sum as agency funding."
   }
 }
