@@ -1,23 +1,23 @@
 {
-  "as_of_date": "2026-10-26",
+  "as_of_date": "2026-10-27",
   "sources": [
     {
-      "file_name": "GrantsDBExtract20261026v2.zip",
-      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261026v2.zip",
-      "ymd": "20261026",
+      "file_name": "GrantsDBExtract20261027v2.zip",
+      "file_url": "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261027v2.zip",
+      "ymd": "20261027",
       "catalog_url": "https://www.grants.gov/xml-extract",
       "id": "grantsgov_extract",
       "name": "Grants.gov daily XML extract",
       "download": "downloaded",
-      "bytes": 78338770,
-      "retrieved_at": "2026-10-26T13:25:43-04:00",
+      "bytes": 78349326,
+      "retrieved_at": "2026-10-27T12:43:19-04:00",
       "parse_stats": {
-        "container": "GrantsDBExtract20261026v2.zip",
-        "xml_name": "GrantsDBExtract20261026v2.xml",
-        "records_parsed": 83612,
+        "container": "GrantsDBExtract20261027v2.zip",
+        "xml_name": "GrantsDBExtract20261027v2.xml",
+        "records_parsed": 83619,
         "tag_counts": {
-          "OpportunitySynopsisDetail_1_0": 82654,
-          "OpportunityForecastDetail_1_0": 958
+          "OpportunitySynopsisDetail_1_0": 82657,
+          "OpportunityForecastDetail_1_0": 962
         },
         "unmapped_tags": [
           "UNMAPPED:EstimatedSynopsisCloseDateExplanation",
@@ -30,7 +30,7 @@
       "id": "nsf_funding_rss",
       "name": "NSF funding opportunities RSS",
       "url": "https://www.nsf.gov/rss/rss_www_funding.xml",
-      "retrieved_at": "2026-10-26T13:25:43-04:00",
+      "retrieved_at": "2026-10-27T12:43:19-04:00",
       "status": "ok",
       "items": 20
     },
@@ -91,27 +91,27 @@
       "name": "USAspending spending_by_award",
       "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
       "status": "ok",
-      "count": 103,
+      "count": 102,
       "coverage": "Obligations for a subset of assistance listings that appear on cataloged opportunities, sorted by amount within each API call, one page per batch. Not all awards under those listings, and not all federal research spending.",
       "time_period": {
-        "start_date": "2023-10-27",
-        "end_date": "2026-10-26"
+        "start_date": "2023-10-28",
+        "end_date": "2026-10-27"
       },
       "alns_queried": 90,
-      "alns_considered": 139,
+      "alns_considered": 138,
       "errors": []
     }
   ],
   "scope_stats": {
-    "parsed": 83612,
-    "identifiable": 83612,
+    "parsed": 83619,
+    "identifiable": 83619,
     "dropped_unidentifiable": 0,
-    "after_dedupe": 83612,
+    "after_dedupe": 83619,
     "research_relevant": 34648,
     "published": 1189,
     "omitted_old_or_archived_research_records": 33459,
     "excluded": {
-      "excluded_not_research_relevant": 48964,
+      "excluded_not_research_relevant": 48971,
       "by_top_agency": [
         [
           "DOI",
@@ -119,15 +119,15 @@
         ],
         [
           "DOS",
-          7144
+          7146
         ],
         [
           "HHS",
-          5998
+          6002
         ],
         [
           "USDOJ",
-          3248
+          3249
         ],
         [
           "USAID",
@@ -241,7 +241,7 @@
         ],
         [
           "O",
-          9885
+          9886
         ],
         [
           "ENV",
@@ -257,11 +257,11 @@
         ],
         [
           "ISS",
-          3053
+          3057
         ],
         [
           "LJL",
-          2932
+          2933
         ],
         [
           "ELT",
@@ -297,7 +297,7 @@
         ],
         [
           "BC",
-          703
+          704
         ],
         [
           "DPR",
@@ -329,7 +329,7 @@
         "fundingCategories": "",
         "agencies": ""
       },
-      "hit_count": 1458,
+      "hit_count": 1460,
       "error": null,
       "endpoint": "https://api.grants.gov/v1/api/search2"
     },
@@ -341,17 +341,17 @@
         "fundingCategories": "ST",
         "agencies": ""
       },
-      "hit_count": 284,
+      "hit_count": 282,
       "error": null,
       "endpoint": "https://api.grants.gov/v1/api/search2"
     },
-    "catalog_open_or_upcoming_ST": 267,
+    "catalog_open_or_upcoming_ST": 265,
     "absolute_difference": 17,
     "status": "ok",
     "interpretation": "Compares Grants.gov search2 hitCount for posted|forecasted and funding category ST with catalog records that are open or upcoming, category ST, and not NSF program pages. A difference can come from extract timing, closed-but-listed rows, or parser loss. search2 still returns forecasts whose forecast date is years old. This catalog omits forecasts whose post or estimated post date is more than 18 months before the as-of date, so those ids can appear in in_api_not_in_catalog without being open opportunities. The difference is shown, not hidden.",
     "id_overlap": {
-      "api_ids_retrieved": 284,
-      "api_hit_count": 284,
+      "api_ids_retrieved": 282,
+      "api_hit_count": 282,
       "in_api_not_in_catalog": [
         "103313",
         "275109",
@@ -386,59 +386,59 @@
       "mismatch_count": 0,
       "results": [
         {
-          "id": "361169",
+          "id": "353763",
           "status": "checked",
-          "api_title": "Agriculture and Food Research Initiative Competitive Grants Program Education and Workforce Development",
-          "api_number": "USDA-NIFA-AFRI-011596",
-          "api_agency": "USDA-NIFA",
-          "api_close": "2026-12-31",
-          "mismatches": [],
-          "catalog_close": "2026-12-31",
-          "official_url": "https://www.grants.gov/search-results-detail/361169"
-        },
-        {
-          "id": "358230",
-          "status": "checked",
-          "api_title": "National Cooperative Drug/Device Discovery/Development Groups (NCDDG) for the Treatment of Mental Disorders (U19 Clinical Trial Optional)",
-          "api_number": "PAR-25-353",
+          "api_title": "NIH Pathway to Independence Award (Parent K99/R00 Independent Clinical Trial Required)",
+          "api_number": "PA-24-193",
           "api_agency": "HHS-NIH11",
-          "api_close": "2027-10-25",
+          "api_close": "2027-05-07",
           "mismatches": [],
-          "catalog_close": "2027-10-25",
-          "official_url": "https://www.grants.gov/search-results-detail/358230"
+          "catalog_close": "2027-05-07",
+          "official_url": "https://www.grants.gov/search-results-detail/353763"
         },
         {
-          "id": "360664",
+          "id": "360261",
           "status": "checked",
-          "api_title": "National Science Foundation National Innovation Corps Teams (NSF National I-CorpsTM Teams) Program",
-          "api_number": "25-549",
-          "api_agency": "NSF",
-          "api_close": "2076-10-06",
+          "api_title": "CHEERS Open Period 1 - All Technical Areas",
+          "api_number": "FA238424S2334",
+          "api_agency": "DOD-AFRL",
+          "api_close": "2027-09-30",
           "mismatches": [],
-          "catalog_close": "2076-10-06",
-          "official_url": "https://www.grants.gov/search-results-detail/360664"
+          "catalog_close": "2027-09-30",
+          "official_url": "https://www.grants.gov/search-results-detail/360261"
         },
         {
-          "id": "356617",
+          "id": "364016",
           "status": "checked",
-          "api_title": "NIH Support for Conferences and Scientific Meetings (Parent R13 Clinical Trial Not Allowed)",
-          "api_number": "PA-25-080",
+          "api_title": "Cooperative Agreement for Affiliated Partner with the Southern Appalachian Cooperative Ecosystem Studies Unit (CESU)",
+          "api_number": "G27AS00165",
+          "api_agency": "DOI-USGS1",
+          "api_close": "2026-10-30",
+          "mismatches": [],
+          "catalog_close": "2026-10-30",
+          "official_url": "https://www.grants.gov/search-results-detail/364016"
+        },
+        {
+          "id": "361526",
+          "status": "checked",
+          "api_title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "api_number": "DE-FOA-0003612",
+          "api_agency": "PAMS-SC",
+          "api_close": "2026-12-17",
+          "mismatches": [],
+          "catalog_close": "2026-12-17",
+          "official_url": "https://www.grants.gov/search-results-detail/361526"
+        },
+        {
+          "id": "359941",
+          "status": "checked",
+          "api_title": "Assessing the Feasibility of Incorporating Mechanisms in Multi-site Clinical Trials of Mind and Body Interventions on Whole Person Health Restoration (R33 Clinical Trial Required)",
+          "api_number": "PAR-28-091",
           "api_agency": "HHS-NIH11",
-          "api_close": "2027-09-07",
+          "api_close": "2029-11-16",
           "mismatches": [],
-          "catalog_close": "2027-09-07",
-          "official_url": "https://www.grants.gov/search-results-detail/356617"
-        },
-        {
-          "id": "363784",
-          "status": "checked",
-          "api_title": "Tribal Colleges Extension Program Special Emphasis",
-          "api_number": "USDA-NIFA-SLBCD-012281",
-          "api_agency": "USDA-NIFA",
-          "api_close": "2026-11-02",
-          "mismatches": [],
-          "catalog_close": "2026-11-02",
-          "official_url": "https://www.grants.gov/search-results-detail/363784"
+          "catalog_close": "2029-11-16",
+          "official_url": "https://www.grants.gov/search-results-detail/359941"
         }
       ]
     }
@@ -472,19 +472,19 @@
   "no_hallucination": "The pipeline does not create opportunities, amounts, deadlines, recipients, or award probabilities. Missing values stay null.",
   "schema_version": 1,
   "pipeline_version": "1.0.0",
-  "generated_at": "2026-10-26T13:32:35-04:00",
+  "generated_at": "2026-10-27T12:48:10-04:00",
   "timezone": "America/New_York",
   "counts": {
     "opportunities": 1209,
     "by_status": {
-      "closed": 249,
-      "open": 677,
+      "closed": 252,
+      "open": 674,
       "upcoming": 253,
       "verification_required": 10,
       "open_program": 20
     },
     "awards": 1300,
-    "obligations": 103
+    "obligations": 102
   },
   "field_coverage": {
     "title": {
@@ -575,9 +575,9 @@
   },
   "changes_summary": {
     "compared_to_previous_catalog": true,
-    "new": 0,
-    "removed": 4,
-    "changed": 0,
-    "newly_closed": 0
+    "new": 1,
+    "removed": 1,
+    "changed": 6,
+    "newly_closed": 3
   }
 }

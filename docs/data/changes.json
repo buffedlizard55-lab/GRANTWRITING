@@ -1,14 +1,66 @@
 {
   "compared_to_previous_catalog": true,
   "note": "Removed means the id is not in the new catalog. That is not the same as a documented cancellation.",
-  "new_ids": [],
-  "removed_ids": [
-    "gg-348407",
-    "gg-351920",
-    "gg-357710",
-    "gg-363489"
+  "new_ids": [
+    "nsf-program-ng-opportunities-dcl-supplemental-funding-requests-support-super-intelligence-si"
   ],
-  "changed": [],
-  "changed_count": 0,
-  "newly_closed": []
+  "removed_ids": [
+    "nsf-program-pportunities-geo-core-geosciences-core-research-atmospheric-geospace-earth-ocean"
+  ],
+  "changed": [
+    {
+      "id": "gg-363852",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-361002",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-363325",
+      "fields": [
+        "status"
+      ],
+      "status": "closed",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-362946",
+      "fields": [
+        "funding.estimated_total"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-347679",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    },
+    {
+      "id": "gg-347680",
+      "fields": [
+        "dates.close"
+      ],
+      "status": "open",
+      "previous_status": "open"
+    }
+  ],
+  "changed_count": 6,
+  "newly_closed": [
+    "gg-363852",
+    "gg-361002",
+    "gg-363325"
+  ]
 }
