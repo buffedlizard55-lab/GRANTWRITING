@@ -2,53 +2,44 @@
   "compared_to_previous_catalog": true,
   "note": "Removed means the id is not in the new catalog. That is not the same as a documented cancellation.",
   "new_ids": [
-    "gg-364160"
+    "gg-364165",
+    "gg-364170"
   ],
   "removed_ids": [
-    "gg-362608",
-    "gg-362612",
-    "gg-362613",
-    "gg-362614",
-    "gg-362615"
+    "gg-359070",
+    "gg-362853",
+    "gg-362865",
+    "gg-363359"
   ],
   "changed": [
     {
-      "id": "gg-358093",
+      "id": "gg-363983",
       "fields": [
-        "status",
-        "dates.close"
+        "status"
       ],
       "status": "closed",
       "previous_status": "open"
     },
     {
-      "id": "gg-364074",
+      "id": "gg-363852",
       "fields": [
-        "funding.ceiling",
-        "funding.estimated_total"
-      ],
-      "status": "open",
-      "previous_status": "open"
-    },
-    {
-      "id": "gg-357573",
-      "fields": [
+        "status",
         "dates.close"
       ],
       "status": "open",
-      "previous_status": "open"
+      "previous_status": "closed"
     },
     {
-      "id": "gg-363684",
+      "id": "gg-364160",
       "fields": [
-        "dates.close"
+        "title"
       ],
       "status": "open",
       "previous_status": "open"
     }
   ],
-  "changed_count": 4,
+  "changed_count": 3,
   "newly_closed": [
-    "gg-358093"
+    "gg-363983"
   ]
 }
